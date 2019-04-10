@@ -299,7 +299,7 @@ WebUI.click(findTestObject('addPatient/intakeClinicalStaffCMMedisourceCM'))
 
 WebUI.delay(3)
 
-////push ni lolo3
+////push ni lorraine2
 
 WebUI.closeBrowser()
 
