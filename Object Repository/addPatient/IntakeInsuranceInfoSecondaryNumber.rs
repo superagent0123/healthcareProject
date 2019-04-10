@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IntakeInsuranceInfoSecondaryNumber</name>
+   <tag></tag>
+   <elementGuidId>4c447964-2ea7-435e-9831-f6d41222943a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>#secondary_insurance_policy</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>#secondary_insurance_policy</value>
+   </webElementProperties>
+</WebElementEntity>
