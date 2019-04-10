@@ -299,7 +299,7 @@ WebUI.click(findTestObject('addPatient/intakeClinicalStaffCMMedisourceCM'))
 
 WebUI.delay(3)
 
-//This is to close the browser
+//This is to close the browser 123 PUSH KO TO JB
 
 WebUI.closeBrowser()
 
