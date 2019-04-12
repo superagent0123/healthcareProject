@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://qa.medisource.com/login')
 WebUI.setText(findTestObject('Object Repository/addPatient/input_Please try afterminutes.'), 'superagent')
 
 'setting up password'
-WebUI.setEncryptedText(findTestObject('Object Repository/addPatient/input_Username or email requir'), 'SITHpLWAWtLnr/hOhnpplQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/addPatient/input_Username or email requir'), 'SITHpLWAWtI8C4F8RIujvA==')
 
 'clicking log in button'
 WebUI.click(findTestObject('Object Repository/addPatient/button_Login'))
@@ -35,7 +35,7 @@ WebUI.delay(10)
 'clicking the add patient on patient manager menu'
 WebUI.navigateToUrl('https://qa.medisource.com/patient')
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 //referral date,MR# and SOC date information
 'clicking the datepicker icon'
@@ -108,19 +108,19 @@ WebUI.setText(findTestObject('addPatient/intakeSSN'), '654535342')
 WebUI.delay(3)
 
 //adding of patient address
-WebUI.setText(findTestObject('addPatient/input_Address Line 1_main_line'), '9 Bayport Dr.  San Marcos, CA 92069')
+WebUI.setText(findTestObject('addPatient/input_Address Line 1_main_line'), '653 South Manchester Ave. ')
 
 WebUI.setText(findTestObject('addPatient/intakeAddress2'), '244 Wild Rose Avenue Bell Flower, CA 90706')
 
 WebUI.setText(findTestObject('addPatient/intakeAddStreet'), '9 Bayport Dr. ')
 
-WebUI.setText(findTestObject('addPatient/intakeAddCity'), 'San Marcos')
+WebUI.setText(findTestObject('addPatient/intakeAddCity'), 'Los Angeles')
 
 WebUI.click(findTestObject('addPatient/intakeAddState'))
 
 WebUI.click(findTestObject('addPatient/intakeAddState1'))
 
-WebUI.setText(findTestObject('addPatient/intakeAddZip'), '92069')
+WebUI.setText(findTestObject('addPatient/intakeAddZip'), '90063')
 
 WebUI.setText(findTestObject('addPatient/intakeAddPhone'), '3256452189')
 
@@ -173,7 +173,7 @@ WebUI.click(findTestObject('addPatient/intakePhysicianInfoOther'))
 
 WebUI.click(findTestObject('addPatient/intakePhysicianInfoOtherIndex2'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('addPatient/intakeInsuranceInfoPrimary'))
 
@@ -299,7 +299,5 @@ WebUI.click(findTestObject('addPatient/intakeClinicalStaffCMMedisourceCM'))
 
 WebUI.delay(3)
 
-////push ni lorraine2
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('addPatient/button_Save'))
 

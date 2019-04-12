@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>intakeM0080RN</name>
+   <name>intakeDropdown</name>
    <tag></tag>
-   <elementGuidId>3027b4bf-c292-44d4-b89c-f450f5ed43ae</elementGuidId>
+   <elementGuidId>0da089af-c43e-4a35-a41e-990110b6cb6c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#content > data > div.container.p-15.ng-scope.global__form_center-false > div > ng-form > fieldset > table > tbody > tr:nth-child(70) > td > div > label:nth-child(1) > input</value>
+         <value>#ethnicities_chosen</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#content > data > div.container.p-15.ng-scope.global__form_center-false > div > ng-form > fieldset > table > tbody > tr:nth-child(70) > td > div > label:nth-child(1) > input</value>
+      <value>#ethnicities_chosen</value>
    </webElementProperties>
 </WebElementEntity>
