@@ -102,7 +102,7 @@ WebUI.click(findTestObject('addPatient/intakeLanguageSpoken1'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('addPatient/intakeSSN'), '654535342')
+WebUI.setText(findTestObject('addPatient/intakeSSN'), '865742318')
 
 //end of adding patient information
 WebUI.delay(3)
@@ -119,6 +119,8 @@ WebUI.setText(findTestObject('addPatient/intakeAddCity'), 'Los Angeles')
 WebUI.click(findTestObject('addPatient/intakeAddState'))
 
 WebUI.click(findTestObject('addPatient/intakeAddState1'))
+
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('addPatient/intakeAddZip'), '90063')
 
