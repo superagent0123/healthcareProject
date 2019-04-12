@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Diagnosis_1023B_Selected</name>
+   <name>Diagnosis_M1023B_Selected</name>
    <tag></tag>
    <elementGuidId>27af9c3a-c431-444f-8c6a-912f65b34065</elementGuidId>
    <selectorCollection>

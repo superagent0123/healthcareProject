@@ -12,8 +12,9 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import java.util.List as List
 
-WebUI.setText(findTestObject('OASIS/Diagnosis/Diagnosis_M1021'), 'J44.9')
+WebUI.setText(findTestObject('OASIS/Diagnosis/Diagnosis_M1021'), 'J44.')
 
 WebUI.delay(2)
 
@@ -27,7 +28,7 @@ WebUI.setText(findTestObject('OASIS/Diagnosis/Diagnosis_M1023B'), 'a')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_1023B_Selected'))
+WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1023B_Selected'))
 
 WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1023B_checkbox'))
 
@@ -62,4 +63,37 @@ WebUI.delay(2)
 WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1023F_Selected'))
 
 WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1023F_checkbox'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_Component/Diagnosis_Component_AddRow'))
+
+WebUI.setText(findTestObject('OASIS/Diagnosis/Diagnosis_Component/Diagnosis_Component_M1023G'), 'G')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_Component/Diagnosis_Component_M1023G_Selected'))
+
+WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_Component/Diagnosis_Component_M1023G_checkbox'))
+
+//for (int i=0;i<2; i++){
+//WebUI.sendKeys(findTestObject('addPatient/intakeDiagandPreAdSecondaryDiag'), findTestData('secondaryDiag').getValue(1, 1))
+//}
+//List checkBoxes =
+//}
+ WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1028_1'))
+
+WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1028_1'))
+
+//WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1028_2'))
+
+WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1030_1'))
+
+WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1033_1'))
+
+WebUI.setText(findTestObject('OASIS/Diagnosis/Diagnosis_M1060_height'), '55')
+
+WebUI.setText(findTestObject('OASIS/Diagnosis/Diagnosis_M1060_weight'), '111')
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/MedHistory_tab'))
 
