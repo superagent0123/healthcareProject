@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>admitClickSOC_SelectVisitDate</name>
+   <name>admitClickSOC_timeIn</name>
    <tag></tag>
-   <elementGuidId>4d383456-96f7-446a-b817-13175b021373</elementGuidId>
+   <elementGuidId>27b439e6-092a-490b-95b0-a3b23c0dd645</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#ui-datepicker-div > table > tbody > tr:nth-child(1) > td:nth-child(3)</value>
+         <value>#ti</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#ui-datepicker-div > table > tbody > tr:nth-child(1) > td:nth-child(3)</value>
+      <value>#ti</value>
    </webElementProperties>
 </WebElementEntity>
