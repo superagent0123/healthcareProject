@@ -49,3 +49,5 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/maritalstatus_single'))
 
+WebUI.delay(2)
+
