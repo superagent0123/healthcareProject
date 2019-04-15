@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Intemediary_Value1</name>
+   <tag></tag>
+   <elementGuidId>137d02ec-7e87-4a74-9987-7f0be394ab48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;content&quot;]/data/div[2]/div/form/fieldset/table/tbody/tr[24]/td[2]/table/tbody/tr/td/div/div/div/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;content&quot;]/data/div[2]/div/form/fieldset/table/tbody/tr[24]/td[2]/table/tbody/tr/td/div/div/div/a/span</value>
+   </webElementProperties>
+</WebElementEntity>

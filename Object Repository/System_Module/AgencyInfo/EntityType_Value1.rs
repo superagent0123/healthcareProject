@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EntityType_Value1</name>
+   <tag></tag>
+   <elementGuidId>017c23aa-9cc2-49a8-9342-d50537a8193c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;content&quot;]/data/div[2]/div/form/fieldset/table/tbody/tr[22]/td[2]/table/tbody/tr/td/div/div/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;content&quot;]/data/div[2]/div/form/fieldset/table/tbody/tr[22]/td[2]/table/tbody/tr/td/div/div/a/span</value>
+   </webElementProperties>
+</WebElementEntity>
