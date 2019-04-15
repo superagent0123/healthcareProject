@@ -7,15 +7,13 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>#referral_source_id_chosen > div > ul > li:nth-child(3)</value>
+         <value>#referral_source_id_chosen > div > ul > li:nth-child(2)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,6 +23,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#referral_source_id_chosen > div > ul > li:nth-child(3)</value>
+      <value>#referral_source_id_chosen > div > ul > li:nth-child(2)</value>
    </webElementProperties>
 </WebElementEntity>

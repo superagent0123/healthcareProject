@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EntityRel_Value1</name>
+   <tag></tag>
+   <elementGuidId>8adec71b-d283-43b9-96bc-c32f4ef86f86</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;content&quot;]/data/div[2]/div/form/fieldset/table/tbody/tr[23]/td[2]/table/tbody/tr/td/div/div/div/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;content&quot;]/data/div[2]/div/form/fieldset/table/tbody/tr[23]/td[2]/table/tbody/tr/td/div/div/div/a/span</value>
+   </webElementProperties>
+</WebElementEntity>
