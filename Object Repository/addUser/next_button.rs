@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>hired_Date</name>
+   <name>next_button</name>
    <tag></tag>
-   <elementGuidId>855ed161-70b9-4e54-bf84-e20ca957262c</elementGuidId>
+   <elementGuidId>c06c0bb9-5819-4feb-b7de-aa54ee8eca88</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#hireddate</value>
+         <value>#content > data > div.container.p-15.ng-scope.global__form_center-false > div > form > fieldset > div:nth-child(2) > fieldset > button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#hireddate</value>
+      <value>#content > data > div.container.p-15.ng-scope.global__form_center-false > div > form > fieldset > div:nth-child(2) > fieldset > button</value>
    </webElementProperties>
 </WebElementEntity>

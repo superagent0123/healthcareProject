@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Birthdate</name>
+   <name>hiredate_calendar_today</name>
    <tag></tag>
-   <elementGuidId>41592e77-ee92-429b-ac1c-ce7b60043e29</elementGuidId>
+   <elementGuidId>c2e50ed7-2152-4601-a983-5a2128aa26fa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#birthdate</value>
+         <value>#ui-datepicker-div > div.ui-datepicker-buttonpane.ui-widget-content > button.ui-datepicker-current.ui-state-default.ui-priority-secondary.ui-corner-all</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#birthdate</value>
+      <value>#ui-datepicker-div > div.ui-datepicker-buttonpane.ui-widget-content > button.ui-datepicker-current.ui-state-default.ui-priority-secondary.ui-corner-all</value>
    </webElementProperties>
 </WebElementEntity>

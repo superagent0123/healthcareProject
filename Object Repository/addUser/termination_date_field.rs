@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>termination_Date</name>
+   <name>termination_date_field</name>
    <tag></tag>
-   <elementGuidId>6a41e326-d9f5-4eab-84f2-9db3a2040647</elementGuidId>
+   <elementGuidId>fc427fda-5de3-4934-a1a5-cad8abceaba1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
