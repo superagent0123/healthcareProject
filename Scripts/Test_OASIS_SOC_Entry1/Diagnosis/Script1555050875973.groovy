@@ -81,19 +81,18 @@ WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_Component/Diagnosis_Compon
 //}
 //List checkBoxes =
 //}
- WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1028_1'))
+WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1028_1'))
 
 WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1028_1'))
 
 //WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1028_2'))
-
 WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1030_1'))
 
 WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1033_1'))
 
 WebUI.setText(findTestObject('OASIS/Diagnosis/Diagnosis_M1060_height'), '55')
 
-WebUI.setText(findTestObject('OASIS/Diagnosis/Diagnosis_M1060_weight'), '111')
+WebUI.setText(findTestObject('OASIS/Diagnosis/Diagnosis_M1060_weight'), '112')
 
 WebUI.click(findTestObject('OASIS/OASIS_TABS/MedHistory_tab'))
 

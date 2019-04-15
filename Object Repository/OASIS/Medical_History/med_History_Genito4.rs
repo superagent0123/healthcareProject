@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>intakeReferralInfoReferralSourceIndex1</name>
+   <name>med_History_Genito4</name>
    <tag></tag>
-   <elementGuidId>1cda4f13-6ac8-4fe1-9b79-c1dcb4d88d72</elementGuidId>
+   <elementGuidId>4c15e163-cefd-4e28-8bd4-ddbf7710bee1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>#referral_source_id_chosen > div > ul > li:nth-child(2)</value>
+         <value>#medicalForm > div > fieldset > table > tbody > tr:nth-child(42) > td > table > tbody > tr > td:nth-child(2) > checklist > div:nth-child(1) > label > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -23,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#referral_source_id_chosen > div > ul > li:nth-child(2)</value>
+      <value>#medicalForm > div > fieldset > table > tbody > tr:nth-child(42) > td > table > tbody > tr > td:nth-child(2) > checklist > div:nth-child(1) > label > input</value>
    </webElementProperties>
 </WebElementEntity>

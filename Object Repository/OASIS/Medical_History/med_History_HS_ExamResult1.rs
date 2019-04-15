@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>intakeReferralInfoReferralSourceIndex1</name>
+   <name>med_History_HS_ExamResult1</name>
    <tag></tag>
-   <elementGuidId>1cda4f13-6ac8-4fe1-9b79-c1dcb4d88d72</elementGuidId>
+   <elementGuidId>dd640823-b475-4686-a17d-95b29c17c1af</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>#referral_source_id_chosen > div > ul > li:nth-child(2)</value>
+         <value>#medicalForm > div > fieldset > table > tbody > tr:nth-child(63) > td > table > tbody > tr:nth-child(1) > td:nth-child(6) > div > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -23,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#referral_source_id_chosen > div > ul > li:nth-child(2)</value>
+      <value>#medicalForm > div > fieldset > table > tbody > tr:nth-child(63) > td > table > tbody > tr:nth-child(1) > td:nth-child(6) > div > input</value>
    </webElementProperties>
 </WebElementEntity>

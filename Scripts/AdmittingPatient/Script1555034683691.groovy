@@ -21,11 +21,11 @@ WebUI.click(findTestObject('PatientCarePage/component_Admit/admitClickSOC_ClickV
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('PatientCarePage/component_Admit/admitClickSOC_SelectVisitDate'))
+not_run: WebUI.click(findTestObject('PatientCarePage/component_Admit/admitClickSOC_SelectVisitDate'))
 
-WebUI.setText(findTestObject('PatientCarePage/component_Admit/admitClickSOC_timeIn'), '1111')
+not_run: WebUI.setText(findTestObject('PatientCarePage/component_Admit/admitClickSOC_timeIn'), '1111')
 
-WebUI.click(findTestObject('PatientCarePage/component_Admit/admitClickSOC_Save'))
+not_run: WebUI.click(findTestObject('PatientCarePage/component_Admit/admitClickSOC_Save'))
 
 WebUI.delay(10)
 
