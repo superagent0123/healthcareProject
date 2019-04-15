@@ -1,0 +1,137 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IntaketoAdmit,Chrome 73.0.3683.103,,2019-04-11 23:07:21,2019-04-11 23:11:08,3m - 46.796s,PASSED
+,,,,,,
+Test Cases/Adding of Patient,Chrome 73.0.3683.103,,2019-04-11 23:07:22,2019-04-11 23:10:30,3m - 7.950s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-11 23:07:22,2019-04-11 23:07:26,4.021s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-11 23:07:26,2019-04-11 23:07:30,3.574s,PASSED
+"setText(findTestObject(""Object Repository/addPatient/input_Please try afterminutes.""), ""superagent"")",Chrome 73.0.3683.103,setting up username,2019-04-11 23:07:30,2019-04-11 23:07:30,0.133s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addPatient/input_Username or email requir""), ""SITHpLWAWtI8C4F8RIujvA=="")",Chrome 73.0.3683.103,setting up password,2019-04-11 23:07:30,2019-04-11 23:07:30,0.156s,PASSED
+"click(findTestObject(""Object Repository/addPatient/button_Login""))",Chrome 73.0.3683.103,clicking log in button,2019-04-11 23:07:30,2019-04-11 23:07:30,0.077s,PASSED
+delay(10),Chrome 73.0.3683.103,,2019-04-11 23:07:30,2019-04-11 23:07:40,10.022s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patient"")",Chrome 73.0.3683.103,clicking the add patient on patient manager menu,2019-04-11 23:07:40,2019-04-11 23:07:41,0.695s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-11 23:07:41,2019-04-11 23:07:46,5.003s,PASSED
+"click(findTestObject(""addPatient/datePicker""))",Chrome 73.0.3683.103,clicking the datepicker icon,2019-04-11 23:07:46,2019-04-11 23:07:46,0.161s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:07:46,2019-04-11 23:07:49,3.002s,PASSED
+"click(findTestObject(""addPatient/dateItem""))",Chrome 73.0.3683.103,selecting current date,2019-04-11 23:07:49,2019-04-11 23:07:49,0.125s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:07:49,2019-04-11 23:07:52,3.003s,PASSED
+"click(findTestObject(""addPatient/mrnCheckbox1""))",Chrome 73.0.3683.103,,2019-04-11 23:07:52,2019-04-11 23:07:52,0.138s,PASSED
+"click(findTestObject(""addPatient/button_Same as Referral Date""))",Chrome 73.0.3683.103,clicking the same as referral date button,2019-04-11 23:07:52,2019-04-11 23:07:53,0.123s,PASSED
+"setText(findTestObject(""addPatient/input_Last Name_last_name""), ""Automated"")",Chrome 73.0.3683.103,input last name,2019-04-11 23:07:53,2019-04-11 23:07:53,0.642s,PASSED
+"setText(findTestObject(""addPatient/input_First Name_first_name""), ""Test3"")",Chrome 73.0.3683.103,input first name,2019-04-11 23:07:53,2019-04-11 23:07:54,0.438s,PASSED
+"setText(findTestObject(""addPatient/input_Middle Initial_mi""), ""F"")",Chrome 73.0.3683.103,input middle initial,2019-04-11 23:07:54,2019-04-11 23:07:54,0.164s,PASSED
+"setText(findTestObject(""addPatient/input_Suffix_suffix""), ""Jr"")",Chrome 73.0.3683.103,input suffix,2019-04-11 23:07:54,2019-04-11 23:07:54,0.210s,PASSED
+delay(3),Chrome 73.0.3683.103,to delay for proceeding or clicking the date picker icon,2019-04-11 23:07:54,2019-04-11 23:07:57,3.003s,PASSED
+"click(findTestObject(""addPatient/intakeBdayDatePicker""))",Chrome 73.0.3683.103,clicking the datepicker icon,2019-04-11 23:07:57,2019-04-11 23:07:57,0.130s,PASSED
+"click(findTestObject(""addPatient/intakeBdayDatePickerItem""))",Chrome 73.0.3683.103,select current date,2019-04-11 23:07:57,2019-04-11 23:07:57,0.092s,PASSED
+delay(3),Chrome 73.0.3683.103,to delay the viewing of selected item on calendar....,2019-04-11 23:07:57,2019-04-11 23:08:00,3.005s,PASSED
+"click(findTestObject(""addPatient/intakeGenderMale""))",Chrome 73.0.3683.103,check box male selected,2019-04-11 23:08:00,2019-04-11 23:08:00,0.112s,PASSED
+"click(findTestObject(""addPatient/a_SELECT ONE""))",Chrome 73.0.3683.103,opening the dropdown on marital status,2019-04-11 23:08:00,2019-04-11 23:08:00,0.137s,PASSED
+"click(findTestObject(""addPatient/li_Single""))",Chrome 73.0.3683.103,"selecting ""Single""",2019-04-11 23:08:00,2019-04-11 23:08:01,0.125s,PASSED
+"click(findTestObject(""addPatient/intakeEthnicity""))",Chrome 73.0.3683.103,opening the dropdown for ethnicity,2019-04-11 23:08:01,2019-04-11 23:08:01,0.133s,PASSED
+"click(findTestObject(""addPatient/intakeEtnicitySelect1""))",Chrome 73.0.3683.103,selecting the first item on the list,2019-04-11 23:08:01,2019-04-11 23:08:01,0.241s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:08:01,2019-04-11 23:08:04,3.003s,PASSED
+"click(findTestObject(""addPatient/intakeLanguageSpoken""))",Chrome 73.0.3683.103,,2019-04-11 23:08:04,2019-04-11 23:08:04,0.168s,PASSED
+"click(findTestObject(""addPatient/intakeLanguageSpoken1""))",Chrome 73.0.3683.103,,2019-04-11 23:08:04,2019-04-11 23:08:04,0.157s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:08:04,2019-04-11 23:08:07,3.002s,PASSED
+"setText(findTestObject(""addPatient/intakeSSN""), ""865742321"")",Chrome 73.0.3683.103,,2019-04-11 23:08:07,2019-04-11 23:08:08,0.340s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:08:08,2019-04-11 23:08:11,3.002s,PASSED
+"setText(findTestObject(""addPatient/input_Address Line 1_main_line""), ""653 South Manchester Ave. "")",Chrome 73.0.3683.103,,2019-04-11 23:08:11,2019-04-11 23:08:12,1.127s,PASSED
+"setText(findTestObject(""addPatient/intakeAddress2""), ""244 Wild Rose Avenue Bell Flower, CA 90706"")",Chrome 73.0.3683.103,,2019-04-11 23:08:12,2019-04-11 23:08:14,1.716s,PASSED
+"setText(findTestObject(""addPatient/intakeAddStreet""), ""9 Bayport Dr. "")",Chrome 73.0.3683.103,,2019-04-11 23:08:14,2019-04-11 23:08:14,0.618s,PASSED
+"setText(findTestObject(""addPatient/intakeAddCity""), ""Los Angeles"")",Chrome 73.0.3683.103,,2019-04-11 23:08:14,2019-04-11 23:08:15,0.708s,PASSED
+"click(findTestObject(""addPatient/intakeAddState""))",Chrome 73.0.3683.103,,2019-04-11 23:08:15,2019-04-11 23:08:15,0.110s,PASSED
+"click(findTestObject(""addPatient/intakeAddState1""))",Chrome 73.0.3683.103,,2019-04-11 23:08:15,2019-04-11 23:08:15,0.220s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-11 23:08:15,2019-04-11 23:08:20,5.002s,PASSED
+"setText(findTestObject(""addPatient/intakeAddZip""), ""90063"")",Chrome 73.0.3683.103,,2019-04-11 23:08:20,2019-04-11 23:08:20,0.280s,PASSED
+"setText(findTestObject(""addPatient/intakeAddPhone""), ""3256452189"")",Chrome 73.0.3683.103,,2019-04-11 23:08:20,2019-04-11 23:08:21,0.533s,PASSED
+"setText(findTestObject(""addPatient/intakeAddPhone2""), ""3259865478"")",Chrome 73.0.3683.103,,2019-04-11 23:08:21,2019-04-11 23:08:22,0.606s,PASSED
+"setText(findTestObject(""addPatient/intakeAddEmail""), ""myemail@mailintaor.com"")",Chrome 73.0.3683.103,,2019-04-11 23:08:22,2019-04-11 23:08:23,0.923s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:08:23,2019-04-11 23:08:26,3.002s,PASSED
+"click(findTestObject(""addPatient/intakeAddServiceDeliveryButton""))",Chrome 73.0.3683.103,,2019-04-11 23:08:26,2019-04-11 23:08:26,0.160s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:08:26,2019-04-11 23:08:29,3.003s,PASSED
+"click(findTestObject(""addPatient/intakeLivingSituationArrangement""))",Chrome 73.0.3683.103,"clicking the ""Lives alone"" on living arrangement",2019-04-11 23:08:29,2019-04-11 23:08:29,0.123s,PASSED
+"click(findTestObject(""addPatient/intakeLivingSituationAssistance""))",Chrome 73.0.3683.103,"clicking the ""Round-the-clock"" on assistance",2019-04-11 23:08:29,2019-04-11 23:08:29,0.111s,PASSED
+"setText(findTestObject(""addPatient/intakeLivingSituationCaregiverName""), ""Jacinto Escano"")",Chrome 73.0.3683.103,adding caregiver name,2019-04-11 23:08:29,2019-04-11 23:08:30,0.718s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:08:30,2019-04-11 23:08:33,3.002s,PASSED
+"setText(findTestObject(""addPatient/intakeEmergencyName""), ""jacinti lolo"")",Chrome 73.0.3683.103,,2019-04-11 23:08:33,2019-04-11 23:08:33,0.623s,PASSED
+"setText(findTestObject(""addPatient/intakeEmergencyRelationship""), ""grandpa"")",Chrome 73.0.3683.103,,2019-04-11 23:08:33,2019-04-11 23:08:34,0.421s,PASSED
+"setText(findTestObject(""addPatient/intakeEmergencyPhone1""), ""6589745621"")",Chrome 73.0.3683.103,,2019-04-11 23:08:34,2019-04-11 23:08:34,0.498s,PASSED
+"setText(findTestObject(""addPatient/intakeEmergencyPhone2""), ""6352489745"")",Chrome 73.0.3683.103,,2019-04-11 23:08:34,2019-04-11 23:08:35,0.522s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:08:35,2019-04-11 23:08:38,3.002s,PASSED
+"click(findTestObject(""addPatient/intakePhysicianInfoAttending""))",Chrome 73.0.3683.103,,2019-04-11 23:08:38,2019-04-11 23:08:38,0.119s,PASSED
+"click(findTestObject(""addPatient/intakePhysicianInfoAttendingIndex2""))",Chrome 73.0.3683.103,,2019-04-11 23:08:38,2019-04-11 23:08:38,0.252s,PASSED
+"click(findTestObject(""addPatient/intakePhysicianInfoPrimary""))",Chrome 73.0.3683.103,,2019-04-11 23:08:38,2019-04-11 23:08:38,0.100s,PASSED
+"click(findTestObject(""addPatient/intakePhysicianInfoPrimaryIndex2""))",Chrome 73.0.3683.103,,2019-04-11 23:08:38,2019-04-11 23:08:38,0.190s,PASSED
+"click(findTestObject(""addPatient/intakePhysicianInfoOther""))",Chrome 73.0.3683.103,,2019-04-11 23:08:38,2019-04-11 23:08:38,0.131s,PASSED
+"click(findTestObject(""addPatient/intakePhysicianInfoOtherIndex2""))",Chrome 73.0.3683.103,,2019-04-11 23:08:38,2019-04-11 23:08:39,0.326s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-11 23:08:39,2019-04-11 23:08:44,5.002s,PASSED
+"click(findTestObject(""addPatient/intakeInsuranceInfoPrimary""))",Chrome 73.0.3683.103,,2019-04-11 23:08:44,2019-04-11 23:08:44,0.186s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:08:44,2019-04-11 23:08:47,3.004s,PASSED
+"click(findTestObject(""addPatient/intakeInsuranceInfoPrimaryMedicareTraditional""))",Chrome 73.0.3683.103,,2019-04-11 23:08:47,2019-04-11 23:08:47,0.143s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:08:47,2019-04-11 23:08:50,3.002s,PASSED
+"setText(findTestObject(""addPatient/IntakeInsuranceInfoPrimaryNumber""), ""524365987"")",Chrome 73.0.3683.103,,2019-04-11 23:08:50,2019-04-11 23:08:51,0.500s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:08:51,2019-04-11 23:08:54,3.002s,PASSED
+"click(findTestObject(""addPatient/intakeInsuranceInfoSecondary""))",Chrome 73.0.3683.103,,2019-04-11 23:08:54,2019-04-11 23:08:54,0.114s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:08:54,2019-04-11 23:08:57,3.003s,PASSED
+"click(findTestObject(""addPatient/IntakeInsuranceInfoSecondaryIndex2""))",Chrome 73.0.3683.103,,2019-04-11 23:08:57,2019-04-11 23:08:57,0.127s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:08:57,2019-04-11 23:09:00,3.003s,PASSED
+"setText(findTestObject(""addPatient/IntakeInsuranceInfoSecondaryNumber""), ""356487924"")",Chrome 73.0.3683.103,,2019-04-11 23:09:00,2019-04-11 23:09:00,0.496s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-11 23:09:00,2019-04-11 23:09:05,5.003s,PASSED
+"click(findTestObject(""addPatient/IntakeReferralInfoTypeofAdmission""))",Chrome 73.0.3683.103,,2019-04-11 23:09:05,2019-04-11 23:09:05,0.103s,PASSED
+"click(findTestObject(""addPatient/IntakeReferralInformationTypeOfAdmissionIndex1""))",Chrome 73.0.3683.103,,2019-04-11 23:09:05,2019-04-11 23:09:06,0.107s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:09:06,2019-04-11 23:09:09,3.003s,PASSED
+"click(findTestObject(""addPatient/intakeReferralInfoAdmissionSource""))",Chrome 73.0.3683.103,,2019-04-11 23:09:09,2019-04-11 23:09:09,0.104s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:09:09,2019-04-11 23:09:12,3.003s,PASSED
+"click(findTestObject(""addPatient/intakeReferralInfoAdmissionSourceIndex1""))",Chrome 73.0.3683.103,,2019-04-11 23:09:12,2019-04-11 23:09:12,0.122s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:09:12,2019-04-11 23:09:15,3.003s,PASSED
+"click(findTestObject(""addPatient/intakeReferralInfoTypeOfReferral""))",Chrome 73.0.3683.103,,2019-04-11 23:09:15,2019-04-11 23:09:15,0.099s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:09:15,2019-04-11 23:09:18,3.002s,PASSED
+"click(findTestObject(""addPatient/intakeReferralInfoTypeOfReferrlaIndex1""))",Chrome 73.0.3683.103,,2019-04-11 23:09:18,2019-04-11 23:09:18,0.172s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:09:18,2019-04-11 23:09:21,3.003s,PASSED
+"click(findTestObject(""addPatient/intakeReferralInfoReferralSource""))",Chrome 73.0.3683.103,,2019-04-11 23:09:21,2019-04-11 23:09:21,0.113s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-11 23:09:21,2019-04-11 23:09:26,5.003s,PASSED
+"click(findTestObject(""addPatient/intakeReferralInfoReferralSourceIndex1""))",Chrome 73.0.3683.103,,2019-04-11 23:09:26,2019-04-11 23:09:26,0.138s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-11 23:09:26,2019-04-11 23:09:31,5.002s,PASSED
+"click(findTestObject(""addPatient/intakeHospitalizationInfo""))",Chrome 73.0.3683.103,,2019-04-11 23:09:31,2019-04-11 23:09:31,0.105s,PASSED
+"click(findTestObject(""addPatient/intakeHospitalizationInfoIndex1""))",Chrome 73.0.3683.103,,2019-04-11 23:09:31,2019-04-11 23:09:32,0.152s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-11 23:09:32,2019-04-11 23:09:37,5.003s,PASSED
+"setText(findTestObject(""addPatient/intakeHospitalizationInfoFacilityAdmitDate""), ""12122018"")",Chrome 73.0.3683.103,,2019-04-11 23:09:37,2019-04-11 23:09:37,0.172s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-11 23:09:37,2019-04-11 23:09:42,5.004s,PASSED
+"setText(findTestObject(""addPatient/intakeHospitalizationInfoFacilityDCdate""), ""12302018"")",Chrome 73.0.3683.103,,2019-04-11 23:09:42,2019-04-11 23:09:42,0.265s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-11 23:09:42,2019-04-11 23:09:47,5.003s,PASSED
+"setText(findTestObject(""addPatient/intakeDiagandPreAdPrimary""), ""Primary Diagnosis"")",Chrome 73.0.3683.103,,2019-04-11 23:09:47,2019-04-11 23:09:48,0.912s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-11 23:09:48,2019-04-11 23:09:53,5.003s,PASSED
+"sendKeys(findTestObject(""addPatient/intakeDiagandPreAdSecondaryDiag""), Keys.chord(""diag2"", ENTER))",Chrome 73.0.3683.103,,2019-04-11 23:09:53,2019-04-11 23:09:53,0.479s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-11 23:09:53,2019-04-11 23:09:58,5.004s,PASSED
+"sendKeys(findTestObject(""addPatient/intakeDiagandPreAdSecondaryDiag""), Keys.chord(""diag44444"", ENTER))",Chrome 73.0.3683.103,,2019-04-11 23:09:58,2019-04-11 23:09:59,0.572s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-11 23:09:59,2019-04-11 23:10:04,5.003s,PASSED
+"setText(findTestObject(""addPatient/intakeDiagandPreAdSurgery""), ""heart surgery"")",Chrome 73.0.3683.103,,2019-04-11 23:10:04,2019-04-11 23:10:05,0.750s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:10:05,2019-04-11 23:10:08,3.002s,PASSED
+"sendKeys(findTestObject(""addPatient/intakeDiagandPreAdAllergy""), Keys.chord(""allergy1"", ENTER))",Chrome 73.0.3683.103,,2019-04-11 23:10:08,2019-04-11 23:10:08,0.593s,PASSED
+"sendKeys(findTestObject(""addPatient/intakeDiagandPreAdAllergy""), Keys.chord(""allergy2"", ENTER))",Chrome 73.0.3683.103,,2019-04-11 23:10:08,2019-04-11 23:10:09,0.537s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:10:09,2019-04-11 23:10:12,3.003s,PASSED
+"setText(findTestObject(""addPatient/intakeDiagandPreAdOrders""), ""1w9 rn, 2w2 pt, 3w3 ot"")",Chrome 73.0.3683.103,,2019-04-11 23:10:12,2019-04-11 23:10:13,1.141s,PASSED
+"click(findTestObject(""addPatient/intakeDiagandPreAdIV""))",Chrome 73.0.3683.103,,2019-04-11 23:10:13,2019-04-11 23:10:13,0.116s,PASSED
+"click(findTestObject(""addPatient/intakeDiagandPreAdDME""))",Chrome 73.0.3683.103,,2019-04-11 23:10:13,2019-04-11 23:10:13,0.084s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:10:13,2019-04-11 23:10:16,3.004s,PASSED
+"click(findTestObject(""addPatient/intakeDiagandPreAdDMEindex1""))",Chrome 73.0.3683.103,,2019-04-11 23:10:16,2019-04-11 23:10:17,0.395s,PASSED
+"click(findTestObject(""addPatient/intakeM0080RN""))",Chrome 73.0.3683.103,,2019-04-11 23:10:17,2019-04-11 23:10:17,0.209s,PASSED
+"click(findTestObject(""addPatient/intakeClinicalStaffRN""))",Chrome 73.0.3683.103,,2019-04-11 23:10:17,2019-04-11 23:10:17,0.107s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:10:17,2019-04-11 23:10:20,3.003s,PASSED
+"click(findTestObject(""addPatient/intakeClinicalStaffRNMedisourceRN""))",Chrome 73.0.3683.103,,2019-04-11 23:10:20,2019-04-11 23:10:20,0.128s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:10:20,2019-04-11 23:10:23,3.004s,PASSED
+"click(findTestObject(""addPatient/intakeClinicalStaffCM""))",Chrome 73.0.3683.103,,2019-04-11 23:10:23,2019-04-11 23:10:23,0.111s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:10:23,2019-04-11 23:10:26,3.003s,PASSED
+"click(findTestObject(""addPatient/intakeClinicalStaffCMMedisourceCM""))",Chrome 73.0.3683.103,,2019-04-11 23:10:26,2019-04-11 23:10:26,0.202s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:10:26,2019-04-11 23:10:29,3.001s,PASSED
+"click(findTestObject(""addPatient/button_Save""))",Chrome 73.0.3683.103,,2019-04-11 23:10:29,2019-04-11 23:10:30,0.232s,PASSED
+,,,,,,
+Test Cases/AdmittingPatient,Chrome 73.0.3683.103,,2019-04-11 23:10:30,2019-04-11 23:11:07,37.736s,PASSED
+"click(findTestObject(""PatientCarePage/component_Admit/admitClickSOC""))",Chrome 73.0.3683.103,,2019-04-11 23:10:30,2019-04-11 23:10:49,18.886s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-11 23:10:49,2019-04-11 23:10:54,5.003s,PASSED
+"click(findTestObject(""PatientCarePage/component_Admit/admitClickSOC_ClickVisitDateCalendarIcon""))",Chrome 73.0.3683.103,,2019-04-11 23:10:54,2019-04-11 23:10:54,0.130s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-11 23:10:54,2019-04-11 23:10:57,3.001s,PASSED
+"click(findTestObject(""PatientCarePage/component_Admit/admitClickSOC_SelectVisitDate""))",Chrome 73.0.3683.103,,2019-04-11 23:10:57,2019-04-11 23:10:57,0.108s,PASSED
+"setText(findTestObject(""PatientCarePage/component_Admit/admitClickSOC_timeIn""), ""1111"")",Chrome 73.0.3683.103,,2019-04-11 23:10:57,2019-04-11 23:10:57,0.194s,PASSED
+"click(findTestObject(""PatientCarePage/component_Admit/admitClickSOC_Save""))",Chrome 73.0.3683.103,,2019-04-11 23:10:57,2019-04-11 23:10:57,0.190s,PASSED
+delay(10),Chrome 73.0.3683.103,,2019-04-11 23:10:57,2019-04-11 23:11:07,10.003s,PASSED

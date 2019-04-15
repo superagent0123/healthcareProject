@@ -102,7 +102,7 @@ WebUI.click(findTestObject('addPatient/intakeLanguageSpoken1'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('addPatient/intakeSSN'), '865742318')
+WebUI.setText(findTestObject('addPatient/intakeSSN'), '865742325')
 
 //end of adding patient information
 WebUI.delay(3)

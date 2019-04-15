@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Diagnosis_M1023D</name>
+   <tag></tag>
+   <elementGuidId>339658eb-f918-40bd-b1ac-c445e4ec6663</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>#diagnosisForm > div > div > fieldset > table > tbody > tr:nth-child(9) > td > table > tbody > tr:nth-child(13) > td:nth-child(2) > icd-opt > div > div.fg-line > input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>#diagnosisForm > div > div > fieldset > table > tbody > tr:nth-child(9) > td > table > tbody > tr:nth-child(13) > td:nth-child(2) > icd-opt > div > div.fg-line > input</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PreAdtoNonAdmit" time="228" tests="1" failures="1" errors="0">
+   <testsuite name="PreAdtoNonAdmit" tests="1" failures="1" errors="0" time="228" timestamp="2019-04-11 22:02:26" hostname="owner - 192.168.2.13" id="Test Suites/Patient/PreAdtoNonAdmit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\owner\\Desktop\\HCPRoject\\healthcareProject\\Reports\\Patient\\PreAdtoNonAdmit\\20190411_220220"/>
+         <property name="logFiles" value="C:\\Users\\owner\\Desktop\\HCPRoject\\healthcareProject\\Reports\\Patient\\PreAdtoNonAdmit\\20190411_220220\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\owner\\Desktop\\HCPRoject\\healthcareProject\\Reports\\Patient\\PreAdtoNonAdmit\\20190411_220220\\1555045572326.png"/>
+         <property name="hostName" value="owner - 192.168.2.13"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.2.13"/>
+         <property name="sessionId" value="4e405bae857115eedb7b220bfefbd6d1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Adding of Patient" classname="Test Cases/Adding of Patient" status="PASSED">
+         <system-out><![CDATA[2019-04-11 22:02:26 - [TEST_CASE][PASSED] - Test Cases/Adding of Patient: Test Cases/Adding of Patient
+
+2019-04-11 22:02:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-11 22:02:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 22:02:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-11 22:02:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 22:02:34 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/login"): Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-11 22:02:38 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-11 22:02:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addPatient/input_Please try afterminutes."), "superagent"): Text 'superagent' is set on object 'Object Repository/addPatient/input_Please try afterminutes.'
+
+2019-04-11 22:02:39 - [MESSAGE][PASSED] - Text 'superagent' is set on object 'Object Repository/addPatient/input_Please try afterminutes.'
+
+2019-04-11 22:02:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/addPatient/input_Username or email requir"), "SITHpLWAWtI8C4F8RIujvA=="): Text ****** has been set on object 'Object Repository/addPatient/input_Username or email requir'
+
+2019-04-11 22:02:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/addPatient/input_Username or email requir'
+
+2019-04-11 22:02:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addPatient/button_Login")): Object: 'Object Repository/addPatient/button_Login' is clicked on
+
+2019-04-11 22:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/button_Login' is clicked on
+
+2019-04-11 22:02:39 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-11 22:02:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-11 22:02:49 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patient"): Navigate to 'https://qa.medisource.com/patient' successfully
+
+2019-04-11 22:02:50 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patient' successfully
+
+2019-04-11 22:02:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 22:02:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 22:02:55 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/datePicker")): Object: 'Object Repository/addPatient/datePicker' is clicked on
+
+2019-04-11 22:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/datePicker' is clicked on
+
+2019-04-11 22:02:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:02:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:02:58 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/dateItem")): Object: 'Object Repository/addPatient/dateItem' is clicked on
+
+2019-04-11 22:02:58 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/dateItem' is clicked on
+
+2019-04-11 22:02:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:03:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:03:01 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/mrnCheckbox1")): Object: 'Object Repository/addPatient/mrnCheckbox1' is clicked on
+
+2019-04-11 22:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/mrnCheckbox1' is clicked on
+
+2019-04-11 22:03:01 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/button_Same as Referral Date")): Object: 'Object Repository/addPatient/button_Same as Referral Date' is clicked on
+
+2019-04-11 22:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/button_Same as Referral Date' is clicked on
+
+2019-04-11 22:03:02 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/input_Last Name_last_name"), "Automated"): Text 'Automated' is set on object 'Object Repository/addPatient/input_Last Name_last_name'
+
+2019-04-11 22:03:02 - [MESSAGE][PASSED] - Text 'Automated' is set on object 'Object Repository/addPatient/input_Last Name_last_name'
+
+2019-04-11 22:03:02 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/input_First Name_first_name"), "Test3"): Text 'Test3' is set on object 'Object Repository/addPatient/input_First Name_first_name'
+
+2019-04-11 22:03:03 - [MESSAGE][PASSED] - Text 'Test3' is set on object 'Object Repository/addPatient/input_First Name_first_name'
+
+2019-04-11 22:03:03 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/input_Middle Initial_mi"), "F"): Text 'F' is set on object 'Object Repository/addPatient/input_Middle Initial_mi'
+
+2019-04-11 22:03:03 - [MESSAGE][PASSED] - Text 'F' is set on object 'Object Repository/addPatient/input_Middle Initial_mi'
+
+2019-04-11 22:03:03 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/input_Suffix_suffix"), "Jr"): Text 'Jr' is set on object 'Object Repository/addPatient/input_Suffix_suffix'
+
+2019-04-11 22:03:03 - [MESSAGE][PASSED] - Text 'Jr' is set on object 'Object Repository/addPatient/input_Suffix_suffix'
+
+2019-04-11 22:03:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:03:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:03:06 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeBdayDatePicker")): Object: 'Object Repository/addPatient/intakeBdayDatePicker' is clicked on
+
+2019-04-11 22:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeBdayDatePicker' is clicked on
+
+2019-04-11 22:03:06 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeBdayDatePickerItem")): Object: 'Object Repository/addPatient/intakeBdayDatePickerItem' is clicked on
+
+2019-04-11 22:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeBdayDatePickerItem' is clicked on
+
+2019-04-11 22:03:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:03:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:03:10 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeGenderMale")): Object: 'Object Repository/addPatient/intakeGenderMale' is clicked on
+
+2019-04-11 22:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeGenderMale' is clicked on
+
+2019-04-11 22:03:10 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/a_SELECT ONE")): Object: 'Object Repository/addPatient/a_SELECT ONE' is clicked on
+
+2019-04-11 22:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/a_SELECT ONE' is clicked on
+
+2019-04-11 22:03:10 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/li_Single")): Object: 'Object Repository/addPatient/li_Single' is clicked on
+
+2019-04-11 22:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/li_Single' is clicked on
+
+2019-04-11 22:03:10 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeEthnicity")): Object: 'Object Repository/addPatient/intakeEthnicity' is clicked on
+
+2019-04-11 22:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeEthnicity' is clicked on
+
+2019-04-11 22:03:10 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeEtnicitySelect1")): Object: 'Object Repository/addPatient/intakeEtnicitySelect1' is clicked on
+
+2019-04-11 22:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeEtnicitySelect1' is clicked on
+
+2019-04-11 22:03:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:03:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:03:13 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeLanguageSpoken")): Object: 'Object Repository/addPatient/intakeLanguageSpoken' is clicked on
+
+2019-04-11 22:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeLanguageSpoken' is clicked on
+
+2019-04-11 22:03:14 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeLanguageSpoken1")): Object: 'Object Repository/addPatient/intakeLanguageSpoken1' is clicked on
+
+2019-04-11 22:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeLanguageSpoken1' is clicked on
+
+2019-04-11 22:03:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:03:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:03:17 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeSSN"), "865742318"): Text '865742318' is set on object 'Object Repository/addPatient/intakeSSN'
+
+2019-04-11 22:03:17 - [MESSAGE][PASSED] - Text '865742318' is set on object 'Object Repository/addPatient/intakeSSN'
+
+2019-04-11 22:03:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:03:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:03:20 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/input_Address Line 1_main_line"), "653 South Manchester Ave. "): Text '653 South Manchester Ave. ' is set on object 'Object Repository/addPatient/input_Address Line 1_main_line'
+
+2019-04-11 22:03:21 - [MESSAGE][PASSED] - Text '653 South Manchester Ave. ' is set on object 'Object Repository/addPatient/input_Address Line 1_main_line'
+
+2019-04-11 22:03:21 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeAddress2"), "244 Wild Rose Avenue Bell Flower, CA 90706"): Text '244 Wild Rose Avenue Bell Flower, CA 90706' is set on object 'Object Repository/addPatient/intakeAddress2'
+
+2019-04-11 22:03:23 - [MESSAGE][PASSED] - Text '244 Wild Rose Avenue Bell Flower, CA 90706' is set on object 'Object Repository/addPatient/intakeAddress2'
+
+2019-04-11 22:03:23 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeAddStreet"), "9 Bayport Dr. "): Text '9 Bayport Dr. ' is set on object 'Object Repository/addPatient/intakeAddStreet'
+
+2019-04-11 22:03:24 - [MESSAGE][PASSED] - Text '9 Bayport Dr. ' is set on object 'Object Repository/addPatient/intakeAddStreet'
+
+2019-04-11 22:03:24 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeAddCity"), "Los Angeles"): Text 'Los Angeles' is set on object 'Object Repository/addPatient/intakeAddCity'
+
+2019-04-11 22:03:25 - [MESSAGE][PASSED] - Text 'Los Angeles' is set on object 'Object Repository/addPatient/intakeAddCity'
+
+2019-04-11 22:03:25 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeAddState")): Object: 'Object Repository/addPatient/intakeAddState' is clicked on
+
+2019-04-11 22:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeAddState' is clicked on
+
+2019-04-11 22:03:25 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeAddState1")): Object: 'Object Repository/addPatient/intakeAddState1' is clicked on
+
+2019-04-11 22:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeAddState1' is clicked on
+
+2019-04-11 22:03:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 22:03:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 22:03:30 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeAddZip"), "90063"): Text '90063' is set on object 'Object Repository/addPatient/intakeAddZip'
+
+2019-04-11 22:03:31 - [MESSAGE][PASSED] - Text '90063' is set on object 'Object Repository/addPatient/intakeAddZip'
+
+2019-04-11 22:03:31 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeAddPhone"), "3256452189"): Text '3256452189' is set on object 'Object Repository/addPatient/intakeAddPhone'
+
+2019-04-11 22:03:31 - [MESSAGE][PASSED] - Text '3256452189' is set on object 'Object Repository/addPatient/intakeAddPhone'
+
+2019-04-11 22:03:31 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeAddPhone2"), "3259865478"): Text '3259865478' is set on object 'Object Repository/addPatient/intakeAddPhone2'
+
+2019-04-11 22:03:32 - [MESSAGE][PASSED] - Text '3259865478' is set on object 'Object Repository/addPatient/intakeAddPhone2'
+
+2019-04-11 22:03:32 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeAddEmail"), "myemail@mailintaor.com"): Text 'myemail@mailintaor.com' is set on object 'Object Repository/addPatient/intakeAddEmail'
+
+2019-04-11 22:03:33 - [MESSAGE][PASSED] - Text 'myemail@mailintaor.com' is set on object 'Object Repository/addPatient/intakeAddEmail'
+
+2019-04-11 22:03:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:03:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:03:36 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeAddServiceDeliveryButton")): Object: 'Object Repository/addPatient/intakeAddServiceDeliveryButton' is clicked on
+
+2019-04-11 22:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeAddServiceDeliveryButton' is clicked on
+
+2019-04-11 22:03:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:03:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:03:39 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeLivingSituationArrangement")): Object: 'Object Repository/addPatient/intakeLivingSituationArrangement' is clicked on
+
+2019-04-11 22:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeLivingSituationArrangement' is clicked on
+
+2019-04-11 22:03:39 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeLivingSituationAssistance")): Object: 'Object Repository/addPatient/intakeLivingSituationAssistance' is clicked on
+
+2019-04-11 22:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeLivingSituationAssistance' is clicked on
+
+2019-04-11 22:03:39 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeLivingSituationCaregiverName"), "Jacinto Escano"): Text 'Jacinto Escano' is set on object 'Object Repository/addPatient/intakeLivingSituationCaregiverName'
+
+2019-04-11 22:03:40 - [MESSAGE][PASSED] - Text 'Jacinto Escano' is set on object 'Object Repository/addPatient/intakeLivingSituationCaregiverName'
+
+2019-04-11 22:03:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:03:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:03:43 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeEmergencyName"), "jacinti lolo"): Text 'jacinti lolo' is set on object 'Object Repository/addPatient/intakeEmergencyName'
+
+2019-04-11 22:03:44 - [MESSAGE][PASSED] - Text 'jacinti lolo' is set on object 'Object Repository/addPatient/intakeEmergencyName'
+
+2019-04-11 22:03:44 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeEmergencyRelationship"), "grandpa"): Text 'grandpa' is set on object 'Object Repository/addPatient/intakeEmergencyRelationship'
+
+2019-04-11 22:03:44 - [MESSAGE][PASSED] - Text 'grandpa' is set on object 'Object Repository/addPatient/intakeEmergencyRelationship'
+
+2019-04-11 22:03:44 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeEmergencyPhone1"), "6589745621"): Text '6589745621' is set on object 'Object Repository/addPatient/intakeEmergencyPhone1'
+
+2019-04-11 22:03:45 - [MESSAGE][PASSED] - Text '6589745621' is set on object 'Object Repository/addPatient/intakeEmergencyPhone1'
+
+2019-04-11 22:03:45 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeEmergencyPhone2"), "6352489745"): Text '6352489745' is set on object 'Object Repository/addPatient/intakeEmergencyPhone2'
+
+2019-04-11 22:03:45 - [MESSAGE][PASSED] - Text '6352489745' is set on object 'Object Repository/addPatient/intakeEmergencyPhone2'
+
+2019-04-11 22:03:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:03:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:03:48 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakePhysicianInfoAttending")): Object: 'Object Repository/addPatient/intakePhysicianInfoAttending' is clicked on
+
+2019-04-11 22:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakePhysicianInfoAttending' is clicked on
+
+2019-04-11 22:03:49 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakePhysicianInfoAttendingIndex2")): Object: 'Object Repository/addPatient/intakePhysicianInfoAttendingIndex2' is clicked on
+
+2019-04-11 22:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakePhysicianInfoAttendingIndex2' is clicked on
+
+2019-04-11 22:03:49 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakePhysicianInfoPrimary")): Object: 'Object Repository/addPatient/intakePhysicianInfoPrimary' is clicked on
+
+2019-04-11 22:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakePhysicianInfoPrimary' is clicked on
+
+2019-04-11 22:03:49 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakePhysicianInfoPrimaryIndex2")): Object: 'Object Repository/addPatient/intakePhysicianInfoPrimaryIndex2' is clicked on
+
+2019-04-11 22:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakePhysicianInfoPrimaryIndex2' is clicked on
+
+2019-04-11 22:03:49 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakePhysicianInfoOther")): Object: 'Object Repository/addPatient/intakePhysicianInfoOther' is clicked on
+
+2019-04-11 22:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakePhysicianInfoOther' is clicked on
+
+2019-04-11 22:03:49 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakePhysicianInfoOtherIndex2")): Object: 'Object Repository/addPatient/intakePhysicianInfoOtherIndex2' is clicked on
+
+2019-04-11 22:03:50 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakePhysicianInfoOtherIndex2' is clicked on
+
+2019-04-11 22:03:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 22:03:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 22:03:55 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeInsuranceInfoPrimary")): Object: 'Object Repository/addPatient/intakeInsuranceInfoPrimary' is clicked on
+
+2019-04-11 22:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeInsuranceInfoPrimary' is clicked on
+
+2019-04-11 22:03:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:03:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:03:58 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeInsuranceInfoPrimaryMedicareTraditional")): Object: 'Object Repository/addPatient/intakeInsuranceInfoPrimaryMedicareTraditional' is clicked on
+
+2019-04-11 22:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeInsuranceInfoPrimaryMedicareTraditional' is clicked on
+
+2019-04-11 22:03:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:04:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:04:01 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/IntakeInsuranceInfoPrimaryNumber"), "524365987"): Text '524365987' is set on object 'Object Repository/addPatient/IntakeInsuranceInfoPrimaryNumber'
+
+2019-04-11 22:04:01 - [MESSAGE][PASSED] - Text '524365987' is set on object 'Object Repository/addPatient/IntakeInsuranceInfoPrimaryNumber'
+
+2019-04-11 22:04:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:04:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:04:04 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeInsuranceInfoSecondary")): Object: 'Object Repository/addPatient/intakeInsuranceInfoSecondary' is clicked on
+
+2019-04-11 22:04:05 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeInsuranceInfoSecondary' is clicked on
+
+2019-04-11 22:04:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:04:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:04:08 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/IntakeInsuranceInfoSecondaryIndex2")): Object: 'Object Repository/addPatient/IntakeInsuranceInfoSecondaryIndex2' is clicked on
+
+2019-04-11 22:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/IntakeInsuranceInfoSecondaryIndex2' is clicked on
+
+2019-04-11 22:04:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:04:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:04:11 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/IntakeInsuranceInfoSecondaryNumber"), "356487924"): Text '356487924' is set on object 'Object Repository/addPatient/IntakeInsuranceInfoSecondaryNumber'
+
+2019-04-11 22:04:11 - [MESSAGE][PASSED] - Text '356487924' is set on object 'Object Repository/addPatient/IntakeInsuranceInfoSecondaryNumber'
+
+2019-04-11 22:04:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 22:04:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 22:04:16 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/IntakeReferralInfoTypeofAdmission")): Object: 'Object Repository/addPatient/IntakeReferralInfoTypeofAdmission' is clicked on
+
+2019-04-11 22:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/IntakeReferralInfoTypeofAdmission' is clicked on
+
+2019-04-11 22:04:16 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/IntakeReferralInformationTypeOfAdmissionIndex1")): Object: 'Object Repository/addPatient/IntakeReferralInformationTypeOfAdmissionIndex1' is clicked on
+
+2019-04-11 22:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/IntakeReferralInformationTypeOfAdmissionIndex1' is clicked on
+
+2019-04-11 22:04:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:04:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:04:19 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeReferralInfoAdmissionSource")): Object: 'Object Repository/addPatient/intakeReferralInfoAdmissionSource' is clicked on
+
+2019-04-11 22:04:20 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeReferralInfoAdmissionSource' is clicked on
+
+2019-04-11 22:04:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:04:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:04:23 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeReferralInfoAdmissionSourceIndex1")): Object: 'Object Repository/addPatient/intakeReferralInfoAdmissionSourceIndex1' is clicked on
+
+2019-04-11 22:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeReferralInfoAdmissionSourceIndex1' is clicked on
+
+2019-04-11 22:04:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:04:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:04:26 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeReferralInfoTypeOfReferral")): Object: 'Object Repository/addPatient/intakeReferralInfoTypeOfReferral' is clicked on
+
+2019-04-11 22:04:26 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeReferralInfoTypeOfReferral' is clicked on
+
+2019-04-11 22:04:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:04:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:04:29 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeReferralInfoTypeOfReferrlaIndex1")): Object: 'Object Repository/addPatient/intakeReferralInfoTypeOfReferrlaIndex1' is clicked on
+
+2019-04-11 22:04:29 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeReferralInfoTypeOfReferrlaIndex1' is clicked on
+
+2019-04-11 22:04:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:04:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:04:32 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeReferralInfoReferralSource")): Object: 'Object Repository/addPatient/intakeReferralInfoReferralSource' is clicked on
+
+2019-04-11 22:04:32 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeReferralInfoReferralSource' is clicked on
+
+2019-04-11 22:04:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 22:04:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 22:04:37 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeReferralInfoReferralSourceIndex1")): Object: 'Object Repository/addPatient/intakeReferralInfoReferralSourceIndex1' is clicked on
+
+2019-04-11 22:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeReferralInfoReferralSourceIndex1' is clicked on
+
+2019-04-11 22:04:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 22:04:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 22:04:42 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeHospitalizationInfo")): Object: 'Object Repository/addPatient/intakeHospitalizationInfo' is clicked on
+
+2019-04-11 22:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeHospitalizationInfo' is clicked on
+
+2019-04-11 22:04:42 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeHospitalizationInfoIndex1")): Object: 'Object Repository/addPatient/intakeHospitalizationInfoIndex1' is clicked on
+
+2019-04-11 22:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeHospitalizationInfoIndex1' is clicked on
+
+2019-04-11 22:04:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 22:04:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 22:04:48 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeHospitalizationInfoFacilityAdmitDate"), "12122018"): Text '12122018' is set on object 'Object Repository/addPatient/intakeHospitalizationInfoFacilityAdmitDate'
+
+2019-04-11 22:04:48 - [MESSAGE][PASSED] - Text '12122018' is set on object 'Object Repository/addPatient/intakeHospitalizationInfoFacilityAdmitDate'
+
+2019-04-11 22:04:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 22:04:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 22:04:53 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeHospitalizationInfoFacilityDCdate"), "12302018"): Text '12302018' is set on object 'Object Repository/addPatient/intakeHospitalizationInfoFacilityDCdate'
+
+2019-04-11 22:04:53 - [MESSAGE][PASSED] - Text '12302018' is set on object 'Object Repository/addPatient/intakeHospitalizationInfoFacilityDCdate'
+
+2019-04-11 22:04:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 22:04:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 22:04:58 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeDiagandPreAdPrimary"), "Primary Diagnosis"): Text 'Primary Diagnosis' is set on object 'Object Repository/addPatient/intakeDiagandPreAdPrimary'
+
+2019-04-11 22:04:59 - [MESSAGE][PASSED] - Text 'Primary Diagnosis' is set on object 'Object Repository/addPatient/intakeDiagandPreAdPrimary'
+
+2019-04-11 22:04:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 22:05:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 22:05:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("addPatient/intakeDiagandPreAdSecondaryDiag"), Keys.chord("diag2", ENTER)): Keys 'ENTER + diag2' sent to object: 'Object Repository/addPatient/intakeDiagandPreAdSecondaryDiag'
+
+2019-04-11 22:05:05 - [MESSAGE][PASSED] - Keys 'ENTER + diag2' sent to object: 'Object Repository/addPatient/intakeDiagandPreAdSecondaryDiag'
+
+2019-04-11 22:05:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 22:05:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 22:05:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("addPatient/intakeDiagandPreAdSecondaryDiag"), Keys.chord("diag44444", ENTER)): Keys 'ENTER + diag44444' sent to object: 'Object Repository/addPatient/intakeDiagandPreAdSecondaryDiag'
+
+2019-04-11 22:05:10 - [MESSAGE][PASSED] - Keys 'ENTER + diag44444' sent to object: 'Object Repository/addPatient/intakeDiagandPreAdSecondaryDiag'
+
+2019-04-11 22:05:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-11 22:05:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-11 22:05:15 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeDiagandPreAdSurgery"), "heart surgery"): Text 'heart surgery' is set on object 'Object Repository/addPatient/intakeDiagandPreAdSurgery'
+
+2019-04-11 22:05:16 - [MESSAGE][PASSED] - Text 'heart surgery' is set on object 'Object Repository/addPatient/intakeDiagandPreAdSurgery'
+
+2019-04-11 22:05:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:05:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:05:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("addPatient/intakeDiagandPreAdAllergy"), Keys.chord("allergy1", ENTER)): Keys 'ENTER + allergy1' sent to object: 'Object Repository/addPatient/intakeDiagandPreAdAllergy'
+
+2019-04-11 22:05:19 - [MESSAGE][PASSED] - Keys 'ENTER + allergy1' sent to object: 'Object Repository/addPatient/intakeDiagandPreAdAllergy'
+
+2019-04-11 22:05:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("addPatient/intakeDiagandPreAdAllergy"), Keys.chord("allergy2", ENTER)): Keys 'ENTER + allergy2' sent to object: 'Object Repository/addPatient/intakeDiagandPreAdAllergy'
+
+2019-04-11 22:05:20 - [MESSAGE][PASSED] - Keys 'ENTER + allergy2' sent to object: 'Object Repository/addPatient/intakeDiagandPreAdAllergy'
+
+2019-04-11 22:05:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:05:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:05:23 - [TEST_STEP][PASSED] - setText(findTestObject("addPatient/intakeDiagandPreAdOrders"), "1w9 rn, 2w2 pt, 3w3 ot"): Text '1w9 rn, 2w2 pt, 3w3 ot' is set on object 'Object Repository/addPatient/intakeDiagandPreAdOrders'
+
+2019-04-11 22:05:24 - [MESSAGE][PASSED] - Text '1w9 rn, 2w2 pt, 3w3 ot' is set on object 'Object Repository/addPatient/intakeDiagandPreAdOrders'
+
+2019-04-11 22:05:24 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeDiagandPreAdIV")): Object: 'Object Repository/addPatient/intakeDiagandPreAdIV' is clicked on
+
+2019-04-11 22:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeDiagandPreAdIV' is clicked on
+
+2019-04-11 22:05:24 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeDiagandPreAdDME")): Object: 'Object Repository/addPatient/intakeDiagandPreAdDME' is clicked on
+
+2019-04-11 22:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeDiagandPreAdDME' is clicked on
+
+2019-04-11 22:05:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:05:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:05:27 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeDiagandPreAdDMEindex1")): Object: 'Object Repository/addPatient/intakeDiagandPreAdDMEindex1' is clicked on
+
+2019-04-11 22:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeDiagandPreAdDMEindex1' is clicked on
+
+2019-04-11 22:05:28 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeM0080RN")): Object: 'Object Repository/addPatient/intakeM0080RN' is clicked on
+
+2019-04-11 22:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeM0080RN' is clicked on
+
+2019-04-11 22:05:28 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeClinicalStaffRN")): Object: 'Object Repository/addPatient/intakeClinicalStaffRN' is clicked on
+
+2019-04-11 22:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeClinicalStaffRN' is clicked on
+
+2019-04-11 22:05:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:05:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:05:31 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeClinicalStaffRNMedisourceRN")): Object: 'Object Repository/addPatient/intakeClinicalStaffRNMedisourceRN' is clicked on
+
+2019-04-11 22:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeClinicalStaffRNMedisourceRN' is clicked on
+
+2019-04-11 22:05:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:05:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:05:34 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeClinicalStaffCM")): Object: 'Object Repository/addPatient/intakeClinicalStaffCM' is clicked on
+
+2019-04-11 22:05:34 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeClinicalStaffCM' is clicked on
+
+2019-04-11 22:05:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:05:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:05:37 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/intakeClinicalStaffCMMedisourceCM")): Object: 'Object Repository/addPatient/intakeClinicalStaffCMMedisourceCM' is clicked on
+
+2019-04-11 22:05:38 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/intakeClinicalStaffCMMedisourceCM' is clicked on
+
+2019-04-11 22:05:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 22:05:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 22:05:41 - [TEST_STEP][PASSED] - click(findTestObject("addPatient/button_Save")): Object: 'Object Repository/addPatient/button_Save' is clicked on
+
+2019-04-11 22:05:41 - [MESSAGE][PASSED] - Object: 'Object Repository/addPatient/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/nonAdmittingPatient" classname="Test Cases/nonAdmittingPatient" status="FAILED">
+         <failure type="FAILED" message="Test Cases/nonAdmittingPatient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PatientCarePage/Componente_nonAdmit/nonAdmitbutton'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at nonAdmittingPatient.run(nonAdmittingPatient:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555045340315.run(TempTestSuite1555045340315.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-11 22:05:41 - [TEST_CASE][FAILED] - Test Cases/nonAdmittingPatient: Test Cases/nonAdmittingPatient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PatientCarePage/Componente_nonAdmit/nonAdmitbutton'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at nonAdmittingPatient.run(nonAdmittingPatient:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555045340315.run(TempTestSuite1555045340315.groovy:35)
+
+
+2019-04-11 22:05:41 - [TEST_STEP][FAILED] - click(findTestObject("PatientCarePage/Componente_nonAdmit/nonAdmitbutton")): click(findTestObject("PatientCarePage/Componente_nonAdmit/nonAdmitbutton")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PatientCarePage/Componente_nonAdmit/nonAdmitbutton'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at nonAdmittingPatient.run(nonAdmittingPatient:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555045340315.run(TempTestSuite1555045340315.groovy:35)
+
+
+2019-04-11 22:06:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #content > data > section > div.patientcare__header_patient > div.mch__header > div.mhc__block-profile > div.mhc__profile-status.aux__btn-nonadmit.p-r-10.ng-scope.ng-isolate-scope > button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-11 22:06:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/PatientCarePage/Componente_nonAdmit/nonAdmitbutton'
+[[ATTACHMENT|C:\\Users\\owner\\Desktop\\HCPRoject\\healthcareProject\\Reports\\Patient\\PreAdtoNonAdmit\\20190411_220220\\1555045572326.png]]
+
+2019-04-11 22:06:12 - [MESSAGE][FAILED] - click(findTestObject("PatientCarePage/Componente_nonAdmit/nonAdmitbutton")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PatientCarePage/Componente_nonAdmit/nonAdmitbutton'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at nonAdmittingPatient.run(nonAdmittingPatient:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555045340315.run(TempTestSuite1555045340315.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-11 22:05:41 - [TEST_CASE][FAILED] - Test Cases/nonAdmittingPatient: Test Cases/nonAdmittingPatient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PatientCarePage/Componente_nonAdmit/nonAdmitbutton'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at nonAdmittingPatient.run(nonAdmittingPatient:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555045340315.run(TempTestSuite1555045340315.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-11 22:02:26 - [TEST_SUITE][FAILED] - PreAdtoNonAdmit: Test Cases/nonAdmittingPatient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PatientCarePage/Componente_nonAdmit/nonAdmitbutton'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at nonAdmittingPatient.run(nonAdmittingPatient:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555045340315.run(TempTestSuite1555045340315.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-04-11 22:02:26 - [TEST_SUITE][FAILED] - PreAdtoNonAdmit: Test Cases/nonAdmittingPatient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PatientCarePage/Componente_nonAdmit/nonAdmitbutton'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at nonAdmittingPatient.run(nonAdmittingPatient:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555045340315.run(TempTestSuite1555045340315.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>
