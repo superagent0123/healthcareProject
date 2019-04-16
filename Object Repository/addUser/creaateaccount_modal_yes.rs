@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>physical_examination_dateverified</name>
+   <name>creaateaccount_modal_yes</name>
    <tag></tag>
-   <elementGuidId>7eb3d511-dce7-4cfc-ac07-2858150f06eb</elementGuidId>
+   <elementGuidId>612e1513-2af9-4b23-82ee-72d34b85972e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#hpdatev0</value>
+         <value>body > div.swal2-container > div.swal2-modal.show-swal2 > button.swal2-confirm.styled</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#hpdatev0</value>
+      <value>body > div.swal2-container > div.swal2-modal.show-swal2 > button.swal2-confirm.styled</value>
    </webElementProperties>
 </WebElementEntity>

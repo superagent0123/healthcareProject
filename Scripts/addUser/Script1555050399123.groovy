@@ -17,15 +17,15 @@ WebUI.navigateToUrl('https://qa.medisource.com/members/create')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/addUser/Page_Medisource  Main/input_First Name_firstname'), 'Duper')
+WebUI.setText(findTestObject('Object Repository/addUser/Page_Medisource  Main/input_First Name_firstname'), 'Lei')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/addUser/Page_Medisource  Main/input_Last Name_lastname'), 'Agent')
+WebUI.setText(findTestObject('Object Repository/addUser/Page_Medisource  Main/input_Last Name_lastname'), 'Doria')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/addUser/Page_Medisource  Main/input_Middle Initial_mi'), 'X')
+WebUI.setText(findTestObject('Object Repository/addUser/Page_Medisource  Main/input_Middle Initial_mi'), 'O')
 
 WebUI.delay(2)
 
@@ -430,4 +430,90 @@ WebUI.click(findTestObject('addUser/live_scan_verifiedby'))
 WebUI.click(findTestObject('addUser/next_2_button'))
 
 WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/physical_examination_effectivedate'), '05012019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/physical_examination_expirationdate'), '05012029')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/physical_examination_dateverified'), '05012019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/physical_examination_verifiedby'), 'JB Ortiz Doria III')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/physical_examination_status'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/physical_examination_status_current'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/physical_examination_notes'), 'Copy on File')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/chest_xray_effectivedate'), '05022019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/chest_xray_expirationdate'), '05022029')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/chest_xray_dateverified'), '05022019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/chest_xray_verifiedby'), 'JB Ortiz Doria III')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/chest_xray_status'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/chest_xray_status_current'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/chest_xray_notes'), 'Copy on File')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/save_user'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/creaateaccount_modal_yes'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/useraccount_username'), 'leinurse')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/useraccount_email'), 'leinurse@mailinator.com')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/useraccount_status_active'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/useraccount_userrole'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/useraccount_userrole_fieldstaff'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/useraccount_save'))
 
