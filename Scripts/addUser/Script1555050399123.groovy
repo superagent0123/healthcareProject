@@ -135,101 +135,299 @@ WebUI.delay(2)
 
 WebUI.setText(findTestObject('addUser/termination_date_field'), '01012030')
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/language_primary_dropdown'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/language_primary_filipino'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/language_secondary_dropdown'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/language_secondary_english'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/language_other_dropdown'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/language_other_korean'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/verbal_primary_dropdown'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/verbal_primary_fluent'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/verbal_secondary_dropdown'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/verbal_secondary_fluent'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/verbal_other_dropdown'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/verbal_other_fluent'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/reading_primary_dropdown'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/reading_primary_fluent'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/reading_secondary_dropdown'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/reading_secondary_fluent'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/reading_other_dropdown'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/reading_other_fluent'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/writing_primary_dropdown'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/writing_primary_fluent'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/writing_secondary_dropdown'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/writing_secondary_fluent'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/writing_other_dropdown'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addUser/writing_other_fluent'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('addUser/next_button'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/professional_license_id'), '040119')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/professional_license_effectivedate'), '04012019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/professional_license_expirationdate'), '04012029')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/professional_license_dateverified'), '04012019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/professional_license_verifiedby'), 'JB Ortiz Doria III')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/professional_license_status_dropdown'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/professional_license_status_current'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/professional_license_notes_input'), 'Copy on File')
+
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('addUser/license_certificate_id'), '040219')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/license_certificate_effectivedate'), '04022019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/license_certificate_expirationdate'), '04022029')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/license_certificate_dateverified'), '04022019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/license_certificate_verifiedby'), 'JB Ortiz Doria III')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/license_certificate_status_dropdown'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/license_certificate_status_current'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/license_certificate_notes_input'), 'Copy on File')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/cpr_bls_id'), '040319')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/cpr_bls_effectivedate'), '04032019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/cpr_bls_expirationdate'), '04032029')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/cpr_bls_dateverified'), '04032019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/cpr_bls_verifiedby'), 'JB Ortiz Doria III')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/cpr_bls_status_dropdown'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/cpr_bls_status_current'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/cpr_bls_notes_input'), 'Copy on File')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/driver_license_id'), '040419')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/driver_license_effectivedate'), '04042019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/driver_license_expirationdate'), '04042029')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/driver_license_dateverified'), '04042019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/driver_license_verifiedby'), 'JB Ortiz Doria III')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/driver_license_status_dropdown'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/driver_license_status_current'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/driver_license_notes_input'), 'Copy on File')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/car_insurance_id'), '040519')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/car_insurance_effectivedate'), '04052019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/car_insurance_expirationdate'), '04052029')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/car_insurance_dateverified'), '04052019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/car_insurance_verifiedby'), 'JB Ortiz Doria III')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/car_insurance_status_dropdown'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/car_insurance_status_current'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/car_insurance_notes_input'), 'Copy on File')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/annual_performance_effectivedate'), '04062019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/annual_performance_expirationdate'), '04062029')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/annual_performance_dateverified'), '04062019')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/annual_performance_verifiedby'), 'JB Ortiz Doria III')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/annual_performance_status_dropdown'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/annual_performance_status_current'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('addUser/annual_performance_notes_input'), 'Copy on File')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('addUser/live_scan_verifiedby'))
+
+WebUI.click(findTestObject('addUser/next_2_button'))
+
+WebUI.delay(2)
 
