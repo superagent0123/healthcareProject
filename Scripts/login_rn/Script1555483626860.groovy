@@ -19,16 +19,33 @@ WebUI.navigateToUrl('https://qa.medisource.com/login')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'), 'superagent')
+WebUI.setText(findTestObject('LogIn/username'), 'jbnurse')
 
 WebUI.delay(3)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'), 
-    'SITHpLWAWtI8C4F8RIujvA==')
+WebUI.setEncryptedText(findTestObject('LogIn/password'), '7R8xyZjhQ0AXM7ugpi2ZsQ==')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/addUser/Page_Medisource  Login/button_Login'))
+WebUI.click(findTestObject('LogIn/login_button'))
 
 WebUI.delay(3)
+
+'Patient List'
+WebUI.navigateToUrl('https://qa.medisource.com/patients/all')
+
+WebUI.delay(3)
+
+'Selected Patient'
+WebUI.navigateToUrl('https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/overview')
+
+WebUI.delay(3)
+
+'Patient OASIS'
+WebUI.navigateToUrl('https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/clinical/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5')
+
+WebUI.delay(3)
+
+'OASIS Integumentary Tab'
+WebUI.navigateToUrl('https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/integumentary/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5')
 

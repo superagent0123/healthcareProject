@@ -59,7 +59,7 @@ WebUI.click(findTestObject('addPatient/button_Same as Referral Date'))
 WebUI.setText(findTestObject('addPatient/input_Last Name_last_name'), 'Automated')
 
 'input first name'
-WebUI.setText(findTestObject('addPatient/input_First Name_first_name'), 'Test6')
+WebUI.setText(findTestObject('addPatient/input_First Name_first_name'), 'Tester1')
 
 'input middle initial'
 WebUI.setText(findTestObject('addPatient/input_Middle Initial_mi'), 'F')
@@ -102,7 +102,7 @@ WebUI.click(findTestObject('addPatient/intakeLanguageSpoken1'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('addPatient/intakeSSN'), '865742328')
+WebUI.setText(findTestObject('addPatient/intakeSSN'), '100000000')
 
 //end of adding patient information
 WebUI.delay(3)

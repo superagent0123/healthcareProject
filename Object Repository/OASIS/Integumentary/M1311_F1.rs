@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>M1311_F1</name>
+   <tag></tag>
+   <elementGuidId>e66943ac-a5aa-497a-8ca0-9ec0ddfa87ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>#M1311_NSTG_DEEP_TSUE_F1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>#M1311_NSTG_DEEP_TSUE_F1</value>
+   </webElementProperties>
+</WebElementEntity>

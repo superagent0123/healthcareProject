@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>M1311_A1</name>
+   <tag></tag>
+   <elementGuidId>feccdd1c-44c6-424b-8df8-b4a4b7e3b728</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>#M1311_NBR_PRSULC_STG2_A1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>#M1311_NBR_PRSULC_STG2_A1</value>
+   </webElementProperties>
+</WebElementEntity>
