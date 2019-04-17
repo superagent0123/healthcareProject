@@ -3,7 +3,7 @@
    <description></description>
    <name>woundinfo_edges</name>
    <tag></tag>
-   <elementGuidId>2cc009e8-f8ce-4b9b-bfa2-cd2a3e59b6d3</elementGuidId>
+   <elementGuidId>2992abf2-ce41-4fb2-a9c9-fdab892bba72</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

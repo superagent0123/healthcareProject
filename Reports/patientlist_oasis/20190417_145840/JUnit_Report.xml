@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="patientlist_oasis" time="52" tests="1" failures="1" errors="0">
+   <testsuite name="patientlist_oasis" tests="1" failures="1" errors="0" time="52" timestamp="2019-04-17 14:58:42" hostname="PC-Medisource - 192.168.2.18" id="Test Suites/patientlist_oasis">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC-Medisource\\git\\healthcareProject\\Reports\\patientlist_oasis\\20190417_145840"/>
+         <property name="logFiles" value="C:\\Users\\PC-Medisource\\git\\healthcareProject\\Reports\\patientlist_oasis\\20190417_145840\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\PC-Medisource\\git\\healthcareProject\\Reports\\patientlist_oasis\\20190417_145840\\1555484371801.png, C:\\Users\\PC-Medisource\\git\\healthcareProject\\Reports\\patientlist_oasis\\20190417_145840\\1555484372135.png"/>
+         <property name="hostName" value="PC-Medisource - 192.168.2.18"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.2.18"/>
+         <property name="sessionId" value="c7aa451590f186146b36f85faf9776e1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login_rn" classname="Test Cases/login_rn" status="PASSED">
+         <system-out><![CDATA[2019-04-17 14:58:42 - [TEST_CASE][PASSED] - Test Cases/login_rn: Test Cases/login_rn
+
+2019-04-17 14:58:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 14:58:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 14:58:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-17 14:58:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 14:58:49 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/login"): Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-17 14:58:52 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-17 14:58:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-17 14:58:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-17 14:58:55 - [TEST_STEP][PASSED] - setText(findTestObject("LogIn/username"), "jbnurse"): Text 'jbnurse' is set on object 'Object Repository/LogIn/username'
+
+2019-04-17 14:58:55 - [MESSAGE][PASSED] - Text 'jbnurse' is set on object 'Object Repository/LogIn/username'
+
+2019-04-17 14:58:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-17 14:58:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-17 14:58:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LogIn/password"), "7R8xyZjhQ0AXM7ugpi2ZsQ=="): Text ****** has been set on object 'Object Repository/LogIn/password'
+
+2019-04-17 14:58:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LogIn/password'
+
+2019-04-17 14:58:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-17 14:59:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-17 14:59:01 - [TEST_STEP][PASSED] - click(findTestObject("LogIn/login_button")): Object: 'Object Repository/LogIn/login_button' is clicked on
+
+2019-04-17 14:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/login_button' is clicked on
+
+2019-04-17 14:59:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-17 14:59:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-17 14:59:04 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patients/all"): Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-17 14:59:10 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-17 14:59:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-17 14:59:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-17 14:59:13 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/overview"): Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/overview' successfully
+
+2019-04-17 14:59:14 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/overview' successfully
+
+2019-04-17 14:59:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-17 14:59:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-17 14:59:17 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/clinical/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5"): Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/clinical/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5' successfully
+
+2019-04-17 14:59:18 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/clinical/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5' successfully
+
+2019-04-17 14:59:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-17 14:59:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-17 14:59:21 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/integumentary/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5"): Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/integumentary/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5' successfully
+
+2019-04-17 14:59:22 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/integumentary/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_OASIS_SOC_Entry1/Integumentary" classname="Test Cases/Test_OASIS_SOC_Entry1/Integumentary" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test_OASIS_SOC_Entry1/Integumentary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$4.call(Unknown Source)
+	at Integumentary.run(Integumentary:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555484320404.run(TempTestSuite1555484320404.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-17 14:59:22 - [TEST_CASE][FAILED] - Test Cases/Test_OASIS_SOC_Entry1/Integumentary: Test Cases/Test_OASIS_SOC_Entry1/Integumentary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$4.call(Unknown Source)
+	at Integumentary.run(Integumentary:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555484320404.run(TempTestSuite1555484320404.groovy:36)
+
+
+2019-04-17 14:59:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 14:59:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 14:59:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 14:59:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 14:59:26 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com"): Navigate to 'https://qa.medisource.com' successfully
+
+2019-04-17 14:59:31 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com' successfully
+
+2019-04-17 14:59:31 - [TEST_STEP][FAILED] - acceptAlert(): acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$4.call(Unknown Source)
+	at Integumentary.run(Integumentary:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555484320404.run(TempTestSuite1555484320404.groovy:36)
+
+
+2019-04-17 14:59:32 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|C:\\Users\\PC-Medisource\\git\\healthcareProject\\Reports\\patientlist_oasis\\20190417_145840\\1555484371801.png]]
+
+2019-04-17 14:59:33 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+[[ATTACHMENT|C:\\Users\\PC-Medisource\\git\\healthcareProject\\Reports\\patientlist_oasis\\20190417_145840\\1555484372135.png]]
+
+2019-04-17 14:59:33 - [MESSAGE][FAILED] - acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$4.call(Unknown Source)
+	at Integumentary.run(Integumentary:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555484320404.run(TempTestSuite1555484320404.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-17 14:59:22 - [TEST_CASE][FAILED] - Test Cases/Test_OASIS_SOC_Entry1/Integumentary: Test Cases/Test_OASIS_SOC_Entry1/Integumentary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$4.call(Unknown Source)
+	at Integumentary.run(Integumentary:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555484320404.run(TempTestSuite1555484320404.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-17 14:58:42 - [TEST_SUITE][FAILED] - patientlist_oasis: Test Cases/Test_OASIS_SOC_Entry1/Integumentary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$4.call(Unknown Source)
+	at Integumentary.run(Integumentary:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555484320404.run(TempTestSuite1555484320404.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-04-17 14:58:42 - [TEST_SUITE][FAILED] - patientlist_oasis: Test Cases/Test_OASIS_SOC_Entry1/Integumentary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$4.call(Unknown Source)
+	at Integumentary.run(Integumentary:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555484320404.run(TempTestSuite1555484320404.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

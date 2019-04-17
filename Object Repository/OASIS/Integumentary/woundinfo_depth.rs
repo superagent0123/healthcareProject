@@ -3,7 +3,7 @@
    <description></description>
    <name>woundinfo_depth</name>
    <tag></tag>
-   <elementGuidId>45b73510-454a-4b9e-953d-ceb1b662faf8</elementGuidId>
+   <elementGuidId>dc961c8b-fc64-410b-83ca-085aca0bb304</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

@@ -3,7 +3,7 @@
    <description></description>
    <name>woundinfo_type</name>
    <tag></tag>
-   <elementGuidId>d5e05f0b-7a30-47aa-b14c-9174fa8b95c4</elementGuidId>
+   <elementGuidId>052d2ec5-4c29-4fc9-9cdc-2dbe411580d0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

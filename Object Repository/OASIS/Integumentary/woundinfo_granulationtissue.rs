@@ -3,7 +3,7 @@
    <description></description>
    <name>woundinfo_granulationtissue</name>
    <tag></tag>
-   <elementGuidId>5c00f250-1fca-44a5-a078-93e2145ed341</elementGuidId>
+   <elementGuidId>32e5f255-8621-47f5-b2be-0ee2b40e6a99</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

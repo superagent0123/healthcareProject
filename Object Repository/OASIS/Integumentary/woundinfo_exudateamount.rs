@@ -3,7 +3,7 @@
    <description></description>
    <name>woundinfo_exudateamount</name>
    <tag></tag>
-   <elementGuidId>d3b1c9f8-2068-406e-a780-00c8f4079732</elementGuidId>
+   <elementGuidId>5e1b3c30-3380-4340-8b87-672b0ab50ee4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
