@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#titleNoteBar > tbody > tr > td > div > button</value>
+         <value>#titleNoteBar > tbody > tr > td > div > button.btn__success.waves-effect</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#titleNoteBar > tbody > tr > td > div > button</value>
+      <value>#titleNoteBar > tbody > tr > td > div > button.btn__success.waves-effect</value>
    </webElementProperties>
 </WebElementEntity>

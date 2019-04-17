@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>save_user</name>
+   <name>new_user_save</name>
    <tag></tag>
-   <elementGuidId>495765cc-54ae-45b6-96d8-b47d277d1706</elementGuidId>
+   <elementGuidId>c659170f-518d-4ad6-b5d6-dfcbcc0c6a49</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
