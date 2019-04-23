@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Please try afterminutes.</name>
+   <name>input_Please try afterminutes</name>
    <tag></tag>
    <elementGuidId>0e6721dc-ee7b-498f-9059-2e9ce41852ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>#loginemail</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -68,6 +74,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;loginemail&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>#loginemail</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

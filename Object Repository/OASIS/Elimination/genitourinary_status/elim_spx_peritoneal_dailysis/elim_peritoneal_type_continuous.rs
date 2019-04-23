@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elim_peritoneal_type_continuous</name>
+   <tag></tag>
+   <elementGuidId>7f9253e0-52ab-4719-a9a2-a2f991b14847</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>#SOOELIMINATION0096</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>#SOOELIMINATION0096</value>
+   </webElementProperties>
+</WebElementEntity>

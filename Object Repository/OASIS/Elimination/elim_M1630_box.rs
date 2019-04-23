@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elim_M1630_box</name>
+   <tag></tag>
+   <elementGuidId>93f9d140-3cd1-4f9e-bc8d-1dd3ab117d0e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>#code</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>#code</value>
+   </webElementProperties>
+</WebElementEntity>
