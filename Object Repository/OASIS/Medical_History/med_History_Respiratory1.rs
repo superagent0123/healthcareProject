@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#medicalForm > div > fieldset > table > tbody > tr:nth-child(36) > td > table > tbody > tr > td > checklist > div:nth-child(1) > label > input</value>
+         <value>//*[@id=&quot;medicalForm&quot;]/div/fieldset/table/tbody/tr[36]/td/table/tbody/tr/td/div[1]/label/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>css</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>#medicalForm > div > fieldset > table > tbody > tr:nth-child(36) > td > table > tbody > tr > td > checklist > div:nth-child(1) > label > input</value>
+      <value>//*[@id=&quot;medicalForm&quot;]/div/fieldset/table/tbody/tr[36]/td/table/tbody/tr/td/div[1]/label/input</value>
    </webElementProperties>
 </WebElementEntity>

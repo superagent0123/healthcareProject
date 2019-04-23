@@ -206,18 +206,20 @@ WebUI.click(findTestObject('OASIS/Integumentary/M1342_selected1'))
 
 WebUI.delay(5)
 
-// pin wound 1
+// pinning of wound 1
 WebUI.clickOffset(findTestObject('OASIS/Integumentary/human_image'), 101, 125)
 
 WebUI.delay(5)
-
+// click the yes button
 WebUI.click(findTestObject('OASIS/Integumentary/pin_image_yes'))
 
 WebUI.delay(5)
 
-// pin wound 2
+// pinning of wound 2
 // WebUI.clickOffset(findTestObject('OASIS/Integumentary/human_image'), 150, 225)
 // WebUI.delay(5)
+
+// click the yes button
 // WebUI.click(findTestObject('OASIS/Integumentary/pin_image_yes'))
 //WebUI.delay(5)
 WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_location'))
@@ -292,6 +294,8 @@ WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_edges_1'), FailureHand
 
 WebUI.delay(3)
 
+
+// selecting one of the options, specifically, edematous
 WebUI.sendKeys(findTestObject('OASIS/Integumentary/woundinfo_periwoundtissue'), Keys.chord('Edematous', Keys.ENTER))
 
 WebUI.delay(3)
@@ -320,13 +324,16 @@ WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_drainpresent_jackson')
 
 WebUI.delay(3)
 
+// clicking the uploading of wound
 WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_uploadwound'))
 
 WebUI.delay(3)
 
+// clicking the browsing of file
 WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_uploadwound_browsefile'))
 
 WebUI.delay(3)
 
+//selecting of wound photo to be uploaded
 Runtime.getRuntime().exec('C:\\Users\\PC-Medisource\\Desktop\\AutoIt3\\uploadwoundimage.exe')
 

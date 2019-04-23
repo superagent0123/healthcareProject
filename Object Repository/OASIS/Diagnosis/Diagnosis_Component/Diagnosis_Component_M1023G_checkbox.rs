@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#icdSeverityIdCode > label:nth-child(2) > input</value>
+         <value>#icdSeverityIdCode\24 index > label:nth-child(2) > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#icdSeverityIdCode > label:nth-child(2) > input</value>
+      <value>#icdSeverityIdCode\24 index > label:nth-child(2) > input</value>
    </webElementProperties>
 </WebElementEntity>

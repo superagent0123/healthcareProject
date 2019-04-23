@@ -14,22 +14,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+not_run: WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://qa.medisource.com/login')
+not_run: WebUI.navigateToUrl('https://qa.medisource.com/login')
 
 //logging in on the system.......
 'setting up username'
-WebUI.setText(findTestObject('Object Repository/addPatient/input_Please try afterminutes.'), 'superagent')
+not_run: WebUI.setText(findTestObject('Object Repository/addPatient/input_Please try afterminutes.'), 'superagent')
 
 'setting up password'
-WebUI.setEncryptedText(findTestObject('Object Repository/addPatient/input_Username or email requir'), 'SITHpLWAWtI8C4F8RIujvA==')
+not_run: WebUI.setEncryptedText(findTestObject('Object Repository/addPatient/input_Username or email requir'), 'SITHpLWAWtI8C4F8RIujvA==')
 
 'clicking log in button'
-WebUI.click(findTestObject('Object Repository/addPatient/button_Login'))
+not_run: WebUI.click(findTestObject('Object Repository/addPatient/button_Login'))
 
 //end logging in on the ssytem
-WebUI.delay(10)
+not_run: WebUI.delay(10)
 
 //proceeding directly to add patienbt
 'clicking the add patient on patient manager menu'
@@ -46,7 +46,7 @@ WebUI.delay(3)
 'selecting current date'
 WebUI.click(findTestObject('addPatient/dateItem'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addPatient/mrnCheckbox1'))
 
@@ -59,7 +59,11 @@ WebUI.click(findTestObject('addPatient/button_Same as Referral Date'))
 WebUI.setText(findTestObject('addPatient/input_Last Name_last_name'), 'Automated')
 
 'input first name'
+<<<<<<< HEAD
 WebUI.setText(findTestObject('addPatient/input_First Name_first_name'), 'Tester1')
+=======
+WebUI.setText(findTestObject('addPatient/input_First Name_first_name'), 'Test10')
+>>>>>>> branch 'master' of https://github.com/superagent0123/healthcareProject.git
 
 'input middle initial'
 WebUI.setText(findTestObject('addPatient/input_Middle Initial_mi'), 'F')
@@ -68,7 +72,7 @@ WebUI.setText(findTestObject('addPatient/input_Middle Initial_mi'), 'F')
 WebUI.setText(findTestObject('addPatient/input_Suffix_suffix'), 'Jr')
 
 'to delay for proceeding or clicking the date picker icon'
-WebUI.delay(3)
+WebUI.delay(2)
 
 'clicking the datepicker icon'
 WebUI.click(findTestObject('addPatient/intakeBdayDatePicker'))
@@ -77,7 +81,7 @@ WebUI.click(findTestObject('addPatient/intakeBdayDatePicker'))
 WebUI.click(findTestObject('addPatient/intakeBdayDatePickerItem'))
 
 'to delay the viewing of selected item on calendar....'
-WebUI.delay(3)
+WebUI.delay(2)
 
 'check box male selected'
 WebUI.click(findTestObject('addPatient/intakeGenderMale'))
@@ -94,18 +98,22 @@ WebUI.click(findTestObject('addPatient/intakeEthnicity'))
 'selecting the first item on the list'
 WebUI.click(findTestObject('addPatient/intakeEtnicitySelect1'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('addPatient/intakeLanguageSpoken'))
 
 WebUI.click(findTestObject('addPatient/intakeLanguageSpoken1'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
+<<<<<<< HEAD
 WebUI.setText(findTestObject('addPatient/intakeSSN'), '100000000')
+=======
+WebUI.setText(findTestObject('addPatient/intakeSSN'), '865742341')
+>>>>>>> branch 'master' of https://github.com/superagent0123/healthcareProject.git
 
 //end of adding patient information
-WebUI.delay(3)
+WebUI.delay(2)
 
 //adding of patient address
 WebUI.setText(findTestObject('addPatient/input_Address Line 1_main_line'), '653 South Manchester Ave. ')
