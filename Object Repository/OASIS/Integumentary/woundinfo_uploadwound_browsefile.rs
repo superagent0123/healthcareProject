@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>woundinfo_periwoundtissue_edematous</name>
+   <name>woundinfo_uploadwound_browsefile</name>
    <tag></tag>
-   <elementGuidId>1477e9c8-12ed-49ee-9665-4b3822c2b477</elementGuidId>
+   <elementGuidId>304fe6f0-546c-47a6-831b-20a8f08437c0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#___name____chosen > ul > li.search-choice > a</value>
+         <value>body > div.modal.fade.ng-isolate-scope.patient-records-upload.in > div > div > div > div > div > div > div > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#___name____chosen > ul > li.search-choice > a</value>
+      <value>body > div.modal.fade.ng-isolate-scope.patient-records-upload.in > div > div > div > div > div > div > div > a</value>
    </webElementProperties>
 </WebElementEntity>

@@ -277,15 +277,39 @@ WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_edges_1'), FailureHand
 
 WebUI.delay(3)
 
-// ongoing
-
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_periwoundtissue'))
+WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_otherobservation'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('OASIS/Integumentary/woundinfo_periwoundtissue'), 'Edematous')
+WebUI.setText(findTestObject('OASIS/Integumentary/woundinfo_otherobservation_textarea'), 'SOCotherObservation')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('OASIS/Integumentary/woundinfo_otherobservation'), 'SOCotherObservation')
+WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_woundclosure'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_woundclosure_steri'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_drainpresent'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_drainpresent_jackson'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_uploadwound'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_uploadwound_browsefile'))
+
+WebUI.delay(3)
+
+Runtime.getRuntime().exec('C:\\Users\\PC-Medisource\\Desktop\\AutoIt3\\uploadimage.exe')
+
+WebUI.delay(3)
 

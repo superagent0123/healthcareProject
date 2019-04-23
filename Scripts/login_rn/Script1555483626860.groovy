@@ -23,7 +23,7 @@ WebUI.setText(findTestObject('LogIn/username'), 'jbnurse')
 
 WebUI.delay(3)
 
-WebUI.setEncryptedText(findTestObject('LogIn/password'), '7R8xyZjhQ0AXM7ugpi2ZsQ==')
+WebUI.setEncryptedText(findTestObject('LogIn/password'), '7R8xyZjhQ0B8ti8txswtaA==')
 
 WebUI.delay(3)
 
