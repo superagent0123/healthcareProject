@@ -13,9 +13,30 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('PatientCarePage/Component_nonAdmit/nonAdmitbutton'))
+WebUI.click(findTestObject('PatientCarePage/Component_Menu/mdOrder_menu'))
 
-WebUI.click(findTestObject('PatientCarePage/Component_nonAdmit/reasonForNonAdmit'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('PatientCarePage/Component_nonAdmit/reasonForNonAdmitSave'))
+WebUI.click(findTestObject('PatientCarePage/Component_Menu/mdOrder_menu_new/new_button'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('PatientCarePage/Component_Menu/mdOrder_menu_new/transfer_order'))
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('PatientCarePage/Component_Menu/mdOrder_menu_new/transfer_order_forms/transfer_order_date'), 
+    '04102019')
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('PatientCarePage/Component_Menu/mdOrder_menu_new/transfer_order_forms/trasnfer_order_comm'), 
+    'transfer to beverly hospital')
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('PatientCarePage/Component_Menu/mdOrder_menu_new/transfer_order_forms/transfer_order_PO'), 
+    'for surgerrry')
+
+WebUI.click(findTestObject('PatientCarePage/Component_Menu/mdOrder_menu_new/transfer_order_forms/transfer_save'))
 
