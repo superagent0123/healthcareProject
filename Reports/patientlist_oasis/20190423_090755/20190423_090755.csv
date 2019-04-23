@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+patientlist_oasis,Chrome 73.0.3683.103,,2019-04-23 09:08:01,2019-04-23 09:09:27,1m - 25.898s,FAILED
+,,,,,,
+Test Cases/login_rn,Chrome 73.0.3683.103,,2019-04-23 09:08:01,2019-04-23 09:08:53,51.635s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-23 09:08:02,2019-04-23 09:08:19,16.913s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-23 09:08:19,2019-04-23 09:08:21,2.507s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:08:21,2019-04-23 09:08:24,3.034s,PASSED
+"setText(findTestObject(""LogIn/username""), ""jbnurse"")",Chrome 73.0.3683.103,,2019-04-23 09:08:24,2019-04-23 09:08:24,0.265s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:08:24,2019-04-23 09:08:27,3.002s,PASSED
+"setEncryptedText(findTestObject(""LogIn/password""), ""7R8xyZjhQ0AXM7ugpi2ZsQ=="")",Chrome 73.0.3683.103,,2019-04-23 09:08:27,2019-04-23 09:08:28,0.601s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:08:28,2019-04-23 09:08:31,3.005s,PASSED
+"click(findTestObject(""LogIn/login_button""))",Chrome 73.0.3683.103,,2019-04-23 09:08:31,2019-04-23 09:08:31,0.161s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:08:31,2019-04-23 09:08:34,3.004s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,Patient List,2019-04-23 09:08:34,2019-04-23 09:08:42,7.391s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:08:42,2019-04-23 09:08:45,3.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/overview"")",Chrome 73.0.3683.103,Selected Patient,2019-04-23 09:08:45,2019-04-23 09:08:46,1.126s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:08:46,2019-04-23 09:08:49,3.000s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/clinical/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5"")",Chrome 73.0.3683.103,Patient OASIS,2019-04-23 09:08:49,2019-04-23 09:08:49,0.622s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:08:49,2019-04-23 09:08:52,3.006s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/integumentary/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5"")",Chrome 73.0.3683.103,OASIS Integumentary Tab,2019-04-23 09:08:52,2019-04-23 09:08:53,0.608s,PASSED
+,,,,,,
+Test Cases/Test_OASIS_SOC_Entry1/Integumentary,Chrome 73.0.3683.103,,2019-04-23 09:08:53,2019-04-23 09:09:25,32.335s,FAILED
+"click(findTestObject(""OASIS/Integumentary/skincolor_pink""))",Chrome 73.0.3683.103,,2019-04-23 09:08:53,2019-04-23 09:09:25,31.790s,FAILED
