@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('OASIS/Integumentary/skincolor_pink'))
 
@@ -203,16 +204,22 @@ WebUI.delay(4)
 
 WebUI.click(findTestObject('OASIS/Integumentary/M1342_selected1'))
 
-WebUI.delay(4)
+WebUI.delay(5)
 
-WebUI.click(findTestObject('OASIS/Integumentary/human_image'))
+// pin wound 1
+WebUI.clickOffset(findTestObject('OASIS/Integumentary/human_image'), 101, 125)
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('OASIS/Integumentary/pin_image_yes'))
 
 WebUI.delay(5)
 
+// pin wound 2
+// WebUI.clickOffset(findTestObject('OASIS/Integumentary/human_image'), 150, 225)
+// WebUI.delay(5)
+// WebUI.click(findTestObject('OASIS/Integumentary/pin_image_yes'))
+//WebUI.delay(5)
 WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_location'))
 
 WebUI.delay(3)
@@ -226,6 +233,14 @@ WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_type'))
 WebUI.delay(3)
 
 WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_type_pressureulcer'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('OASIS/Integumentary/woundinfo_sizelength_field'), '2')
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('OASIS/Integumentary/woundinfo_sizewidth_field'), '4')
 
 WebUI.delay(3)
 
@@ -277,6 +292,10 @@ WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_edges_1'), FailureHand
 
 WebUI.delay(3)
 
+WebUI.sendKeys(findTestObject('OASIS/Integumentary/woundinfo_periwoundtissue'), Keys.chord('Edematous', Keys.ENTER))
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_otherobservation'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
@@ -310,6 +329,4 @@ WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_uploadwound_browsefile
 WebUI.delay(3)
 
 Runtime.getRuntime().exec('C:\\Users\\PC-Medisource\\Desktop\\AutoIt3\\uploadwoundimage.exe')
-
-WebUI.delay(3)
 
