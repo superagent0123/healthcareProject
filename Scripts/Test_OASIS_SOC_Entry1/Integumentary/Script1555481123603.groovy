@@ -309,7 +309,7 @@ WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_uploadwound_browsefile
 
 WebUI.delay(3)
 
-Runtime.getRuntime().exec('C:\\Users\\PC-Medisource\\Desktop\\AutoIt3\\uploadimage.exe')
+Runtime.getRuntime().exec('C:\\Users\\PC-Medisource\\Desktop\\AutoIt3\\uploadwoundimage.exe')
 
 WebUI.delay(3)
 
