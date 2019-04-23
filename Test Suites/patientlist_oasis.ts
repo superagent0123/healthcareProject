@@ -20,6 +20,6 @@
       <guid>8cf1fdd9-b431-411f-b1fe-d8275f4ecd6b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test_OASIS_SOC_Entry1/Integumentary</testCaseId>
+      <testCaseId>Test Cases/OASIS_SOC/Integumentary</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
