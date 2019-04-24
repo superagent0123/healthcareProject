@@ -23,7 +23,7 @@
       <testCaseId>Test Cases/navigate_patient_soc_ken</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4bce6660-3f41-4b13-a105-b62dadf07ccc</guid>
+      <guid>408e13b9-0383-4c48-9787-6f49014cee21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/OASIS_SOC/Neurological</testCaseId>

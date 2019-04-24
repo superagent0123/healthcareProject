@@ -19,4 +19,11 @@
       <type>Main</type>
       <value>#M1740_BD_DELUSIONS</value>
    </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;M1740_BD_DELUSIONS&quot;]</value>
+   </webElementProperties>
 </WebElementEntity>

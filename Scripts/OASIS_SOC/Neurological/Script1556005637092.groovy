@@ -45,27 +45,21 @@ WebUI.click(findTestObject('OASIS/Neurological/neurological_status/neuro_mental_
 
 WebUI.setText(findTestObject('OASIS/Neurological/neurological_status/neuro_mental_status_other'), 'Frequent signs of aggression')
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('OASIS/Neurological/neurological_status/neuro_sleep_inadequate'))
 
-WebUI.delay(1)
-
-WebUI.setText(findTestObject('OASIS/Neurological/neurological_status/neuro_sleep_inadequate_textfield'), 'Typically wokes up at 3:15 AM')
+WebUI.setText(findTestObject('OASIS/Neurological/neurological_status/neuro_sleep_inadequate_textfield'), 'wokes up at 3:15 AM')
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/neurological_status/neuro_hand_grips_strong'))
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('OASIS/Neurological/neurological_status/neuro_hand_grips_strong_l'))
 
 WebUI.click(findTestObject('OASIS/Neurological/neurological_status/neuro_hand_grips_strong_r'))
 
-WebUI.click(findTestObject('OASIS/Neurological/neurological_status/neuro_hand_grips_weak'))
-
 WebUI.delay(1)
+
+WebUI.click(findTestObject('OASIS/Neurological/neurological_status/neuro_hand_grips_weak'))
 
 WebUI.click(findTestObject('OASIS/Neurological/neurological_status/neuro_hand_grips_weak_l'))
 
@@ -74,6 +68,8 @@ WebUI.click(findTestObject('OASIS/Neurological/neurological_status/neuro_hand_gr
 WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/neurological_status/neuro_check_for_weakness'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_ue'))
 
@@ -100,8 +96,6 @@ WebUI.click(findTestObject('OASIS/Neurological/neurological_status/check_for_wea
 WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/neurological_status/check_for_weakness/c_weak_seizure_petitmal'))
-
-WebUI.delay(1)
 
 WebUI.setText(findTestObject('OASIS/Neurological/neurological_status/check_for_weakness/c_weak_seizure_petitmal_lsdate'), 
     'June 23, 2015')
@@ -130,7 +124,11 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_headache'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_numb'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_lossofsensation'))
 
@@ -148,6 +146,8 @@ WebUI.setText(findTestObject('OASIS/Neurological/neurological_status/check_for_w
     'Left middle finger due to fracture')
 
 WebUI.setText(findTestObject('OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_other'), 'Disassociation of things')
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/psychosocial_status/psycho_cognitive'))
 
@@ -171,73 +171,191 @@ WebUI.click(findTestObject('OASIS/Neurological/psychosocial_status/psycho_delusi
 
 WebUI.setText(findTestObject('OASIS/Neurological/psychosocial_status/psycho_other_p_factors'), 'Bipolar and Frequent Sucidical Thoughts')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/language_barrier_yes'))
 
-WebUI.delay(5)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('OASIS/Neurological/language_barrier/language_interpreter_need'))
+not_run: WebUI.click(findTestObject('OASIS/Neurological/language_barrier/language_interpreter_need'))
 
-WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/language_interpreter_need_tf'), 'Mrs. Langdon')
+not_run: WebUI.delay(1)
+
+not_run: WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/language_interpreter_need_tf'), 'Mrs. Langdon')
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/language_inter_sp'))
 
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/language_inter_sp_tf'), 'Interpreter Organization')
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/language_inter_sp_phone'), '3453452345')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/language_sign_type'))
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/language_sign_type_tf'), 'ASL')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/learning_barrier_yes'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/learning_functional'))
 
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/learning_functional_tf'), 'Motor Ability')
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/learning_mental'))
 
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/learning_mental_tf'), 'Speech Disorder')
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/learning_physical'))
 
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/learning_physical_tf'), 'Needs assistance all the time')
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/learning_pyschosocial'))
 
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/learning_psyschosocial_tf'), 'Anti-social Behaviour')
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/learning_unable_read'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/learning_unable_write'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/signs_abuse_yes'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/signs_abuse_actual'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/signs_abuse_physical'))
 
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/signs_abuse_physical_tf'), 'Traumatic Experience')
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/signs_abuse_verbal'))
 
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/signs_abuse_verbal_tf'), 'Traumatic Experience')
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/signs_abuse_referredmsw'))
 
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/signs_abuse_referredmsw_tf'), 'Centers for MSW')
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/signs_abuse_referredchildadult'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('OASIS/Neurological/language_barrier/spiritual_yes'))
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/spiritual_impact_care'), 'Sample Text')
 
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/spiritual_resource'), 'Sample Text')
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/spiritual_contact'), 'Sample Text')
 
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('OASIS/Neurological/language_barrier/spiritual_phone'), '2333242343')
 
-WebUI.delay(8)
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OASIS/Neurological/M1700_1'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OASIS/Neurological/M1710_2'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OASIS/Neurological/M1720_2'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OASIS/Neurological/M1730_1'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OASIS/Neurological/M1730_a_0'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OASIS/Neurological/M1730_b_1'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OASIS/Neurological/M1740_1'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OASIS/Neurological/M1740_2'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OASIS/Neurological/M1740_3'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OASIS/Neurological/M1740_4'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OASIS/Neurological/M1740_5'))
+
+WebUI.delay(1)
+
+not_run: WebUI.click(findTestObject('OASIS/Neurological/M1740_6'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OASIS/Neurological/M1740_7'))
+
+WebUI.click(findTestObject('OASIS/Neurological/M1745_4'))
+
+WebUI.delay(10)
 

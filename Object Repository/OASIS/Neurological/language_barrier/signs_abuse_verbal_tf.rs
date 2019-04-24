@@ -7,16 +7,23 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#neuroForm > div > fieldset > table > tbody > tr:nth-child(20) > td.oasis__answer > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td:nth-child(2) > div.cont-opt.m-lopt-50.p-r-5.ng-isolate-scope > input</value>
+         <value>//*[@id=&quot;neuroForm&quot;]/div/fieldset/table/tbody/tr[20]/td[2]/table/tbody/tr[3]/td/table/tbody/tr[2]/td[2]/div[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
       <value>#neuroForm > div > fieldset > table > tbody > tr:nth-child(20) > td.oasis__answer > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td:nth-child(2) > div.cont-opt.m-lopt-50.p-r-5.ng-isolate-scope > input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;neuroForm&quot;]/div/fieldset/table/tbody/tr[20]/td[2]/table/tbody/tr[3]/td/table/tbody/tr[2]/td[2]/div[2]/input</value>
    </webElementProperties>
 </WebElementEntity>
