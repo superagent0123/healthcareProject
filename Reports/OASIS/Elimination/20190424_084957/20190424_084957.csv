@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Elimination,Chrome 73.0.3683.103,,2019-04-24 08:49:59,2019-04-24 08:50:04,5.495s,FAILED
+,,,,,,
+Test Cases/navigate_patient_soc,Chrome 73.0.3683.103,,2019-04-24 08:49:59,2019-04-24 08:50:03,4.227s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-24 08:49:59,2019-04-24 08:50:02,3.183s,PASSED
+"navigateToUrl(""https://qa.medisource.com"")",Chrome 73.0.3683.103,,2019-04-24 08:50:02,2019-04-24 08:50:03,0.569s,PASSED
+"setText(findTestObject(""Page_Medisource  Login/input_Please try afterminutes""), ""superagent"")",Chrome 73.0.3683.103,,2019-04-24 08:50:03,2019-04-24 08:50:03,0.140s,FAILED
+,,,,,,
+Test Cases/OASIS_SOC/Elimination,Chrome 73.0.3683.103,Created by: Khenard Figuracion,2019-04-24 08:50:03,2019-04-24 08:50:03,0.400s,FAILED
+"click(findTestObject(""OASIS/OASIS_TABS/xitemedits_btn""))",Chrome 73.0.3683.103,,2019-04-24 08:50:03,2019-04-24 08:50:03,0.035s,FAILED

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#neuroForm > div > fieldset > table > tbody > tr:nth-child(18) > td.oasis__answer.ng-isolate-scope > table > tbody > tr:nth-child(2) > td:nth-child(1) > div > label > input</value>
+         <value>#neuroForm > div > fieldset > table > tbody > tr:nth-child(18) > td.oasis__answer.ng-isolate-scope > table > tbody > tr:nth-child(1) > td:nth-child(2) > div.cont-opt.m-lopt-50.p-r-5 > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#neuroForm > div > fieldset > table > tbody > tr:nth-child(18) > td.oasis__answer.ng-isolate-scope > table > tbody > tr:nth-child(2) > td:nth-child(1) > div > label > input</value>
+      <value>#neuroForm > div > fieldset > table > tbody > tr:nth-child(18) > td.oasis__answer.ng-isolate-scope > table > tbody > tr:nth-child(1) > td:nth-child(2) > div.cont-opt.m-lopt-50.p-r-5 > input</value>
    </webElementProperties>
 </WebElementEntity>

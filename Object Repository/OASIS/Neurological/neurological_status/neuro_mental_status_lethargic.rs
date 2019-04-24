@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>&lt;input type=&quot;checkbox&quot; rname=&quot;SOONEURO0093&quot; checklist-value=&quot;list.val&quot; ng-model=&quot;checked&quot; class=&quot;ng-scope ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched&quot; checklist-model=&quot;pi.SOONEURO0093&quot; style=&quot;&quot;></value>
+         <value>#neuroForm > div > fieldset > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(1) > div:nth-child(3) > label > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>&lt;input type=&quot;checkbox&quot; rname=&quot;SOONEURO0093&quot; checklist-value=&quot;list.val&quot; ng-model=&quot;checked&quot; class=&quot;ng-scope ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched&quot; checklist-model=&quot;pi.SOONEURO0093&quot; style=&quot;&quot;></value>
+      <value>#neuroForm > div > fieldset > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(2) > table > tbody > tr > td:nth-child(1) > div:nth-child(3) > label > input</value>
    </webElementProperties>
 </WebElementEntity>

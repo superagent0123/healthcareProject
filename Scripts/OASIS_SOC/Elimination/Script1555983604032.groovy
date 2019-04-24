@@ -21,45 +21,25 @@ WebUI.click(findTestObject('OASIS/OASIS_TABS/Elimination_tab'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_incontinence'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_incontinence'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_stress_incontinence'))
 
-WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_stress_incontinence'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_urgency'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_frequency'))
 
-WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_urgency'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_dysuria'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_retention'))
 
-WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_frequency'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_dysuria'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_retention'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_polyuria'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(1)
+WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_polyuria'))
 
 WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_nocturia'))
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_oliguria'))
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_hematuria'))
-
-WebUI.delay(1)
 
 WebUI.setText(findTestObject('OASIS/Elimination/genitourinary_status/elim_abnormal_status_other'), 'Xenoderma Pigmentosium')
 
@@ -93,8 +73,7 @@ WebUI.click(findTestObject('OASIS/Elimination/genitourinary_status/elim_spx_hemo
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_other'), 
-    'RA/LA')
+WebUI.setText(findTestObject('OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_other'), 'RA/LA')
 
 WebUI.delay(1)
 
@@ -132,8 +111,7 @@ WebUI.setText(findTestObject('OASIS/Elimination/genitourinary_status/elim_spx_he
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_phone'), 
-    '0452327655')
+WebUI.setText(findTestObject('OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_phone'), '0452327655')
 
 WebUI.delay(1)
 

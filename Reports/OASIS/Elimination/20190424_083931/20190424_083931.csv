@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Elimination,Chrome 73.0.3683.103,,2019-04-24 08:39:32,2019-04-24 08:40:07,34.967s,FAILED
+,,,,,,
+Test Cases/navigate_patient_soc,Chrome 73.0.3683.103,,2019-04-24 08:39:33,2019-04-24 08:39:55,22.438s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-24 08:39:33,2019-04-24 08:39:36,2.992s,PASSED
+"navigateToUrl(""https://qa.medisource.com"")",Chrome 73.0.3683.103,,2019-04-24 08:39:36,2019-04-24 08:39:38,2.456s,PASSED
+"setText(findTestObject(""Page_Medisource  Login/input_Please try afterminutes""), ""superagent"")",Chrome 73.0.3683.103,,2019-04-24 08:39:38,2019-04-24 08:39:40,1.631s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 08:39:40,2019-04-24 08:39:41,1.022s,PASSED
+"setEncryptedText(findTestObject(""Page_Medisource  Login/input_Username or email requir""), ""SITHpLWAWtI8C4F8RIujvA=="")",Chrome 73.0.3683.103,,2019-04-24 08:39:41,2019-04-24 08:39:41,0.170s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 08:39:41,2019-04-24 08:39:42,1.005s,PASSED
+"click(findTestObject(""Page_Medisource  Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-24 08:39:42,2019-04-24 08:39:42,0.083s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-24 08:39:42,2019-04-24 08:39:44,2.003s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,,2019-04-24 08:39:44,2019-04-24 08:39:45,0.611s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-24 08:39:45,2019-04-24 08:39:48,3.005s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"")",Chrome 73.0.3683.103,,2019-04-24 08:39:48,2019-04-24 08:39:48,0.586s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-24 08:39:48,2019-04-24 08:39:51,3.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"")",Chrome 73.0.3683.103,,2019-04-24 08:39:51,2019-04-24 08:39:52,0.548s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-24 08:39:52,2019-04-24 08:39:55,3.002s,PASSED
+,,,,,,
+Test Cases/OASIS_SOC/Elimination,Chrome 73.0.3683.103,Created by: Khenard Figuracion,2019-04-24 08:39:55,2019-04-24 08:40:07,11.518s,FAILED
+"click(findTestObject(""OASIS/OASIS_TABS/xitemedits_btn""))",Chrome 73.0.3683.103,,2019-04-24 08:39:55,2019-04-24 08:39:56,0.276s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 08:39:56,2019-04-24 08:39:57,1.002s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/Elimination_tab""))",Chrome 73.0.3683.103,,2019-04-24 08:39:57,2019-04-24 08:39:57,0.174s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 08:39:57,2019-04-24 08:39:58,1.003s,PASSED
+"click(findTestObject(""OASIS/Elimination/genitourinary_status/elim_abnormal_status_incontinence""))",Chrome 73.0.3683.103,,2019-04-24 08:39:58,2019-04-24 08:40:01,2.846s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 08:40:01,2019-04-24 08:40:02,1.004s,PASSED
+"click(findTestObject(""OASIS/Elimination/genitourinary_status/elim_abnormal_status_stress_incontinence""))",Chrome 73.0.3683.103,,2019-04-24 08:40:02,2019-04-24 08:40:02,0.153s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 08:40:02,2019-04-24 08:40:03,1.002s,PASSED
+"click(findTestObject(""OASIS/Elimination/genitourinary_status/elim_abnormal_status_urgency""))",Chrome 73.0.3683.103,,2019-04-24 08:40:03,2019-04-24 08:40:03,0.125s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 08:40:03,2019-04-24 08:40:04,1.002s,PASSED
+"click(findTestObject(""OASIS/Elimination/genitourinary_status/elim_abnormal_status_frequency""))",Chrome 73.0.3683.103,,2019-04-24 08:40:04,2019-04-24 08:40:04,0.119s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 08:40:04,2019-04-24 08:40:05,1.003s,PASSED
+"click(findTestObject(""OASIS/Elimination/genitourinary_status/elim_abnormal_status_dysuria""))",Chrome 73.0.3683.103,,2019-04-24 08:40:05,2019-04-24 08:40:05,0.127s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 08:40:05,2019-04-24 08:40:06,1.003s,PASSED
+"click(findTestObject(""OASIS/Elimination/genitourinary_status/elim_abnormal_status_retention""))",Chrome 73.0.3683.103,,2019-04-24 08:40:06,2019-04-24 08:40:07,0.412s,FAILED
