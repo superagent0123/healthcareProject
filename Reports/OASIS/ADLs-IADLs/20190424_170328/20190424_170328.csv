@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ADLs-IADLs,Chrome 73.0.3683.103,,2019-04-24 17:03:30,2019-04-24 17:04:36,1m - 6.005s,FAILED
+,,,,,,
+Test Cases/login,Chrome 73.0.3683.103,,2019-04-24 17:03:30,2019-04-24 17:03:49,18.830s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-24 17:03:30,2019-04-24 17:03:34,3.301s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-24 17:03:34,2019-04-24 17:03:37,2.833s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-24 17:03:37,2019-04-24 17:03:40,3.024s,PASSED
+"setText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.""), ""superagent"")",Chrome 73.0.3683.103,,2019-04-24 17:03:40,2019-04-24 17:03:40,0.120s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-24 17:03:40,2019-04-24 17:03:43,3.003s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Username or email requir""), ""SITHpLWAWtI8C4F8RIujvA=="")",Chrome 73.0.3683.103,,2019-04-24 17:03:43,2019-04-24 17:03:43,0.153s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-24 17:03:43,2019-04-24 17:03:46,3.003s,PASSED
+"click(findTestObject(""Object Repository/addUser/Page_Medisource  Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-24 17:03:46,2019-04-24 17:03:46,0.088s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-24 17:03:46,2019-04-24 17:03:49,3.002s,PASSED
+,,,,,,
+Test Cases/navigate_patient_soc_ken,Chrome 73.0.3683.103,,2019-04-24 17:03:49,2019-04-24 17:03:56,7.075s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-24 17:03:49,2019-04-24 17:03:51,2.003s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,,2019-04-24 17:03:51,2019-04-24 17:03:52,0.641s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 17:03:52,2019-04-24 17:03:53,1.001s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"")",Chrome 73.0.3683.103,,2019-04-24 17:03:53,2019-04-24 17:03:53,0.622s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 17:03:53,2019-04-24 17:03:54,1.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"")",Chrome 73.0.3683.103,,2019-04-24 17:03:54,2019-04-24 17:03:55,0.621s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 17:03:55,2019-04-24 17:03:56,1.002s,PASSED
+,,,,,,
+Test Cases/OASIS_SOC/ADLs,Chrome 73.0.3683.103,,2019-04-24 17:03:56,2019-04-24 17:04:35,39.061s,FAILED
+"click(findTestObject(""OASIS/OASIS_TABS/xitemedits_btn""))",Chrome 73.0.3683.103,,2019-04-24 17:03:56,2019-04-24 17:03:58,1.859s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/ADL_tab""))",Chrome 73.0.3683.103,,2019-04-24 17:03:58,2019-04-24 17:03:58,0.087s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-24 17:03:58,2019-04-24 17:04:03,5.003s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_muscle_strength_strong""))",Chrome 73.0.3683.103,,2019-04-24 17:04:03,2019-04-24 17:04:03,0.143s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_rom_limited""))",Chrome 73.0.3683.103,,2019-04-24 17:04:03,2019-04-24 17:04:04,0.204s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_lue""))",Chrome 73.0.3683.103,,2019-04-24 17:04:04,2019-04-24 17:04:04,0.172s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_rue""))",Chrome 73.0.3683.103,,2019-04-24 17:04:04,2019-04-24 17:04:04,0.151s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_lle""))",Chrome 73.0.3683.103,,2019-04-24 17:04:04,2019-04-24 17:04:04,0.136s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_rle""))",Chrome 73.0.3683.103,,2019-04-24 17:04:04,2019-04-24 17:04:04,0.134s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_bedmob_independent""))",Chrome 73.0.3683.103,,2019-04-24 17:04:04,2019-04-24 17:04:35,31.020s,FAILED

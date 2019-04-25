@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Elimination" time="74" tests="3" failures="0" errors="0">
+   <testsuite name="Elimination" tests="3" failures="0" errors="0" time="74" timestamp="2019-04-24 16:42:40" hostname="Khenard Figuracion - 192.168.2.15" id="Test Suites/OASIS/Elimination">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Elimination\\20190424_164239"/>
+         <property name="logFiles" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Elimination\\20190424_164239\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Khenard Figuracion - 192.168.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.2.15"/>
+         <property name="sessionId" value="72faadff913ffe289fb82a3c84225a4c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2019-04-24 16:42:41 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2019-04-24 16:42:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-24 16:42:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-24 16:42:41 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-24 16:42:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-24 16:42:45 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/login"): Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-24 16:42:48 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-24 16:42:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-24 16:42:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-24 16:42:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes."), "superagent"): Text 'superagent' is set on object 'Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'
+
+2019-04-24 16:42:51 - [MESSAGE][PASSED] - Text 'superagent' is set on object 'Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'
+
+2019-04-24 16:42:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-24 16:42:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-24 16:42:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/addUser/Page_Medisource  Login/input_Username or email requir"), "SITHpLWAWtI8C4F8RIujvA=="): Text ****** has been set on object 'Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-24 16:42:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-24 16:42:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-24 16:42:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-24 16:42:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addUser/Page_Medisource  Login/button_Login")): Object: 'Object Repository/addUser/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-24 16:42:57 - [MESSAGE][PASSED] - Object: 'Object Repository/addUser/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-24 16:42:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-24 16:43:00 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/navigate_patient_soc_ken" classname="Test Cases/navigate_patient_soc_ken" status="PASSED">
+         <system-out><![CDATA[2019-04-24 16:43:00 - [TEST_CASE][PASSED] - Test Cases/navigate_patient_soc_ken: Test Cases/navigate_patient_soc_ken
+
+2019-04-24 16:43:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-24 16:43:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-24 16:43:02 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patients/all"): Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-24 16:43:03 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-24 16:43:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:04 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"): Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview' successfully
+
+2019-04-24 16:43:05 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview' successfully
+
+2019-04-24 16:43:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:06 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"): Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197' successfully
+
+2019-04-24 16:43:06 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197' successfully
+
+2019-04-24 16:43:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:07 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OASIS_SOC/Elimination" classname="Test Cases/OASIS_SOC/Elimination" status="PASSED">
+         <system-out><![CDATA[2019-04-24 16:43:07 - [TEST_CASE][PASSED] - Test Cases/OASIS_SOC/Elimination: Test Cases/OASIS_SOC/Elimination
+
+2019-04-24 16:43:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/OASIS_TABS/xitemedits_btn")): Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-04-24 16:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-04-24 16:43:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:11 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/OASIS_TABS/Elimination_tab")): Object: 'Object Repository/OASIS/OASIS_TABS/Elimination_tab' is clicked on
+
+2019-04-24 16:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/OASIS_TABS/Elimination_tab' is clicked on
+
+2019-04-24 16:43:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:12 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_incontinence")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_incontinence' is clicked on
+
+2019-04-24 16:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_incontinence' is clicked on
+
+2019-04-24 16:43:15 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_stress_incontinence")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_stress_incontinence' is clicked on
+
+2019-04-24 16:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_stress_incontinence' is clicked on
+
+2019-04-24 16:43:15 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_urgency")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_urgency' is clicked on
+
+2019-04-24 16:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_urgency' is clicked on
+
+2019-04-24 16:43:15 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_frequency")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_frequency' is clicked on
+
+2019-04-24 16:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_frequency' is clicked on
+
+2019-04-24 16:43:15 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_dysuria")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_dysuria' is clicked on
+
+2019-04-24 16:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_dysuria' is clicked on
+
+2019-04-24 16:43:16 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_retention")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_retention' is clicked on
+
+2019-04-24 16:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_retention' is clicked on
+
+2019-04-24 16:43:16 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_polyuria")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_polyuria' is clicked on
+
+2019-04-24 16:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_polyuria' is clicked on
+
+2019-04-24 16:43:16 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_nocturia")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_nocturia' is clicked on
+
+2019-04-24 16:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_nocturia' is clicked on
+
+2019-04-24 16:43:16 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_oliguria")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_oliguria' is clicked on
+
+2019-04-24 16:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_oliguria' is clicked on
+
+2019-04-24 16:43:16 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_hematuria")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_hematuria' is clicked on
+
+2019-04-24 16:43:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_hematuria' is clicked on
+
+2019-04-24 16:43:16 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_other"), "Xenoderma Pigmentosium"): Text 'Xenoderma Pigmentosium' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_other'
+
+2019-04-24 16:43:17 - [MESSAGE][PASSED] - Text 'Xenoderma Pigmentosium' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_other'
+
+2019-04-24 16:43:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:18 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_urine_color_yellow")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_yellow' is clicked on
+
+2019-04-24 16:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_yellow' is clicked on
+
+2019-04-24 16:43:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:19 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/genitourinary_status/elim_urine_color_other"), "Reddish Yellow"): Text 'Reddish Yellow' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other'
+
+2019-04-24 16:43:20 - [MESSAGE][PASSED] - Text 'Reddish Yellow' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other'
+
+2019-04-24 16:43:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:21 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_urine_clarity_clear")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_clarity_clear' is clicked on
+
+2019-04-24 16:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_clarity_clear' is clicked on
+
+2019-04-24 16:43:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:22 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_urine_odor_yes")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_odor_yes' is clicked on
+
+2019-04-24 16:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_odor_yes' is clicked on
+
+2019-04-24 16:43:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:23 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/genitourinary_status/elim_urine_odor_yes_textfield"), "Foul"): Text 'Foul' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_odor_yes_textfield'
+
+2019-04-24 16:43:24 - [MESSAGE][PASSED] - Text 'Foul' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_odor_yes_textfield'
+
+2019-04-24 16:43:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:25 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_spx_hemo")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemo' is clicked on
+
+2019-04-24 16:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemo' is clicked on
+
+2019-04-24 16:43:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:26 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_avshunt_ra")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_avshunt_ra' is clicked on
+
+2019-04-24 16:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_avshunt_ra' is clicked on
+
+2019-04-24 16:43:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:27 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_other"), "RA/LA"): Text 'RA/LA' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_other'
+
+2019-04-24 16:43:27 - [MESSAGE][PASSED] - Text 'RA/LA' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_other'
+
+2019-04-24 16:43:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:28 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_thrill_yes")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_thrill_yes' is clicked on
+
+2019-04-24 16:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_thrill_yes' is clicked on
+
+2019-04-24 16:43:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:29 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_bruit_yes")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_bruit_yes' is clicked on
+
+2019-04-24 16:43:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_bruit_yes' is clicked on
+
+2019-04-24 16:43:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:31 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_avshunt_care"), "Sample Text"): Text 'Sample Text' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_avshunt_care'
+
+2019-04-24 16:43:31 - [MESSAGE][PASSED] - Text 'Sample Text' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_avshunt_care'
+
+2019-04-24 16:43:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:32 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_mon")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_mon' is clicked on
+
+2019-04-24 16:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_mon' is clicked on
+
+2019-04-24 16:43:32 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_tue")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_tue' is clicked on
+
+2019-04-24 16:43:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_tue' is clicked on
+
+2019-04-24 16:43:32 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_wed")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_wed' is clicked on
+
+2019-04-24 16:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_wed' is clicked on
+
+2019-04-24 16:43:33 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_thu")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_thu' is clicked on
+
+2019-04-24 16:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_thu' is clicked on
+
+2019-04-24 16:43:33 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_fri")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_fri' is clicked on
+
+2019-04-24 16:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_fri' is clicked on
+
+2019-04-24 16:43:33 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_sat")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_sat' is clicked on
+
+2019-04-24 16:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_sat' is clicked on
+
+2019-04-24 16:43:33 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_sun")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_sun' is clicked on
+
+2019-04-24 16:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_sun' is clicked on
+
+2019-04-24 16:43:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:34 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dcenter"), "InterMed Dialysis Center"): Text 'InterMed Dialysis Center' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dcenter'
+
+2019-04-24 16:43:35 - [MESSAGE][PASSED] - Text 'InterMed Dialysis Center' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dcenter'
+
+2019-04-24 16:43:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:36 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_phone"), "0452327655"): Text '0452327655' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_phone'
+
+2019-04-24 16:43:36 - [MESSAGE][PASSED] - Text '0452327655' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_phone'
+
+2019-04-24 16:43:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:38 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_M1600_0")): Object: 'Object Repository/OASIS/Elimination/elim_M1600_0' is clicked on
+
+2019-04-24 16:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_M1600_0' is clicked on
+
+2019-04-24 16:43:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:39 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_M1610_0")): Object: 'Object Repository/OASIS/Elimination/elim_M1610_0' is clicked on
+
+2019-04-24 16:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_M1610_0' is clicked on
+
+2019-04-24 16:43:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:40 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/lower_GI_status/elim_bowel_constipation")): Object: 'Object Repository/OASIS/Elimination/lower_GI_status/elim_bowel_constipation' is clicked on
+
+2019-04-24 16:43:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/lower_GI_status/elim_bowel_constipation' is clicked on
+
+2019-04-24 16:43:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:41 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/lower_GI_status/elim_bowel_constipation_chronic")): Object: 'Object Repository/OASIS/Elimination/lower_GI_status/elim_bowel_constipation_chronic' is clicked on
+
+2019-04-24 16:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/lower_GI_status/elim_bowel_constipation_chronic' is clicked on
+
+2019-04-24 16:43:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/lower_GI_status/elim_stool_charac_soft")): Object: 'Object Repository/OASIS/Elimination/lower_GI_status/elim_stool_charac_soft' is clicked on
+
+2019-04-24 16:43:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/lower_GI_status/elim_stool_charac_soft' is clicked on
+
+2019-04-24 16:43:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/lower_GI_status/elim_stool_color_grey")): Object: 'Object Repository/OASIS/Elimination/lower_GI_status/elim_stool_color_grey' is clicked on
+
+2019-04-24 16:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/lower_GI_status/elim_stool_color_grey' is clicked on
+
+2019-04-24 16:43:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:44 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/lower_GI_status/elim_stool_color_other"), "Blackish Red"): Text 'Blackish Red' is set on object 'Object Repository/OASIS/Elimination/lower_GI_status/elim_stool_color_other'
+
+2019-04-24 16:43:45 - [MESSAGE][PASSED] - Text 'Blackish Red' is set on object 'Object Repository/OASIS/Elimination/lower_GI_status/elim_stool_color_other'
+
+2019-04-24 16:43:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:46 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/lower_GI_status/elim_stool_softener_effective")): Object: 'Object Repository/OASIS/Elimination/lower_GI_status/elim_stool_softener_effective' is clicked on
+
+2019-04-24 16:43:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/lower_GI_status/elim_stool_softener_effective' is clicked on
+
+2019-04-24 16:43:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:47 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/lower_GI_status/elim_laxative_daily")): Object: 'Object Repository/OASIS/Elimination/lower_GI_status/elim_laxative_daily' is clicked on
+
+2019-04-24 16:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/lower_GI_status/elim_laxative_daily' is clicked on
+
+2019-04-24 16:43:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_M1620_1")): Object: 'Object Repository/OASIS/Elimination/elim_M1620_1' is clicked on
+
+2019-04-24 16:43:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_M1620_1' is clicked on
+
+2019-04-24 16:43:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-24 16:43:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:43:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_M1630_1")): Object: 'Object Repository/OASIS/Elimination/elim_M1630_1' is clicked on
+
+2019-04-24 16:43:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_M1630_1' is clicked on
+
+2019-04-24 16:43:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-24 16:43:54 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-24 16:42:40 - [TEST_SUITE][PASSED] - Elimination: Test Cases/OASIS_SOC/Elimination]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
