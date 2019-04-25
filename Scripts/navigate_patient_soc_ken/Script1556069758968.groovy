@@ -13,7 +13,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://qa.medisource.com/login')
+
+WebUI.setText(findTestObject('Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'), 'kenkenrn')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'), 
+    'SITHpLWAWtLnr/hOhnpplQ==')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/addUser/Page_Medisource  Login/button_Login'))
+
+WebUI.delay(3)
 
 WebUI.navigateToUrl('https://qa.medisource.com/patients/all')
 

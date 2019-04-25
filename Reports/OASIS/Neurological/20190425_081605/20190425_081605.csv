@@ -1,0 +1,184 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Neurological,Chrome 73.0.3683.103,,2019-04-25 08:16:07,2019-04-25 08:18:09,2m - 2.063s,FAILED
+,,,,,,
+Test Cases/login,Chrome 73.0.3683.103,,2019-04-25 08:16:07,2019-04-25 08:16:25,17.899s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-25 08:16:08,2019-04-25 08:16:11,3.183s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-25 08:16:11,2019-04-25 08:16:13,1.972s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-25 08:16:13,2019-04-25 08:16:16,3.017s,PASSED
+"setText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.""), ""superagent"")",Chrome 73.0.3683.103,,2019-04-25 08:16:16,2019-04-25 08:16:16,0.142s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-25 08:16:16,2019-04-25 08:16:19,3.003s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Username or email requir""), ""SITHpLWAWtI8C4F8RIujvA=="")",Chrome 73.0.3683.103,,2019-04-25 08:16:19,2019-04-25 08:16:19,0.163s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-25 08:16:19,2019-04-25 08:16:22,3.003s,PASSED
+"click(findTestObject(""Object Repository/addUser/Page_Medisource  Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-25 08:16:22,2019-04-25 08:16:22,0.105s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-25 08:16:22,2019-04-25 08:16:25,3.004s,PASSED
+,,,,,,
+Test Cases/navigate_patient_soc_ken,Chrome 73.0.3683.103,,2019-04-25 08:16:25,2019-04-25 08:16:32,7.117s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-25 08:16:25,2019-04-25 08:16:27,2.005s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,,2019-04-25 08:16:27,2019-04-25 08:16:28,0.709s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:16:28,2019-04-25 08:16:29,1.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"")",Chrome 73.0.3683.103,,2019-04-25 08:16:29,2019-04-25 08:16:30,0.612s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:16:30,2019-04-25 08:16:31,1.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"")",Chrome 73.0.3683.103,,2019-04-25 08:16:31,2019-04-25 08:16:31,0.554s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:16:31,2019-04-25 08:16:32,1.007s,PASSED
+,,,,,,
+Test Cases/OASIS_SOC/Neurological,Chrome 73.0.3683.103,,2019-04-25 08:16:32,2019-04-25 08:18:08,1m - 35.945s,FAILED
+"click(findTestObject(""OASIS/OASIS_TABS/xitemedits_btn""))",Chrome 73.0.3683.103,,2019-04-25 08:16:33,2019-04-25 08:16:35,2.219s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/Neuro_tab""))",Chrome 73.0.3683.103,,2019-04-25 08:16:35,2019-04-25 08:16:35,0.235s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-25 08:16:35,2019-04-25 08:16:40,5.003s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_pupils_perrla""))",Chrome 73.0.3683.103,,2019-04-25 08:16:40,2019-04-25 08:16:40,0.157s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:16:40,2019-04-25 08:16:41,1.003s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_non-reactive_l""))",Chrome 73.0.3683.103,,2019-04-25 08:16:41,2019-04-25 08:16:41,0.213s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_non-reactive_r""))",Chrome 73.0.3683.103,,2019-04-25 08:16:41,2019-04-25 08:16:42,0.148s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:16:42,2019-04-25 08:16:43,1.001s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_mental_status_oriented""))",Chrome 73.0.3683.103,,2019-04-25 08:16:43,2019-04-25 08:16:43,0.181s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_mental_status_forgetful""))",Chrome 73.0.3683.103,,2019-04-25 08:16:43,2019-04-25 08:16:43,0.162s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_mental_status_lethargic""))",Chrome 73.0.3683.103,,2019-04-25 08:16:43,2019-04-25 08:16:43,0.180s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_mental_status_disoriented""))",Chrome 73.0.3683.103,,2019-04-25 08:16:43,2019-04-25 08:16:43,0.165s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_mental_status_depressed""))",Chrome 73.0.3683.103,,2019-04-25 08:16:43,2019-04-25 08:16:43,0.170s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_mental_status_agitated""))",Chrome 73.0.3683.103,,2019-04-25 08:16:43,2019-04-25 08:16:44,0.166s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_mental_status_comatose""))",Chrome 73.0.3683.103,,2019-04-25 08:16:44,2019-04-25 08:16:44,0.149s,PASSED
+"setText(findTestObject(""OASIS/Neurological/neurological_status/neuro_mental_status_other""), ""Frequent signs of aggression"")",Chrome 73.0.3683.103,,2019-04-25 08:16:44,2019-04-25 08:16:45,1.083s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_sleep_inadequate""))",Chrome 73.0.3683.103,,2019-04-25 08:16:45,2019-04-25 08:16:45,0.176s,PASSED
+"setText(findTestObject(""OASIS/Neurological/neurological_status/neuro_sleep_inadequate_textfield""), ""wokes up at 3:15 AM"")",Chrome 73.0.3683.103,,2019-04-25 08:16:45,2019-04-25 08:16:46,0.718s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:16:46,2019-04-25 08:16:47,1.003s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_hand_grips_strong""))",Chrome 73.0.3683.103,,2019-04-25 08:16:47,2019-04-25 08:16:47,0.171s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_hand_grips_strong_l""))",Chrome 73.0.3683.103,,2019-04-25 08:16:47,2019-04-25 08:16:47,0.129s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_hand_grips_strong_r""))",Chrome 73.0.3683.103,,2019-04-25 08:16:47,2019-04-25 08:16:47,0.151s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:16:47,2019-04-25 08:16:48,1.003s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_hand_grips_weak""))",Chrome 73.0.3683.103,,2019-04-25 08:16:48,2019-04-25 08:16:48,0.149s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_hand_grips_weak_l""))",Chrome 73.0.3683.103,,2019-04-25 08:16:48,2019-04-25 08:16:48,0.124s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_hand_grips_weak_r""))",Chrome 73.0.3683.103,,2019-04-25 08:16:48,2019-04-25 08:16:49,0.160s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:16:49,2019-04-25 08:16:50,1.003s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_check_for_weakness""))",Chrome 73.0.3683.103,,2019-04-25 08:16:50,2019-04-25 08:16:50,0.154s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:16:50,2019-04-25 08:16:51,1.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_ue""))",Chrome 73.0.3683.103,,2019-04-25 08:16:51,2019-04-25 08:16:51,0.169s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_ue_l""))",Chrome 73.0.3683.103,,2019-04-25 08:16:51,2019-04-25 08:16:51,0.130s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_ue_r""))",Chrome 73.0.3683.103,,2019-04-25 08:16:51,2019-04-25 08:16:51,0.166s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:16:51,2019-04-25 08:16:52,1.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_le""))",Chrome 73.0.3683.103,,2019-04-25 08:16:52,2019-04-25 08:16:52,0.137s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_le_l""))",Chrome 73.0.3683.103,,2019-04-25 08:16:52,2019-04-25 08:16:52,0.137s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_le_r""))",Chrome 73.0.3683.103,,2019-04-25 08:16:52,2019-04-25 08:16:53,0.181s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:16:53,2019-04-25 08:16:54,1.001s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_paralysis_hemiparesis""))",Chrome 73.0.3683.103,,2019-04-25 08:16:54,2019-04-25 08:16:54,0.177s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_paralysis_hemiparesis_l""))",Chrome 73.0.3683.103,,2019-04-25 08:16:54,2019-04-25 08:16:54,0.143s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_paralysis_hemiparesis_r""))",Chrome 73.0.3683.103,,2019-04-25 08:16:54,2019-04-25 08:16:54,0.139s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:16:54,2019-04-25 08:16:55,1.004s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_seizure_petitmal""))",Chrome 73.0.3683.103,,2019-04-25 08:16:55,2019-04-25 08:16:55,0.150s,PASSED
+"setText(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_seizure_petitmal_lsdate""), ""June 23, 2015"")",Chrome 73.0.3683.103,,2019-04-25 08:16:55,2019-04-25 08:16:56,0.584s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:16:56,2019-04-25 08:16:57,1.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue""))",Chrome 73.0.3683.103,,2019-04-25 08:16:57,2019-04-25 08:16:57,0.156s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue_l""))",Chrome 73.0.3683.103,,2019-04-25 08:16:57,2019-04-25 08:16:57,0.133s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue_r""))",Chrome 73.0.3683.103,,2019-04-25 08:16:57,2019-04-25 08:16:57,0.140s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue_fine""))",Chrome 73.0.3683.103,,2019-04-25 08:16:57,2019-04-25 08:16:57,0.181s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:16:57,2019-04-25 08:16:58,1.001s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le""))",Chrome 73.0.3683.103,,2019-04-25 08:16:58,2019-04-25 08:16:59,0.134s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le_l""))",Chrome 73.0.3683.103,,2019-04-25 08:16:59,2019-04-25 08:16:59,0.135s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le_r""))",Chrome 73.0.3683.103,,2019-04-25 08:16:59,2019-04-25 08:16:59,0.144s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le_coarse""))",Chrome 73.0.3683.103,,2019-04-25 08:16:59,2019-04-25 08:16:59,0.138s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:16:59,2019-04-25 08:17:00,1.003s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_headache""))",Chrome 73.0.3683.103,,2019-04-25 08:17:00,2019-04-25 08:17:00,0.212s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:00,2019-04-25 08:17:01,1.003s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_numb""))",Chrome 73.0.3683.103,,2019-04-25 08:17:01,2019-04-25 08:17:01,0.160s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:01,2019-04-25 08:17:02,1.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_lossofsensation""))",Chrome 73.0.3683.103,,2019-04-25 08:17:02,2019-04-25 08:17:03,0.146s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_visualdistubances""))",Chrome 73.0.3683.103,,2019-04-25 08:17:03,2019-04-25 08:17:03,0.139s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_involuntarymf""))",Chrome 73.0.3683.103,,2019-04-25 08:17:03,2019-04-25 08:17:03,0.167s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_incoordination""))",Chrome 73.0.3683.103,,2019-04-25 08:17:03,2019-04-25 08:17:03,0.189s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_improperresponse""))",Chrome 73.0.3683.103,,2019-04-25 08:17:03,2019-04-25 08:17:03,0.172s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_lossofabilitytomove""))",Chrome 73.0.3683.103,,2019-04-25 08:17:03,2019-04-25 08:17:03,0.130s,PASSED
+"setText(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_lossofabilitytomove_textfield""), ""Left middle finger due to fracture"")",Chrome 73.0.3683.103,,2019-04-25 08:17:03,2019-04-25 08:17:05,1.306s,PASSED
+"setText(findTestObject(""OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_other""), ""Disassociation of things"")",Chrome 73.0.3683.103,,2019-04-25 08:17:05,2019-04-25 08:17:06,0.935s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:06,2019-04-25 08:17:07,1.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/psychosocial_status/psycho_cognitive""))",Chrome 73.0.3683.103,,2019-04-25 08:17:07,2019-04-25 08:17:07,0.151s,PASSED
+"click(findTestObject(""OASIS/Neurological/psychosocial_status/psycho_confused""))",Chrome 73.0.3683.103,,2019-04-25 08:17:07,2019-04-25 08:17:07,0.158s,PASSED
+"click(findTestObject(""OASIS/Neurological/psychosocial_status/psycho_anxious""))",Chrome 73.0.3683.103,,2019-04-25 08:17:07,2019-04-25 08:17:07,0.151s,PASSED
+"click(findTestObject(""OASIS/Neurological/psychosocial_status/psycho_depressed""))",Chrome 73.0.3683.103,,2019-04-25 08:17:07,2019-04-25 08:17:07,0.157s,PASSED
+"click(findTestObject(""OASIS/Neurological/psychosocial_status/psycho_memory_deficit""))",Chrome 73.0.3683.103,,2019-04-25 08:17:07,2019-04-25 08:17:07,0.123s,PASSED
+"click(findTestObject(""OASIS/Neurological/psychosocial_status/psycho_impaired_dm""))",Chrome 73.0.3683.103,,2019-04-25 08:17:07,2019-04-25 08:17:07,0.173s,PASSED
+"click(findTestObject(""OASIS/Neurological/psychosocial_status/psycho_physical_aggression""))",Chrome 73.0.3683.103,,2019-04-25 08:17:07,2019-04-25 08:17:08,0.150s,PASSED
+"click(findTestObject(""OASIS/Neurological/psychosocial_status/psycho_inappropriate_b""))",Chrome 73.0.3683.103,,2019-04-25 08:17:08,2019-04-25 08:17:08,0.145s,PASSED
+"click(findTestObject(""OASIS/Neurological/psychosocial_status/psycho_disruptive_b""))",Chrome 73.0.3683.103,,2019-04-25 08:17:08,2019-04-25 08:17:08,0.148s,PASSED
+"click(findTestObject(""OASIS/Neurological/psychosocial_status/psycho_delusional""))",Chrome 73.0.3683.103,,2019-04-25 08:17:08,2019-04-25 08:17:08,0.116s,PASSED
+"setText(findTestObject(""OASIS/Neurological/psychosocial_status/psycho_other_p_factors""), ""Bipolar and Frequent Sucidical Thoughts"")",Chrome 73.0.3683.103,,2019-04-25 08:17:08,2019-04-25 08:17:10,1.707s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:10,2019-04-25 08:17:11,1.003s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/language_barrier_yes""))",Chrome 73.0.3683.103,,2019-04-25 08:17:11,2019-04-25 08:17:11,0.163s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:11,2019-04-25 08:17:12,1.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/language_interpreter_need""))",Chrome 73.0.3683.103,,2019-04-25 08:17:12,2019-04-25 08:17:12,0.002s,NOT_RUN
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:12,2019-04-25 08:17:12,0.000s,NOT_RUN
+"setText(findTestObject(""OASIS/Neurological/language_barrier/language_interpreter_need_tf""), ""Mrs. Langdon"")",Chrome 73.0.3683.103,,2019-04-25 08:17:12,2019-04-25 08:17:12,0.001s,NOT_RUN
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:12,2019-04-25 08:17:13,1.001s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/language_inter_sp""))",Chrome 73.0.3683.103,,2019-04-25 08:17:13,2019-04-25 08:17:13,0.157s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:13,2019-04-25 08:17:14,1.002s,PASSED
+"setText(findTestObject(""OASIS/Neurological/language_barrier/language_inter_sp_tf""), ""Interpreter Organization"")",Chrome 73.0.3683.103,,2019-04-25 08:17:14,2019-04-25 08:17:16,1.702s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:16,2019-04-25 08:17:17,1.001s,PASSED
+"setText(findTestObject(""OASIS/Neurological/language_barrier/language_inter_sp_phone""), ""3453452345"")",Chrome 73.0.3683.103,,2019-04-25 08:17:17,2019-04-25 08:17:17,0.487s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:17,2019-04-25 08:17:18,1.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/language_sign_type""))",Chrome 73.0.3683.103,,2019-04-25 08:17:18,2019-04-25 08:17:18,0.179s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:18,2019-04-25 08:17:19,1.003s,PASSED
+"setText(findTestObject(""OASIS/Neurological/language_barrier/language_sign_type_tf""), ""ASL"")",Chrome 73.0.3683.103,,2019-04-25 08:17:19,2019-04-25 08:17:20,0.267s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:20,2019-04-25 08:17:21,1.004s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/learning_barrier_yes""))",Chrome 73.0.3683.103,,2019-04-25 08:17:21,2019-04-25 08:17:21,0.173s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-25 08:17:21,2019-04-25 08:17:26,5.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/learning_functional""))",Chrome 73.0.3683.103,,2019-04-25 08:17:26,2019-04-25 08:17:26,0.157s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:26,2019-04-25 08:17:27,1.003s,PASSED
+"setText(findTestObject(""OASIS/Neurological/language_barrier/learning_functional_tf""), ""Motor Ability"")",Chrome 73.0.3683.103,,2019-04-25 08:17:27,2019-04-25 08:17:28,0.569s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:28,2019-04-25 08:17:29,1.001s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/learning_mental""))",Chrome 73.0.3683.103,,2019-04-25 08:17:29,2019-04-25 08:17:29,0.150s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:29,2019-04-25 08:17:30,1.002s,PASSED
+"setText(findTestObject(""OASIS/Neurological/language_barrier/learning_mental_tf""), ""Speech Disorder"")",Chrome 73.0.3683.103,,2019-04-25 08:17:30,2019-04-25 08:17:30,0.671s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:30,2019-04-25 08:17:31,1.001s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/learning_physical""))",Chrome 73.0.3683.103,,2019-04-25 08:17:31,2019-04-25 08:17:32,0.156s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:32,2019-04-25 08:17:33,1.002s,PASSED
+"setText(findTestObject(""OASIS/Neurological/language_barrier/learning_physical_tf""), ""Needs assistance all the time"")",Chrome 73.0.3683.103,,2019-04-25 08:17:33,2019-04-25 08:17:34,1.057s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:34,2019-04-25 08:17:35,1.004s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/learning_pyschosocial""))",Chrome 73.0.3683.103,,2019-04-25 08:17:35,2019-04-25 08:17:35,0.182s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:35,2019-04-25 08:17:36,1.003s,PASSED
+"setText(findTestObject(""OASIS/Neurological/language_barrier/learning_psyschosocial_tf""), ""Anti-social Behaviour"")",Chrome 73.0.3683.103,,2019-04-25 08:17:36,2019-04-25 08:17:37,0.908s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:37,2019-04-25 08:17:38,1.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/learning_unable_read""))",Chrome 73.0.3683.103,,2019-04-25 08:17:38,2019-04-25 08:17:38,0.156s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:38,2019-04-25 08:17:39,1.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/learning_unable_write""))",Chrome 73.0.3683.103,,2019-04-25 08:17:39,2019-04-25 08:17:39,0.153s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:39,2019-04-25 08:17:40,1.003s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/signs_abuse_yes""))",Chrome 73.0.3683.103,,2019-04-25 08:17:40,2019-04-25 08:17:40,0.148s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:40,2019-04-25 08:17:41,1.003s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/signs_abuse_actual""))",Chrome 73.0.3683.103,,2019-04-25 08:17:41,2019-04-25 08:17:41,0.166s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:41,2019-04-25 08:17:42,1.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/signs_abuse_physical""))",Chrome 73.0.3683.103,,2019-04-25 08:17:42,2019-04-25 08:17:43,0.190s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:43,2019-04-25 08:17:44,1.002s,PASSED
+"setText(findTestObject(""OASIS/Neurological/language_barrier/signs_abuse_physical_tf""), ""Traumatic Experience"")",Chrome 73.0.3683.103,,2019-04-25 08:17:44,2019-04-25 08:17:44,0.870s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:44,2019-04-25 08:17:45,1.003s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/signs_abuse_verbal""))",Chrome 73.0.3683.103,,2019-04-25 08:17:45,2019-04-25 08:17:46,0.157s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:46,2019-04-25 08:17:47,1.002s,PASSED
+"setText(findTestObject(""OASIS/Neurological/language_barrier/signs_abuse_verbal_tf""), ""Traumatic Experience"")",Chrome 73.0.3683.103,,2019-04-25 08:17:47,2019-04-25 08:17:47,0.828s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:47,2019-04-25 08:17:48,1.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/signs_abuse_referredmsw""))",Chrome 73.0.3683.103,,2019-04-25 08:17:48,2019-04-25 08:17:49,0.179s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:49,2019-04-25 08:17:50,1.002s,PASSED
+"setText(findTestObject(""OASIS/Neurological/language_barrier/signs_abuse_referredmsw_tf""), ""Centers for MSW"")",Chrome 73.0.3683.103,,2019-04-25 08:17:50,2019-04-25 08:17:50,0.630s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:50,2019-04-25 08:17:51,1.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/signs_abuse_referredchildadult""))",Chrome 73.0.3683.103,,2019-04-25 08:17:51,2019-04-25 08:17:51,0.145s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:51,2019-04-25 08:17:52,1.001s,PASSED
+"click(findTestObject(""OASIS/Neurological/language_barrier/spiritual_yes""))",Chrome 73.0.3683.103,,2019-04-25 08:17:52,2019-04-25 08:17:53,0.167s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:53,2019-04-25 08:17:54,1.002s,PASSED
+"setText(findTestObject(""OASIS/Neurological/language_barrier/spiritual_impact_care""), ""Sample Text"")",Chrome 73.0.3683.103,,2019-04-25 08:17:54,2019-04-25 08:17:54,0.496s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:54,2019-04-25 08:17:55,1.002s,PASSED
+"setText(findTestObject(""OASIS/Neurological/language_barrier/spiritual_resource""), ""Sample Text"")",Chrome 73.0.3683.103,,2019-04-25 08:17:55,2019-04-25 08:17:56,0.481s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:56,2019-04-25 08:17:57,1.002s,PASSED
+"setText(findTestObject(""OASIS/Neurological/language_barrier/spiritual_contact""), ""Sample Text"")",Chrome 73.0.3683.103,,2019-04-25 08:17:57,2019-04-25 08:17:57,0.516s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:57,2019-04-25 08:17:58,1.002s,PASSED
+"setText(findTestObject(""OASIS/Neurological/language_barrier/spiritual_phone""), ""2333242343"")",Chrome 73.0.3683.103,,2019-04-25 08:17:58,2019-04-25 08:17:59,0.498s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:17:59,2019-04-25 08:18:00,1.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/M1700_1""))",Chrome 73.0.3683.103,,2019-04-25 08:18:00,2019-04-25 08:18:00,0.152s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:18:00,2019-04-25 08:18:01,1.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/M1710_2""))",Chrome 73.0.3683.103,,2019-04-25 08:18:01,2019-04-25 08:18:01,0.205s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:18:01,2019-04-25 08:18:02,1.002s,PASSED
+"click(findTestObject(""OASIS/Neurological/M1720_2""))",Chrome 73.0.3683.103,,2019-04-25 08:18:02,2019-04-25 08:18:02,0.155s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:18:02,2019-04-25 08:18:03,1.003s,PASSED
+"click(findTestObject(""OASIS/Neurological/M1730_1""))",Chrome 73.0.3683.103,,2019-04-25 08:18:03,2019-04-25 08:18:03,0.158s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:18:03,2019-04-25 08:18:04,1.001s,PASSED
+"click(findTestObject(""OASIS/Neurological/M1730_a_0""))",Chrome 73.0.3683.103,,2019-04-25 08:18:04,2019-04-25 08:18:04,0.155s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:18:04,2019-04-25 08:18:05,1.001s,PASSED
+"click(findTestObject(""OASIS/Neurological/M1730_b_1""))",Chrome 73.0.3683.103,,2019-04-25 08:18:05,2019-04-25 08:18:06,0.171s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:18:06,2019-04-25 08:18:07,1.003s,PASSED
+"click(findTestObject(""OASIS/Neurological/M1740_1""))",Chrome 73.0.3683.103,,2019-04-25 08:18:07,2019-04-25 08:18:07,0.132s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 08:18:07,2019-04-25 08:18:08,1.001s,PASSED
+"click(findTestObject(""OASIS/Neurological/M1740_2""))",Chrome 73.0.3683.103,,2019-04-25 08:18:08,2019-04-25 08:18:08,0.466s,FAILED

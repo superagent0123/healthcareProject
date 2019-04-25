@@ -7,16 +7,23 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#adlForm > div > fieldset > table > tbody > tr:nth-child(29) > td.oasis__answer.p-0 > table > tbody > tr:nth-child(8) > td:nth-child(2) > div > label > input</value>
+         <value>//*[@id=&quot;adlForm&quot;]/div/fieldset/table/tbody/tr[29]/td[2]/table/tbody/tr[8]/td[2]/div/label/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
       <value>#adlForm > div > fieldset > table > tbody > tr:nth-child(29) > td.oasis__answer.p-0 > table > tbody > tr:nth-child(8) > td:nth-child(2) > div > label > input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;adlForm&quot;]/div/fieldset/table/tbody/tr[29]/td[2]/table/tbody/tr[8]/td[2]/div/label/input</value>
    </webElementProperties>
 </WebElementEntity>

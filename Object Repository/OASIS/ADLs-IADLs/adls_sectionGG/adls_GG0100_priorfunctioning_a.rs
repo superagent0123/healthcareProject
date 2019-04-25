@@ -19,4 +19,11 @@
       <type>Main</type>
       <value>#GG0100A</value>
    </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;GG0100A&quot;]</value>
+   </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,253 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ADLs-IADLs,Chrome 73.0.3683.103,,2019-04-25 10:41:58,2019-04-25 10:43:45,1m - 46.743s,PASSED
+,,,,,,
+Test Cases/navigate_patient_soc_ken,Chrome 73.0.3683.103,,2019-04-25 10:41:59,2019-04-25 10:42:14,15.202s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-25 10:41:59,2019-04-25 10:42:02,3.239s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-25 10:42:02,2019-04-25 10:42:04,2.326s,PASSED
+"setText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.""), ""kenkenrn"")",Chrome 73.0.3683.103,,2019-04-25 10:42:04,2019-04-25 10:42:05,0.123s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Username or email requir""), ""SITHpLWAWtLnr/hOhnpplQ=="")",Chrome 73.0.3683.103,,2019-04-25 10:42:05,2019-04-25 10:42:05,0.142s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:05,2019-04-25 10:42:06,1.017s,PASSED
+"click(findTestObject(""Object Repository/addUser/Page_Medisource  Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-25 10:42:06,2019-04-25 10:42:06,0.067s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-25 10:42:06,2019-04-25 10:42:09,3.001s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,,2019-04-25 10:42:09,2019-04-25 10:42:10,0.768s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:10,2019-04-25 10:42:11,1.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"")",Chrome 73.0.3683.103,,2019-04-25 10:42:11,2019-04-25 10:42:11,0.597s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:11,2019-04-25 10:42:12,1.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"")",Chrome 73.0.3683.103,,2019-04-25 10:42:12,2019-04-25 10:42:13,0.602s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:13,2019-04-25 10:42:14,1.002s,PASSED
+,,,,,,
+Test Cases/OASIS_SOC/ADLs,Chrome 73.0.3683.103,,2019-04-25 10:42:14,2019-04-25 10:43:44,1m - 30.581s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/xitemedits_btn""))",Chrome 73.0.3683.103,,2019-04-25 10:42:14,2019-04-25 10:42:16,2.019s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/ADL_tab""))",Chrome 73.0.3683.103,,2019-04-25 10:42:16,2019-04-25 10:42:16,0.254s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-25 10:42:16,2019-04-25 10:42:21,5.003s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_muscle_strength_strong""))",Chrome 73.0.3683.103,,2019-04-25 10:42:21,2019-04-25 10:42:22,0.147s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_rom_limited""))",Chrome 73.0.3683.103,,2019-04-25 10:42:22,2019-04-25 10:42:22,0.203s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_lue""))",Chrome 73.0.3683.103,,2019-04-25 10:42:22,2019-04-25 10:42:22,0.133s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_rue""))",Chrome 73.0.3683.103,,2019-04-25 10:42:22,2019-04-25 10:42:22,0.135s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_lle""))",Chrome 73.0.3683.103,,2019-04-25 10:42:22,2019-04-25 10:42:22,0.134s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_rle""))",Chrome 73.0.3683.103,,2019-04-25 10:42:22,2019-04-25 10:42:22,0.128s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_bedmob_independent""))",Chrome 73.0.3683.103,,2019-04-25 10:42:22,2019-04-25 10:42:22,0.142s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_transferab_moderate""))",Chrome 73.0.3683.103,,2019-04-25 10:42:22,2019-04-25 10:42:23,0.130s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_gait_steady""))",Chrome 73.0.3683.103,,2019-04-25 10:42:23,2019-04-25 10:42:23,0.146s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_balance_fair""))",Chrome 73.0.3683.103,,2019-04-25 10:42:23,2019-04-25 10:42:23,0.160s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_riskfalls_high""))",Chrome 73.0.3683.103,,2019-04-25 10:42:23,2019-04-25 10:42:23,0.136s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_bk""))",Chrome 73.0.3683.103,,2019-04-25 10:42:23,2019-04-25 10:42:23,0.144s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_ak""))",Chrome 73.0.3683.103,,2019-04-25 10:42:23,2019-04-25 10:42:23,0.132s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_ue""))",Chrome 73.0.3683.103,,2019-04-25 10:42:23,2019-04-25 10:42:23,0.125s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_tf""), ""Sample Text"")",Chrome 73.0.3683.103,,2019-04-25 10:42:23,2019-04-25 10:42:24,0.382s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_l""))",Chrome 73.0.3683.103,,2019-04-25 10:42:24,2019-04-25 10:42:24,0.119s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_r""))",Chrome 73.0.3683.103,,2019-04-25 10:42:24,2019-04-25 10:42:24,0.129s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_fracture_new""))",Chrome 73.0.3683.103,,2019-04-25 10:42:24,2019-04-25 10:42:24,0.161s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_fracture_location""), ""Sample Text"")",Chrome 73.0.3683.103,,2019-04-25 10:42:24,2019-04-25 10:42:25,0.395s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_swelling""))",Chrome 73.0.3683.103,,2019-04-25 10:42:25,2019-04-25 10:42:25,0.165s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_swelling_tf""), ""Sample Text"")",Chrome 73.0.3683.103,,2019-04-25 10:42:25,2019-04-25 10:42:25,0.384s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pallor""))",Chrome 73.0.3683.103,,2019-04-25 10:42:25,2019-04-25 10:42:25,0.130s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pallor_tf""), ""Sample Text"")",Chrome 73.0.3683.103,,2019-04-25 10:42:25,2019-04-25 10:42:26,0.402s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pain""))",Chrome 73.0.3683.103,,2019-04-25 10:42:26,2019-04-25 10:42:26,0.136s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pain_tf""), ""Sample Text"")",Chrome 73.0.3683.103,,2019-04-25 10:42:26,2019-04-25 10:42:26,0.477s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_skintemp_warm""))",Chrome 73.0.3683.103,,2019-04-25 10:42:26,2019-04-25 10:42:26,0.145s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_mobility_abletomove""))",Chrome 73.0.3683.103,,2019-04-25 10:42:26,2019-04-25 10:42:27,0.125s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_mobility_abletomove_tf""), ""Sample Text"")",Chrome 73.0.3683.103,,2019-04-25 10:42:27,2019-04-25 10:42:27,0.428s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_capillary_more3sec""))",Chrome 73.0.3683.103,,2019-04-25 10:42:27,2019-04-25 10:42:27,0.124s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:27,2019-04-25 10:42:28,1.001s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_ambulation""))",Chrome 73.0.3683.103,,2019-04-25 10:42:28,2019-04-25 10:42:28,0.145s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_endurance""))",Chrome 73.0.3683.103,,2019-04-25 10:42:28,2019-04-25 10:42:28,0.132s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_contracture""))",Chrome 73.0.3683.103,,2019-04-25 10:42:28,2019-04-25 10:42:29,0.148s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_paralysis""))",Chrome 73.0.3683.103,,2019-04-25 10:42:29,2019-04-25 10:42:29,0.146s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_amputation""))",Chrome 73.0.3683.103,,2019-04-25 10:42:29,2019-04-25 10:42:29,0.151s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_legally_blind""))",Chrome 73.0.3683.103,,2019-04-25 10:42:29,2019-04-25 10:42:29,0.150s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_hearing""))",Chrome 73.0.3683.103,,2019-04-25 10:42:29,2019-04-25 10:42:29,0.139s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_speech""))",Chrome 73.0.3683.103,,2019-04-25 10:42:29,2019-04-25 10:42:29,0.146s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_dyspnea""))",Chrome 73.0.3683.103,,2019-04-25 10:42:29,2019-04-25 10:42:29,0.132s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_bowel""))",Chrome 73.0.3683.103,,2019-04-25 10:42:29,2019-04-25 10:42:30,0.136s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_other""), ""Motor ability"")",Chrome 73.0.3683.103,,2019-04-25 10:42:30,2019-04-25 10:42:30,0.436s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:30,2019-04-25 10:42:31,1.003s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_independentathome""))",Chrome 73.0.3683.103,,2019-04-25 10:42:31,2019-04-25 10:42:31,0.180s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_upastolerated""))",Chrome 73.0.3683.103,,2019-04-25 10:42:31,2019-04-25 10:42:31,0.146s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_bedrest""))",Chrome 73.0.3683.103,,2019-04-25 10:42:31,2019-04-25 10:42:31,0.152s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_complete_bedrest""))",Chrome 73.0.3683.103,,2019-04-25 10:42:31,2019-04-25 10:42:32,0.161s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_transferbed""))",Chrome 73.0.3683.103,,2019-04-25 10:42:32,2019-04-25 10:42:32,0.151s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_partialweight""))",Chrome 73.0.3683.103,,2019-04-25 10:42:32,2019-04-25 10:42:32,0.151s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_walker""))",Chrome 73.0.3683.103,,2019-04-25 10:42:32,2019-04-25 10:42:32,0.131s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_wheelchair""))",Chrome 73.0.3683.103,,2019-04-25 10:42:32,2019-04-25 10:42:32,0.152s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_cane""))",Chrome 73.0.3683.103,,2019-04-25 10:42:32,2019-04-25 10:42:32,0.144s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_crutches""))",Chrome 73.0.3683.103,,2019-04-25 10:42:32,2019-04-25 10:42:33,0.137s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_norestrictions""))",Chrome 73.0.3683.103,,2019-04-25 10:42:33,2019-04-25 10:42:33,0.138s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_excercises""))",Chrome 73.0.3683.103,,2019-04-25 10:42:33,2019-04-25 10:42:33,0.121s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_other""), ""Walking"")",Chrome 73.0.3683.103,,2019-04-25 10:42:33,2019-04-25 10:42:33,0.320s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:33,2019-04-25 10:42:34,1.001s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/M1800_1""))",Chrome 73.0.3683.103,,2019-04-25 10:42:34,2019-04-25 10:42:34,0.144s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:34,2019-04-25 10:42:35,1.003s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/M1810_0""))",Chrome 73.0.3683.103,,2019-04-25 10:42:35,2019-04-25 10:42:35,0.164s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:35,2019-04-25 10:42:36,1.004s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/M1820_1""))",Chrome 73.0.3683.103,,2019-04-25 10:42:36,2019-04-25 10:42:37,0.160s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:37,2019-04-25 10:42:38,1.001s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/M1830_1""))",Chrome 73.0.3683.103,,2019-04-25 10:42:38,2019-04-25 10:42:38,0.160s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:38,2019-04-25 10:42:39,1.003s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/M1840_0""))",Chrome 73.0.3683.103,,2019-04-25 10:42:39,2019-04-25 10:42:39,0.163s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:39,2019-04-25 10:42:40,1.001s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/M1845_1""))",Chrome 73.0.3683.103,,2019-04-25 10:42:40,2019-04-25 10:42:40,0.150s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:40,2019-04-25 10:42:41,1.001s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/M1850_0""))",Chrome 73.0.3683.103,,2019-04-25 10:42:41,2019-04-25 10:42:41,0.142s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:41,2019-04-25 10:42:42,1.003s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/M1860_0""))",Chrome 73.0.3683.103,,2019-04-25 10:42:42,2019-04-25 10:42:42,0.166s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:42,2019-04-25 10:42:43,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/M1870_0""))",Chrome 73.0.3683.103,,2019-04-25 10:42:43,2019-04-25 10:42:44,0.168s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:44,2019-04-25 10:42:45,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/M1910_1""))",Chrome 73.0.3683.103,,2019-04-25 10:42:45,2019-04-25 10:42:45,0.129s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-25 10:42:45,2019-04-25 10:42:47,2.001s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_age65""))",Chrome 73.0.3683.103,,2019-04-25 10:42:47,2019-04-25 10:42:47,0.132s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_diagnosis""))",Chrome 73.0.3683.103,,2019-04-25 10:42:47,2019-04-25 10:42:47,0.115s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_priorhistoryoffall""))",Chrome 73.0.3683.103,,2019-04-25 10:42:47,2019-04-25 10:42:47,0.141s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_incontinence""))",Chrome 73.0.3683.103,,2019-04-25 10:42:47,2019-04-25 10:42:47,0.131s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_visualimpairment""))",Chrome 73.0.3683.103,,2019-04-25 10:42:47,2019-04-25 10:42:47,0.113s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_impairedfunctional""))",Chrome 73.0.3683.103,,2019-04-25 10:42:47,2019-04-25 10:42:47,0.153s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_environmenthazards""))",Chrome 73.0.3683.103,,2019-04-25 10:42:47,2019-04-25 10:42:48,0.134s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_polypharmacy""))",Chrome 73.0.3683.103,,2019-04-25 10:42:48,2019-04-25 10:42:48,0.132s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_painaffecting""))",Chrome 73.0.3683.103,,2019-04-25 10:42:48,2019-04-25 10:42:48,0.133s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_cognitiveimpairment""))",Chrome 73.0.3683.103,,2019-04-25 10:42:48,2019-04-25 10:42:48,0.134s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-25 10:42:48,2019-04-25 10:42:50,2.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_a""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 10:42:50,2019-04-25 10:42:50,0.002s,NOT_RUN
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_a""), ""3"")",Chrome 73.0.3683.103,,2019-04-25 10:42:50,2019-04-25 10:42:50,0.001s,NOT_RUN
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_b""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 10:42:50,2019-04-25 10:42:50,0.117s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_b""), ""3"")",Chrome 73.0.3683.103,,2019-04-25 10:42:50,2019-04-25 10:42:50,0.128s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_c""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 10:42:50,2019-04-25 10:42:50,0.103s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_c""), ""2"")",Chrome 73.0.3683.103,,2019-04-25 10:42:50,2019-04-25 10:42:50,0.095s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_d""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 10:42:50,2019-04-25 10:42:51,0.079s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_d""), ""2"")",Chrome 73.0.3683.103,,2019-04-25 10:42:51,2019-04-25 10:42:51,0.091s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:51,2019-04-25 10:42:52,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_a""))",Chrome 73.0.3683.103,,2019-04-25 10:42:52,2019-04-25 10:42:52,0.158s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_b""))",Chrome 73.0.3683.103,,2019-04-25 10:42:52,2019-04-25 10:42:52,0.126s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_c""))",Chrome 73.0.3683.103,,2019-04-25 10:42:52,2019-04-25 10:42:52,0.126s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_d""))",Chrome 73.0.3683.103,,2019-04-25 10:42:52,2019-04-25 10:42:52,0.130s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_e""))",Chrome 73.0.3683.103,,2019-04-25 10:42:52,2019-04-25 10:42:52,0.120s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-25 10:42:52,2019-04-25 10:42:55,3.001s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_a""))",Chrome 73.0.3683.103,,2019-04-25 10:42:55,2019-04-25 10:42:55,0.097s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_a""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:42:55,2019-04-25 10:42:55,0.080s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_a""))",Chrome 73.0.3683.103,,2019-04-25 10:42:55,2019-04-25 10:42:56,0.080s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_a""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:42:56,2019-04-25 10:42:56,0.079s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:56,2019-04-25 10:42:57,1.003s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_b""))",Chrome 73.0.3683.103,,2019-04-25 10:42:57,2019-04-25 10:42:57,0.110s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_b""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:42:57,2019-04-25 10:42:57,0.074s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_b""))",Chrome 73.0.3683.103,,2019-04-25 10:42:57,2019-04-25 10:42:57,0.070s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_b""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:42:57,2019-04-25 10:42:57,0.076s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:57,2019-04-25 10:42:58,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_c""))",Chrome 73.0.3683.103,,2019-04-25 10:42:58,2019-04-25 10:42:58,0.107s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_c""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:42:58,2019-04-25 10:42:58,0.077s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_c""))",Chrome 73.0.3683.103,,2019-04-25 10:42:58,2019-04-25 10:42:58,0.074s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_c""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:42:58,2019-04-25 10:42:58,0.078s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:42:58,2019-04-25 10:42:59,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_e""))",Chrome 73.0.3683.103,,2019-04-25 10:42:59,2019-04-25 10:42:59,0.112s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_e""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:42:59,2019-04-25 10:42:59,0.078s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_e""))",Chrome 73.0.3683.103,,2019-04-25 10:42:59,2019-04-25 10:43:00,0.075s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_e""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:00,2019-04-25 10:43:00,0.151s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:00,2019-04-25 10:43:01,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_f""))",Chrome 73.0.3683.103,,2019-04-25 10:43:01,2019-04-25 10:43:01,0.115s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_f""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:01,2019-04-25 10:43:01,0.080s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_f""))",Chrome 73.0.3683.103,,2019-04-25 10:43:01,2019-04-25 10:43:01,0.072s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_f""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:01,2019-04-25 10:43:01,0.076s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:01,2019-04-25 10:43:02,1.003s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_g""))",Chrome 73.0.3683.103,,2019-04-25 10:43:02,2019-04-25 10:43:02,0.090s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_g""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:02,2019-04-25 10:43:02,0.077s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_g""))",Chrome 73.0.3683.103,,2019-04-25 10:43:02,2019-04-25 10:43:02,0.073s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_g""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:02,2019-04-25 10:43:02,0.075s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:02,2019-04-25 10:43:03,1.004s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_h""))",Chrome 73.0.3683.103,,2019-04-25 10:43:03,2019-04-25 10:43:03,0.113s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_h""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:03,2019-04-25 10:43:04,0.077s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_h""))",Chrome 73.0.3683.103,,2019-04-25 10:43:04,2019-04-25 10:43:04,0.069s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_h""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:04,2019-04-25 10:43:04,0.077s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-25 10:43:04,2019-04-25 10:43:09,5.001s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_a""))",Chrome 73.0.3683.103,,2019-04-25 10:43:09,2019-04-25 10:43:09,0.164s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_a""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:09,2019-04-25 10:43:09,0.082s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_a""))",Chrome 73.0.3683.103,,2019-04-25 10:43:09,2019-04-25 10:43:09,0.077s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_a""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:09,2019-04-25 10:43:09,0.081s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:09,2019-04-25 10:43:10,1.001s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_b""))",Chrome 73.0.3683.103,,2019-04-25 10:43:10,2019-04-25 10:43:10,0.133s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_b""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:10,2019-04-25 10:43:10,0.078s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_b""))",Chrome 73.0.3683.103,,2019-04-25 10:43:10,2019-04-25 10:43:10,0.074s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_b""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:10,2019-04-25 10:43:10,0.079s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:10,2019-04-25 10:43:11,1.001s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_c""))",Chrome 73.0.3683.103,,2019-04-25 10:43:11,2019-04-25 10:43:12,0.080s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_c""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:12,2019-04-25 10:43:12,0.083s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_c""))",Chrome 73.0.3683.103,,2019-04-25 10:43:12,2019-04-25 10:43:12,0.074s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_c""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:12,2019-04-25 10:43:12,0.128s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:12,2019-04-25 10:43:13,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_d""))",Chrome 73.0.3683.103,,2019-04-25 10:43:13,2019-04-25 10:43:13,0.119s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_d""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:13,2019-04-25 10:43:13,0.077s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_d""))",Chrome 73.0.3683.103,,2019-04-25 10:43:13,2019-04-25 10:43:13,0.071s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_d""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:13,2019-04-25 10:43:13,0.073s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:13,2019-04-25 10:43:14,1.001s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_e""))",Chrome 73.0.3683.103,,2019-04-25 10:43:14,2019-04-25 10:43:14,0.097s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_e""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:14,2019-04-25 10:43:14,0.116s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_e""))",Chrome 73.0.3683.103,,2019-04-25 10:43:14,2019-04-25 10:43:14,0.072s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_e""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:14,2019-04-25 10:43:15,0.102s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:15,2019-04-25 10:43:16,1.001s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_f""))",Chrome 73.0.3683.103,,2019-04-25 10:43:16,2019-04-25 10:43:16,0.089s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_f""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:16,2019-04-25 10:43:16,0.076s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_f""))",Chrome 73.0.3683.103,,2019-04-25 10:43:16,2019-04-25 10:43:16,0.072s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_f""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:16,2019-04-25 10:43:16,0.078s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:16,2019-04-25 10:43:17,1.003s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_g""))",Chrome 73.0.3683.103,,2019-04-25 10:43:17,2019-04-25 10:43:17,0.105s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_g""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:17,2019-04-25 10:43:17,0.075s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_g""))",Chrome 73.0.3683.103,,2019-04-25 10:43:17,2019-04-25 10:43:17,0.072s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_g""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:17,2019-04-25 10:43:17,0.073s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:17,2019-04-25 10:43:18,1.003s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_i""))",Chrome 73.0.3683.103,,2019-04-25 10:43:18,2019-04-25 10:43:18,0.129s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_i""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:18,2019-04-25 10:43:18,0.076s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_i""))",Chrome 73.0.3683.103,,2019-04-25 10:43:18,2019-04-25 10:43:19,0.071s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_i""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:19,2019-04-25 10:43:19,0.074s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:19,2019-04-25 10:43:20,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_j""))",Chrome 73.0.3683.103,,2019-04-25 10:43:20,2019-04-25 10:43:20,0.093s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_j""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:20,2019-04-25 10:43:20,0.075s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_j""))",Chrome 73.0.3683.103,,2019-04-25 10:43:20,2019-04-25 10:43:20,0.073s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_j""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:20,2019-04-25 10:43:20,0.077s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:20,2019-04-25 10:43:21,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_k""))",Chrome 73.0.3683.103,,2019-04-25 10:43:21,2019-04-25 10:43:21,0.109s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_k""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:21,2019-04-25 10:43:21,0.080s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_k""))",Chrome 73.0.3683.103,,2019-04-25 10:43:21,2019-04-25 10:43:21,0.077s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_k""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:21,2019-04-25 10:43:21,0.073s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:21,2019-04-25 10:43:22,1.001s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_l""))",Chrome 73.0.3683.103,,2019-04-25 10:43:22,2019-04-25 10:43:22,0.110s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_l""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:22,2019-04-25 10:43:22,0.077s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_l""))",Chrome 73.0.3683.103,,2019-04-25 10:43:22,2019-04-25 10:43:23,0.114s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_l""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:23,2019-04-25 10:43:23,0.090s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:23,2019-04-25 10:43:24,1.003s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_m""))",Chrome 73.0.3683.103,,2019-04-25 10:43:24,2019-04-25 10:43:24,0.116s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_m""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:24,2019-04-25 10:43:24,0.076s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_m""))",Chrome 73.0.3683.103,,2019-04-25 10:43:24,2019-04-25 10:43:24,0.074s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_m""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:24,2019-04-25 10:43:24,0.076s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:24,2019-04-25 10:43:25,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_n""))",Chrome 73.0.3683.103,,2019-04-25 10:43:25,2019-04-25 10:43:25,0.109s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_n""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:25,2019-04-25 10:43:25,0.079s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_n""))",Chrome 73.0.3683.103,,2019-04-25 10:43:25,2019-04-25 10:43:25,0.083s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_n""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:25,2019-04-25 10:43:25,0.084s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:25,2019-04-25 10:43:26,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_o""))",Chrome 73.0.3683.103,,2019-04-25 10:43:26,2019-04-25 10:43:26,0.090s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_o""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:26,2019-04-25 10:43:27,0.075s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_o""))",Chrome 73.0.3683.103,,2019-04-25 10:43:27,2019-04-25 10:43:27,0.078s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_o""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:27,2019-04-25 10:43:27,0.124s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:27,2019-04-25 10:43:28,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_p""))",Chrome 73.0.3683.103,,2019-04-25 10:43:28,2019-04-25 10:43:28,0.101s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_p""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:28,2019-04-25 10:43:28,0.073s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_p""))",Chrome 73.0.3683.103,,2019-04-25 10:43:28,2019-04-25 10:43:28,0.073s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_p""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:28,2019-04-25 10:43:28,0.076s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:28,2019-04-25 10:43:29,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_q""))",Chrome 73.0.3683.103,,2019-04-25 10:43:29,2019-04-25 10:43:29,0.098s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_q""), ""1"")",Chrome 73.0.3683.103,,2019-04-25 10:43:29,2019-04-25 10:43:29,0.092s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:29,2019-04-25 10:43:30,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_r""))",Chrome 73.0.3683.103,,2019-04-25 10:43:30,2019-04-25 10:43:30,0.119s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_r""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:30,2019-04-25 10:43:30,0.077s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_r""))",Chrome 73.0.3683.103,,2019-04-25 10:43:30,2019-04-25 10:43:30,0.070s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_r""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:30,2019-04-25 10:43:31,0.078s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:31,2019-04-25 10:43:32,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_rr1""))",Chrome 73.0.3683.103,,2019-04-25 10:43:32,2019-04-25 10:43:32,0.105s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_rr1""), ""1"")",Chrome 73.0.3683.103,,2019-04-25 10:43:32,2019-04-25 10:43:32,0.093s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:32,2019-04-25 10:43:33,1.002s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_s""))",Chrome 73.0.3683.103,,2019-04-25 10:43:33,2019-04-25 10:43:33,0.108s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_s""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:33,2019-04-25 10:43:33,0.089s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_s""))",Chrome 73.0.3683.103,,2019-04-25 10:43:33,2019-04-25 10:43:33,0.137s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_s""), ""06"")",Chrome 73.0.3683.103,,2019-04-25 10:43:33,2019-04-25 10:43:33,0.086s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 10:43:33,2019-04-25 10:43:34,1.001s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_ss1""))",Chrome 73.0.3683.103,,2019-04-25 10:43:34,2019-04-25 10:43:34,0.085s,PASSED
+"setText(findTestObject(""OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_ss1""), ""1"")",Chrome 73.0.3683.103,,2019-04-25 10:43:34,2019-04-25 10:43:34,0.091s,PASSED
+delay(10),Chrome 73.0.3683.103,,2019-04-25 10:43:34,2019-04-25 10:43:44,10.001s,PASSED

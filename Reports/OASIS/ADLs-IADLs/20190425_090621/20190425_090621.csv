@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ADLs-IADLs,Chrome 73.0.3683.103,,2019-04-25 09:06:22,2019-04-25 09:07:11,48.624s,FAILED
+,,,,,,
+Test Cases/login,Chrome 73.0.3683.103,,2019-04-25 09:06:23,2019-04-25 09:06:41,18.002s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-25 09:06:23,2019-04-25 09:06:26,3.204s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-25 09:06:26,2019-04-25 09:06:28,2.098s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-25 09:06:28,2019-04-25 09:06:31,3.019s,PASSED
+"setText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.""), ""superagent"")",Chrome 73.0.3683.103,,2019-04-25 09:06:31,2019-04-25 09:06:31,0.144s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-25 09:06:31,2019-04-25 09:06:34,3.002s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Username or email requir""), ""SITHpLWAWtI8C4F8RIujvA=="")",Chrome 73.0.3683.103,,2019-04-25 09:06:34,2019-04-25 09:06:35,0.145s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-25 09:06:35,2019-04-25 09:06:38,3.003s,PASSED
+"click(findTestObject(""Object Repository/addUser/Page_Medisource  Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-25 09:06:38,2019-04-25 09:06:38,0.098s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-25 09:06:38,2019-04-25 09:06:41,3.002s,PASSED
+,,,,,,
+Test Cases/navigate_patient_soc_ken,Chrome 73.0.3683.103,,2019-04-25 09:06:41,2019-04-25 09:06:48,7.088s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-25 09:06:41,2019-04-25 09:06:43,2.004s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,,2019-04-25 09:06:43,2019-04-25 09:06:44,0.667s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 09:06:44,2019-04-25 09:06:45,1.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"")",Chrome 73.0.3683.103,,2019-04-25 09:06:45,2019-04-25 09:06:45,0.668s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 09:06:45,2019-04-25 09:06:46,1.004s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"")",Chrome 73.0.3683.103,,2019-04-25 09:06:46,2019-04-25 09:06:47,0.533s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 09:06:47,2019-04-25 09:06:48,1.004s,PASSED
+,,,,,,
+Test Cases/OASIS_SOC/ADLs,Chrome 73.0.3683.103,,2019-04-25 09:06:48,2019-04-25 09:07:10,22.502s,FAILED
+"click(findTestObject(""OASIS/OASIS_TABS/xitemedits_btn""))",Chrome 73.0.3683.103,,2019-04-25 09:06:48,2019-04-25 09:06:51,2.556s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/ADL_tab""))",Chrome 73.0.3683.103,,2019-04-25 09:06:51,2019-04-25 09:06:51,0.074s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-25 09:06:51,2019-04-25 09:06:56,5.005s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_muscle_strength_strong""))",Chrome 73.0.3683.103,,2019-04-25 09:06:56,2019-04-25 09:06:56,0.173s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_rom_limited""))",Chrome 73.0.3683.103,,2019-04-25 09:06:56,2019-04-25 09:06:56,0.173s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_lue""))",Chrome 73.0.3683.103,,2019-04-25 09:06:56,2019-04-25 09:06:56,0.127s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_rue""))",Chrome 73.0.3683.103,,2019-04-25 09:06:56,2019-04-25 09:06:56,0.136s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_lle""))",Chrome 73.0.3683.103,,2019-04-25 09:06:56,2019-04-25 09:06:56,0.143s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_rle""))",Chrome 73.0.3683.103,,2019-04-25 09:06:56,2019-04-25 09:06:56,0.128s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_bedmob_independent""))",Chrome 73.0.3683.103,,2019-04-25 09:06:56,2019-04-25 09:06:57,0.131s,PASSED
+"click(findTestObject(""OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_transferab_moderate""))",Chrome 73.0.3683.103,,2019-04-25 09:06:57,2019-04-25 09:07:10,13.665s,FAILED

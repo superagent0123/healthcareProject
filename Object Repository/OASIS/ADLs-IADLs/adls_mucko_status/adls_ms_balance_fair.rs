@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#adlForm > div > fieldset > table > tbody > tr:nth-child(2) > td.oasis__answer.p-b-0 > table > tbody > tr:nth-child(6) > td > div.m-b-5.cont-opt.m-lopt-135 > div > label.radio.radio-inline.m-r-10.ng-scope.ng-isolate-scope.checked > input</value>
+         <value>#adlForm > div > fieldset > table > tbody > tr:nth-child(2) > td.oasis__answer.p-b-0 > table > tbody > tr:nth-child(6) > td > div.m-b-5.cont-opt.m-lopt-135 > div > label:nth-child(2) > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#adlForm > div > fieldset > table > tbody > tr:nth-child(2) > td.oasis__answer.p-b-0 > table > tbody > tr:nth-child(6) > td > div.m-b-5.cont-opt.m-lopt-135 > div > label.radio.radio-inline.m-r-10.ng-scope.ng-isolate-scope.checked > input</value>
+      <value>#adlForm > div > fieldset > table > tbody > tr:nth-child(2) > td.oasis__answer.p-b-0 > table > tbody > tr:nth-child(6) > td > div.m-b-5.cont-opt.m-lopt-135 > div > label:nth-child(2) > input</value>
    </webElementProperties>
 </WebElementEntity>
