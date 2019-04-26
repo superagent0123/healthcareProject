@@ -17,7 +17,7 @@ WebUI.click(findTestObject('OASIS/OASIS_TABS/xitemedits_btn'))
 
 WebUI.click(findTestObject('OASIS/OASIS_TABS/Medications_tab'))
 
-WebUI.delay(5)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Medications/M2001_1'))
 
@@ -37,13 +37,15 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Medications/M2030_1'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Medications/med_venous_access'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('OASIS/Medications/med_va_purpose/med_va_purpose_antibiotic'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Medications/med_va_purpose/med_va_purpose_hydration'))
 

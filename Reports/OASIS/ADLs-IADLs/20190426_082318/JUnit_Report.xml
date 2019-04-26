@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ADLs-IADLs" time="106" tests="2" failures="0" errors="0">
+   <testsuite name="ADLs-IADLs" tests="2" failures="0" errors="0" time="106" timestamp="2019-04-26 08:23:19" hostname="Khenard Figuracion - 192.168.2.15" id="Test Suites/OASIS/ADLs-IADLs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\ADLs-IADLs\\20190426_082318"/>
+         <property name="logFiles" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\ADLs-IADLs\\20190426_082318\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Khenard Figuracion - 192.168.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.2.15"/>
+         <property name="sessionId" value="65e109a928f7d1ea3a27d901e475bf3b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/navigate_patient_soc_ken" classname="Test Cases/navigate_patient_soc_ken" status="PASSED">
+         <system-out><![CDATA[2019-04-26 08:23:20 - [TEST_CASE][PASSED] - Test Cases/navigate_patient_soc_ken: Test Cases/navigate_patient_soc_ken
+
+2019-04-26 08:23:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-26 08:23:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-26 08:23:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-26 08:23:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-26 08:23:23 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/login"): Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-26 08:23:25 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-26 08:23:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes."), "kenkenrn"): Text 'kenkenrn' is set on object 'Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'
+
+2019-04-26 08:23:25 - [MESSAGE][PASSED] - Text 'kenkenrn' is set on object 'Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'
+
+2019-04-26 08:23:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/addUser/Page_Medisource  Login/input_Username or email requir"), "SITHpLWAWtLnr/hOhnpplQ=="): Text ****** has been set on object 'Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-26 08:23:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-26 08:23:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:23:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:23:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addUser/Page_Medisource  Login/button_Login")): Object: 'Object Repository/addUser/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-26 08:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/addUser/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-26 08:23:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-26 08:23:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 08:23:29 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patients/all"): Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-26 08:23:30 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-26 08:23:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:23:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:23:31 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"): Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview' successfully
+
+2019-04-26 08:23:31 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview' successfully
+
+2019-04-26 08:23:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:23:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:23:32 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"): Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197' successfully
+
+2019-04-26 08:23:33 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197' successfully
+
+2019-04-26 08:23:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:23:34 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OASIS_SOC/ADLs" classname="Test Cases/OASIS_SOC/ADLs" status="PASSED">
+         <system-out><![CDATA[2019-04-26 08:23:34 - [TEST_CASE][PASSED] - Test Cases/OASIS_SOC/ADLs: Test Cases/OASIS_SOC/ADLs
+
+2019-04-26 08:23:34 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/OASIS_TABS/xitemedits_btn")): Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-04-26 08:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-04-26 08:23:36 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/OASIS_TABS/ADL_tab")): Object: 'Object Repository/OASIS/OASIS_TABS/ADL_tab' is clicked on
+
+2019-04-26 08:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/OASIS_TABS/ADL_tab' is clicked on
+
+2019-04-26 08:23:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-26 08:23:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-26 08:23:41 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_muscle_strength_strong")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_muscle_strength_strong' is clicked on
+
+2019-04-26 08:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_muscle_strength_strong' is clicked on
+
+2019-04-26 08:23:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_rom_limited")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_rom_limited' is clicked on
+
+2019-04-26 08:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_rom_limited' is clicked on
+
+2019-04-26 08:23:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_lue")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_lue' is clicked on
+
+2019-04-26 08:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_lue' is clicked on
+
+2019-04-26 08:23:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_rue")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_rue' is clicked on
+
+2019-04-26 08:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_rue' is clicked on
+
+2019-04-26 08:23:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_lle")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_lle' is clicked on
+
+2019-04-26 08:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_lle' is clicked on
+
+2019-04-26 08:23:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_rle")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_rle' is clicked on
+
+2019-04-26 08:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_loc_rle' is clicked on
+
+2019-04-26 08:23:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_bedmob_independent")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_bedmob_independent' is clicked on
+
+2019-04-26 08:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_bedmob_independent' is clicked on
+
+2019-04-26 08:23:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_transferab_moderate")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_transferab_moderate' is clicked on
+
+2019-04-26 08:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_transferab_moderate' is clicked on
+
+2019-04-26 08:23:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_gait_steady")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_gait_steady' is clicked on
+
+2019-04-26 08:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_gait_steady' is clicked on
+
+2019-04-26 08:23:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_balance_fair")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_balance_fair' is clicked on
+
+2019-04-26 08:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_balance_fair' is clicked on
+
+2019-04-26 08:23:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_riskfalls_high")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_riskfalls_high' is clicked on
+
+2019-04-26 08:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_riskfalls_high' is clicked on
+
+2019-04-26 08:23:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_bk")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_bk' is clicked on
+
+2019-04-26 08:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_bk' is clicked on
+
+2019-04-26 08:23:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_ak")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_ak' is clicked on
+
+2019-04-26 08:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_ak' is clicked on
+
+2019-04-26 08:23:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_ue")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_ue' is clicked on
+
+2019-04-26 08:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_ue' is clicked on
+
+2019-04-26 08:23:43 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_tf"), "Sample Text"): Text 'Sample Text' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_tf'
+
+2019-04-26 08:23:44 - [MESSAGE][PASSED] - Text 'Sample Text' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_tf'
+
+2019-04-26 08:23:44 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_l")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_l' is clicked on
+
+2019-04-26 08:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_l' is clicked on
+
+2019-04-26 08:23:44 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_r")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_r' is clicked on
+
+2019-04-26 08:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_amputation_r' is clicked on
+
+2019-04-26 08:23:44 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_fracture_new")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_fracture_new' is clicked on
+
+2019-04-26 08:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_fracture_new' is clicked on
+
+2019-04-26 08:23:44 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_fracture_location"), "Sample Text"): Text 'Sample Text' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_fracture_location'
+
+2019-04-26 08:23:45 - [MESSAGE][PASSED] - Text 'Sample Text' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/adls_ms_fracture_location'
+
+2019-04-26 08:23:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_swelling")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_swelling' is clicked on
+
+2019-04-26 08:23:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_swelling' is clicked on
+
+2019-04-26 08:23:45 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_swelling_tf"), "Sample Text"): Text 'Sample Text' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_swelling_tf'
+
+2019-04-26 08:23:45 - [MESSAGE][PASSED] - Text 'Sample Text' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_swelling_tf'
+
+2019-04-26 08:23:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pallor")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pallor' is clicked on
+
+2019-04-26 08:23:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pallor' is clicked on
+
+2019-04-26 08:23:45 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pallor_tf"), "Sample Text"): Text 'Sample Text' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pallor_tf'
+
+2019-04-26 08:23:46 - [MESSAGE][PASSED] - Text 'Sample Text' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pallor_tf'
+
+2019-04-26 08:23:46 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pain")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pain' is clicked on
+
+2019-04-26 08:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pain' is clicked on
+
+2019-04-26 08:23:46 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pain_tf"), "Sample Text"): Text 'Sample Text' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pain_tf'
+
+2019-04-26 08:23:46 - [MESSAGE][PASSED] - Text 'Sample Text' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_character_pain_tf'
+
+2019-04-26 08:23:46 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_skintemp_warm")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_skintemp_warm' is clicked on
+
+2019-04-26 08:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_skintemp_warm' is clicked on
+
+2019-04-26 08:23:46 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_mobility_abletomove")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_mobility_abletomove' is clicked on
+
+2019-04-26 08:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_mobility_abletomove' is clicked on
+
+2019-04-26 08:23:46 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_mobility_abletomove_tf"), "Sample Text"): Text 'Sample Text' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_mobility_abletomove_tf'
+
+2019-04-26 08:23:47 - [MESSAGE][PASSED] - Text 'Sample Text' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_mobility_abletomove_tf'
+
+2019-04-26 08:23:47 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_capillary_more3sec")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_capillary_more3sec' is clicked on
+
+2019-04-26 08:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mucko_status/if_case_present/adls_cast_present_capillary_more3sec' is clicked on
+
+2019-04-26 08:23:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:23:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:23:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_ambulation")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_ambulation' is clicked on
+
+2019-04-26 08:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_ambulation' is clicked on
+
+2019-04-26 08:23:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_endurance")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_endurance' is clicked on
+
+2019-04-26 08:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_endurance' is clicked on
+
+2019-04-26 08:23:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_contracture")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_contracture' is clicked on
+
+2019-04-26 08:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_contracture' is clicked on
+
+2019-04-26 08:23:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_paralysis")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_paralysis' is clicked on
+
+2019-04-26 08:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_paralysis' is clicked on
+
+2019-04-26 08:23:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_amputation")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_amputation' is clicked on
+
+2019-04-26 08:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_amputation' is clicked on
+
+2019-04-26 08:23:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_legally_blind")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_legally_blind' is clicked on
+
+2019-04-26 08:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_legally_blind' is clicked on
+
+2019-04-26 08:23:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_hearing")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_hearing' is clicked on
+
+2019-04-26 08:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_hearing' is clicked on
+
+2019-04-26 08:23:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_speech")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_speech' is clicked on
+
+2019-04-26 08:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_speech' is clicked on
+
+2019-04-26 08:23:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_dyspnea")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_dyspnea' is clicked on
+
+2019-04-26 08:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_dyspnea' is clicked on
+
+2019-04-26 08:23:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_bowel")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_bowel' is clicked on
+
+2019-04-26 08:23:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_bowel' is clicked on
+
+2019-04-26 08:23:49 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_other"), "Motor ability"): Text 'Motor ability' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_other'
+
+2019-04-26 08:23:50 - [MESSAGE][PASSED] - Text 'Motor ability' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_functional_limitations/adls_functional_other'
+
+2019-04-26 08:23:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:23:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:23:51 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_independentathome")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_independentathome' is clicked on
+
+2019-04-26 08:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_independentathome' is clicked on
+
+2019-04-26 08:23:51 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_upastolerated")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_upastolerated' is clicked on
+
+2019-04-26 08:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_upastolerated' is clicked on
+
+2019-04-26 08:23:51 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_bedrest")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_bedrest' is clicked on
+
+2019-04-26 08:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_bedrest' is clicked on
+
+2019-04-26 08:23:51 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_complete_bedrest")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_complete_bedrest' is clicked on
+
+2019-04-26 08:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_complete_bedrest' is clicked on
+
+2019-04-26 08:23:51 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_transferbed")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_transferbed' is clicked on
+
+2019-04-26 08:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_transferbed' is clicked on
+
+2019-04-26 08:23:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_partialweight")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_partialweight' is clicked on
+
+2019-04-26 08:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_partialweight' is clicked on
+
+2019-04-26 08:23:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_walker")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_walker' is clicked on
+
+2019-04-26 08:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_walker' is clicked on
+
+2019-04-26 08:23:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_wheelchair")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_wheelchair' is clicked on
+
+2019-04-26 08:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_wheelchair' is clicked on
+
+2019-04-26 08:23:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_cane")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_cane' is clicked on
+
+2019-04-26 08:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_cane' is clicked on
+
+2019-04-26 08:23:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_crutches")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_crutches' is clicked on
+
+2019-04-26 08:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_crutches' is clicked on
+
+2019-04-26 08:23:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_norestrictions")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_norestrictions' is clicked on
+
+2019-04-26 08:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_norestrictions' is clicked on
+
+2019-04-26 08:23:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_excercises")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_excercises' is clicked on
+
+2019-04-26 08:23:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_excercises' is clicked on
+
+2019-04-26 08:23:53 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_other"), "Walking"): Text 'Walking' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_other'
+
+2019-04-26 08:23:53 - [MESSAGE][PASSED] - Text 'Walking' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_activities_permitted/adls_act_permitted_other'
+
+2019-04-26 08:23:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:23:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:23:54 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/M1800_1")): Object: 'Object Repository/OASIS/ADLs-IADLs/M1800_1' is clicked on
+
+2019-04-26 08:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/M1800_1' is clicked on
+
+2019-04-26 08:23:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:23:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:23:55 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/M1810_0")): Object: 'Object Repository/OASIS/ADLs-IADLs/M1810_0' is clicked on
+
+2019-04-26 08:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/M1810_0' is clicked on
+
+2019-04-26 08:23:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:23:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:23:56 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/M1820_1")): Object: 'Object Repository/OASIS/ADLs-IADLs/M1820_1' is clicked on
+
+2019-04-26 08:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/M1820_1' is clicked on
+
+2019-04-26 08:23:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:23:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:23:57 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/M1830_1")): Object: 'Object Repository/OASIS/ADLs-IADLs/M1830_1' is clicked on
+
+2019-04-26 08:23:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/M1830_1' is clicked on
+
+2019-04-26 08:23:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:23:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:23:59 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/M1840_0")): Object: 'Object Repository/OASIS/ADLs-IADLs/M1840_0' is clicked on
+
+2019-04-26 08:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/M1840_0' is clicked on
+
+2019-04-26 08:23:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:00 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/M1845_1")): Object: 'Object Repository/OASIS/ADLs-IADLs/M1845_1' is clicked on
+
+2019-04-26 08:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/M1845_1' is clicked on
+
+2019-04-26 08:24:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:01 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/M1850_0")): Object: 'Object Repository/OASIS/ADLs-IADLs/M1850_0' is clicked on
+
+2019-04-26 08:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/M1850_0' is clicked on
+
+2019-04-26 08:24:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:02 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/M1860_0")): Object: 'Object Repository/OASIS/ADLs-IADLs/M1860_0' is clicked on
+
+2019-04-26 08:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/M1860_0' is clicked on
+
+2019-04-26 08:24:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:03 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/M1870_0")): Object: 'Object Repository/OASIS/ADLs-IADLs/M1870_0' is clicked on
+
+2019-04-26 08:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/M1870_0' is clicked on
+
+2019-04-26 08:24:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:04 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/M1910_1")): Object: 'Object Repository/OASIS/ADLs-IADLs/M1910_1' is clicked on
+
+2019-04-26 08:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/M1910_1' is clicked on
+
+2019-04-26 08:24:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 08:24:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 08:24:06 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_age65")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_age65' is clicked on
+
+2019-04-26 08:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_age65' is clicked on
+
+2019-04-26 08:24:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_diagnosis")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_diagnosis' is clicked on
+
+2019-04-26 08:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_diagnosis' is clicked on
+
+2019-04-26 08:24:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_priorhistoryoffall")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_priorhistoryoffall' is clicked on
+
+2019-04-26 08:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_priorhistoryoffall' is clicked on
+
+2019-04-26 08:24:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_incontinence")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_incontinence' is clicked on
+
+2019-04-26 08:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_incontinence' is clicked on
+
+2019-04-26 08:24:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_visualimpairment")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_visualimpairment' is clicked on
+
+2019-04-26 08:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_visualimpairment' is clicked on
+
+2019-04-26 08:24:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_impairedfunctional")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_impairedfunctional' is clicked on
+
+2019-04-26 08:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_impairedfunctional' is clicked on
+
+2019-04-26 08:24:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_environmenthazards")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_environmenthazards' is clicked on
+
+2019-04-26 08:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_environmenthazards' is clicked on
+
+2019-04-26 08:24:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_polypharmacy")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_polypharmacy' is clicked on
+
+2019-04-26 08:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_polypharmacy' is clicked on
+
+2019-04-26 08:24:08 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_painaffecting")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_painaffecting' is clicked on
+
+2019-04-26 08:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_painaffecting' is clicked on
+
+2019-04-26 08:24:08 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_cognitiveimpairment")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_cognitiveimpairment' is clicked on
+
+2019-04-26 08:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_mahc_10/adls_mach10_cognitiveimpairment' is clicked on
+
+2019-04-26 08:24:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 08:24:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 08:24:10 - [TEST_STEP][NOT_RUN] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_a"), STOP_ON_FAILURE): NOT_RUN: click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_a"), STOP_ON_FAILURE)
+
+2019-04-26 08:24:10 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_a"), STOP_ON_FAILURE)
+
+2019-04-26 08:24:10 - [TEST_STEP][NOT_RUN] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_a"), "3"): NOT_RUN: setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_a"), "3")
+
+2019-04-26 08:24:10 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_a"), "3")
+
+2019-04-26 08:24:10 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_b"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_b' is clicked on
+
+2019-04-26 08:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_b' is clicked on
+
+2019-04-26 08:24:10 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_b"), "3"): Text '3' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_b'
+
+2019-04-26 08:24:10 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_b'
+
+2019-04-26 08:24:10 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_c"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_c' is clicked on
+
+2019-04-26 08:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_c' is clicked on
+
+2019-04-26 08:24:10 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_c"), "2"): Text '2' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_c'
+
+2019-04-26 08:24:10 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_c'
+
+2019-04-26 08:24:10 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_d"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_d' is clicked on
+
+2019-04-26 08:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_d' is clicked on
+
+2019-04-26 08:24:10 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_d"), "2"): Text '2' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_d'
+
+2019-04-26 08:24:11 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0100_priorfunctioning_d'
+
+2019-04-26 08:24:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:12 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_a")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_a' is clicked on
+
+2019-04-26 08:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_a' is clicked on
+
+2019-04-26 08:24:12 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_b")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_b' is clicked on
+
+2019-04-26 08:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_b' is clicked on
+
+2019-04-26 08:24:12 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_c")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_c' is clicked on
+
+2019-04-26 08:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_c' is clicked on
+
+2019-04-26 08:24:12 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_d")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_d' is clicked on
+
+2019-04-26 08:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_d' is clicked on
+
+2019-04-26 08:24:12 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_e")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_e' is clicked on
+
+2019-04-26 08:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0110_priordevice_e' is clicked on
+
+2019-04-26 08:24:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-26 08:24:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 08:24:15 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_a")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_a' is clicked on
+
+2019-04-26 08:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_a' is clicked on
+
+2019-04-26 08:24:15 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_a"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_a'
+
+2019-04-26 08:24:15 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_a'
+
+2019-04-26 08:24:15 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_a")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_a' is clicked on
+
+2019-04-26 08:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_a' is clicked on
+
+2019-04-26 08:24:15 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_a"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_a'
+
+2019-04-26 08:24:16 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_a'
+
+2019-04-26 08:24:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:17 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_b")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_b' is clicked on
+
+2019-04-26 08:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_b' is clicked on
+
+2019-04-26 08:24:17 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_b"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_b'
+
+2019-04-26 08:24:17 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_b'
+
+2019-04-26 08:24:17 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_b")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_b' is clicked on
+
+2019-04-26 08:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_b' is clicked on
+
+2019-04-26 08:24:17 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_b"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_b'
+
+2019-04-26 08:24:17 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_b'
+
+2019-04-26 08:24:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:18 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_c")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_c' is clicked on
+
+2019-04-26 08:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_c' is clicked on
+
+2019-04-26 08:24:18 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_c"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_c'
+
+2019-04-26 08:24:18 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_c'
+
+2019-04-26 08:24:18 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_c")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_c' is clicked on
+
+2019-04-26 08:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_c' is clicked on
+
+2019-04-26 08:24:18 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_c"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_c'
+
+2019-04-26 08:24:18 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_c'
+
+2019-04-26 08:24:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:19 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_e")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_e' is clicked on
+
+2019-04-26 08:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_e' is clicked on
+
+2019-04-26 08:24:19 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_e"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_e'
+
+2019-04-26 08:24:19 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_e'
+
+2019-04-26 08:24:19 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_e")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_e' is clicked on
+
+2019-04-26 08:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_e' is clicked on
+
+2019-04-26 08:24:20 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_e"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_e'
+
+2019-04-26 08:24:20 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_e'
+
+2019-04-26 08:24:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:21 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_f")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_f' is clicked on
+
+2019-04-26 08:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_f' is clicked on
+
+2019-04-26 08:24:21 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_f"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_f'
+
+2019-04-26 08:24:21 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_f'
+
+2019-04-26 08:24:21 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_f")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_f' is clicked on
+
+2019-04-26 08:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_f' is clicked on
+
+2019-04-26 08:24:21 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_f"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_f'
+
+2019-04-26 08:24:21 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_f'
+
+2019-04-26 08:24:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:22 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_g")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_g' is clicked on
+
+2019-04-26 08:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_g' is clicked on
+
+2019-04-26 08:24:22 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_g"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_g'
+
+2019-04-26 08:24:22 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_g'
+
+2019-04-26 08:24:22 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_g")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_g' is clicked on
+
+2019-04-26 08:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_g' is clicked on
+
+2019-04-26 08:24:22 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_g"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_g'
+
+2019-04-26 08:24:22 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_g'
+
+2019-04-26 08:24:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:23 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_h")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_h' is clicked on
+
+2019-04-26 08:24:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_h' is clicked on
+
+2019-04-26 08:24:23 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_h"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_h'
+
+2019-04-26 08:24:24 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_soc_h'
+
+2019-04-26 08:24:24 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_h")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_h' is clicked on
+
+2019-04-26 08:24:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_h' is clicked on
+
+2019-04-26 08:24:24 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_h"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_h'
+
+2019-04-26 08:24:24 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0130_self-care_dc_h'
+
+2019-04-26 08:24:24 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-26 08:24:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-26 08:24:29 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_a")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_a' is clicked on
+
+2019-04-26 08:24:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_a' is clicked on
+
+2019-04-26 08:24:29 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_a"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_a'
+
+2019-04-26 08:24:29 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_a'
+
+2019-04-26 08:24:29 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_a")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_a' is clicked on
+
+2019-04-26 08:24:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_a' is clicked on
+
+2019-04-26 08:24:29 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_a"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_a'
+
+2019-04-26 08:24:29 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_a'
+
+2019-04-26 08:24:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:30 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_b")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_b' is clicked on
+
+2019-04-26 08:24:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_b' is clicked on
+
+2019-04-26 08:24:30 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_b"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_b'
+
+2019-04-26 08:24:30 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_b'
+
+2019-04-26 08:24:30 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_b")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_b' is clicked on
+
+2019-04-26 08:24:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_b' is clicked on
+
+2019-04-26 08:24:30 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_b"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_b'
+
+2019-04-26 08:24:30 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_b'
+
+2019-04-26 08:24:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:31 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_c")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_c' is clicked on
+
+2019-04-26 08:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_c' is clicked on
+
+2019-04-26 08:24:32 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_c"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_c'
+
+2019-04-26 08:24:32 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_c'
+
+2019-04-26 08:24:32 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_c")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_c' is clicked on
+
+2019-04-26 08:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_c' is clicked on
+
+2019-04-26 08:24:32 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_c"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_c'
+
+2019-04-26 08:24:32 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_c'
+
+2019-04-26 08:24:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:33 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_d")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_d' is clicked on
+
+2019-04-26 08:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_d' is clicked on
+
+2019-04-26 08:24:33 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_d"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_d'
+
+2019-04-26 08:24:33 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_d'
+
+2019-04-26 08:24:33 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_d")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_d' is clicked on
+
+2019-04-26 08:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_d' is clicked on
+
+2019-04-26 08:24:33 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_d"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_d'
+
+2019-04-26 08:24:33 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_d'
+
+2019-04-26 08:24:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:34 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_e")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_e' is clicked on
+
+2019-04-26 08:24:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_e' is clicked on
+
+2019-04-26 08:24:34 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_e"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_e'
+
+2019-04-26 08:24:34 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_e'
+
+2019-04-26 08:24:34 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_e")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_e' is clicked on
+
+2019-04-26 08:24:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_e' is clicked on
+
+2019-04-26 08:24:34 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_e"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_e'
+
+2019-04-26 08:24:34 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_e'
+
+2019-04-26 08:24:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:35 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_f")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_f' is clicked on
+
+2019-04-26 08:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_f' is clicked on
+
+2019-04-26 08:24:36 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_f"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_f'
+
+2019-04-26 08:24:36 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_f'
+
+2019-04-26 08:24:36 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_f")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_f' is clicked on
+
+2019-04-26 08:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_f' is clicked on
+
+2019-04-26 08:24:36 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_f"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_f'
+
+2019-04-26 08:24:36 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_f'
+
+2019-04-26 08:24:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:37 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_g")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_g' is clicked on
+
+2019-04-26 08:24:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_g' is clicked on
+
+2019-04-26 08:24:37 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_g"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_g'
+
+2019-04-26 08:24:37 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_g'
+
+2019-04-26 08:24:37 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_g")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_g' is clicked on
+
+2019-04-26 08:24:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_g' is clicked on
+
+2019-04-26 08:24:37 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_g"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_g'
+
+2019-04-26 08:24:37 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_g'
+
+2019-04-26 08:24:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:38 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_i")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_i' is clicked on
+
+2019-04-26 08:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_i' is clicked on
+
+2019-04-26 08:24:38 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_i"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_i'
+
+2019-04-26 08:24:38 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_i'
+
+2019-04-26 08:24:38 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_i")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_i' is clicked on
+
+2019-04-26 08:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_i' is clicked on
+
+2019-04-26 08:24:38 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_i"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_i'
+
+2019-04-26 08:24:39 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_i'
+
+2019-04-26 08:24:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:40 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_j")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_j' is clicked on
+
+2019-04-26 08:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_j' is clicked on
+
+2019-04-26 08:24:40 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_j"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_j'
+
+2019-04-26 08:24:40 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_j'
+
+2019-04-26 08:24:40 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_j")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_j' is clicked on
+
+2019-04-26 08:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_j' is clicked on
+
+2019-04-26 08:24:40 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_j"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_j'
+
+2019-04-26 08:24:40 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_j'
+
+2019-04-26 08:24:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:41 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_k")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_k' is clicked on
+
+2019-04-26 08:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_k' is clicked on
+
+2019-04-26 08:24:41 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_k"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_k'
+
+2019-04-26 08:24:41 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_k'
+
+2019-04-26 08:24:41 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_k")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_k' is clicked on
+
+2019-04-26 08:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_k' is clicked on
+
+2019-04-26 08:24:41 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_k"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_k'
+
+2019-04-26 08:24:41 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_k'
+
+2019-04-26 08:24:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_l")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_l' is clicked on
+
+2019-04-26 08:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_l' is clicked on
+
+2019-04-26 08:24:42 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_l"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_l'
+
+2019-04-26 08:24:42 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_l'
+
+2019-04-26 08:24:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_l")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_l' is clicked on
+
+2019-04-26 08:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_l' is clicked on
+
+2019-04-26 08:24:43 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_l"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_l'
+
+2019-04-26 08:24:43 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_l'
+
+2019-04-26 08:24:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:44 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_m")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_m' is clicked on
+
+2019-04-26 08:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_m' is clicked on
+
+2019-04-26 08:24:44 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_m"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_m'
+
+2019-04-26 08:24:44 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_m'
+
+2019-04-26 08:24:44 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_m")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_m' is clicked on
+
+2019-04-26 08:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_m' is clicked on
+
+2019-04-26 08:24:44 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_m"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_m'
+
+2019-04-26 08:24:44 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_m'
+
+2019-04-26 08:24:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_n")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_n' is clicked on
+
+2019-04-26 08:24:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_n' is clicked on
+
+2019-04-26 08:24:45 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_n"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_n'
+
+2019-04-26 08:24:45 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_n'
+
+2019-04-26 08:24:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_n")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_n' is clicked on
+
+2019-04-26 08:24:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_n' is clicked on
+
+2019-04-26 08:24:45 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_n"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_n'
+
+2019-04-26 08:24:45 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_n'
+
+2019-04-26 08:24:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:46 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_o")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_o' is clicked on
+
+2019-04-26 08:24:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_o' is clicked on
+
+2019-04-26 08:24:46 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_o"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_o'
+
+2019-04-26 08:24:47 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_o'
+
+2019-04-26 08:24:47 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_o")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_o' is clicked on
+
+2019-04-26 08:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_o' is clicked on
+
+2019-04-26 08:24:47 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_o"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_o'
+
+2019-04-26 08:24:47 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_o'
+
+2019-04-26 08:24:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_p")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_p' is clicked on
+
+2019-04-26 08:24:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_p' is clicked on
+
+2019-04-26 08:24:48 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_p"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_p'
+
+2019-04-26 08:24:48 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_p'
+
+2019-04-26 08:24:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_p")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_p' is clicked on
+
+2019-04-26 08:24:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_p' is clicked on
+
+2019-04-26 08:24:48 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_p"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_p'
+
+2019-04-26 08:24:48 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_p'
+
+2019-04-26 08:24:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_q")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_q' is clicked on
+
+2019-04-26 08:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_q' is clicked on
+
+2019-04-26 08:24:49 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_q"), "1"): Text '1' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_q'
+
+2019-04-26 08:24:49 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_q'
+
+2019-04-26 08:24:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:50 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_r")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_r' is clicked on
+
+2019-04-26 08:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_r' is clicked on
+
+2019-04-26 08:24:50 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_r"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_r'
+
+2019-04-26 08:24:50 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_r'
+
+2019-04-26 08:24:50 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_r")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_r' is clicked on
+
+2019-04-26 08:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_r' is clicked on
+
+2019-04-26 08:24:51 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_r"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_r'
+
+2019-04-26 08:24:51 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_r'
+
+2019-04-26 08:24:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_rr1")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_rr1' is clicked on
+
+2019-04-26 08:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_rr1' is clicked on
+
+2019-04-26 08:24:52 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_rr1"), "1"): Text '1' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_rr1'
+
+2019-04-26 08:24:52 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_rr1'
+
+2019-04-26 08:24:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:53 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_s")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_s' is clicked on
+
+2019-04-26 08:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_s' is clicked on
+
+2019-04-26 08:24:53 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_s"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_s'
+
+2019-04-26 08:24:53 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_soc_s'
+
+2019-04-26 08:24:53 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_s")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_s' is clicked on
+
+2019-04-26 08:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_s' is clicked on
+
+2019-04-26 08:24:53 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_s"), "06"): Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_s'
+
+2019-04-26 08:24:53 - [MESSAGE][PASSED] - Text '06' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_dc_s'
+
+2019-04-26 08:24:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:24:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:24:54 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_ss1")): Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_ss1' is clicked on
+
+2019-04-26 08:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_ss1' is clicked on
+
+2019-04-26 08:24:54 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_ss1"), "1"): Text '1' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_ss1'
+
+2019-04-26 08:24:54 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/OASIS/ADLs-IADLs/adls_sectionGG/adls_GG0170C_ss1'
+
+2019-04-26 08:24:54 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-26 08:25:04 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-26 08:23:19 - [TEST_SUITE][PASSED] - ADLs-IADLs: Test Cases/OASIS_SOC/ADLs]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

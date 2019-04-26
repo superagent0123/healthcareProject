@@ -17,7 +17,7 @@
       <testCaseId>Test Cases/navigate_patient_soc_ken</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3ea8ea4d-9cc0-4001-9239-dcdedabb553f</guid>
+      <guid>81037576-97e9-4fd5-96f5-93bfefa78450</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/OASIS_SOC/Medications</testCaseId>

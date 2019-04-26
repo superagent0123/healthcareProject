@@ -19,11 +19,4 @@
       <type>Main</type>
       <value>#medicationForm > div > fieldset > table > tbody > tr.ng-isolate-scope > td > div > label > input</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//*[@id=&quot;medicationForm&quot;]/div/fieldset/table/tbody/tr[11]/td/div/label/input</value>
-   </webElementProperties>
 </WebElementEntity>
