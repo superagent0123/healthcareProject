@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#careForm > div > fieldset > table > tbody > tr:nth-child(71) > td.oasis__answer > table > tbody > tr:nth-child(6) > td > div.cont-opt.m-lopt-45 > label.radio.radio-inline.ng-scope.ng-isolate-scope.checked > input</value>
+         <value>#careForm > div > fieldset > table > tbody > tr:nth-child(71) > td.oasis__answer > table > tbody > tr:nth-child(6) > td > div.cont-opt.m-lopt-45 > label:nth-child(2) > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#careForm > div > fieldset > table > tbody > tr:nth-child(71) > td.oasis__answer > table > tbody > tr:nth-child(6) > td > div.cont-opt.m-lopt-45 > label.radio.radio-inline.ng-scope.ng-isolate-scope.checked > input</value>
+      <value>#careForm > div > fieldset > table > tbody > tr:nth-child(71) > td.oasis__answer > table > tbody > tr:nth-child(6) > td > div.cont-opt.m-lopt-45 > label:nth-child(2) > input</value>
    </webElementProperties>
 </WebElementEntity>

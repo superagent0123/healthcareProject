@@ -7,9 +7,16 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>#careForm > div > fieldset > table > tbody > tr:nth-child(27) > td > table > tbody > tr > td > div.cont-opt.m-lopt-50 > div > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>#careForm > div > fieldset > table > tbody > tr:nth-child(27) > td > table > tbody > tr > td > div.cont-opt.m-lopt-50 > div > input</value>
+   </webElementProperties>
 </WebElementEntity>
