@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="patientlist_oasis" time="98" tests="1" failures="1" errors="0">
+   <testsuite name="patientlist_oasis" tests="1" failures="1" errors="0" time="98" timestamp="2019-04-23 09:09:57" hostname="PC-Medisource - 192.168.2.18" id="Test Suites/patientlist_oasis">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC-Medisource\\git\\healthcareProject\\Reports\\patientlist_oasis\\20190423_090955"/>
+         <property name="logFiles" value="C:\\Users\\PC-Medisource\\git\\healthcareProject\\Reports\\patientlist_oasis\\20190423_090955\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\PC-Medisource\\git\\healthcareProject\\Reports\\patientlist_oasis\\20190423_090955\\1555981894888.png"/>
+         <property name="hostName" value="PC-Medisource - 192.168.2.18"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.2.18"/>
+         <property name="sessionId" value="c064f5f2ddd1963ae7fdcd163b9f91bb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login_rn" classname="Test Cases/login_rn" status="PASSED">
+         <system-out><![CDATA[2019-04-23 09:09:58 - [TEST_CASE][PASSED] - Test Cases/login_rn: Test Cases/login_rn
+
+2019-04-23 09:09:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-23 09:09:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-23 09:09:59 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-23 09:10:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-23 09:10:02 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/login"): Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-23 09:10:04 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-23 09:10:04 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:10:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:10:07 - [TEST_STEP][PASSED] - setText(findTestObject("LogIn/username"), "jbnurse"): Text 'jbnurse' is set on object 'Object Repository/LogIn/username'
+
+2019-04-23 09:10:08 - [MESSAGE][PASSED] - Text 'jbnurse' is set on object 'Object Repository/LogIn/username'
+
+2019-04-23 09:10:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:10:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:10:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LogIn/password"), "7R8xyZjhQ0B8ti8txswtaA=="): Text ****** has been set on object 'Object Repository/LogIn/password'
+
+2019-04-23 09:10:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LogIn/password'
+
+2019-04-23 09:10:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:10:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:10:14 - [TEST_STEP][PASSED] - click(findTestObject("LogIn/login_button")): Object: 'Object Repository/LogIn/login_button' is clicked on
+
+2019-04-23 09:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/login_button' is clicked on
+
+2019-04-23 09:10:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:10:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:10:17 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patients/all"): Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-23 09:10:20 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-23 09:10:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:10:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:10:23 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/overview"): Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/overview' successfully
+
+2019-04-23 09:10:24 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/overview' successfully
+
+2019-04-23 09:10:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:10:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:10:27 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/clinical/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5"): Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/clinical/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5' successfully
+
+2019-04-23 09:10:27 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/clinical/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5' successfully
+
+2019-04-23 09:10:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:10:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:10:30 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/integumentary/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5"): Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/integumentary/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5' successfully
+
+2019-04-23 09:10:31 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/integumentary/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_OASIS_SOC_Entry1/Integumentary" classname="Test Cases/Test_OASIS_SOC_Entry1/Integumentary" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test_OASIS_SOC_Entry1/Integumentary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Integumentary/skinintegrity_surgicalwound' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;input type=&quot;checkbox&quot; rname=&quot;SOOINT0004&quot; checklist-value=&quot;list.val&quot; ng-model=&quot;checked&quot; class=&quot;ng-scope ng-pristine ng-untouched ng-valid ng-empty&quot; checklist-model=&quot;pi.SOOINT0004&quot;> is not clickable at point (275, 722). Other element would receive the click: &lt;input type=&quot;checkbox&quot; name=&quot;SOOINT0077&quot; ng-model=&quot;ngModel&quot; class=&quot;ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched&quot; style=&quot;&quot;>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BU5EQH7', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PC-MED~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62446}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: c064f5f2ddd1963ae7fdcd163b9f91bb)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Integumentary.run(Integumentary:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555981795401.run(TempTestSuite1555981795401.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-23 09:10:31 - [TEST_CASE][FAILED] - Test Cases/Test_OASIS_SOC_Entry1/Integumentary: Test Cases/Test_OASIS_SOC_Entry1/Integumentary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Integumentary/skinintegrity_surgicalwound' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <input type="checkbox" rname="SOOINT0004" checklist-value="list.val" ng-model="checked" class="ng-scope ng-pristine ng-untouched ng-valid ng-empty" checklist-model="pi.SOOINT0004"> is not clickable at point (275, 722). Other element would receive the click: <input type="checkbox" name="SOOINT0077" ng-model="ngModel" class="ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched" style="">
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BU5EQH7', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PC-MED~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62446}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: c064f5f2ddd1963ae7fdcd163b9f91bb)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Integumentary.run(Integumentary:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555981795401.run(TempTestSuite1555981795401.groovy:36)
+
+
+2019-04-23 09:10:32 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skincolor_pink")): Object: 'Object Repository/OASIS/Integumentary/skincolor_pink' is clicked on
+
+2019-04-23 09:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skincolor_pink' is clicked on
+
+2019-04-23 09:10:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:10:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:10:39 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skintemperature_warm")): Object: 'Object Repository/OASIS/Integumentary/skintemperature_warm' is clicked on
+
+2019-04-23 09:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skintemperature_warm' is clicked on
+
+2019-04-23 09:10:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:10:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:10:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinmoisture_dry")): Object: 'Object Repository/OASIS/Integumentary/skinmoisture_dry' is clicked on
+
+2019-04-23 09:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinmoisture_dry' is clicked on
+
+2019-04-23 09:10:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:10:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:10:46 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinturgor_normal")): Object: 'Object Repository/OASIS/Integumentary/skinturgor_normal' is clicked on
+
+2019-04-23 09:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinturgor_normal' is clicked on
+
+2019-04-23 09:10:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:10:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:10:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_lesion")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_lesion' is clicked on
+
+2019-04-23 09:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_lesion' is clicked on
+
+2019-04-23 09:10:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:10:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:10:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_cellulitis")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_cellulitis' is clicked on
+
+2019-04-23 09:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_cellulitis' is clicked on
+
+2019-04-23 09:10:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:10:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:10:55 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_IAD")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_IAD' is clicked on
+
+2019-04-23 09:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_IAD' is clicked on
+
+2019-04-23 09:10:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:10:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:10:59 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_rashes")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_rashes' is clicked on
+
+2019-04-23 09:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_rashes' is clicked on
+
+2019-04-23 09:10:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:11:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:11:02 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_dermatitis")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_dermatitis' is clicked on
+
+2019-04-23 09:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_dermatitis' is clicked on
+
+2019-04-23 09:11:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:11:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:11:05 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_petechiae")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_petechiae' is clicked on
+
+2019-04-23 09:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_petechiae' is clicked on
+
+2019-04-23 09:11:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:11:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:11:08 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_blisters")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_blisters' is clicked on
+
+2019-04-23 09:11:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_blisters' is clicked on
+
+2019-04-23 09:11:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:11:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:11:11 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_excoriation")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_excoriation' is clicked on
+
+2019-04-23 09:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_excoriation' is clicked on
+
+2019-04-23 09:11:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:11:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:11:14 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_xerosis")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_xerosis' is clicked on
+
+2019-04-23 09:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_xerosis' is clicked on
+
+2019-04-23 09:11:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:11:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:11:18 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_ecchymosis")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_ecchymosis' is clicked on
+
+2019-04-23 09:11:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_ecchymosis' is clicked on
+
+2019-04-23 09:11:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:11:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:11:21 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Integumentary/skinintegrity_other"), "socskintegrity"): Text 'socskintegrity' is set on object 'Object Repository/OASIS/Integumentary/skinintegrity_other'
+
+2019-04-23 09:11:22 - [MESSAGE][PASSED] - Text 'socskintegrity' is set on object 'Object Repository/OASIS/Integumentary/skinintegrity_other'
+
+2019-04-23 09:11:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:11:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:11:25 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_wound")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_wound' is clicked on
+
+2019-04-23 09:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_wound' is clicked on
+
+2019-04-23 09:11:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:11:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:11:28 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_pressureulcer")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_pressureulcer' is clicked on
+
+2019-04-23 09:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_pressureulcer' is clicked on
+
+2019-04-23 09:11:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:11:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:11:31 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_diabeticulcer")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_diabeticulcer' is clicked on
+
+2019-04-23 09:11:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_diabeticulcer' is clicked on
+
+2019-04-23 09:11:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 09:11:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 09:11:34 - [TEST_STEP][FAILED] - click(findTestObject("OASIS/Integumentary/skinintegrity_surgicalwound")): click(findTestObject("OASIS/Integumentary/skinintegrity_surgicalwound")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Integumentary/skinintegrity_surgicalwound' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <input type="checkbox" rname="SOOINT0004" checklist-value="list.val" ng-model="checked" class="ng-scope ng-pristine ng-untouched ng-valid ng-empty" checklist-model="pi.SOOINT0004"> is not clickable at point (275, 722). Other element would receive the click: <input type="checkbox" name="SOOINT0077" ng-model="ngModel" class="ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched" style="">
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BU5EQH7', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PC-MED~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62446}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: c064f5f2ddd1963ae7fdcd163b9f91bb)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Integumentary.run(Integumentary:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555981795401.run(TempTestSuite1555981795401.groovy:36)
+
+
+2019-04-23 09:11:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OASIS/Integumentary/skinintegrity_surgicalwound' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <input type="checkbox" rname="SOOINT0004" checklist-value="list.val" ng-model="checked" class="ng-scope ng-pristine ng-untouched ng-valid ng-empty" checklist-model="pi.SOOINT0004"> is not clickable at point (275, 722). Other element would receive the click: <input type="checkbox" name="SOOINT0077" ng-model="ngModel" class="ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched" style="">
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BU5EQH7', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PC-MED~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62446}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: c064f5f2ddd1963ae7fdcd163b9f91bb)
+[[ATTACHMENT|C:\\Users\\PC-Medisource\\git\\healthcareProject\\Reports\\patientlist_oasis\\20190423_090955\\1555981894888.png]]
+
+2019-04-23 09:11:35 - [MESSAGE][FAILED] - click(findTestObject("OASIS/Integumentary/skinintegrity_surgicalwound")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Integumentary/skinintegrity_surgicalwound' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <input type="checkbox" rname="SOOINT0004" checklist-value="list.val" ng-model="checked" class="ng-scope ng-pristine ng-untouched ng-valid ng-empty" checklist-model="pi.SOOINT0004"> is not clickable at point (275, 722). Other element would receive the click: <input type="checkbox" name="SOOINT0077" ng-model="ngModel" class="ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched" style="">
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BU5EQH7', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PC-MED~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62446}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: c064f5f2ddd1963ae7fdcd163b9f91bb)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Integumentary.run(Integumentary:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555981795401.run(TempTestSuite1555981795401.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-23 09:10:31 - [TEST_CASE][FAILED] - Test Cases/Test_OASIS_SOC_Entry1/Integumentary: Test Cases/Test_OASIS_SOC_Entry1/Integumentary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Integumentary/skinintegrity_surgicalwound' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <input type="checkbox" rname="SOOINT0004" checklist-value="list.val" ng-model="checked" class="ng-scope ng-pristine ng-untouched ng-valid ng-empty" checklist-model="pi.SOOINT0004"> is not clickable at point (275, 722). Other element would receive the click: <input type="checkbox" name="SOOINT0077" ng-model="ngModel" class="ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched" style="">
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BU5EQH7', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PC-MED~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62446}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: c064f5f2ddd1963ae7fdcd163b9f91bb)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Integumentary.run(Integumentary:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555981795401.run(TempTestSuite1555981795401.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-23 09:09:57 - [TEST_SUITE][FAILED] - patientlist_oasis: Test Cases/Test_OASIS_SOC_Entry1/Integumentary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Integumentary/skinintegrity_surgicalwound' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <input type="checkbox" rname="SOOINT0004" checklist-value="list.val" ng-model="checked" class="ng-scope ng-pristine ng-untouched ng-valid ng-empty" checklist-model="pi.SOOINT0004"> is not clickable at point (275, 722). Other element would receive the click: <input type="checkbox" name="SOOINT0077" ng-model="ngModel" class="ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched" style="">
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BU5EQH7', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PC-MED~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62446}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: c064f5f2ddd1963ae7fdcd163b9f91bb)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Integumentary.run(Integumentary:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555981795401.run(TempTestSuite1555981795401.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-04-23 09:09:57 - [TEST_SUITE][FAILED] - patientlist_oasis: Test Cases/Test_OASIS_SOC_Entry1/Integumentary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Integumentary/skinintegrity_surgicalwound' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <input type="checkbox" rname="SOOINT0004" checklist-value="list.val" ng-model="checked" class="ng-scope ng-pristine ng-untouched ng-valid ng-empty" checklist-model="pi.SOOINT0004"> is not clickable at point (275, 722). Other element would receive the click: <input type="checkbox" name="SOOINT0077" ng-model="ngModel" class="ng-valid ng-not-empty ng-dirty ng-valid-parse ng-touched" style="">
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-BU5EQH7', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\PC-MED~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62446}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: c064f5f2ddd1963ae7fdcd163b9f91bb)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Integumentary.run(Integumentary:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555981795401.run(TempTestSuite1555981795401.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -19,11 +19,4 @@
       <type>Main</type>
       <value>#careForm > div > fieldset > table > tbody > tr:nth-child(17) > td > table > tbody > tr:nth-child(1) > td:nth-child(1) > div:nth-child(1) > label > input</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//*[@id=&quot;careForm&quot;]/div/fieldset/table/tbody/tr[17]/td/table/tbody/tr[1]/td[1]/div[1]/label/input</value>
-   </webElementProperties>
 </WebElementEntity>

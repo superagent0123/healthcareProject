@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#content > data > div.container.p-15.ng-scope.global__form_center-true > div > form > fieldset > div:nth-child(2) > fieldset > table:nth-child(4) > tbody > tr > td > div > div > div > div.text-center.ng-isolate-scope > a</value>
+         <value>#content > data > div.container.p-15.ng-scope.global__form_center-false > div > form > fieldset > div:nth-child(2) > fieldset > table:nth-child(4) > tbody > tr > td > div > div > div > div.text-center.ng-isolate-scope > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#content > data > div.container.p-15.ng-scope.global__form_center-true > div > form > fieldset > div:nth-child(2) > fieldset > table:nth-child(4) > tbody > tr > td > div > div > div > div.text-center.ng-isolate-scope > a</value>
+      <value>#content > data > div.container.p-15.ng-scope.global__form_center-false > div > form > fieldset > div:nth-child(2) > fieldset > table:nth-child(4) > tbody > tr > td > div > div > div > div.text-center.ng-isolate-scope > a</value>
    </webElementProperties>
 </WebElementEntity>

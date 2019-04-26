@@ -319,3 +319,10 @@ WebUI.click(findTestObject('OASIS/Sensory/sensory_painmedication_physicianawareY
 
 WebUI.click(findTestObject('OASIS/OASIS_TABS/Integumentary_tab'))
 
+
+
+
+
+
+
+

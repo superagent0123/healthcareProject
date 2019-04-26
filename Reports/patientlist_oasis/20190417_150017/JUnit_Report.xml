@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="patientlist_oasis" time="157" tests="1" failures="1" errors="0">
+   <testsuite name="patientlist_oasis" tests="1" failures="1" errors="0" time="157" timestamp="2019-04-17 15:00:20" hostname="PC-Medisource - 192.168.2.18" id="Test Suites/patientlist_oasis">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\PC-Medisource\\git\\healthcareProject\\Reports\\patientlist_oasis\\20190417_150017"/>
+         <property name="logFiles" value="C:\\Users\\PC-Medisource\\git\\healthcareProject\\Reports\\patientlist_oasis\\20190417_150017\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\PC-Medisource\\git\\healthcareProject\\Reports\\patientlist_oasis\\20190417_150017\\1555484576492.png"/>
+         <property name="hostName" value="PC-Medisource - 192.168.2.18"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.2.18"/>
+         <property name="sessionId" value="6f6b1ba773930e8577b883a267906a71"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login_rn" classname="Test Cases/login_rn" status="PASSED">
+         <system-out><![CDATA[2019-04-17 15:00:20 - [TEST_CASE][PASSED] - Test Cases/login_rn: Test Cases/login_rn
+
+2019-04-17 15:00:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-17 15:00:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 15:00:21 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-17 15:00:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-17 15:00:25 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/login"): Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-17 15:00:28 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-17 15:00:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-17 15:00:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-17 15:00:31 - [TEST_STEP][PASSED] - setText(findTestObject("LogIn/username"), "jbnurse"): Text 'jbnurse' is set on object 'Object Repository/LogIn/username'
+
+2019-04-17 15:00:32 - [MESSAGE][PASSED] - Text 'jbnurse' is set on object 'Object Repository/LogIn/username'
+
+2019-04-17 15:00:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-17 15:00:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-17 15:00:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LogIn/password"), "7R8xyZjhQ0AXM7ugpi2ZsQ=="): Text ****** has been set on object 'Object Repository/LogIn/password'
+
+2019-04-17 15:00:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LogIn/password'
+
+2019-04-17 15:00:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-17 15:00:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-17 15:00:38 - [TEST_STEP][PASSED] - click(findTestObject("LogIn/login_button")): Object: 'Object Repository/LogIn/login_button' is clicked on
+
+2019-04-17 15:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/login_button' is clicked on
+
+2019-04-17 15:00:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-17 15:00:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-17 15:00:41 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patients/all"): Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-17 15:00:47 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-17 15:00:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-17 15:00:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-17 15:00:50 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/overview"): Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/overview' successfully
+
+2019-04-17 15:00:50 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/overview' successfully
+
+2019-04-17 15:00:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-17 15:00:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-17 15:00:53 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/clinical/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5"): Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/clinical/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5' successfully
+
+2019-04-17 15:00:54 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/clinical/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5' successfully
+
+2019-04-17 15:00:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-17 15:00:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-17 15:00:57 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/integumentary/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5"): Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/integumentary/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5' successfully
+
+2019-04-17 15:00:58 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/integumentary/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_OASIS_SOC_Entry1/Integumentary" classname="Test Cases/Test_OASIS_SOC_Entry1/Integumentary" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Test_OASIS_SOC_Entry1/Integumentary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/OASIS/Integumentary/M1311_E1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Integumentary/M1311_E1' located by 'By.xpath: ' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Integumentary.run(Integumentary:164)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555484418007.run(TempTestSuite1555484418007.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-17 15:00:58 - [TEST_CASE][FAILED] - Test Cases/Test_OASIS_SOC_Entry1/Integumentary: Test Cases/Test_OASIS_SOC_Entry1/Integumentary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/OASIS/Integumentary/M1311_E1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Integumentary/M1311_E1' located by 'By.xpath: ' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Integumentary.run(Integumentary:164)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555484418007.run(TempTestSuite1555484418007.groovy:36)
+
+
+2019-04-17 15:00:59 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skintemperature_warm")): Object: 'Object Repository/OASIS/Integumentary/skintemperature_warm' is clicked on
+
+2019-04-17 15:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skintemperature_warm' is clicked on
+
+2019-04-17 15:01:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:05 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinmoisture_dry")): Object: 'Object Repository/OASIS/Integumentary/skinmoisture_dry' is clicked on
+
+2019-04-17 15:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinmoisture_dry' is clicked on
+
+2019-04-17 15:01:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinturgor_normal")): Object: 'Object Repository/OASIS/Integumentary/skinturgor_normal' is clicked on
+
+2019-04-17 15:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinturgor_normal' is clicked on
+
+2019-04-17 15:01:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:09 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_lesion")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_lesion' is clicked on
+
+2019-04-17 15:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_lesion' is clicked on
+
+2019-04-17 15:01:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:11 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_cellulitis")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_cellulitis' is clicked on
+
+2019-04-17 15:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_cellulitis' is clicked on
+
+2019-04-17 15:01:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:14 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_IAD")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_IAD' is clicked on
+
+2019-04-17 15:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_IAD' is clicked on
+
+2019-04-17 15:01:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:16 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_rashes")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_rashes' is clicked on
+
+2019-04-17 15:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_rashes' is clicked on
+
+2019-04-17 15:01:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:18 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_dermatitis")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_dermatitis' is clicked on
+
+2019-04-17 15:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_dermatitis' is clicked on
+
+2019-04-17 15:01:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:20 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_petechiae")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_petechiae' is clicked on
+
+2019-04-17 15:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_petechiae' is clicked on
+
+2019-04-17 15:01:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:22 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_blisters")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_blisters' is clicked on
+
+2019-04-17 15:01:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_blisters' is clicked on
+
+2019-04-17 15:01:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:25 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_excoriation")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_excoriation' is clicked on
+
+2019-04-17 15:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_excoriation' is clicked on
+
+2019-04-17 15:01:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:27 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_xerosis")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_xerosis' is clicked on
+
+2019-04-17 15:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_xerosis' is clicked on
+
+2019-04-17 15:01:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:29 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_ecchymosis")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_ecchymosis' is clicked on
+
+2019-04-17 15:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_ecchymosis' is clicked on
+
+2019-04-17 15:01:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:31 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_other")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_other' is clicked on
+
+2019-04-17 15:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_other' is clicked on
+
+2019-04-17 15:01:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:33 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_wound")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_wound' is clicked on
+
+2019-04-17 15:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_wound' is clicked on
+
+2019-04-17 15:01:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:35 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_pressureulcer")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_pressureulcer' is clicked on
+
+2019-04-17 15:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_pressureulcer' is clicked on
+
+2019-04-17 15:01:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:38 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_diabeticulcer")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_diabeticulcer' is clicked on
+
+2019-04-17 15:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_diabeticulcer' is clicked on
+
+2019-04-17 15:01:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:40 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_surgicalwound")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_surgicalwound' is clicked on
+
+2019-04-17 15:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_surgicalwound' is clicked on
+
+2019-04-17 15:01:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_venoustasisulcer")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_venoustasisulcer' is clicked on
+
+2019-04-17 15:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_venoustasisulcer' is clicked on
+
+2019-04-17 15:01:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:44 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_burn")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_burn' is clicked on
+
+2019-04-17 15:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_burn' is clicked on
+
+2019-04-17 15:01:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:46 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_abrasion")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_abrasion' is clicked on
+
+2019-04-17 15:01:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_abrasion' is clicked on
+
+2019-04-17 15:01:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_laceration")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_laceration' is clicked on
+
+2019-04-17 15:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_laceration' is clicked on
+
+2019-04-17 15:01:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:51 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_trauma")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_trauma' is clicked on
+
+2019-04-17 15:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_trauma' is clicked on
+
+2019-04-17 15:01:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:53 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_skintear")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_skintear' is clicked on
+
+2019-04-17 15:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_skintear' is clicked on
+
+2019-04-17 15:01:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:55 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_wound_other")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_wound_other' is clicked on
+
+2019-04-17 15:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_wound_other' is clicked on
+
+2019-04-17 15:01:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:57 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/skinintegrity_wound_location")): Object: 'Object Repository/OASIS/Integumentary/skinintegrity_wound_location' is clicked on
+
+2019-04-17 15:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/skinintegrity_wound_location' is clicked on
+
+2019-04-17 15:01:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:01:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:01:59 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Integumentary/bradenscale_sensory_score"), "1"): Text '1' is set on object 'Object Repository/OASIS/Integumentary/bradenscale_sensory_score'
+
+2019-04-17 15:02:00 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/OASIS/Integumentary/bradenscale_sensory_score'
+
+2019-04-17 15:02:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:02:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:02:02 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Integumentary/bradenscale_moisture_score"), "1"): Text '1' is set on object 'Object Repository/OASIS/Integumentary/bradenscale_moisture_score'
+
+2019-04-17 15:02:02 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/OASIS/Integumentary/bradenscale_moisture_score'
+
+2019-04-17 15:02:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:02:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:02:04 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Integumentary/bradenscale_activity_score"), "1"): Text '1' is set on object 'Object Repository/OASIS/Integumentary/bradenscale_activity_score'
+
+2019-04-17 15:02:04 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/OASIS/Integumentary/bradenscale_activity_score'
+
+2019-04-17 15:02:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:02:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:02:06 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Integumentary/bradenscale_mobility_score"), "1"): Text '1' is set on object 'Object Repository/OASIS/Integumentary/bradenscale_mobility_score'
+
+2019-04-17 15:02:06 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/OASIS/Integumentary/bradenscale_mobility_score'
+
+2019-04-17 15:02:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:02:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:02:08 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Integumentary/bradenscale_nutrition_score"), "1"): Text '1' is set on object 'Object Repository/OASIS/Integumentary/bradenscale_nutrition_score'
+
+2019-04-17 15:02:09 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/OASIS/Integumentary/bradenscale_nutrition_score'
+
+2019-04-17 15:02:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:02:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:02:11 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Integumentary/bradenscale_friction_score"), "1"): Text '1' is set on object 'Object Repository/OASIS/Integumentary/bradenscale_friction_score'
+
+2019-04-17 15:02:11 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/OASIS/Integumentary/bradenscale_friction_score'
+
+2019-04-17 15:02:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:02:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:02:13 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Integumentary/M1306_selected1")): Object: 'Object Repository/OASIS/Integumentary/M1306_selected1' is clicked on
+
+2019-04-17 15:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Integumentary/M1306_selected1' is clicked on
+
+2019-04-17 15:02:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:02:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:02:15 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Integumentary/M1311_A1"), "1"): Text '1' is set on object 'Object Repository/OASIS/Integumentary/M1311_A1'
+
+2019-04-17 15:02:15 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/OASIS/Integumentary/M1311_A1'
+
+2019-04-17 15:02:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:02:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:02:17 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Integumentary/M1311_B1"), "1"): Text '1' is set on object 'Object Repository/OASIS/Integumentary/M1311_B1'
+
+2019-04-17 15:02:18 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/OASIS/Integumentary/M1311_B1'
+
+2019-04-17 15:02:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:02:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:02:20 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Integumentary/M1311_C1"), "1"): Text '1' is set on object 'Object Repository/OASIS/Integumentary/M1311_C1'
+
+2019-04-17 15:02:20 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/OASIS/Integumentary/M1311_C1'
+
+2019-04-17 15:02:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:02:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:02:22 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Integumentary/M1311_D1"), "1"): Text '1' is set on object 'Object Repository/OASIS/Integumentary/M1311_D1'
+
+2019-04-17 15:02:22 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/OASIS/Integumentary/M1311_D1'
+
+2019-04-17 15:02:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 15:02:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 15:02:24 - [TEST_STEP][FAILED] - setText(findTestObject("OASIS/Integumentary/M1311_E1"), "1"): setText(findTestObject("OASIS/Integumentary/M1311_E1"), "1") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/OASIS/Integumentary/M1311_E1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Integumentary/M1311_E1' located by 'By.xpath: ' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Integumentary.run(Integumentary:164)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555484418007.run(TempTestSuite1555484418007.groovy:36)
+
+
+2019-04-17 15:02:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-17 15:02:56 - [MESSAGE][FAILED] - Unable to set text '1' of object 'Object Repository/OASIS/Integumentary/M1311_E1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Integumentary/M1311_E1' located by 'By.xpath: ' not found)
+[[ATTACHMENT|C:\\Users\\PC-Medisource\\git\\healthcareProject\\Reports\\patientlist_oasis\\20190417_150017\\1555484576492.png]]
+
+2019-04-17 15:02:56 - [MESSAGE][FAILED] - setText(findTestObject("OASIS/Integumentary/M1311_E1"), "1") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/OASIS/Integumentary/M1311_E1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Integumentary/M1311_E1' located by 'By.xpath: ' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Integumentary.run(Integumentary:164)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555484418007.run(TempTestSuite1555484418007.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-17 15:00:58 - [TEST_CASE][FAILED] - Test Cases/Test_OASIS_SOC_Entry1/Integumentary: Test Cases/Test_OASIS_SOC_Entry1/Integumentary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/OASIS/Integumentary/M1311_E1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Integumentary/M1311_E1' located by 'By.xpath: ' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Integumentary.run(Integumentary:164)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555484418007.run(TempTestSuite1555484418007.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-17 15:00:20 - [TEST_SUITE][FAILED] - patientlist_oasis: Test Cases/Test_OASIS_SOC_Entry1/Integumentary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/OASIS/Integumentary/M1311_E1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Integumentary/M1311_E1' located by 'By.xpath: ' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Integumentary.run(Integumentary:164)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555484418007.run(TempTestSuite1555484418007.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-04-17 15:00:20 - [TEST_SUITE][FAILED] - patientlist_oasis: Test Cases/Test_OASIS_SOC_Entry1/Integumentary FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '1' of object 'Object Repository/OASIS/Integumentary/M1311_E1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Integumentary/M1311_E1' located by 'By.xpath: ' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Integumentary.run(Integumentary:164)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555484418007.run(TempTestSuite1555484418007.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

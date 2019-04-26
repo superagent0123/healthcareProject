@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+patientlist_oasis,Chrome 73.0.3683.103,,2019-04-23 09:09:57,2019-04-23 09:11:36,1m - 38.514s,FAILED
+,,,,,,
+Test Cases/login_rn,Chrome 73.0.3683.103,,2019-04-23 09:09:58,2019-04-23 09:10:31,33.803s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-23 09:09:58,2019-04-23 09:10:02,4.088s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-23 09:10:02,2019-04-23 09:10:04,2.268s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:10:04,2019-04-23 09:10:07,3.031s,PASSED
+"setText(findTestObject(""LogIn/username""), ""jbnurse"")",Chrome 73.0.3683.103,,2019-04-23 09:10:07,2019-04-23 09:10:08,0.177s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:10:08,2019-04-23 09:10:11,3.001s,PASSED
+"setEncryptedText(findTestObject(""LogIn/password""), ""7R8xyZjhQ0B8ti8txswtaA=="")",Chrome 73.0.3683.103,,2019-04-23 09:10:11,2019-04-23 09:10:11,0.176s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:10:11,2019-04-23 09:10:14,3.002s,PASSED
+"click(findTestObject(""LogIn/login_button""))",Chrome 73.0.3683.103,,2019-04-23 09:10:14,2019-04-23 09:10:14,0.117s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:10:14,2019-04-23 09:10:17,3.003s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,Patient List,2019-04-23 09:10:17,2019-04-23 09:10:20,3.107s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:10:20,2019-04-23 09:10:23,3.001s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/overview"")",Chrome 73.0.3683.103,Selected Patient,2019-04-23 09:10:23,2019-04-23 09:10:24,0.633s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:10:24,2019-04-23 09:10:27,3.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/clinical/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5"")",Chrome 73.0.3683.103,Patient OASIS,2019-04-23 09:10:27,2019-04-23 09:10:27,0.656s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:10:27,2019-04-23 09:10:30,3.003s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/integumentary/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5"")",Chrome 73.0.3683.103,OASIS Integumentary Tab,2019-04-23 09:10:30,2019-04-23 09:10:31,1.108s,PASSED
+,,,,,,
+Test Cases/Test_OASIS_SOC_Entry1/Integumentary,Chrome 73.0.3683.103,,2019-04-23 09:10:31,2019-04-23 09:11:35,1m - 3.329s,FAILED
+"click(findTestObject(""OASIS/Integumentary/skincolor_pink""))",Chrome 73.0.3683.103,,2019-04-23 09:10:32,2019-04-23 09:10:36,4.588s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:10:36,2019-04-23 09:10:39,3.004s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skintemperature_warm""))",Chrome 73.0.3683.103,,2019-04-23 09:10:39,2019-04-23 09:10:40,0.156s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:10:40,2019-04-23 09:10:43,3.003s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinmoisture_dry""))",Chrome 73.0.3683.103,,2019-04-23 09:10:43,2019-04-23 09:10:43,0.171s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:10:43,2019-04-23 09:10:46,3.002s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinturgor_normal""))",Chrome 73.0.3683.103,,2019-04-23 09:10:46,2019-04-23 09:10:46,0.186s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:10:46,2019-04-23 09:10:49,3.003s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_lesion""))",Chrome 73.0.3683.103,,2019-04-23 09:10:49,2019-04-23 09:10:49,0.199s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:10:49,2019-04-23 09:10:52,3.002s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_cellulitis""))",Chrome 73.0.3683.103,,2019-04-23 09:10:52,2019-04-23 09:10:52,0.177s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:10:52,2019-04-23 09:10:55,3.000s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_IAD""))",Chrome 73.0.3683.103,,2019-04-23 09:10:55,2019-04-23 09:10:56,0.168s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:10:56,2019-04-23 09:10:59,3.000s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_rashes""))",Chrome 73.0.3683.103,,2019-04-23 09:10:59,2019-04-23 09:10:59,0.164s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:10:59,2019-04-23 09:11:02,3.004s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_dermatitis""))",Chrome 73.0.3683.103,,2019-04-23 09:11:02,2019-04-23 09:11:02,0.137s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:11:02,2019-04-23 09:11:05,3.002s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_petechiae""))",Chrome 73.0.3683.103,,2019-04-23 09:11:05,2019-04-23 09:11:05,0.146s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:11:05,2019-04-23 09:11:08,3.003s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_blisters""))",Chrome 73.0.3683.103,,2019-04-23 09:11:08,2019-04-23 09:11:08,0.247s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:11:08,2019-04-23 09:11:11,3.002s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_excoriation""))",Chrome 73.0.3683.103,,2019-04-23 09:11:11,2019-04-23 09:11:11,0.218s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:11:11,2019-04-23 09:11:14,3.002s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_xerosis""))",Chrome 73.0.3683.103,,2019-04-23 09:11:14,2019-04-23 09:11:15,0.197s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:11:15,2019-04-23 09:11:18,3.000s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_ecchymosis""))",Chrome 73.0.3683.103,,2019-04-23 09:11:18,2019-04-23 09:11:18,0.204s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:11:18,2019-04-23 09:11:21,3.001s,PASSED
+"setText(findTestObject(""OASIS/Integumentary/skinintegrity_other""), ""socskintegrity"")",Chrome 73.0.3683.103,,2019-04-23 09:11:21,2019-04-23 09:11:22,0.782s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:11:22,2019-04-23 09:11:25,3.002s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_wound""))",Chrome 73.0.3683.103,,2019-04-23 09:11:25,2019-04-23 09:11:25,0.209s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:11:25,2019-04-23 09:11:28,3.001s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_pressureulcer""))",Chrome 73.0.3683.103,,2019-04-23 09:11:28,2019-04-23 09:11:28,0.170s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:11:28,2019-04-23 09:11:31,3.002s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_diabeticulcer""))",Chrome 73.0.3683.103,,2019-04-23 09:11:31,2019-04-23 09:11:31,0.197s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-23 09:11:31,2019-04-23 09:11:34,3.002s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_surgicalwound""))",Chrome 73.0.3683.103,,2019-04-23 09:11:34,2019-04-23 09:11:35,0.600s,FAILED

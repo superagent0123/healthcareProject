@@ -235,6 +235,14 @@ WebUI.click(findTestObject('addUser/writing_other_fluent'))
 
 WebUI.delay(3)
 
+WebUI.click(findTestObject('addUser/new_user_browsefile'))
+
+WebUI.delay(5)
+
+Runtime.getRuntime().exec('C:\\Users\\PC-Medisource\\Desktop\\AutoIt3\\uploadimage.exe')
+
+WebUI.delay(5)
+
 WebUI.click(findTestObject('addUser/next_button'))
 
 WebUI.delay(3)
