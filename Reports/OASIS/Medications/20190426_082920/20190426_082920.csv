@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Medications,Chrome 73.0.3683.103,,2019-04-26 08:29:22,2019-04-26 08:29:55,33.540s,FAILED
+,,,,,,
+Test Cases/navigate_patient_soc_ken,Chrome 73.0.3683.103,,2019-04-26 08:29:22,2019-04-26 08:29:37,15.138s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-26 08:29:22,2019-04-26 08:29:25,3.154s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-26 08:29:25,2019-04-26 08:29:27,2.125s,PASSED
+"setText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.""), ""kenkenrn"")",Chrome 73.0.3683.103,,2019-04-26 08:29:27,2019-04-26 08:29:28,0.132s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Username or email requir""), ""SITHpLWAWtLnr/hOhnpplQ=="")",Chrome 73.0.3683.103,,2019-04-26 08:29:28,2019-04-26 08:29:28,0.135s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-26 08:29:28,2019-04-26 08:29:29,1.017s,PASSED
+"click(findTestObject(""Object Repository/addUser/Page_Medisource  Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-26 08:29:29,2019-04-26 08:29:29,0.070s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-26 08:29:29,2019-04-26 08:29:32,3.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,,2019-04-26 08:29:32,2019-04-26 08:29:33,0.982s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-26 08:29:33,2019-04-26 08:29:34,1.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"")",Chrome 73.0.3683.103,,2019-04-26 08:29:34,2019-04-26 08:29:34,0.640s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-26 08:29:34,2019-04-26 08:29:35,1.007s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"")",Chrome 73.0.3683.103,,2019-04-26 08:29:35,2019-04-26 08:29:36,0.551s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-26 08:29:36,2019-04-26 08:29:37,1.002s,PASSED
+,,,,,,
+Test Cases/OASIS_SOC/Medications,Chrome 73.0.3683.103,,2019-04-26 08:29:37,2019-04-26 08:29:54,17.451s,FAILED
+"click(findTestObject(""OASIS/OASIS_TABS/xitemedits_btn""))",Chrome 73.0.3683.103,,2019-04-26 08:29:37,2019-04-26 08:29:39,1.885s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/Medications_tab""))",Chrome 73.0.3683.103,,2019-04-26 08:29:39,2019-04-26 08:29:39,0.074s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-26 08:29:39,2019-04-26 08:29:44,5.004s,PASSED
+"click(findTestObject(""OASIS/Medications/M2001_1""))",Chrome 73.0.3683.103,,2019-04-26 08:29:44,2019-04-26 08:29:44,0.145s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-26 08:29:44,2019-04-26 08:29:45,1.002s,PASSED
+"click(findTestObject(""OASIS/Medications/M2003_1""))",Chrome 73.0.3683.103,,2019-04-26 08:29:45,2019-04-26 08:29:46,0.116s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-26 08:29:46,2019-04-26 08:29:47,1.003s,PASSED
+"click(findTestObject(""OASIS/Medications/M2010_1""))",Chrome 73.0.3683.103,,2019-04-26 08:29:47,2019-04-26 08:29:47,0.124s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-26 08:29:47,2019-04-26 08:29:48,1.003s,PASSED
+"click(findTestObject(""OASIS/Medications/M2020_1""))",Chrome 73.0.3683.103,,2019-04-26 08:29:48,2019-04-26 08:29:48,0.150s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-26 08:29:48,2019-04-26 08:29:49,1.002s,PASSED
+"click(findTestObject(""OASIS/Medications/M2030_1""))",Chrome 73.0.3683.103,,2019-04-26 08:29:49,2019-04-26 08:29:49,0.105s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-26 08:29:49,2019-04-26 08:29:51,2.001s,PASSED
+"click(findTestObject(""OASIS/Medications/med_venous_access""))",Chrome 73.0.3683.103,,2019-04-26 08:29:51,2019-04-26 08:29:51,0.099s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-26 08:29:51,2019-04-26 08:29:54,3.005s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_purpose/med_va_purpose_antibiotic""))",Chrome 73.0.3683.103,,2019-04-26 08:29:54,2019-04-26 08:29:54,0.391s,FAILED

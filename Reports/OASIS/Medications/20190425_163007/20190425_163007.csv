@@ -1,0 +1,94 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Medications,Chrome 73.0.3683.103,,2019-04-25 16:30:08,2019-04-25 16:31:08,1m - 0.157s,PASSED
+,,,,,,
+Test Cases/navigate_patient_soc_ken,Chrome 73.0.3683.103,,2019-04-25 16:30:08,2019-04-25 16:30:24,15.173s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-25 16:30:09,2019-04-25 16:30:12,3.185s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-25 16:30:12,2019-04-25 16:30:14,2.346s,PASSED
+"setText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.""), ""kenkenrn"")",Chrome 73.0.3683.103,,2019-04-25 16:30:14,2019-04-25 16:30:14,0.152s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Username or email requir""), ""SITHpLWAWtLnr/hOhnpplQ=="")",Chrome 73.0.3683.103,,2019-04-25 16:30:14,2019-04-25 16:30:15,0.161s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 16:30:15,2019-04-25 16:30:16,1.018s,PASSED
+"click(findTestObject(""Object Repository/addUser/Page_Medisource  Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-25 16:30:16,2019-04-25 16:30:16,0.069s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-25 16:30:16,2019-04-25 16:30:19,3.006s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,,2019-04-25 16:30:19,2019-04-25 16:30:19,0.594s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 16:30:19,2019-04-25 16:30:20,1.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"")",Chrome 73.0.3683.103,,2019-04-25 16:30:20,2019-04-25 16:30:21,0.653s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 16:30:21,2019-04-25 16:30:22,1.003s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"")",Chrome 73.0.3683.103,,2019-04-25 16:30:22,2019-04-25 16:30:23,0.653s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 16:30:23,2019-04-25 16:30:24,1.001s,PASSED
+,,,,,,
+Test Cases/OASIS_SOC/Medications,Chrome 73.0.3683.103,,2019-04-25 16:30:24,2019-04-25 16:31:08,43.961s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/xitemedits_btn""))",Chrome 73.0.3683.103,,2019-04-25 16:30:24,2019-04-25 16:30:26,1.962s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/Medications_tab""))",Chrome 73.0.3683.103,,2019-04-25 16:30:26,2019-04-25 16:30:26,0.079s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-25 16:30:26,2019-04-25 16:30:31,5.005s,PASSED
+"click(findTestObject(""OASIS/Medications/M2001_1""))",Chrome 73.0.3683.103,,2019-04-25 16:30:31,2019-04-25 16:30:31,0.143s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 16:30:31,2019-04-25 16:30:32,1.004s,PASSED
+"click(findTestObject(""OASIS/Medications/M2003_1""))",Chrome 73.0.3683.103,,2019-04-25 16:30:32,2019-04-25 16:30:32,0.149s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 16:30:32,2019-04-25 16:30:33,1.003s,PASSED
+"click(findTestObject(""OASIS/Medications/M2010_1""))",Chrome 73.0.3683.103,,2019-04-25 16:30:33,2019-04-25 16:30:33,0.113s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 16:30:33,2019-04-25 16:30:34,1.003s,PASSED
+"click(findTestObject(""OASIS/Medications/M2020_1""))",Chrome 73.0.3683.103,,2019-04-25 16:30:34,2019-04-25 16:30:34,0.118s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-25 16:30:34,2019-04-25 16:30:35,1.003s,PASSED
+"click(findTestObject(""OASIS/Medications/M2030_1""))",Chrome 73.0.3683.103,,2019-04-25 16:30:35,2019-04-25 16:30:35,0.101s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-25 16:30:35,2019-04-25 16:30:37,2.004s,PASSED
+"click(findTestObject(""OASIS/Medications/med_venous_access""))",Chrome 73.0.3683.103,,2019-04-25 16:30:37,2019-04-25 16:30:38,0.154s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-25 16:30:38,2019-04-25 16:30:41,3.002s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_purpose/med_va_purpose_antibiotic""))",Chrome 73.0.3683.103,,2019-04-25 16:30:41,2019-04-25 16:30:41,0.118s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_purpose/med_va_purpose_hydration""))",Chrome 73.0.3683.103,,2019-04-25 16:30:41,2019-04-25 16:30:41,0.114s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_purpose/med_va_purpose_parenteral""))",Chrome 73.0.3683.103,,2019-04-25 16:30:41,2019-04-25 16:30:41,0.109s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_purpose/med_va_purpose_pain_control""))",Chrome 73.0.3683.103,,2019-04-25 16:30:41,2019-04-25 16:30:41,0.114s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_purpose/med_va_purpose_chemotherapy""))",Chrome 73.0.3683.103,,2019-04-25 16:30:41,2019-04-25 16:30:41,0.109s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_purpose/med_va_purpose_maintain_va""))",Chrome 73.0.3683.103,,2019-04-25 16:30:41,2019-04-25 16:30:41,0.098s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_purpose/med_va_purpose_other""), ""Medication Monitoring Therapy"")",Chrome 73.0.3683.103,,2019-04-25 16:30:41,2019-04-25 16:30:42,0.549s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-25 16:30:42,2019-04-25 16:30:44,2.006s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_peripheral/med_va_peripheral_cathetype_short""))",Chrome 73.0.3683.103,,2019-04-25 16:30:44,2019-04-25 16:30:44,0.108s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_peripheral/med_va_peripheral_cathesize_24""))",Chrome 73.0.3683.103,,2019-04-25 16:30:44,2019-04-25 16:30:44,0.103s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_peripheral/med_va_peripheral_cathesize_other""), ""28"")",Chrome 73.0.3683.103,,2019-04-25 16:30:44,2019-04-25 16:30:44,0.137s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_peripheral/med_va_peripheral_insertionsite_arm_l""))",Chrome 73.0.3683.103,,2019-04-25 16:30:44,2019-04-25 16:30:44,0.097s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_peripheral/med_va_peripheral_insertionsite_hand_r""))",Chrome 73.0.3683.103,,2019-04-25 16:30:44,2019-04-25 16:30:44,0.102s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_peripheral/med_va_peripheral_insertionsite_hand_other""), ""Left and Right Legs"")",Chrome 73.0.3683.103,,2019-04-25 16:30:44,2019-04-25 16:30:45,0.408s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_peripheral/med_va_peripheral_dateinserted""), ""04252019"")",Chrome 73.0.3683.103,,2019-04-25 16:30:45,2019-04-25 16:30:45,0.244s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_peripheral/med_va_peripheral_ivsitechangefreq""), ""3"")",Chrome 73.0.3683.103,,2019-04-25 16:30:45,2019-04-25 16:30:45,0.108s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_peripheral/med_va_peripheral_dressingchangefreq""), ""3"")",Chrome 73.0.3683.103,,2019-04-25 16:30:45,2019-04-25 16:30:45,0.112s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_peripheral/med_va_peripheral_conditioninsertion_wnl""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 16:30:45,2019-04-25 16:30:45,0.098s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_peripheral/med_va_peripheral_conditioninsertion_tf""), ""All Normal"")",Chrome 73.0.3683.103,,2019-04-25 16:30:45,2019-04-25 16:30:46,0.283s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_peripheral/med_va_peripheral_flushsolution""), ""Normal"")",Chrome 73.0.3683.103,,2019-04-25 16:30:46,2019-04-25 16:30:46,0.215s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_peripheral/med_va_peripheral_flushfrequency""), ""Normal"")",Chrome 73.0.3683.103,,2019-04-25 16:30:46,2019-04-25 16:30:46,0.226s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-25 16:30:46,2019-04-25 16:30:48,2.003s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_cvad/med_va_cvad_cathe_piccline""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 16:30:48,2019-04-25 16:30:48,0.136s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_cvad/med_va_cvad_numlumens_single""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 16:30:48,2019-04-25 16:30:48,0.099s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_peripheral_l""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 16:30:48,2019-04-25 16:30:48,0.086s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_subclavian_l""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 16:30:48,2019-04-25 16:30:49,0.107s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_jugular_l""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 16:30:49,2019-04-25 16:30:49,0.093s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_jugular_other""), ""Left and Right Legs"")",Chrome 73.0.3683.103,,2019-04-25 16:30:49,2019-04-25 16:30:49,0.428s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_cvad/med_va_cvad_dateinserted""), ""04252019"")",Chrome 73.0.3683.103,,2019-04-25 16:30:49,2019-04-25 16:30:49,0.230s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_cvad/med_va_cvad_dressingchangefreq""), ""3"")",Chrome 73.0.3683.103,,2019-04-25 16:30:49,2019-04-25 16:30:49,0.103s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_cvad/med_va_cvad_conditioninsertion_wnl""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 16:30:49,2019-04-25 16:30:49,0.091s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_cvad/med_va_cvad_conditioninsertion_tf""), ""Normal"")",Chrome 73.0.3683.103,,2019-04-25 16:30:49,2019-04-25 16:30:50,0.231s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_cvad/med_va_cvad_flushfreq""), ""Normal"")",Chrome 73.0.3683.103,,2019-04-25 16:30:50,2019-04-25 16:30:50,0.213s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_cvad/med_va_cvad_flushsolution""), ""Normal"")",Chrome 73.0.3683.103,,2019-04-25 16:30:50,2019-04-25 16:30:50,0.205s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-25 16:30:50,2019-04-25 16:30:52,2.002s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_portdevice_bardport""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 16:30:52,2019-04-25 16:30:52,0.111s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_portdevice_other""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-25 16:30:52,2019-04-25 16:30:53,0.295s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_portreservoir_singlechamber""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 16:30:53,2019-04-25 16:30:53,0.085s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_hubernlength_050""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 16:30:53,2019-04-25 16:30:53,0.106s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_huberngauge_19""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 16:30:53,2019-04-25 16:30:53,0.098s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_implantlocation""), ""Arms and Legs"")",Chrome 73.0.3683.103,,2019-04-25 16:30:53,2019-04-25 16:30:53,0.346s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_dateimplanted""), ""04252019"")",Chrome 73.0.3683.103,,2019-04-25 16:30:53,2019-04-25 16:30:53,0.239s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_dressingchangefreq""), ""Normal"")",Chrome 73.0.3683.103,,2019-04-25 16:30:53,2019-04-25 16:30:54,0.208s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_conditionimplant_wnl""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 16:30:54,2019-04-25 16:30:54,0.078s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_conditionimplant_tf""), ""Normal"")",Chrome 73.0.3683.103,,2019-04-25 16:30:54,2019-04-25 16:30:54,0.246s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_flushsolution""), ""Normal"")",Chrome 73.0.3683.103,,2019-04-25 16:30:54,2019-04-25 16:30:54,0.207s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_flushfrequency""), ""3"")",Chrome 73.0.3683.103,,2019-04-25 16:30:54,2019-04-25 16:30:54,0.102s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-25 16:30:54,2019-04-25 16:30:56,2.004s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_intravenous/med_va_intravenous_ivmedication""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-25 16:30:56,2019-04-25 16:30:57,0.299s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_intravenous/med_va_intravenous_ivsolution""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-25 16:30:57,2019-04-25 16:30:57,0.293s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_intravenous/med_va_intravenous_toleratedivtherapy""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 16:30:57,2019-04-25 16:30:57,0.077s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-25 16:30:57,2019-04-25 16:30:59,2.004s,PASSED
+"click(findTestObject(""OASIS/Medications/med_va_administrationvia/med_va_adminvia_ivpump""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-25 16:30:59,2019-04-25 16:30:59,0.132s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_administrationvia/med_va_adminvia_ivpump_tf""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-25 16:30:59,2019-04-25 16:30:59,0.297s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_va_administrationvia/med_va_adminvia_other""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-25 16:30:59,2019-04-25 16:31:00,0.277s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-25 16:31:00,2019-04-25 16:31:02,2.001s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_flushsolution_IV/med_va_flushsolution_pre""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-25 16:31:02,2019-04-25 16:31:02,0.287s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_flushsolution_IV/med_va_flushsolution_post""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-25 16:31:02,2019-04-25 16:31:02,0.291s,PASSED
+"setText(findTestObject(""OASIS/Medications/med_flushsolution_IV/med_va_flushsolution_otherprocedure""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-25 16:31:02,2019-04-25 16:31:03,0.270s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-25 16:31:03,2019-04-25 16:31:08,5.001s,PASSED

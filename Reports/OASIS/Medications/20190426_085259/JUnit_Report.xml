@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Medications" time="73" tests="2" failures="0" errors="0">
+   <testsuite name="Medications" tests="2" failures="0" errors="0" time="73" timestamp="2019-04-26 08:53:01" hostname="Khenard Figuracion - 192.168.2.15" id="Test Suites/OASIS/Medications">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Medications\\20190426_085259"/>
+         <property name="logFiles" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Medications\\20190426_085259\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Khenard Figuracion - 192.168.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.2.15"/>
+         <property name="sessionId" value="281040db178cc1d9113bb2c965cbb732"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/navigate_patient_soc_ken" classname="Test Cases/navigate_patient_soc_ken" status="PASSED">
+         <system-out><![CDATA[2019-04-26 08:53:01 - [TEST_CASE][PASSED] - Test Cases/navigate_patient_soc_ken: Test Cases/navigate_patient_soc_ken
+
+2019-04-26 08:53:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-26 08:53:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-26 08:53:02 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-26 08:53:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-26 08:53:06 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/login"): Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-26 08:53:08 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-26 08:53:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes."), "kenkenrn"): Text 'kenkenrn' is set on object 'Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'
+
+2019-04-26 08:53:08 - [MESSAGE][PASSED] - Text 'kenkenrn' is set on object 'Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'
+
+2019-04-26 08:53:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/addUser/Page_Medisource  Login/input_Username or email requir"), "SITHpLWAWtLnr/hOhnpplQ=="): Text ****** has been set on object 'Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-26 08:53:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-26 08:53:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:53:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:53:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addUser/Page_Medisource  Login/button_Login")): Object: 'Object Repository/addUser/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-26 08:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/addUser/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-26 08:53:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-26 08:53:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 08:53:12 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patients/all"): Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-26 08:53:14 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-26 08:53:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:53:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:53:15 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"): Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview' successfully
+
+2019-04-26 08:53:16 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview' successfully
+
+2019-04-26 08:53:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:53:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:53:17 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"): Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197' successfully
+
+2019-04-26 08:53:17 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197' successfully
+
+2019-04-26 08:53:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:53:18 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OASIS_SOC/Medications" classname="Test Cases/OASIS_SOC/Medications" status="PASSED">
+         <system-out><![CDATA[2019-04-26 08:53:18 - [TEST_CASE][PASSED] - Test Cases/OASIS_SOC/Medications: Test Cases/OASIS_SOC/Medications
+
+2019-04-26 08:53:18 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/OASIS_TABS/xitemedits_btn")): Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-04-26 08:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-04-26 08:53:20 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/OASIS_TABS/Medications_tab")): Object: 'Object Repository/OASIS/OASIS_TABS/Medications_tab' is clicked on
+
+2019-04-26 08:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/OASIS_TABS/Medications_tab' is clicked on
+
+2019-04-26 08:53:20 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-26 08:53:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-26 08:53:25 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/M2001_1")): Object: 'Object Repository/OASIS/Medications/M2001_1' is clicked on
+
+2019-04-26 08:53:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/M2001_1' is clicked on
+
+2019-04-26 08:53:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:53:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:53:27 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/M2003_1")): Object: 'Object Repository/OASIS/Medications/M2003_1' is clicked on
+
+2019-04-26 08:53:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/M2003_1' is clicked on
+
+2019-04-26 08:53:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:53:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:53:28 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/M2010_1")): Object: 'Object Repository/OASIS/Medications/M2010_1' is clicked on
+
+2019-04-26 08:53:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/M2010_1' is clicked on
+
+2019-04-26 08:53:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:53:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:53:29 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/M2020_1")): Object: 'Object Repository/OASIS/Medications/M2020_1' is clicked on
+
+2019-04-26 08:53:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/M2020_1' is clicked on
+
+2019-04-26 08:53:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-26 08:53:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-26 08:53:34 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/M2030_1")): Object: 'Object Repository/OASIS/Medications/M2030_1' is clicked on
+
+2019-04-26 08:53:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/M2030_1' is clicked on
+
+2019-04-26 08:53:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-26 08:53:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-26 08:53:39 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_venous_access")): Object: 'Object Repository/OASIS/Medications/med_venous_access' is clicked on
+
+2019-04-26 08:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_venous_access' is clicked on
+
+2019-04-26 08:53:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-26 08:53:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-26 08:53:44 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_purpose/med_va_purpose_antibiotic")): Object: 'Object Repository/OASIS/Medications/med_va_purpose/med_va_purpose_antibiotic' is clicked on
+
+2019-04-26 08:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_purpose/med_va_purpose_antibiotic' is clicked on
+
+2019-04-26 08:53:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 08:53:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 08:53:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_purpose/med_va_purpose_hydration")): Object: 'Object Repository/OASIS/Medications/med_va_purpose/med_va_purpose_hydration' is clicked on
+
+2019-04-26 08:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_purpose/med_va_purpose_hydration' is clicked on
+
+2019-04-26 08:53:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_purpose/med_va_purpose_parenteral")): Object: 'Object Repository/OASIS/Medications/med_va_purpose/med_va_purpose_parenteral' is clicked on
+
+2019-04-26 08:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_purpose/med_va_purpose_parenteral' is clicked on
+
+2019-04-26 08:53:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_purpose/med_va_purpose_pain_control")): Object: 'Object Repository/OASIS/Medications/med_va_purpose/med_va_purpose_pain_control' is clicked on
+
+2019-04-26 08:53:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_purpose/med_va_purpose_pain_control' is clicked on
+
+2019-04-26 08:53:46 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_purpose/med_va_purpose_chemotherapy")): Object: 'Object Repository/OASIS/Medications/med_va_purpose/med_va_purpose_chemotherapy' is clicked on
+
+2019-04-26 08:53:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_purpose/med_va_purpose_chemotherapy' is clicked on
+
+2019-04-26 08:53:46 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_purpose/med_va_purpose_maintain_va")): Object: 'Object Repository/OASIS/Medications/med_va_purpose/med_va_purpose_maintain_va' is clicked on
+
+2019-04-26 08:53:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_purpose/med_va_purpose_maintain_va' is clicked on
+
+2019-04-26 08:53:46 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_purpose/med_va_purpose_other"), "Medication Monitoring Therapy"): Text 'Medication Monitoring Therapy' is set on object 'Object Repository/OASIS/Medications/med_va_purpose/med_va_purpose_other'
+
+2019-04-26 08:53:46 - [MESSAGE][PASSED] - Text 'Medication Monitoring Therapy' is set on object 'Object Repository/OASIS/Medications/med_va_purpose/med_va_purpose_other'
+
+2019-04-26 08:53:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 08:53:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 08:53:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_peripheral/med_va_peripheral_cathetype_short")): Object: 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_cathetype_short' is clicked on
+
+2019-04-26 08:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_cathetype_short' is clicked on
+
+2019-04-26 08:53:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_peripheral/med_va_peripheral_cathesize_24")): Object: 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_cathesize_24' is clicked on
+
+2019-04-26 08:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_cathesize_24' is clicked on
+
+2019-04-26 08:53:49 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_peripheral/med_va_peripheral_cathesize_other"), "28"): Text '28' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_cathesize_other'
+
+2019-04-26 08:53:49 - [MESSAGE][PASSED] - Text '28' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_cathesize_other'
+
+2019-04-26 08:53:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_peripheral/med_va_peripheral_insertionsite_arm_l")): Object: 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_insertionsite_arm_l' is clicked on
+
+2019-04-26 08:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_insertionsite_arm_l' is clicked on
+
+2019-04-26 08:53:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_peripheral/med_va_peripheral_insertionsite_hand_r")): Object: 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_insertionsite_hand_r' is clicked on
+
+2019-04-26 08:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_insertionsite_hand_r' is clicked on
+
+2019-04-26 08:53:49 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_peripheral/med_va_peripheral_insertionsite_hand_other"), "Left and Right Legs"): Text 'Left and Right Legs' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_insertionsite_hand_other'
+
+2019-04-26 08:53:50 - [MESSAGE][PASSED] - Text 'Left and Right Legs' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_insertionsite_hand_other'
+
+2019-04-26 08:53:50 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_peripheral/med_va_peripheral_dateinserted"), "04252019"): Text '04252019' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_dateinserted'
+
+2019-04-26 08:53:50 - [MESSAGE][PASSED] - Text '04252019' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_dateinserted'
+
+2019-04-26 08:53:50 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_peripheral/med_va_peripheral_ivsitechangefreq"), "3"): Text '3' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_ivsitechangefreq'
+
+2019-04-26 08:53:50 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_ivsitechangefreq'
+
+2019-04-26 08:53:50 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_peripheral/med_va_peripheral_dressingchangefreq"), "3"): Text '3' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_dressingchangefreq'
+
+2019-04-26 08:53:50 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_dressingchangefreq'
+
+2019-04-26 08:53:50 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_peripheral/med_va_peripheral_conditioninsertion_wnl"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_conditioninsertion_wnl' is clicked on
+
+2019-04-26 08:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_conditioninsertion_wnl' is clicked on
+
+2019-04-26 08:53:50 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_peripheral/med_va_peripheral_conditioninsertion_tf"), "All Normal"): Text 'All Normal' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_conditioninsertion_tf'
+
+2019-04-26 08:53:51 - [MESSAGE][PASSED] - Text 'All Normal' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_conditioninsertion_tf'
+
+2019-04-26 08:53:51 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_peripheral/med_va_peripheral_flushsolution"), "Normal"): Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_flushsolution'
+
+2019-04-26 08:53:51 - [MESSAGE][PASSED] - Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_flushsolution'
+
+2019-04-26 08:53:51 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_peripheral/med_va_peripheral_flushfrequency"), "Normal"): Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_flushfrequency'
+
+2019-04-26 08:53:51 - [MESSAGE][PASSED] - Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_peripheral/med_va_peripheral_flushfrequency'
+
+2019-04-26 08:53:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 08:53:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 08:53:53 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_cvad/med_va_cvad_cathe_piccline"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_cathe_piccline' is clicked on
+
+2019-04-26 08:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_cathe_piccline' is clicked on
+
+2019-04-26 08:53:53 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_cvad/med_va_cvad_numlumens_single"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_numlumens_single' is clicked on
+
+2019-04-26 08:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_numlumens_single' is clicked on
+
+2019-04-26 08:53:53 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_peripheral_l"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_peripheral_l' is clicked on
+
+2019-04-26 08:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_peripheral_l' is clicked on
+
+2019-04-26 08:53:53 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_subclavian_l"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_subclavian_l' is clicked on
+
+2019-04-26 08:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_subclavian_l' is clicked on
+
+2019-04-26 08:53:54 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_jugular_l"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_jugular_l' is clicked on
+
+2019-04-26 08:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_jugular_l' is clicked on
+
+2019-04-26 08:53:54 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_jugular_other"), "Left and Right Legs"): Text 'Left and Right Legs' is set on object 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_jugular_other'
+
+2019-04-26 08:53:54 - [MESSAGE][PASSED] - Text 'Left and Right Legs' is set on object 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_insertionsiteloc_jugular_other'
+
+2019-04-26 08:53:54 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_cvad/med_va_cvad_dateinserted"), "04252019"): Text '04252019' is set on object 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_dateinserted'
+
+2019-04-26 08:53:54 - [MESSAGE][PASSED] - Text '04252019' is set on object 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_dateinserted'
+
+2019-04-26 08:53:54 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_cvad/med_va_cvad_dressingchangefreq"), "3"): Text '3' is set on object 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_dressingchangefreq'
+
+2019-04-26 08:53:55 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_dressingchangefreq'
+
+2019-04-26 08:53:55 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_cvad/med_va_cvad_conditioninsertion_wnl"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_conditioninsertion_wnl' is clicked on
+
+2019-04-26 08:53:55 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_conditioninsertion_wnl' is clicked on
+
+2019-04-26 08:53:55 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_cvad/med_va_cvad_conditioninsertion_tf"), "Normal"): Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_conditioninsertion_tf'
+
+2019-04-26 08:53:55 - [MESSAGE][PASSED] - Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_conditioninsertion_tf'
+
+2019-04-26 08:53:55 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_cvad/med_va_cvad_flushfreq"), "Normal"): Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_flushfreq'
+
+2019-04-26 08:53:55 - [MESSAGE][PASSED] - Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_flushfreq'
+
+2019-04-26 08:53:55 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_cvad/med_va_cvad_flushsolution"), "Normal"): Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_flushsolution'
+
+2019-04-26 08:53:55 - [MESSAGE][PASSED] - Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_cvad/med_va_cvad_flushsolution'
+
+2019-04-26 08:53:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 08:53:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 08:53:57 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_portdevice_bardport"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_portdevice_bardport' is clicked on
+
+2019-04-26 08:53:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_portdevice_bardport' is clicked on
+
+2019-04-26 08:53:58 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_portdevice_other"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_portdevice_other'
+
+2019-04-26 08:53:58 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_portdevice_other'
+
+2019-04-26 08:53:58 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_portreservoir_singlechamber"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_portreservoir_singlechamber' is clicked on
+
+2019-04-26 08:53:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_portreservoir_singlechamber' is clicked on
+
+2019-04-26 08:53:58 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_hubernlength_050"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_hubernlength_050' is clicked on
+
+2019-04-26 08:53:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_hubernlength_050' is clicked on
+
+2019-04-26 08:53:58 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_huberngauge_19"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_huberngauge_19' is clicked on
+
+2019-04-26 08:53:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_huberngauge_19' is clicked on
+
+2019-04-26 08:53:58 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_implantlocation"), "Arms and Legs"): Text 'Arms and Legs' is set on object 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_implantlocation'
+
+2019-04-26 08:53:59 - [MESSAGE][PASSED] - Text 'Arms and Legs' is set on object 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_implantlocation'
+
+2019-04-26 08:53:59 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_dateimplanted"), "04252019"): Text '04252019' is set on object 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_dateimplanted'
+
+2019-04-26 08:53:59 - [MESSAGE][PASSED] - Text '04252019' is set on object 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_dateimplanted'
+
+2019-04-26 08:53:59 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_dressingchangefreq"), "Normal"): Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_dressingchangefreq'
+
+2019-04-26 08:53:59 - [MESSAGE][PASSED] - Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_dressingchangefreq'
+
+2019-04-26 08:53:59 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_conditionimplant_wnl"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_conditionimplant_wnl' is clicked on
+
+2019-04-26 08:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_conditionimplant_wnl' is clicked on
+
+2019-04-26 08:53:59 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_conditionimplant_tf"), "Normal"): Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_conditionimplant_tf'
+
+2019-04-26 08:53:59 - [MESSAGE][PASSED] - Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_conditionimplant_tf'
+
+2019-04-26 08:53:59 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_flushsolution"), "Normal"): Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_flushsolution'
+
+2019-04-26 08:54:00 - [MESSAGE][PASSED] - Text 'Normal' is set on object 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_flushsolution'
+
+2019-04-26 08:54:00 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_flushfrequency"), "3"): Text '3' is set on object 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_flushfrequency'
+
+2019-04-26 08:54:00 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/OASIS/Medications/med_va_implantedcvad/med_va_implantedCVAD_flushfrequency'
+
+2019-04-26 08:54:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 08:54:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 08:54:02 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_intravenous/med_va_intravenous_ivmedication"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_va_intravenous/med_va_intravenous_ivmedication'
+
+2019-04-26 08:54:02 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_va_intravenous/med_va_intravenous_ivmedication'
+
+2019-04-26 08:54:02 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_intravenous/med_va_intravenous_ivsolution"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_va_intravenous/med_va_intravenous_ivsolution'
+
+2019-04-26 08:54:02 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_va_intravenous/med_va_intravenous_ivsolution'
+
+2019-04-26 08:54:02 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_intravenous/med_va_intravenous_toleratedivtherapy"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Medications/med_va_intravenous/med_va_intravenous_toleratedivtherapy' is clicked on
+
+2019-04-26 08:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_intravenous/med_va_intravenous_toleratedivtherapy' is clicked on
+
+2019-04-26 08:54:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 08:54:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 08:54:04 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Medications/med_va_administrationvia/med_va_adminvia_ivpump"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Medications/med_va_administrationvia/med_va_adminvia_ivpump' is clicked on
+
+2019-04-26 08:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Medications/med_va_administrationvia/med_va_adminvia_ivpump' is clicked on
+
+2019-04-26 08:54:05 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_administrationvia/med_va_adminvia_ivpump_tf"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_va_administrationvia/med_va_adminvia_ivpump_tf'
+
+2019-04-26 08:54:05 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_va_administrationvia/med_va_adminvia_ivpump_tf'
+
+2019-04-26 08:54:05 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_va_administrationvia/med_va_adminvia_other"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_va_administrationvia/med_va_adminvia_other'
+
+2019-04-26 08:54:05 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_va_administrationvia/med_va_adminvia_other'
+
+2019-04-26 08:54:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 08:54:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 08:54:07 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_flushsolution_IV/med_va_flushsolution_pre"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_flushsolution_IV/med_va_flushsolution_pre'
+
+2019-04-26 08:54:08 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_flushsolution_IV/med_va_flushsolution_pre'
+
+2019-04-26 08:54:08 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_flushsolution_IV/med_va_flushsolution_post"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_flushsolution_IV/med_va_flushsolution_post'
+
+2019-04-26 08:54:08 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_flushsolution_IV/med_va_flushsolution_post'
+
+2019-04-26 08:54:08 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Medications/med_flushsolution_IV/med_va_flushsolution_otherprocedure"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_flushsolution_IV/med_va_flushsolution_otherprocedure'
+
+2019-04-26 08:54:08 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Medications/med_flushsolution_IV/med_va_flushsolution_otherprocedure'
+
+2019-04-26 08:54:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-26 08:54:13 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-26 08:53:01 - [TEST_SUITE][PASSED] - Medications: Test Cases/OASIS_SOC/Medications]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Neurological" time="122" tests="2" failures="1" errors="0">
+   <testsuite name="Neurological" tests="2" failures="1" errors="0" time="122" timestamp="2019-04-25 08:16:07" hostname="Khenard Figuracion - 192.168.2.15" id="Test Suites/OASIS/Neurological">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Neurological\\20190425_081605"/>
+         <property name="logFiles" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Neurological\\20190425_081605\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Neurological\\20190425_081605\\1556151488319.png"/>
+         <property name="hostName" value="Khenard Figuracion - 192.168.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.2.15"/>
+         <property name="sessionId" value="62aa6089fdf3caf8c91faa58ac47282f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2019-04-25 08:16:07 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2019-04-25 08:16:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-25 08:16:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-25 08:16:08 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-25 08:16:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-25 08:16:11 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/login"): Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-25 08:16:13 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-25 08:16:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-25 08:16:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 08:16:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes."), "superagent"): Text 'superagent' is set on object 'Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'
+
+2019-04-25 08:16:16 - [MESSAGE][PASSED] - Text 'superagent' is set on object 'Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'
+
+2019-04-25 08:16:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-25 08:16:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 08:16:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/addUser/Page_Medisource  Login/input_Username or email requir"), "SITHpLWAWtI8C4F8RIujvA=="): Text ****** has been set on object 'Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-25 08:16:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-25 08:16:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-25 08:16:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 08:16:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addUser/Page_Medisource  Login/button_Login")): Object: 'Object Repository/addUser/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-25 08:16:22 - [MESSAGE][PASSED] - Object: 'Object Repository/addUser/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-25 08:16:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-25 08:16:25 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/navigate_patient_soc_ken" classname="Test Cases/navigate_patient_soc_ken" status="PASSED">
+         <system-out><![CDATA[2019-04-25 08:16:25 - [TEST_CASE][PASSED] - Test Cases/navigate_patient_soc_ken: Test Cases/navigate_patient_soc_ken
+
+2019-04-25 08:16:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-25 08:16:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 08:16:27 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patients/all"): Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-25 08:16:28 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-25 08:16:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:16:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:16:29 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"): Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview' successfully
+
+2019-04-25 08:16:30 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview' successfully
+
+2019-04-25 08:16:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:16:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:16:31 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"): Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197' successfully
+
+2019-04-25 08:16:31 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197' successfully
+
+2019-04-25 08:16:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:16:32 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OASIS_SOC/Neurological" classname="Test Cases/OASIS_SOC/Neurological" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OASIS_SOC/Neurological FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Neurological/M1740_2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Neurological.run(Neurological:336)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556151365825.run(TempTestSuite1556151365825.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element &lt;input id=&quot;M1740_BD_IMP_DECISN&quot; type=&quot;checkbox&quot; name=&quot;M1740_BD_IMP_DECISN&quot; ng-model=&quot;pi.M1740_BD_IMP_DECISN&quot; class=&quot;ng-pristine ng-untouched ng-valid ng-empty&quot;> is not clickable at point (196, 561). Other element would receive the click: &lt;a class=&quot;link mo_link ng-isolate-scope&quot; href=&quot;#&quot; myoasis-state=&quot;neuro&quot; go-to=&quot;M1740_BD_DELUSIONS&quot;>...&lt;/a>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50117}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 62aa6089fdf3caf8c91faa58ac47282f
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1556005637092.run(Script1556005637092.groovy:336)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-04-25 08:16:32 - [TEST_CASE][FAILED] - Test Cases/OASIS_SOC/Neurological: Test Cases/OASIS_SOC/Neurological FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Neurological/M1740_2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Neurological.run(Neurological:336)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556151365825.run(TempTestSuite1556151365825.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element <input id="M1740_BD_IMP_DECISN" type="checkbox" name="M1740_BD_IMP_DECISN" ng-model="pi.M1740_BD_IMP_DECISN" class="ng-pristine ng-untouched ng-valid ng-empty"> is not clickable at point (196, 561). Other element would receive the click: <a class="link mo_link ng-isolate-scope" href="#" myoasis-state="neuro" go-to="M1740_BD_DELUSIONS">...</a>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50117}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 62aa6089fdf3caf8c91faa58ac47282f
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1556005637092.run(Script1556005637092.groovy:336)
+	... 13 more
+
+
+2019-04-25 08:16:33 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/OASIS_TABS/xitemedits_btn")): Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-04-25 08:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-04-25 08:16:35 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/OASIS_TABS/Neuro_tab")): Object: 'Object Repository/OASIS/OASIS_TABS/Neuro_tab' is clicked on
+
+2019-04-25 08:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/OASIS_TABS/Neuro_tab' is clicked on
+
+2019-04-25 08:16:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-25 08:16:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 08:16:40 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_pupils_perrla")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_pupils_perrla' is clicked on
+
+2019-04-25 08:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_pupils_perrla' is clicked on
+
+2019-04-25 08:16:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:16:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:16:41 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_non-reactive_l")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_non-reactive_l' is clicked on
+
+2019-04-25 08:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_non-reactive_l' is clicked on
+
+2019-04-25 08:16:41 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_non-reactive_r")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_non-reactive_r' is clicked on
+
+2019-04-25 08:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_non-reactive_r' is clicked on
+
+2019-04-25 08:16:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:16:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:16:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_mental_status_oriented")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_oriented' is clicked on
+
+2019-04-25 08:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_oriented' is clicked on
+
+2019-04-25 08:16:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_mental_status_forgetful")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_forgetful' is clicked on
+
+2019-04-25 08:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_forgetful' is clicked on
+
+2019-04-25 08:16:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_mental_status_lethargic")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_lethargic' is clicked on
+
+2019-04-25 08:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_lethargic' is clicked on
+
+2019-04-25 08:16:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_mental_status_disoriented")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_disoriented' is clicked on
+
+2019-04-25 08:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_disoriented' is clicked on
+
+2019-04-25 08:16:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_mental_status_depressed")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_depressed' is clicked on
+
+2019-04-25 08:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_depressed' is clicked on
+
+2019-04-25 08:16:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_mental_status_agitated")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_agitated' is clicked on
+
+2019-04-25 08:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_agitated' is clicked on
+
+2019-04-25 08:16:44 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_mental_status_comatose")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_comatose' is clicked on
+
+2019-04-25 08:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_comatose' is clicked on
+
+2019-04-25 08:16:44 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/neurological_status/neuro_mental_status_other"), "Frequent signs of aggression"): Text 'Frequent signs of aggression' is set on object 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_other'
+
+2019-04-25 08:16:45 - [MESSAGE][PASSED] - Text 'Frequent signs of aggression' is set on object 'Object Repository/OASIS/Neurological/neurological_status/neuro_mental_status_other'
+
+2019-04-25 08:16:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_sleep_inadequate")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_sleep_inadequate' is clicked on
+
+2019-04-25 08:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_sleep_inadequate' is clicked on
+
+2019-04-25 08:16:45 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/neurological_status/neuro_sleep_inadequate_textfield"), "wokes up at 3:15 AM"): Text 'wokes up at 3:15 AM' is set on object 'Object Repository/OASIS/Neurological/neurological_status/neuro_sleep_inadequate_textfield'
+
+2019-04-25 08:16:46 - [MESSAGE][PASSED] - Text 'wokes up at 3:15 AM' is set on object 'Object Repository/OASIS/Neurological/neurological_status/neuro_sleep_inadequate_textfield'
+
+2019-04-25 08:16:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:16:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:16:47 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_hand_grips_strong")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_hand_grips_strong' is clicked on
+
+2019-04-25 08:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_hand_grips_strong' is clicked on
+
+2019-04-25 08:16:47 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_hand_grips_strong_l")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_hand_grips_strong_l' is clicked on
+
+2019-04-25 08:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_hand_grips_strong_l' is clicked on
+
+2019-04-25 08:16:47 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_hand_grips_strong_r")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_hand_grips_strong_r' is clicked on
+
+2019-04-25 08:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_hand_grips_strong_r' is clicked on
+
+2019-04-25 08:16:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:16:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:16:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_hand_grips_weak")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_hand_grips_weak' is clicked on
+
+2019-04-25 08:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_hand_grips_weak' is clicked on
+
+2019-04-25 08:16:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_hand_grips_weak_l")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_hand_grips_weak_l' is clicked on
+
+2019-04-25 08:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_hand_grips_weak_l' is clicked on
+
+2019-04-25 08:16:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_hand_grips_weak_r")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_hand_grips_weak_r' is clicked on
+
+2019-04-25 08:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_hand_grips_weak_r' is clicked on
+
+2019-04-25 08:16:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:16:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:16:50 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/neuro_check_for_weakness")): Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_check_for_weakness' is clicked on
+
+2019-04-25 08:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/neuro_check_for_weakness' is clicked on
+
+2019-04-25 08:16:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:16:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:16:51 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_ue")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_ue' is clicked on
+
+2019-04-25 08:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_ue' is clicked on
+
+2019-04-25 08:16:51 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_ue_l")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_ue_l' is clicked on
+
+2019-04-25 08:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_ue_l' is clicked on
+
+2019-04-25 08:16:51 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_ue_r")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_ue_r' is clicked on
+
+2019-04-25 08:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_ue_r' is clicked on
+
+2019-04-25 08:16:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:16:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:16:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_le")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_le' is clicked on
+
+2019-04-25 08:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_le' is clicked on
+
+2019-04-25 08:16:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_le_l")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_le_l' is clicked on
+
+2019-04-25 08:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_le_l' is clicked on
+
+2019-04-25 08:16:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_le_r")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_le_r' is clicked on
+
+2019-04-25 08:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_weakness_le_r' is clicked on
+
+2019-04-25 08:16:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:16:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:16:54 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_paralysis_hemiparesis")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_paralysis_hemiparesis' is clicked on
+
+2019-04-25 08:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_paralysis_hemiparesis' is clicked on
+
+2019-04-25 08:16:54 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_paralysis_hemiparesis_l")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_paralysis_hemiparesis_l' is clicked on
+
+2019-04-25 08:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_paralysis_hemiparesis_l' is clicked on
+
+2019-04-25 08:16:54 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_paralysis_hemiparesis_r")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_paralysis_hemiparesis_r' is clicked on
+
+2019-04-25 08:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_paralysis_hemiparesis_r' is clicked on
+
+2019-04-25 08:16:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:16:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:16:55 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_seizure_petitmal")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_seizure_petitmal' is clicked on
+
+2019-04-25 08:16:55 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_seizure_petitmal' is clicked on
+
+2019-04-25 08:16:55 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_seizure_petitmal_lsdate"), "June 23, 2015"): Text 'June 23, 2015' is set on object 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_seizure_petitmal_lsdate'
+
+2019-04-25 08:16:56 - [MESSAGE][PASSED] - Text 'June 23, 2015' is set on object 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_seizure_petitmal_lsdate'
+
+2019-04-25 08:16:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:16:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:16:57 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue' is clicked on
+
+2019-04-25 08:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue' is clicked on
+
+2019-04-25 08:16:57 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue_l")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue_l' is clicked on
+
+2019-04-25 08:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue_l' is clicked on
+
+2019-04-25 08:16:57 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue_r")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue_r' is clicked on
+
+2019-04-25 08:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue_r' is clicked on
+
+2019-04-25 08:16:57 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue_fine")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue_fine' is clicked on
+
+2019-04-25 08:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_ue_fine' is clicked on
+
+2019-04-25 08:16:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:16:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:16:58 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le' is clicked on
+
+2019-04-25 08:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le' is clicked on
+
+2019-04-25 08:16:59 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le_l")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le_l' is clicked on
+
+2019-04-25 08:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le_l' is clicked on
+
+2019-04-25 08:16:59 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le_r")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le_r' is clicked on
+
+2019-04-25 08:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le_r' is clicked on
+
+2019-04-25 08:16:59 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le_coarse")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le_coarse' is clicked on
+
+2019-04-25 08:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_tremors_le_coarse' is clicked on
+
+2019-04-25 08:16:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:00 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_headache")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_headache' is clicked on
+
+2019-04-25 08:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_headache' is clicked on
+
+2019-04-25 08:17:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:01 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_numb")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_numb' is clicked on
+
+2019-04-25 08:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_numb' is clicked on
+
+2019-04-25 08:17:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:02 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_lossofsensation")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_lossofsensation' is clicked on
+
+2019-04-25 08:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_lossofsensation' is clicked on
+
+2019-04-25 08:17:03 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_visualdistubances")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_visualdistubances' is clicked on
+
+2019-04-25 08:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_visualdistubances' is clicked on
+
+2019-04-25 08:17:03 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_involuntarymf")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_involuntarymf' is clicked on
+
+2019-04-25 08:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_involuntarymf' is clicked on
+
+2019-04-25 08:17:03 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_incoordination")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_incoordination' is clicked on
+
+2019-04-25 08:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_incoordination' is clicked on
+
+2019-04-25 08:17:03 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_improperresponse")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_improperresponse' is clicked on
+
+2019-04-25 08:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_improperresponse' is clicked on
+
+2019-04-25 08:17:03 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_lossofabilitytomove")): Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_lossofabilitytomove' is clicked on
+
+2019-04-25 08:17:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_lossofabilitytomove' is clicked on
+
+2019-04-25 08:17:03 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_lossofabilitytomove_textfield"), "Left middle finger due to fracture"): Text 'Left middle finger due to fracture' is set on object 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_lossofabilitytomove_textfield'
+
+2019-04-25 08:17:05 - [MESSAGE][PASSED] - Text 'Left middle finger due to fracture' is set on object 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_lossofabilitytomove_textfield'
+
+2019-04-25 08:17:05 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_other"), "Disassociation of things"): Text 'Disassociation of things' is set on object 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_other'
+
+2019-04-25 08:17:06 - [MESSAGE][PASSED] - Text 'Disassociation of things' is set on object 'Object Repository/OASIS/Neurological/neurological_status/check_for_weakness/c_weak_signs_other'
+
+2019-04-25 08:17:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/psychosocial_status/psycho_cognitive")): Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_cognitive' is clicked on
+
+2019-04-25 08:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_cognitive' is clicked on
+
+2019-04-25 08:17:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/psychosocial_status/psycho_confused")): Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_confused' is clicked on
+
+2019-04-25 08:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_confused' is clicked on
+
+2019-04-25 08:17:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/psychosocial_status/psycho_anxious")): Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_anxious' is clicked on
+
+2019-04-25 08:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_anxious' is clicked on
+
+2019-04-25 08:17:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/psychosocial_status/psycho_depressed")): Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_depressed' is clicked on
+
+2019-04-25 08:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_depressed' is clicked on
+
+2019-04-25 08:17:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/psychosocial_status/psycho_memory_deficit")): Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_memory_deficit' is clicked on
+
+2019-04-25 08:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_memory_deficit' is clicked on
+
+2019-04-25 08:17:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/psychosocial_status/psycho_impaired_dm")): Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_impaired_dm' is clicked on
+
+2019-04-25 08:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_impaired_dm' is clicked on
+
+2019-04-25 08:17:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/psychosocial_status/psycho_physical_aggression")): Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_physical_aggression' is clicked on
+
+2019-04-25 08:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_physical_aggression' is clicked on
+
+2019-04-25 08:17:08 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/psychosocial_status/psycho_inappropriate_b")): Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_inappropriate_b' is clicked on
+
+2019-04-25 08:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_inappropriate_b' is clicked on
+
+2019-04-25 08:17:08 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/psychosocial_status/psycho_disruptive_b")): Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_disruptive_b' is clicked on
+
+2019-04-25 08:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_disruptive_b' is clicked on
+
+2019-04-25 08:17:08 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/psychosocial_status/psycho_delusional")): Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_delusional' is clicked on
+
+2019-04-25 08:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_delusional' is clicked on
+
+2019-04-25 08:17:08 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/psychosocial_status/psycho_other_p_factors"), "Bipolar and Frequent Sucidical Thoughts"): Text 'Bipolar and Frequent Sucidical Thoughts' is set on object 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_other_p_factors'
+
+2019-04-25 08:17:10 - [MESSAGE][PASSED] - Text 'Bipolar and Frequent Sucidical Thoughts' is set on object 'Object Repository/OASIS/Neurological/psychosocial_status/psycho_other_p_factors'
+
+2019-04-25 08:17:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:11 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/language_barrier_yes")): Object: 'Object Repository/OASIS/Neurological/language_barrier/language_barrier_yes' is clicked on
+
+2019-04-25 08:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/language_barrier_yes' is clicked on
+
+2019-04-25 08:17:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:12 - [TEST_STEP][NOT_RUN] - click(findTestObject("OASIS/Neurological/language_barrier/language_interpreter_need")): NOT_RUN: click(findTestObject("OASIS/Neurological/language_barrier/language_interpreter_need"))
+
+2019-04-25 08:17:12 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("OASIS/Neurological/language_barrier/language_interpreter_need"))
+
+2019-04-25 08:17:12 - [TEST_STEP][NOT_RUN] - delay(1): NOT_RUN: delay(1)
+
+2019-04-25 08:17:12 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(1)
+
+2019-04-25 08:17:12 - [TEST_STEP][NOT_RUN] - setText(findTestObject("OASIS/Neurological/language_barrier/language_interpreter_need_tf"), "Mrs. Langdon"): NOT_RUN: setText(findTestObject("OASIS/Neurological/language_barrier/language_interpreter_need_tf"), "Mrs. Langdon")
+
+2019-04-25 08:17:12 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("OASIS/Neurological/language_barrier/language_interpreter_need_tf"), "Mrs. Langdon")
+
+2019-04-25 08:17:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:13 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/language_inter_sp")): Object: 'Object Repository/OASIS/Neurological/language_barrier/language_inter_sp' is clicked on
+
+2019-04-25 08:17:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/language_inter_sp' is clicked on
+
+2019-04-25 08:17:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:14 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/language_barrier/language_inter_sp_tf"), "Interpreter Organization"): Text 'Interpreter Organization' is set on object 'Object Repository/OASIS/Neurological/language_barrier/language_inter_sp_tf'
+
+2019-04-25 08:17:16 - [MESSAGE][PASSED] - Text 'Interpreter Organization' is set on object 'Object Repository/OASIS/Neurological/language_barrier/language_inter_sp_tf'
+
+2019-04-25 08:17:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:17 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/language_barrier/language_inter_sp_phone"), "3453452345"): Text '3453452345' is set on object 'Object Repository/OASIS/Neurological/language_barrier/language_inter_sp_phone'
+
+2019-04-25 08:17:17 - [MESSAGE][PASSED] - Text '3453452345' is set on object 'Object Repository/OASIS/Neurological/language_barrier/language_inter_sp_phone'
+
+2019-04-25 08:17:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:18 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/language_sign_type")): Object: 'Object Repository/OASIS/Neurological/language_barrier/language_sign_type' is clicked on
+
+2019-04-25 08:17:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/language_sign_type' is clicked on
+
+2019-04-25 08:17:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:19 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/language_barrier/language_sign_type_tf"), "ASL"): Text 'ASL' is set on object 'Object Repository/OASIS/Neurological/language_barrier/language_sign_type_tf'
+
+2019-04-25 08:17:20 - [MESSAGE][PASSED] - Text 'ASL' is set on object 'Object Repository/OASIS/Neurological/language_barrier/language_sign_type_tf'
+
+2019-04-25 08:17:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:21 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/learning_barrier_yes")): Object: 'Object Repository/OASIS/Neurological/language_barrier/learning_barrier_yes' is clicked on
+
+2019-04-25 08:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/learning_barrier_yes' is clicked on
+
+2019-04-25 08:17:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-25 08:17:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 08:17:26 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/learning_functional")): Object: 'Object Repository/OASIS/Neurological/language_barrier/learning_functional' is clicked on
+
+2019-04-25 08:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/learning_functional' is clicked on
+
+2019-04-25 08:17:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:27 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/language_barrier/learning_functional_tf"), "Motor Ability"): Text 'Motor Ability' is set on object 'Object Repository/OASIS/Neurological/language_barrier/learning_functional_tf'
+
+2019-04-25 08:17:28 - [MESSAGE][PASSED] - Text 'Motor Ability' is set on object 'Object Repository/OASIS/Neurological/language_barrier/learning_functional_tf'
+
+2019-04-25 08:17:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:29 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/learning_mental")): Object: 'Object Repository/OASIS/Neurological/language_barrier/learning_mental' is clicked on
+
+2019-04-25 08:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/learning_mental' is clicked on
+
+2019-04-25 08:17:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:30 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/language_barrier/learning_mental_tf"), "Speech Disorder"): Text 'Speech Disorder' is set on object 'Object Repository/OASIS/Neurological/language_barrier/learning_mental_tf'
+
+2019-04-25 08:17:30 - [MESSAGE][PASSED] - Text 'Speech Disorder' is set on object 'Object Repository/OASIS/Neurological/language_barrier/learning_mental_tf'
+
+2019-04-25 08:17:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:31 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/learning_physical")): Object: 'Object Repository/OASIS/Neurological/language_barrier/learning_physical' is clicked on
+
+2019-04-25 08:17:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/learning_physical' is clicked on
+
+2019-04-25 08:17:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:33 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/language_barrier/learning_physical_tf"), "Needs assistance all the time"): Text 'Needs assistance all the time' is set on object 'Object Repository/OASIS/Neurological/language_barrier/learning_physical_tf'
+
+2019-04-25 08:17:34 - [MESSAGE][PASSED] - Text 'Needs assistance all the time' is set on object 'Object Repository/OASIS/Neurological/language_barrier/learning_physical_tf'
+
+2019-04-25 08:17:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:35 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/learning_pyschosocial")): Object: 'Object Repository/OASIS/Neurological/language_barrier/learning_pyschosocial' is clicked on
+
+2019-04-25 08:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/learning_pyschosocial' is clicked on
+
+2019-04-25 08:17:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:36 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/language_barrier/learning_psyschosocial_tf"), "Anti-social Behaviour"): Text 'Anti-social Behaviour' is set on object 'Object Repository/OASIS/Neurological/language_barrier/learning_psyschosocial_tf'
+
+2019-04-25 08:17:37 - [MESSAGE][PASSED] - Text 'Anti-social Behaviour' is set on object 'Object Repository/OASIS/Neurological/language_barrier/learning_psyschosocial_tf'
+
+2019-04-25 08:17:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:38 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/learning_unable_read")): Object: 'Object Repository/OASIS/Neurological/language_barrier/learning_unable_read' is clicked on
+
+2019-04-25 08:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/learning_unable_read' is clicked on
+
+2019-04-25 08:17:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:39 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/learning_unable_write")): Object: 'Object Repository/OASIS/Neurological/language_barrier/learning_unable_write' is clicked on
+
+2019-04-25 08:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/learning_unable_write' is clicked on
+
+2019-04-25 08:17:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:40 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/signs_abuse_yes")): Object: 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_yes' is clicked on
+
+2019-04-25 08:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_yes' is clicked on
+
+2019-04-25 08:17:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:41 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/signs_abuse_actual")): Object: 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_actual' is clicked on
+
+2019-04-25 08:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_actual' is clicked on
+
+2019-04-25 08:17:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/signs_abuse_physical")): Object: 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_physical' is clicked on
+
+2019-04-25 08:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_physical' is clicked on
+
+2019-04-25 08:17:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:44 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/language_barrier/signs_abuse_physical_tf"), "Traumatic Experience"): Text 'Traumatic Experience' is set on object 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_physical_tf'
+
+2019-04-25 08:17:44 - [MESSAGE][PASSED] - Text 'Traumatic Experience' is set on object 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_physical_tf'
+
+2019-04-25 08:17:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/signs_abuse_verbal")): Object: 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_verbal' is clicked on
+
+2019-04-25 08:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_verbal' is clicked on
+
+2019-04-25 08:17:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:47 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/language_barrier/signs_abuse_verbal_tf"), "Traumatic Experience"): Text 'Traumatic Experience' is set on object 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_verbal_tf'
+
+2019-04-25 08:17:47 - [MESSAGE][PASSED] - Text 'Traumatic Experience' is set on object 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_verbal_tf'
+
+2019-04-25 08:17:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/signs_abuse_referredmsw")): Object: 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_referredmsw' is clicked on
+
+2019-04-25 08:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_referredmsw' is clicked on
+
+2019-04-25 08:17:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:50 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/language_barrier/signs_abuse_referredmsw_tf"), "Centers for MSW"): Text 'Centers for MSW' is set on object 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_referredmsw_tf'
+
+2019-04-25 08:17:50 - [MESSAGE][PASSED] - Text 'Centers for MSW' is set on object 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_referredmsw_tf'
+
+2019-04-25 08:17:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:51 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/signs_abuse_referredchildadult")): Object: 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_referredchildadult' is clicked on
+
+2019-04-25 08:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/signs_abuse_referredchildadult' is clicked on
+
+2019-04-25 08:17:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/language_barrier/spiritual_yes")): Object: 'Object Repository/OASIS/Neurological/language_barrier/spiritual_yes' is clicked on
+
+2019-04-25 08:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/language_barrier/spiritual_yes' is clicked on
+
+2019-04-25 08:17:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:54 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/language_barrier/spiritual_impact_care"), "Sample Text"): Text 'Sample Text' is set on object 'Object Repository/OASIS/Neurological/language_barrier/spiritual_impact_care'
+
+2019-04-25 08:17:54 - [MESSAGE][PASSED] - Text 'Sample Text' is set on object 'Object Repository/OASIS/Neurological/language_barrier/spiritual_impact_care'
+
+2019-04-25 08:17:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:55 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/language_barrier/spiritual_resource"), "Sample Text"): Text 'Sample Text' is set on object 'Object Repository/OASIS/Neurological/language_barrier/spiritual_resource'
+
+2019-04-25 08:17:56 - [MESSAGE][PASSED] - Text 'Sample Text' is set on object 'Object Repository/OASIS/Neurological/language_barrier/spiritual_resource'
+
+2019-04-25 08:17:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:57 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/language_barrier/spiritual_contact"), "Sample Text"): Text 'Sample Text' is set on object 'Object Repository/OASIS/Neurological/language_barrier/spiritual_contact'
+
+2019-04-25 08:17:57 - [MESSAGE][PASSED] - Text 'Sample Text' is set on object 'Object Repository/OASIS/Neurological/language_barrier/spiritual_contact'
+
+2019-04-25 08:17:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:17:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:17:58 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Neurological/language_barrier/spiritual_phone"), "2333242343"): Text '2333242343' is set on object 'Object Repository/OASIS/Neurological/language_barrier/spiritual_phone'
+
+2019-04-25 08:17:59 - [MESSAGE][PASSED] - Text '2333242343' is set on object 'Object Repository/OASIS/Neurological/language_barrier/spiritual_phone'
+
+2019-04-25 08:17:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:18:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:18:00 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/M1700_1")): Object: 'Object Repository/OASIS/Neurological/M1700_1' is clicked on
+
+2019-04-25 08:18:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/M1700_1' is clicked on
+
+2019-04-25 08:18:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:18:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:18:01 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/M1710_2")): Object: 'Object Repository/OASIS/Neurological/M1710_2' is clicked on
+
+2019-04-25 08:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/M1710_2' is clicked on
+
+2019-04-25 08:18:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:18:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:18:02 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/M1720_2")): Object: 'Object Repository/OASIS/Neurological/M1720_2' is clicked on
+
+2019-04-25 08:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/M1720_2' is clicked on
+
+2019-04-25 08:18:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:18:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:18:03 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/M1730_1")): Object: 'Object Repository/OASIS/Neurological/M1730_1' is clicked on
+
+2019-04-25 08:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/M1730_1' is clicked on
+
+2019-04-25 08:18:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:18:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:18:04 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/M1730_a_0")): Object: 'Object Repository/OASIS/Neurological/M1730_a_0' is clicked on
+
+2019-04-25 08:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/M1730_a_0' is clicked on
+
+2019-04-25 08:18:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:18:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:18:05 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/M1730_b_1")): Object: 'Object Repository/OASIS/Neurological/M1730_b_1' is clicked on
+
+2019-04-25 08:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/M1730_b_1' is clicked on
+
+2019-04-25 08:18:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:18:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:18:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Neurological/M1740_1")): Object: 'Object Repository/OASIS/Neurological/M1740_1' is clicked on
+
+2019-04-25 08:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Neurological/M1740_1' is clicked on
+
+2019-04-25 08:18:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-25 08:18:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 08:18:08 - [TEST_STEP][FAILED] - click(findTestObject("OASIS/Neurological/M1740_2")): click(findTestObject("OASIS/Neurological/M1740_2")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Neurological/M1740_2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Neurological.run(Neurological:336)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556151365825.run(TempTestSuite1556151365825.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element <input id="M1740_BD_IMP_DECISN" type="checkbox" name="M1740_BD_IMP_DECISN" ng-model="pi.M1740_BD_IMP_DECISN" class="ng-pristine ng-untouched ng-valid ng-empty"> is not clickable at point (196, 561). Other element would receive the click: <a class="link mo_link ng-isolate-scope" href="#" myoasis-state="neuro" go-to="M1740_BD_DELUSIONS">...</a>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50117}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 62aa6089fdf3caf8c91faa58ac47282f
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1556005637092.run(Script1556005637092.groovy:336)
+	... 13 more
+
+
+2019-04-25 08:18:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OASIS/Neurological/M1740_2' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Neurological/M1740_2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Neurological.run(Neurological:336)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556151365825.run(TempTestSuite1556151365825.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element <input id="M1740_BD_IMP_DECISN" type="checkbox" name="M1740_BD_IMP_DECISN" ng-model="pi.M1740_BD_IMP_DECISN" class="ng-pristine ng-untouched ng-valid ng-empty"> is not clickable at point (196, 561). Other element would receive the click: <a class="link mo_link ng-isolate-scope" href="#" myoasis-state="neuro" go-to="M1740_BD_DELUSIONS">...</a>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50117}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 62aa6089fdf3caf8c91faa58ac47282f
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1556005637092.run(Script1556005637092.groovy:336)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Neurological\\20190425_081605\\1556151488319.png]]
+
+2019-04-25 08:18:08 - [MESSAGE][FAILED] - click(findTestObject("OASIS/Neurological/M1740_2")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Neurological/M1740_2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Neurological.run(Neurological:336)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556151365825.run(TempTestSuite1556151365825.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element <input id="M1740_BD_IMP_DECISN" type="checkbox" name="M1740_BD_IMP_DECISN" ng-model="pi.M1740_BD_IMP_DECISN" class="ng-pristine ng-untouched ng-valid ng-empty"> is not clickable at point (196, 561). Other element would receive the click: <a class="link mo_link ng-isolate-scope" href="#" myoasis-state="neuro" go-to="M1740_BD_DELUSIONS">...</a>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50117}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 62aa6089fdf3caf8c91faa58ac47282f
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1556005637092.run(Script1556005637092.groovy:336)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-04-25 08:16:32 - [TEST_CASE][FAILED] - Test Cases/OASIS_SOC/Neurological: Test Cases/OASIS_SOC/Neurological FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Neurological/M1740_2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Neurological.run(Neurological:336)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556151365825.run(TempTestSuite1556151365825.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element <input id="M1740_BD_IMP_DECISN" type="checkbox" name="M1740_BD_IMP_DECISN" ng-model="pi.M1740_BD_IMP_DECISN" class="ng-pristine ng-untouched ng-valid ng-empty"> is not clickable at point (196, 561). Other element would receive the click: <a class="link mo_link ng-isolate-scope" href="#" myoasis-state="neuro" go-to="M1740_BD_DELUSIONS">...</a>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50117}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 62aa6089fdf3caf8c91faa58ac47282f
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1556005637092.run(Script1556005637092.groovy:336)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-25 08:16:07 - [TEST_SUITE][FAILED] - Neurological: Test Cases/OASIS_SOC/Neurological FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Neurological/M1740_2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Neurological.run(Neurological:336)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556151365825.run(TempTestSuite1556151365825.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element <input id="M1740_BD_IMP_DECISN" type="checkbox" name="M1740_BD_IMP_DECISN" ng-model="pi.M1740_BD_IMP_DECISN" class="ng-pristine ng-untouched ng-valid ng-empty"> is not clickable at point (196, 561). Other element would receive the click: <a class="link mo_link ng-isolate-scope" href="#" myoasis-state="neuro" go-to="M1740_BD_DELUSIONS">...</a>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50117}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 62aa6089fdf3caf8c91faa58ac47282f
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1556005637092.run(Script1556005637092.groovy:336)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-04-25 08:16:07 - [TEST_SUITE][FAILED] - Neurological: Test Cases/OASIS_SOC/Neurological FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Neurological/M1740_2'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Neurological.run(Neurological:336)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556151365825.run(TempTestSuite1556151365825.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element <input id="M1740_BD_IMP_DECISN" type="checkbox" name="M1740_BD_IMP_DECISN" ng-model="pi.M1740_BD_IMP_DECISN" class="ng-pristine ng-untouched ng-valid ng-empty"> is not clickable at point (196, 561). Other element would receive the click: <a class="link mo_link ng-isolate-scope" href="#" myoasis-state="neuro" go-to="M1740_BD_DELUSIONS">...</a>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50117}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 62aa6089fdf3caf8c91faa58ac47282f
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1556005637092.run(Script1556005637092.groovy:336)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

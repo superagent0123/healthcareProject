@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Elimination" time="115" tests="1" failures="1" errors="0">
+   <testsuite name="Elimination" tests="1" failures="1" errors="0" time="115" timestamp="2019-04-23 14:47:22" hostname="Khenard Figuracion - 192.168.2.15" id="Test Suites/OASIS/Elimination">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Elimination\\20190423_144720"/>
+         <property name="logFiles" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Elimination\\20190423_144720\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Elimination\\20190423_144720\\1556002157663.png"/>
+         <property name="hostName" value="Khenard Figuracion - 192.168.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.2.15"/>
+         <property name="sessionId" value="d9c247dda2cb23085ecfb34c0b65dde8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/navigate_patient_soc" classname="Test Cases/navigate_patient_soc" status="PASSED">
+         <system-out><![CDATA[2019-04-23 14:47:23 - [TEST_CASE][PASSED] - Test Cases/navigate_patient_soc: Test Cases/navigate_patient_soc
+
+2019-04-23 14:47:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-23 14:47:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-23 14:47:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-23 14:47:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-23 14:47:26 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com"): Navigate to 'https://qa.medisource.com' successfully
+
+2019-04-23 14:47:29 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com' successfully
+
+2019-04-23 14:47:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Medisource  Login/input_Please try afterminutes"), "superagent"): Text 'superagent' is set on object 'Object Repository/Page_Medisource  Login/input_Please try afterminutes'
+
+2019-04-23 14:47:31 - [MESSAGE][PASSED] - Text 'superagent' is set on object 'Object Repository/Page_Medisource  Login/input_Please try afterminutes'
+
+2019-04-23 14:47:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 14:47:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 14:47:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Medisource  Login/input_Username or email requir"), "SITHpLWAWtI8C4F8RIujvA=="): Text ****** has been set on object 'Object Repository/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-23 14:47:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-23 14:47:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 14:47:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 14:47:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Medisource  Login/button_Login")): Object: 'Object Repository/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-23 14:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-23 14:47:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-23 14:47:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-23 14:47:39 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patients/all"): Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-23 14:47:39 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-23 14:47:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 14:47:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 14:47:42 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"): Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview' successfully
+
+2019-04-23 14:47:43 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview' successfully
+
+2019-04-23 14:47:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 14:47:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-23 14:47:46 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"): Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197' successfully
+
+2019-04-23 14:47:47 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197' successfully
+
+2019-04-23 14:47:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-23 14:47:50 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OASIS_SOC/Elimination" classname="Test Cases/OASIS_SOC/Elimination" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OASIS_SOC/Elimination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Elimination/elim_M1630_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Elimination.run(Elimination:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556002040910.run(TempTestSuite1556002040910.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/elim_M1630_1' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:192)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-04-23 14:47:50 - [TEST_CASE][FAILED] - Test Cases/OASIS_SOC/Elimination: Test Cases/OASIS_SOC/Elimination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Elimination/elim_M1630_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Elimination.run(Elimination:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556002040910.run(TempTestSuite1556002040910.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/elim_M1630_1' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:192)
+	... 13 more
+
+
+2019-04-23 14:47:50 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/OASIS_TABS/xitemedits_btn")): Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-04-23 14:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-04-23 14:47:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:47:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:47:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/OASIS_TABS/Elimination_tab")): Object: 'Object Repository/OASIS/OASIS_TABS/Elimination_tab' is clicked on
+
+2019-04-23 14:47:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/OASIS_TABS/Elimination_tab' is clicked on
+
+2019-04-23 14:47:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:47:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:47:53 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_incontinence"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_incontinence' is clicked on
+
+2019-04-23 14:47:57 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_incontinence' is clicked on
+
+2019-04-23 14:47:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:47:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:47:58 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_stress_incontinence"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_stress_incontinence' is clicked on
+
+2019-04-23 14:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_stress_incontinence' is clicked on
+
+2019-04-23 14:47:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:47:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:47:59 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_urgency"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_urgency' is clicked on
+
+2019-04-23 14:47:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_urgency' is clicked on
+
+2019-04-23 14:47:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:00 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_frequency"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_frequency' is clicked on
+
+2019-04-23 14:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_frequency' is clicked on
+
+2019-04-23 14:48:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:01 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_dysuria"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_dysuria' is clicked on
+
+2019-04-23 14:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_dysuria' is clicked on
+
+2019-04-23 14:48:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:02 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_frequency"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_frequency' is clicked on
+
+2019-04-23 14:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_frequency' is clicked on
+
+2019-04-23 14:48:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:03 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_polyuria"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_polyuria' is clicked on
+
+2019-04-23 14:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_polyuria' is clicked on
+
+2019-04-23 14:48:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:05 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_nocturia")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_nocturia' is clicked on
+
+2019-04-23 14:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_nocturia' is clicked on
+
+2019-04-23 14:48:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:06 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_oliguria")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_oliguria' is clicked on
+
+2019-04-23 14:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_oliguria' is clicked on
+
+2019-04-23 14:48:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_hematuria")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_hematuria' is clicked on
+
+2019-04-23 14:48:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_hematuria' is clicked on
+
+2019-04-23 14:48:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:08 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_other"), "Xenoderma Pigmentosium"): Text 'Xenoderma Pigmentosium' is set on object 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_other'
+
+2019-04-23 14:48:09 - [MESSAGE][PASSED] - Text 'Xenoderma Pigmentosium' is set on object 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_abnormal_status_other'
+
+2019-04-23 14:48:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:10 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_urine_color_yellow")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_urine_color_yellow' is clicked on
+
+2019-04-23 14:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_urine_color_yellow' is clicked on
+
+2019-04-23 14:48:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:11 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_urine_color_other"), "Reddish Yellow"): Text 'Reddish Yellow' is set on object 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_urine_color_other'
+
+2019-04-23 14:48:11 - [MESSAGE][PASSED] - Text 'Reddish Yellow' is set on object 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_urine_color_other'
+
+2019-04-23 14:48:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:12 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_urine_clarity_clear")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_urine_clarity_clear' is clicked on
+
+2019-04-23 14:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_urine_clarity_clear' is clicked on
+
+2019-04-23 14:48:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:14 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_urine_odor_yes")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_urine_odor_yes' is clicked on
+
+2019-04-23 14:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_urine_odor_yes' is clicked on
+
+2019-04-23 14:48:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:15 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_urine_odor_yes_textfield"), "Foul"): Text 'Foul' is set on object 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_urine_odor_yes_textfield'
+
+2019-04-23 14:48:15 - [MESSAGE][PASSED] - Text 'Foul' is set on object 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_urine_odor_yes_textfield'
+
+2019-04-23 14:48:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:16 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_spx_hemo")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemo' is clicked on
+
+2019-04-23 14:48:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemo' is clicked on
+
+2019-04-23 14:48:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:17 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_avshunt_ra")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_avshunt_ra' is clicked on
+
+2019-04-23 14:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_avshunt_ra' is clicked on
+
+2019-04-23 14:48:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:18 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_other"), "RA/LA"): Text 'RA/LA' is set on object 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_other'
+
+2019-04-23 14:48:19 - [MESSAGE][PASSED] - Text 'RA/LA' is set on object 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_other'
+
+2019-04-23 14:48:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:20 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_thrill_yes")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_thrill_yes' is clicked on
+
+2019-04-23 14:48:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_thrill_yes' is clicked on
+
+2019-04-23 14:48:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:21 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_bruit_yes")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_bruit_yes' is clicked on
+
+2019-04-23 14:48:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_bruit_yes' is clicked on
+
+2019-04-23 14:48:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:22 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_avshunt_care"), "Sample Text"): Text 'Sample Text' is set on object 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_avshunt_care'
+
+2019-04-23 14:48:22 - [MESSAGE][PASSED] - Text 'Sample Text' is set on object 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_avshunt_care'
+
+2019-04-23 14:48:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:23 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_mon")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_mon' is clicked on
+
+2019-04-23 14:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_mon' is clicked on
+
+2019-04-23 14:48:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:24 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_tue")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_tue' is clicked on
+
+2019-04-23 14:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_tue' is clicked on
+
+2019-04-23 14:48:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:26 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_wed")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_wed' is clicked on
+
+2019-04-23 14:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_wed' is clicked on
+
+2019-04-23 14:48:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:27 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_thu")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_thu' is clicked on
+
+2019-04-23 14:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_thu' is clicked on
+
+2019-04-23 14:48:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:28 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_fri")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_fri' is clicked on
+
+2019-04-23 14:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_fri' is clicked on
+
+2019-04-23 14:48:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:29 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_sat")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_sat' is clicked on
+
+2019-04-23 14:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_sat' is clicked on
+
+2019-04-23 14:48:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:30 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_sun")): Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_sun' is clicked on
+
+2019-04-23 14:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dsched_sun' is clicked on
+
+2019-04-23 14:48:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:31 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dcenter"), "InterMed Dialysis Center"): Text 'InterMed Dialysis Center' is set on object 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dcenter'
+
+2019-04-23 14:48:32 - [MESSAGE][PASSED] - Text 'InterMed Dialysis Center' is set on object 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_dcenter'
+
+2019-04-23 14:48:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:33 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_phone"), "0452327655"): Text '0452327655' is set on object 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_phone'
+
+2019-04-23 14:48:34 - [MESSAGE][PASSED] - Text '0452327655' is set on object 'Object Repository/OASIS/Elimination/elim_genitourinary_status/elim_spx_hemodialysis/elim_hemodialysis_phone'
+
+2019-04-23 14:48:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:35 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_M1600_0")): Object: 'Object Repository/OASIS/Elimination/elim_M1600_0' is clicked on
+
+2019-04-23 14:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_M1600_0' is clicked on
+
+2019-04-23 14:48:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:36 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_M1610_0")): Object: 'Object Repository/OASIS/Elimination/elim_M1610_0' is clicked on
+
+2019-04-23 14:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_M1610_0' is clicked on
+
+2019-04-23 14:48:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:37 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_lower_GI_status/elim_bowel_constipation")): Object: 'Object Repository/OASIS/Elimination/elim_lower_GI_status/elim_bowel_constipation' is clicked on
+
+2019-04-23 14:48:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_lower_GI_status/elim_bowel_constipation' is clicked on
+
+2019-04-23 14:48:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:38 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_lower_GI_status/elim_bowel_constipation_chronic")): Object: 'Object Repository/OASIS/Elimination/elim_lower_GI_status/elim_bowel_constipation_chronic' is clicked on
+
+2019-04-23 14:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_lower_GI_status/elim_bowel_constipation_chronic' is clicked on
+
+2019-04-23 14:48:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:39 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_lower_GI_status/elim_stool_charac_soft")): Object: 'Object Repository/OASIS/Elimination/elim_lower_GI_status/elim_stool_charac_soft' is clicked on
+
+2019-04-23 14:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_lower_GI_status/elim_stool_charac_soft' is clicked on
+
+2019-04-23 14:48:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:40 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_lower_GI_status/elim_stool_color_grey")): Object: 'Object Repository/OASIS/Elimination/elim_lower_GI_status/elim_stool_color_grey' is clicked on
+
+2019-04-23 14:48:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_lower_GI_status/elim_stool_color_grey' is clicked on
+
+2019-04-23 14:48:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:41 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/elim_lower_GI_status/elim_stool_color_other"), "Blackish Red"): Text 'Blackish Red' is set on object 'Object Repository/OASIS/Elimination/elim_lower_GI_status/elim_stool_color_other'
+
+2019-04-23 14:48:42 - [MESSAGE][PASSED] - Text 'Blackish Red' is set on object 'Object Repository/OASIS/Elimination/elim_lower_GI_status/elim_stool_color_other'
+
+2019-04-23 14:48:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_lower_GI_status/elim_stool_softener_effective")): Object: 'Object Repository/OASIS/Elimination/elim_lower_GI_status/elim_stool_softener_effective' is clicked on
+
+2019-04-23 14:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_lower_GI_status/elim_stool_softener_effective' is clicked on
+
+2019-04-23 14:48:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:44 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_lower_GI_status/elim_laxative_daily")): Object: 'Object Repository/OASIS/Elimination/elim_lower_GI_status/elim_laxative_daily' is clicked on
+
+2019-04-23 14:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_lower_GI_status/elim_laxative_daily' is clicked on
+
+2019-04-23 14:48:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/elim_M1620_1")): Object: 'Object Repository/OASIS/Elimination/elim_M1620_1' is clicked on
+
+2019-04-23 14:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/elim_M1620_1' is clicked on
+
+2019-04-23 14:48:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-23 14:48:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-23 14:48:46 - [TEST_STEP][FAILED] - click(findTestObject("OASIS/Elimination/elim_M1630_1")): click(findTestObject("OASIS/Elimination/elim_M1630_1")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Elimination/elim_M1630_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Elimination.run(Elimination:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556002040910.run(TempTestSuite1556002040910.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/elim_M1630_1' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:192)
+	... 13 more
+
+
+2019-04-23 14:49:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-23 14:49:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OASIS/Elimination/elim_M1630_1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Elimination/elim_M1630_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Elimination.run(Elimination:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556002040910.run(TempTestSuite1556002040910.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/elim_M1630_1' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:192)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Elimination\\20190423_144720\\1556002157663.png]]
+
+2019-04-23 14:49:18 - [MESSAGE][FAILED] - click(findTestObject("OASIS/Elimination/elim_M1630_1")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Elimination/elim_M1630_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Elimination.run(Elimination:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556002040910.run(TempTestSuite1556002040910.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/elim_M1630_1' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:192)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-04-23 14:47:50 - [TEST_CASE][FAILED] - Test Cases/OASIS_SOC/Elimination: Test Cases/OASIS_SOC/Elimination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Elimination/elim_M1630_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Elimination.run(Elimination:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556002040910.run(TempTestSuite1556002040910.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/elim_M1630_1' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:192)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-23 14:47:22 - [TEST_SUITE][FAILED] - Elimination: Test Cases/OASIS_SOC/Elimination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Elimination/elim_M1630_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Elimination.run(Elimination:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556002040910.run(TempTestSuite1556002040910.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/elim_M1630_1' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:192)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-04-23 14:47:22 - [TEST_SUITE][FAILED] - Elimination: Test Cases/OASIS_SOC/Elimination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OASIS/Elimination/elim_M1630_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Elimination.run(Elimination:192)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556002040910.run(TempTestSuite1556002040910.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/elim_M1630_1' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:192)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

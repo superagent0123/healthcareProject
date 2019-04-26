@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ADLs-IADLs,Chrome 73.0.3683.103,,2019-04-24 16:35:48,2019-04-24 16:36:22,33.934s,PASSED
+,,,,,,
+Test Cases/login,Chrome 73.0.3683.103,,2019-04-24 16:35:48,2019-04-24 16:36:07,18.476s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-24 16:35:49,2019-04-24 16:35:52,3.323s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-24 16:35:52,2019-04-24 16:35:54,2.328s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-24 16:35:54,2019-04-24 16:35:57,3.020s,PASSED
+"setText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.""), ""superagent"")",Chrome 73.0.3683.103,,2019-04-24 16:35:57,2019-04-24 16:35:57,0.132s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-24 16:35:57,2019-04-24 16:36:00,3.003s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Username or email requir""), ""SITHpLWAWtI8C4F8RIujvA=="")",Chrome 73.0.3683.103,,2019-04-24 16:36:00,2019-04-24 16:36:01,0.169s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-24 16:36:01,2019-04-24 16:36:04,3.010s,PASSED
+"click(findTestObject(""Object Repository/addUser/Page_Medisource  Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-24 16:36:04,2019-04-24 16:36:04,0.088s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-24 16:36:04,2019-04-24 16:36:07,3.002s,PASSED
+,,,,,,
+Test Cases/navigate_patient_soc_ken,Chrome 73.0.3683.103,,2019-04-24 16:36:07,2019-04-24 16:36:14,7.139s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-24 16:36:07,2019-04-24 16:36:09,2.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,,2019-04-24 16:36:09,2019-04-24 16:36:10,0.633s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 16:36:10,2019-04-24 16:36:11,1.001s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"")",Chrome 73.0.3683.103,,2019-04-24 16:36:11,2019-04-24 16:36:11,0.725s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 16:36:11,2019-04-24 16:36:12,1.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"")",Chrome 73.0.3683.103,,2019-04-24 16:36:12,2019-04-24 16:36:13,0.546s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 16:36:13,2019-04-24 16:36:14,1.002s,PASSED
+,,,,,,
+Test Cases/OASIS_SOC/ADLs,Chrome 73.0.3683.103,,2019-04-24 16:36:14,2019-04-24 16:36:21,7.223s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/xitemedits_btn""))",Chrome 73.0.3683.103,,2019-04-24 16:36:14,2019-04-24 16:36:16,1.835s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/ADL_tab""))",Chrome 73.0.3683.103,,2019-04-24 16:36:16,2019-04-24 16:36:16,0.237s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-24 16:36:16,2019-04-24 16:36:21,5.002s,PASSED

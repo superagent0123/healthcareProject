@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Care Management" time="98" tests="2" failures="0" errors="0">
+   <testsuite name="Care Management" tests="2" failures="0" errors="0" time="98" timestamp="2019-04-26 13:49:19" hostname="Khenard Figuracion - 192.168.2.15" id="Test Suites/OASIS/Care Management">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Care Management\\20190426_134917"/>
+         <property name="logFiles" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Care Management\\20190426_134917\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Khenard Figuracion - 192.168.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.2.15"/>
+         <property name="sessionId" value="789e385cb3aba4f464823b5ba8f3aba4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/navigate_patient_soc_ken" classname="Test Cases/navigate_patient_soc_ken" status="PASSED">
+         <system-out><![CDATA[2019-04-26 13:49:19 - [TEST_CASE][PASSED] - Test Cases/navigate_patient_soc_ken: Test Cases/navigate_patient_soc_ken
+
+2019-04-26 13:49:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-26 13:49:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-26 13:49:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-26 13:49:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-26 13:49:22 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/login"): Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-26 13:49:25 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-26 13:49:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes."), "kenkenrn"): Text 'kenkenrn' is set on object 'Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'
+
+2019-04-26 13:49:25 - [MESSAGE][PASSED] - Text 'kenkenrn' is set on object 'Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'
+
+2019-04-26 13:49:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/addUser/Page_Medisource  Login/input_Username or email requir"), "SITHpLWAWtLnr/hOhnpplQ=="): Text ****** has been set on object 'Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-26 13:49:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-26 13:49:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 13:49:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 13:49:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addUser/Page_Medisource  Login/button_Login")): Object: 'Object Repository/addUser/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-26 13:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/addUser/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-26 13:49:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-26 13:49:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 13:49:29 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patients/all"): Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-26 13:49:30 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-26 13:49:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 13:49:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 13:49:31 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"): Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview' successfully
+
+2019-04-26 13:49:31 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview' successfully
+
+2019-04-26 13:49:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 13:49:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 13:49:32 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"): Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197' successfully
+
+2019-04-26 13:49:33 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197' successfully
+
+2019-04-26 13:49:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-26 13:49:34 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OASIS_SOC/Care_Management" classname="Test Cases/OASIS_SOC/Care_Management" status="PASSED">
+         <system-out><![CDATA[2019-04-26 13:49:34 - [TEST_CASE][PASSED] - Test Cases/OASIS_SOC/Care_Management: Test Cases/OASIS_SOC/Care_Management
+
+2019-04-26 13:49:34 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/OASIS_TABS/xitemedits_btn")): Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-04-26 13:49:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-04-26 13:49:36 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/OASIS_TABS/CareManagement_tab")): Object: 'Object Repository/OASIS/OASIS_TABS/CareManagement_tab' is clicked on
+
+2019-04-26 13:49:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/OASIS_TABS/CareManagement_tab' is clicked on
+
+2019-04-26 13:49:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-26 13:49:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 13:49:40 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/M2102_2")): Object: 'Object Repository/OASIS/Care_Management/M2102_2' is clicked on
+
+2019-04-26 13:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/M2102_2' is clicked on
+
+2019-04-26 13:49:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 13:49:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 13:49:42 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/M2200_000"), "000"): Text '000' is set on object 'Object Repository/OASIS/Care_Management/M2200_000'
+
+2019-04-26 13:49:43 - [MESSAGE][PASSED] - Text '000' is set on object 'Object Repository/OASIS/Care_Management/M2200_000'
+
+2019-04-26 13:49:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 13:49:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 13:49:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_difficultyintransfers")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_difficultyintransfers' is clicked on
+
+2019-04-26 13:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_difficultyintransfers' is clicked on
+
+2019-04-26 13:49:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_pcg")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_pcg' is clicked on
+
+2019-04-26 13:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_pcg' is clicked on
+
+2019-04-26 13:49:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_difficultyinlower")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_difficultyinlower' is clicked on
+
+2019-04-26 13:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_difficultyinlower' is clicked on
+
+2019-04-26 13:49:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_knowledgedeficit")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_knowledgedeficit' is clicked on
+
+2019-04-26 13:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_knowledgedeficit' is clicked on
+
+2019-04-26 13:49:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_identifiedhighrisk")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_identifiedhighrisk' is clicked on
+
+2019-04-26 13:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_identifiedhighrisk' is clicked on
+
+2019-04-26 13:49:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_painofmuscle")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_painofmuscle' is clicked on
+
+2019-04-26 13:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_painofmuscle' is clicked on
+
+2019-04-26 13:49:45 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_therapeutic")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_therapeutic' is clicked on
+
+2019-04-26 13:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_therapeutic' is clicked on
+
+2019-04-26 13:49:46 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_newlydeveloped")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_newlydeveloped' is clicked on
+
+2019-04-26 13:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_newlydeveloped' is clicked on
+
+2019-04-26 13:49:46 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_other"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_other'
+
+2019-04-26 13:49:46 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_other'
+
+2019-04-26 13:49:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 13:49:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 13:49:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_upperex")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_upperex' is clicked on
+
+2019-04-26 13:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_upperex' is clicked on
+
+2019-04-26 13:49:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_requiressplinting")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_requiressplinting' is clicked on
+
+2019-04-26 13:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_requiressplinting' is clicked on
+
+2019-04-26 13:49:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_difficultyinadls")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_difficultyinadls' is clicked on
+
+2019-04-26 13:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_difficultyinadls' is clicked on
+
+2019-04-26 13:49:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_limitedupperex")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_limitedupperex' is clicked on
+
+2019-04-26 13:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_limitedupperex' is clicked on
+
+2019-04-26 13:49:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_requireswork")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_requireswork' is clicked on
+
+2019-04-26 13:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_requireswork' is clicked on
+
+2019-04-26 13:49:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_needinstructions")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_needinstructions' is clicked on
+
+2019-04-26 13:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_needinstructions' is clicked on
+
+2019-04-26 13:49:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_difficultyproblem")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_difficultyproblem' is clicked on
+
+2019-04-26 13:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_difficultyproblem' is clicked on
+
+2019-04-26 13:49:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_decreasedcoordination")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_decreasedcoordination' is clicked on
+
+2019-04-26 13:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_decreasedcoordination' is clicked on
+
+2019-04-26 13:49:49 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_other"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_other'
+
+2019-04-26 13:49:50 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_other'
+
+2019-04-26 13:49:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 13:49:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 13:49:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/st/cm_po_st_receptive")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/st/cm_po_st_receptive' is clicked on
+
+2019-04-26 13:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/st/cm_po_st_receptive' is clicked on
+
+2019-04-26 13:49:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/st/cm_po_st_communication")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/st/cm_po_st_communication' is clicked on
+
+2019-04-26 13:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/st/cm_po_st_communication' is clicked on
+
+2019-04-26 13:49:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/st/cm_po_st_othercognitive")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/st/cm_po_st_othercognitive' is clicked on
+
+2019-04-26 13:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/st/cm_po_st_othercognitive' is clicked on
+
+2019-04-26 13:49:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/st/cm_po_st_shortattention")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/st/cm_po_st_shortattention' is clicked on
+
+2019-04-26 13:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/st/cm_po_st_shortattention' is clicked on
+
+2019-04-26 13:49:52 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/st/cm_po_st_poorgag")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/st/cm_po_st_poorgag' is clicked on
+
+2019-04-26 13:49:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/st/cm_po_st_poorgag' is clicked on
+
+2019-04-26 13:49:53 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/st/cm_po_st_facialtongue")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/st/cm_po_st_facialtongue' is clicked on
+
+2019-04-26 13:49:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/st/cm_po_st_facialtongue' is clicked on
+
+2019-04-26 13:49:53 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_physician_orders/st/cm_po_st_other"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/st/cm_po_st_other'
+
+2019-04-26 13:49:53 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/st/cm_po_st_other'
+
+2019-04-26 13:49:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 13:49:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 13:49:55 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_referraltossa")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_referraltossa' is clicked on
+
+2019-04-26 13:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_referraltossa' is clicked on
+
+2019-04-26 13:49:55 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_mealhousing")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_mealhousing' is clicked on
+
+2019-04-26 13:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_mealhousing' is clicked on
+
+2019-04-26 13:49:55 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_assistanceadls")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_assistanceadls' is clicked on
+
+2019-04-26 13:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_assistanceadls' is clicked on
+
+2019-04-26 13:49:56 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_evaluationandeduc")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_evaluationandeduc' is clicked on
+
+2019-04-26 13:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_evaluationandeduc' is clicked on
+
+2019-04-26 13:49:56 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_actaspatient")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_actaspatient' is clicked on
+
+2019-04-26 13:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_actaspatient' is clicked on
+
+2019-04-26 13:49:56 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_assistancewithreimburse")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_assistancewithreimburse' is clicked on
+
+2019-04-26 13:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_assistancewithreimburse' is clicked on
+
+2019-04-26 13:49:56 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_needforcomm")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_needforcomm' is clicked on
+
+2019-04-26 13:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_needforcomm' is clicked on
+
+2019-04-26 13:49:56 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_needforcomm_tf"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_needforcomm_tf'
+
+2019-04-26 13:49:56 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_needforcomm_tf'
+
+2019-04-26 13:49:56 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_counselling"), STOP_ON_FAILURE): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_counselling' is clicked on
+
+2019-04-26 13:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_counselling' is clicked on
+
+2019-04-26 13:49:57 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_counselling_tf"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_counselling_tf'
+
+2019-04-26 13:49:57 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_counselling_tf'
+
+2019-04-26 13:49:57 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_other"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_other'
+
+2019-04-26 13:49:57 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_other'
+
+2019-04-26 13:49:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 13:49:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 13:49:59 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/dietician/cm_po_dietician_identified")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/dietician/cm_po_dietician_identified' is clicked on
+
+2019-04-26 13:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/dietician/cm_po_dietician_identified' is clicked on
+
+2019-04-26 13:49:59 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_physician_orders/dietician/cm_po_dietician_other"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/dietician/cm_po_dietician_other'
+
+2019-04-26 13:50:00 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/dietician/cm_po_dietician_other'
+
+2019-04-26 13:50:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 13:50:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 13:50:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 13:50:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 13:50:04 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_physician_orders/chha/cm_po_chha_toassistpersonalcare")): Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/chha/cm_po_chha_toassistpersonalcare' is clicked on
+
+2019-04-26 13:50:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_physician_orders/chha/cm_po_chha_toassistpersonalcare' is clicked on
+
+2019-04-26 13:50:04 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_physician_orders/chha/cm_po_chha_other"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/chha/cm_po_chha_other'
+
+2019-04-26 13:50:04 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_physician_orders/chha/cm_po_chha_other'
+
+2019-04-26 13:50:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 13:50:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 13:50:06 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_physician")): Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_physician' is clicked on
+
+2019-04-26 13:50:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_physician' is clicked on
+
+2019-04-26 13:50:06 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_rnsupervisor")): Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_rnsupervisor' is clicked on
+
+2019-04-26 13:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_rnsupervisor' is clicked on
+
+2019-04-26 13:50:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_rnlvn")): Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_rnlvn' is clicked on
+
+2019-04-26 13:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_rnlvn' is clicked on
+
+2019-04-26 13:50:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_patient")): Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_patient' is clicked on
+
+2019-04-26 13:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_patient' is clicked on
+
+2019-04-26 13:50:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_pcg")): Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_pcg' is clicked on
+
+2019-04-26 13:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_pcg' is clicked on
+
+2019-04-26 13:50:07 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_other"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_other'
+
+2019-04-26 13:50:07 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_other'
+
+2019-04-26 13:50:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 13:50:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 13:50:09 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_phone")): Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_phone' is clicked on
+
+2019-04-26 13:50:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_phone' is clicked on
+
+2019-04-26 13:50:09 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_fax")): Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_fax' is clicked on
+
+2019-04-26 13:50:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_fax' is clicked on
+
+2019-04-26 13:50:10 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_persontoperson")): Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_persontoperson' is clicked on
+
+2019-04-26 13:50:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_persontoperson' is clicked on
+
+2019-04-26 13:50:10 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_comreceivedby"), "Khenard Figuracion"): Text 'Khenard Figuracion' is set on object 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_comreceivedby'
+
+2019-04-26 13:50:10 - [MESSAGE][PASSED] - Text 'Khenard Figuracion' is set on object 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_comreceivedby'
+
+2019-04-26 13:50:10 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_date"), "April 26, 2019"): Text 'April 26, 2019' is set on object 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_date'
+
+2019-04-26 13:50:11 - [MESSAGE][PASSED] - Text 'April 26, 2019' is set on object 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_date'
+
+2019-04-26 13:50:11 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_time"), "10:04 AM"): Text '10:04 AM' is set on object 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_time'
+
+2019-04-26 13:50:11 - [MESSAGE][PASSED] - Text '10:04 AM' is set on object 'Object Repository/OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_time'
+
+2019-04-26 13:50:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 13:50:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 13:50:13 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_ssindicative")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_ssindicative' is clicked on
+
+2019-04-26 13:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_ssindicative' is clicked on
+
+2019-04-26 13:50:13 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_diabetic")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_diabetic' is clicked on
+
+2019-04-26 13:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_diabetic' is clicked on
+
+2019-04-26 13:50:13 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_hypertensive")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_hypertensive' is clicked on
+
+2019-04-26 13:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_hypertensive' is clicked on
+
+2019-04-26 13:50:13 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_depression")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_depression' is clicked on
+
+2019-04-26 13:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_depression' is clicked on
+
+2019-04-26 13:50:13 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_newwound")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_newwound' is clicked on
+
+2019-04-26 13:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_newwound' is clicked on
+
+2019-04-26 13:50:14 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_unrelievedpain")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_unrelievedpain' is clicked on
+
+2019-04-26 13:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_unrelievedpain' is clicked on
+
+2019-04-26 13:50:14 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_fallinjury")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_fallinjury' is clicked on
+
+2019-04-26 13:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_fallinjury' is clicked on
+
+2019-04-26 13:50:14 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_other"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_other'
+
+2019-04-26 13:50:14 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_other'
+
+2019-04-26 13:50:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 13:50:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 13:50:16 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_adverseeffect")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_adverseeffect' is clicked on
+
+2019-04-26 13:50:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_adverseeffect' is clicked on
+
+2019-04-26 13:50:16 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_potentialadverse")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_potentialadverse' is clicked on
+
+2019-04-26 13:50:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_potentialadverse' is clicked on
+
+2019-04-26 13:50:16 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_ineffectivedrugtherapy")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_ineffectivedrugtherapy' is clicked on
+
+2019-04-26 13:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_ineffectivedrugtherapy' is clicked on
+
+2019-04-26 13:50:17 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_significantsideeffect")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_significantsideeffect' is clicked on
+
+2019-04-26 13:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_significantsideeffect' is clicked on
+
+2019-04-26 13:50:17 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_significantdrunginteractions")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_significantdrunginteractions' is clicked on
+
+2019-04-26 13:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_significantdrunginteractions' is clicked on
+
+2019-04-26 13:50:17 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_noncompliance")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_noncompliance' is clicked on
+
+2019-04-26 13:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_noncompliance' is clicked on
+
+2019-04-26 13:50:17 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_misseddose")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_misseddose' is clicked on
+
+2019-04-26 13:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_misseddose' is clicked on
+
+2019-04-26 13:50:17 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_newmed")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_newmed' is clicked on
+
+2019-04-26 13:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_newmed' is clicked on
+
+2019-04-26 13:50:17 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_medrecon")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_medrecon' is clicked on
+
+2019-04-26 13:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_medrecon' is clicked on
+
+2019-04-26 13:50:17 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_duplicatedt")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_duplicatedt' is clicked on
+
+2019-04-26 13:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_duplicatedt' is clicked on
+
+2019-04-26 13:50:18 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_missingmed")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_missingmed' is clicked on
+
+2019-04-26 13:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_missingmed' is clicked on
+
+2019-04-26 13:50:18 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_wrongdose")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_wrongdose' is clicked on
+
+2019-04-26 13:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_wrongdose' is clicked on
+
+2019-04-26 13:50:18 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_other"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_other'
+
+2019-04-26 13:50:18 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_other'
+
+2019-04-26 13:50:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 13:50:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 13:50:20 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_lab")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_lab' is clicked on
+
+2019-04-26 13:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_lab' is clicked on
+
+2019-04-26 13:50:20 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_med")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_med' is clicked on
+
+2019-04-26 13:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_med' is clicked on
+
+2019-04-26 13:50:21 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_treatments")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_treatments' is clicked on
+
+2019-04-26 13:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_treatments' is clicked on
+
+2019-04-26 13:50:21 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_dme")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_dme' is clicked on
+
+2019-04-26 13:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_dme' is clicked on
+
+2019-04-26 13:50:21 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_diabeticfootexam")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_diabeticfootexam' is clicked on
+
+2019-04-26 13:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_diabeticfootexam' is clicked on
+
+2019-04-26 13:50:21 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_fallprevention")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_fallprevention' is clicked on
+
+2019-04-26 13:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_fallprevention' is clicked on
+
+2019-04-26 13:50:21 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_depression")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_depression' is clicked on
+
+2019-04-26 13:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_depression' is clicked on
+
+2019-04-26 13:50:21 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_interventionstomonitor")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_interventionstomonitor' is clicked on
+
+2019-04-26 13:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_interventionstomonitor' is clicked on
+
+2019-04-26 13:50:21 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_interventionstoprevent")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_interventionstoprevent' is clicked on
+
+2019-04-26 13:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_interventionstoprevent' is clicked on
+
+2019-04-26 13:50:21 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_woundcaretreatment")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_woundcaretreatment' is clicked on
+
+2019-04-26 13:50:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_woundcaretreatment' is clicked on
+
+2019-04-26 13:50:22 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_patientspecificparam")): Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_patientspecificparam' is clicked on
+
+2019-04-26 13:50:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_patientspecificparam' is clicked on
+
+2019-04-26 13:50:22 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_other"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_other'
+
+2019-04-26 13:50:22 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_other'
+
+2019-04-26 13:50:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-26 13:50:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 13:50:25 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dme/cm_dme_walker_has")): Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_walker_has' is clicked on
+
+2019-04-26 13:50:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_walker_has' is clicked on
+
+2019-04-26 13:50:25 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dme/cm_dme_cane_needs")): Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_cane_needs' is clicked on
+
+2019-04-26 13:50:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_cane_needs' is clicked on
+
+2019-04-26 13:50:25 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dme/cm_dme_wheelchair_has")): Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_wheelchair_has' is clicked on
+
+2019-04-26 13:50:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_wheelchair_has' is clicked on
+
+2019-04-26 13:50:25 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dme/cm_dme_bedside_needs")): Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_bedside_needs' is clicked on
+
+2019-04-26 13:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_bedside_needs' is clicked on
+
+2019-04-26 13:50:26 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dme/cm_dme_showerbench_has")): Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_showerbench_has' is clicked on
+
+2019-04-26 13:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_showerbench_has' is clicked on
+
+2019-04-26 13:50:26 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dme/cm_dme_feedingpump_needs")): Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_feedingpump_needs' is clicked on
+
+2019-04-26 13:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_feedingpump_needs' is clicked on
+
+2019-04-26 13:50:26 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dme/cm_dme_suction_has")): Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_suction_has' is clicked on
+
+2019-04-26 13:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_suction_has' is clicked on
+
+2019-04-26 13:50:26 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dme/cm_dme_o2con_needs")): Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_o2con_needs' is clicked on
+
+2019-04-26 13:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_o2con_needs' is clicked on
+
+2019-04-26 13:50:26 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dme/cm_dme_nebulizer_has")): Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_nebulizer_has' is clicked on
+
+2019-04-26 13:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_nebulizer_has' is clicked on
+
+2019-04-26 13:50:26 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dme/cm_dme_hospitalbed_needs")): Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_hospitalbed_needs' is clicked on
+
+2019-04-26 13:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_hospitalbed_needs' is clicked on
+
+2019-04-26 13:50:26 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dme/cm_dme_lowairmattress_has")): Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_lowairmattress_has' is clicked on
+
+2019-04-26 13:50:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_lowairmattress_has' is clicked on
+
+2019-04-26 13:50:27 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_dme/cm_dme_other_tf"), "Air Conditioner Machine"): Text 'Air Conditioner Machine' is set on object 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_other_tf'
+
+2019-04-26 13:50:27 - [MESSAGE][PASSED] - Text 'Air Conditioner Machine' is set on object 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_other_tf'
+
+2019-04-26 13:50:27 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dme/cm_dme_other_needs")): Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_other_needs' is clicked on
+
+2019-04-26 13:50:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_other_needs' is clicked on
+
+2019-04-26 13:50:27 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dme/cm_dme_workingproperly_yes")): Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_workingproperly_yes' is clicked on
+
+2019-04-26 13:50:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dme/cm_dme_workingproperly_yes' is clicked on
+
+2019-04-26 13:50:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-26 13:50:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 13:50:30 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_knowledgedeficit/cm_kda_diseaseprocess")): Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_diseaseprocess' is clicked on
+
+2019-04-26 13:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_diseaseprocess' is clicked on
+
+2019-04-26 13:50:31 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_knowledgedeficit/cm_kda_prevention")): Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_prevention' is clicked on
+
+2019-04-26 13:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_prevention' is clicked on
+
+2019-04-26 13:50:31 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_knowledgedeficit/cm_kda_reportable")): Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_reportable' is clicked on
+
+2019-04-26 13:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_reportable' is clicked on
+
+2019-04-26 13:50:31 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_knowledgedeficit/cm_kda_emergency")): Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_emergency' is clicked on
+
+2019-04-26 13:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_emergency' is clicked on
+
+2019-04-26 13:50:31 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_knowledgedeficit/cm_kda_medication")): Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_medication' is clicked on
+
+2019-04-26 13:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_medication' is clicked on
+
+2019-04-26 13:50:31 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_knowledgedeficit/cm_kda_compliance")): Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_compliance' is clicked on
+
+2019-04-26 13:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_compliance' is clicked on
+
+2019-04-26 13:50:31 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_knowledgedeficit/cm_kda_diet")): Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_diet' is clicked on
+
+2019-04-26 13:50:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_diet' is clicked on
+
+2019-04-26 13:50:31 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_knowledgedeficit/cm_kda_homesafety")): Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_homesafety' is clicked on
+
+2019-04-26 13:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_homesafety' is clicked on
+
+2019-04-26 13:50:32 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_knowledgedeficit/cm_kda_oxygen")): Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_oxygen' is clicked on
+
+2019-04-26 13:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_oxygen' is clicked on
+
+2019-04-26 13:50:32 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_knowledgedeficit/cm_kda_infection")): Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_infection' is clicked on
+
+2019-04-26 13:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_infection' is clicked on
+
+2019-04-26 13:50:32 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_knowledgedeficit/cm_kda_pain")): Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_pain' is clicked on
+
+2019-04-26 13:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_pain' is clicked on
+
+2019-04-26 13:50:32 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_knowledgedeficit/cm_kda_other"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_other'
+
+2019-04-26 13:50:32 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_knowledgedeficit/cm_kda_other'
+
+2019-04-26 13:50:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-26 13:50:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 13:50:34 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_additonalassessment"), "The patient must be assisted all the time especially when it comes to basic house chores such as doing the laundry, washing the dishes, walking upstairs. He's basically disabled in so many aspects."): Text 'The patient must be assisted all the time especially when it comes to basic house chores such as doing the laundry, washing the dishes, walking upstairs. He's basically disabled in so many aspects.' is set on object 'Object Repository/OASIS/Care_Management/cm_additonalassessment'
+
+2019-04-26 13:50:38 - [MESSAGE][PASSED] - Text 'The patient must be assisted all the time especially when it comes to basic house chores such as doing the laundry, washing the dishes, walking upstairs. He's basically disabled in so many aspects.' is set on object 'Object Repository/OASIS/Care_Management/cm_additonalassessment'
+
+2019-04-26 13:50:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-26 13:50:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 13:50:41 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_patientrights")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_patientrights' is clicked on
+
+2019-04-26 13:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_patientrights' is clicked on
+
+2019-04-26 13:50:41 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_statehotline")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_statehotline' is clicked on
+
+2019-04-26 13:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_statehotline' is clicked on
+
+2019-04-26 13:50:41 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_advancedirectives")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_advancedirectives' is clicked on
+
+2019-04-26 13:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_advancedirectives' is clicked on
+
+2019-04-26 13:50:41 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_dnr")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_dnr' is clicked on
+
+2019-04-26 13:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_dnr' is clicked on
+
+2019-04-26 13:50:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_hipaanotice")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_hipaanotice' is clicked on
+
+2019-04-26 13:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_hipaanotice' is clicked on
+
+2019-04-26 13:50:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_oasisprivacy")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_oasisprivacy' is clicked on
+
+2019-04-26 13:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_oasisprivacy' is clicked on
+
+2019-04-26 13:50:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_agencyphone")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_agencyphone' is clicked on
+
+2019-04-26 13:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_agencyphone' is clicked on
+
+2019-04-26 13:50:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_whentocontact")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_whentocontact' is clicked on
+
+2019-04-26 13:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_whentocontact' is clicked on
+
+2019-04-26 13:50:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_abnhhccn")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_abnhhccn' is clicked on
+
+2019-04-26 13:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_abnhhccn' is clicked on
+
+2019-04-26 13:50:42 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_emergencyplanning")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_emergencyplanning' is clicked on
+
+2019-04-26 13:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_emergencyplanning' is clicked on
+
+2019-04-26 13:50:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_infectioncontrol")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_infectioncontrol' is clicked on
+
+2019-04-26 13:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_infectioncontrol' is clicked on
+
+2019-04-26 13:50:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_basichomesafety")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_basichomesafety' is clicked on
+
+2019-04-26 13:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_basichomesafety' is clicked on
+
+2019-04-26 13:50:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_fallprevention")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_fallprevention' is clicked on
+
+2019-04-26 13:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_fallprevention' is clicked on
+
+2019-04-26 13:50:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_medication")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_medication' is clicked on
+
+2019-04-26 13:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_medication' is clicked on
+
+2019-04-26 13:50:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_advancebeneficiary")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_advancebeneficiary' is clicked on
+
+2019-04-26 13:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_advancebeneficiary' is clicked on
+
+2019-04-26 13:50:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_oxygenrisk")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_oxygenrisk' is clicked on
+
+2019-04-26 13:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_oxygenrisk' is clicked on
+
+2019-04-26 13:50:43 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_diseaseprocess")): Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_diseaseprocess' is clicked on
+
+2019-04-26 13:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_diseaseprocess' is clicked on
+
+2019-04-26 13:50:43 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_other1"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_other1'
+
+2019-04-26 13:50:44 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_other1'
+
+2019-04-26 13:50:44 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_other2"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_other2'
+
+2019-04-26 13:50:44 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_other2'
+
+2019-04-26 13:50:44 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_other3"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_other3'
+
+2019-04-26 13:50:44 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_other3'
+
+2019-04-26 13:50:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-26 13:50:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 13:50:47 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_returntoanindependent")): Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_returntoanindependent' is clicked on
+
+2019-04-26 13:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_returntoanindependent' is clicked on
+
+2019-04-26 13:50:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_abletoremainresisdence")): Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_abletoremainresisdence' is clicked on
+
+2019-04-26 13:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_abletoremainresisdence' is clicked on
+
+2019-04-26 13:50:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_abletoemainassistive")): Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_abletoemainassistive' is clicked on
+
+2019-04-26 13:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_abletoemainassistive' is clicked on
+
+2019-04-26 13:50:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_whenpatient")): Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_whenpatient' is clicked on
+
+2019-04-26 13:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_whenpatient' is clicked on
+
+2019-04-26 13:50:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_abletounderstand")): Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_abletounderstand' is clicked on
+
+2019-04-26 13:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_abletounderstand' is clicked on
+
+2019-04-26 13:50:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_medicalcondition")): Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_medicalcondition' is clicked on
+
+2019-04-26 13:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_medicalcondition' is clicked on
+
+2019-04-26 13:50:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_whenmaxpotential")): Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_whenmaxpotential' is clicked on
+
+2019-04-26 13:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_whenmaxpotential' is clicked on
+
+2019-04-26 13:50:48 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_dischargeattheend")): Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_dischargeattheend' is clicked on
+
+2019-04-26 13:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_dischargeattheend' is clicked on
+
+2019-04-26 13:50:49 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_whengoalsaremet")): Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_whengoalsaremet' is clicked on
+
+2019-04-26 13:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_whengoalsaremet' is clicked on
+
+2019-04-26 13:50:49 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_other"), "Other discharge plan might be added upon the care staff's notice or instruction."): Text 'Other discharge plan might be added upon the care staff's notice or instruction.' is set on object 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_other'
+
+2019-04-26 13:50:50 - [MESSAGE][PASSED] - Text 'Other discharge plan might be added upon the care staff's notice or instruction.' is set on object 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_other'
+
+2019-04-26 13:50:50 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_patient")): Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_patient' is clicked on
+
+2019-04-26 13:50:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_patient' is clicked on
+
+2019-04-26 13:50:50 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_pcg")): Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_pcg' is clicked on
+
+2019-04-26 13:50:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_pcg' is clicked on
+
+2019-04-26 13:50:50 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_family")): Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_family' is clicked on
+
+2019-04-26 13:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_family' is clicked on
+
+2019-04-26 13:50:51 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_agreeable")): Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_agreeable' is clicked on
+
+2019-04-26 13:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_agreeable' is clicked on
+
+2019-04-26 13:50:51 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_patientgoals"), "To be well"): Text 'To be well' is set on object 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_patientgoals'
+
+2019-04-26 13:50:51 - [MESSAGE][PASSED] - Text 'To be well' is set on object 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_patientgoals'
+
+2019-04-26 13:50:51 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_disciplinefreq"), "Sample text"): Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_disciplinefreq'
+
+2019-04-26 13:50:51 - [MESSAGE][PASSED] - Text 'Sample text' is set on object 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_disciplinefreq'
+
+2019-04-26 13:50:51 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Care_Management/cm_dischargeplans/cm_dcplans_rehabpotential_fair")): Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_rehabpotential_fair' is clicked on
+
+2019-04-26 13:50:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Care_Management/cm_dischargeplans/cm_dcplans_rehabpotential_fair' is clicked on
+
+2019-04-26 13:50:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-26 13:50:57 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-26 13:49:19 - [TEST_SUITE][PASSED] - Care Management: Test Cases/OASIS_SOC/Care_Management]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

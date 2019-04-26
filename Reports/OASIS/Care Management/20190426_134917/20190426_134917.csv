@@ -1,0 +1,192 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Care Management,Chrome 73.0.3683.103,,2019-04-26 13:49:19,2019-04-26 13:50:57,1m - 38.430s,PASSED
+,,,,,,
+Test Cases/navigate_patient_soc_ken,Chrome 73.0.3683.103,,2019-04-26 13:49:19,2019-04-26 13:49:34,14.915s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-26 13:49:19,2019-04-26 13:49:22,3.058s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-26 13:49:22,2019-04-26 13:49:25,2.181s,PASSED
+"setText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.""), ""kenkenrn"")",Chrome 73.0.3683.103,,2019-04-26 13:49:25,2019-04-26 13:49:25,0.154s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Username or email requir""), ""SITHpLWAWtLnr/hOhnpplQ=="")",Chrome 73.0.3683.103,,2019-04-26 13:49:25,2019-04-26 13:49:25,0.161s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-26 13:49:25,2019-04-26 13:49:26,1.022s,PASSED
+"click(findTestObject(""Object Repository/addUser/Page_Medisource  Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-26 13:49:26,2019-04-26 13:49:26,0.084s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-26 13:49:26,2019-04-26 13:49:29,3.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,,2019-04-26 13:49:29,2019-04-26 13:49:30,0.748s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-26 13:49:30,2019-04-26 13:49:31,1.003s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"")",Chrome 73.0.3683.103,,2019-04-26 13:49:31,2019-04-26 13:49:31,0.646s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-26 13:49:31,2019-04-26 13:49:32,1.004s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"")",Chrome 73.0.3683.103,,2019-04-26 13:49:32,2019-04-26 13:49:33,0.546s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-26 13:49:33,2019-04-26 13:49:34,1.003s,PASSED
+,,,,,,
+Test Cases/OASIS_SOC/Care_Management,Chrome 73.0.3683.103,,2019-04-26 13:49:34,2019-04-26 13:50:57,1m - 22.515s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/xitemedits_btn""))",Chrome 73.0.3683.103,,2019-04-26 13:49:34,2019-04-26 13:49:36,2.055s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/CareManagement_tab""))",Chrome 73.0.3683.103,,2019-04-26 13:49:36,2019-04-26 13:49:37,0.245s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-26 13:49:37,2019-04-26 13:49:40,3.001s,PASSED
+"click(findTestObject(""OASIS/Care_Management/M2102_2""))",Chrome 73.0.3683.103,,2019-04-26 13:49:40,2019-04-26 13:49:40,0.607s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-26 13:49:40,2019-04-26 13:49:42,2.004s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/M2200_000""), ""000"")",Chrome 73.0.3683.103,,2019-04-26 13:49:42,2019-04-26 13:49:43,0.257s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-26 13:49:43,2019-04-26 13:49:45,2.003s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_difficultyintransfers""))",Chrome 73.0.3683.103,,2019-04-26 13:49:45,2019-04-26 13:49:45,0.163s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_pcg""))",Chrome 73.0.3683.103,,2019-04-26 13:49:45,2019-04-26 13:49:45,0.161s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_difficultyinlower""))",Chrome 73.0.3683.103,,2019-04-26 13:49:45,2019-04-26 13:49:45,0.169s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_knowledgedeficit""))",Chrome 73.0.3683.103,,2019-04-26 13:49:45,2019-04-26 13:49:45,0.149s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_identifiedhighrisk""))",Chrome 73.0.3683.103,,2019-04-26 13:49:45,2019-04-26 13:49:45,0.182s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_painofmuscle""))",Chrome 73.0.3683.103,,2019-04-26 13:49:45,2019-04-26 13:49:45,0.142s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_therapeutic""))",Chrome 73.0.3683.103,,2019-04-26 13:49:45,2019-04-26 13:49:46,0.163s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_newlydeveloped""))",Chrome 73.0.3683.103,,2019-04-26 13:49:46,2019-04-26 13:49:46,0.139s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_physician_orders/pt/cm_po_pt_other""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:49:46,2019-04-26 13:49:46,0.383s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-26 13:49:46,2019-04-26 13:49:48,2.003s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_upperex""))",Chrome 73.0.3683.103,,2019-04-26 13:49:48,2019-04-26 13:49:48,0.157s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_requiressplinting""))",Chrome 73.0.3683.103,,2019-04-26 13:49:48,2019-04-26 13:49:49,0.164s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_difficultyinadls""))",Chrome 73.0.3683.103,,2019-04-26 13:49:49,2019-04-26 13:49:49,0.153s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_limitedupperex""))",Chrome 73.0.3683.103,,2019-04-26 13:49:49,2019-04-26 13:49:49,0.168s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_requireswork""))",Chrome 73.0.3683.103,,2019-04-26 13:49:49,2019-04-26 13:49:49,0.142s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_needinstructions""))",Chrome 73.0.3683.103,,2019-04-26 13:49:49,2019-04-26 13:49:49,0.199s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_difficultyproblem""))",Chrome 73.0.3683.103,,2019-04-26 13:49:49,2019-04-26 13:49:49,0.151s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_decreasedcoordination""))",Chrome 73.0.3683.103,,2019-04-26 13:49:49,2019-04-26 13:49:49,0.151s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_physician_orders/ot/cm_po_ot_other""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:49:49,2019-04-26 13:49:50,0.383s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-26 13:49:50,2019-04-26 13:49:52,2.003s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/st/cm_po_st_receptive""))",Chrome 73.0.3683.103,,2019-04-26 13:49:52,2019-04-26 13:49:52,0.143s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/st/cm_po_st_communication""))",Chrome 73.0.3683.103,,2019-04-26 13:49:52,2019-04-26 13:49:52,0.141s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/st/cm_po_st_othercognitive""))",Chrome 73.0.3683.103,,2019-04-26 13:49:52,2019-04-26 13:49:52,0.148s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/st/cm_po_st_shortattention""))",Chrome 73.0.3683.103,,2019-04-26 13:49:52,2019-04-26 13:49:52,0.155s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/st/cm_po_st_poorgag""))",Chrome 73.0.3683.103,,2019-04-26 13:49:52,2019-04-26 13:49:53,0.149s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/st/cm_po_st_facialtongue""))",Chrome 73.0.3683.103,,2019-04-26 13:49:53,2019-04-26 13:49:53,0.146s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_physician_orders/st/cm_po_st_other""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:49:53,2019-04-26 13:49:53,0.386s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-26 13:49:53,2019-04-26 13:49:55,2.002s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_referraltossa""))",Chrome 73.0.3683.103,,2019-04-26 13:49:55,2019-04-26 13:49:55,0.162s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_mealhousing""))",Chrome 73.0.3683.103,,2019-04-26 13:49:55,2019-04-26 13:49:55,0.141s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_assistanceadls""))",Chrome 73.0.3683.103,,2019-04-26 13:49:55,2019-04-26 13:49:56,0.126s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_evaluationandeduc""))",Chrome 73.0.3683.103,,2019-04-26 13:49:56,2019-04-26 13:49:56,0.161s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_actaspatient""))",Chrome 73.0.3683.103,,2019-04-26 13:49:56,2019-04-26 13:49:56,0.145s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_assistancewithreimburse""))",Chrome 73.0.3683.103,,2019-04-26 13:49:56,2019-04-26 13:49:56,0.142s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_needforcomm""))",Chrome 73.0.3683.103,,2019-04-26 13:49:56,2019-04-26 13:49:56,0.125s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_needforcomm_tf""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:49:56,2019-04-26 13:49:56,0.360s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_counselling""), STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-26 13:49:56,2019-04-26 13:49:57,0.140s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_counselling_tf""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:49:57,2019-04-26 13:49:57,0.333s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_physician_orders/msw/cm_po_msw_other""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:49:57,2019-04-26 13:49:57,0.321s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-26 13:49:57,2019-04-26 13:49:59,2.001s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/dietician/cm_po_dietician_identified""))",Chrome 73.0.3683.103,,2019-04-26 13:49:59,2019-04-26 13:49:59,0.158s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_physician_orders/dietician/cm_po_dietician_other""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:49:59,2019-04-26 13:50:00,0.351s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-26 13:50:00,2019-04-26 13:50:02,2.001s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-26 13:50:02,2019-04-26 13:50:04,2.003s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_physician_orders/chha/cm_po_chha_toassistpersonalcare""))",Chrome 73.0.3683.103,,2019-04-26 13:50:04,2019-04-26 13:50:04,0.148s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_physician_orders/chha/cm_po_chha_other""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:50:04,2019-04-26 13:50:04,0.324s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-26 13:50:04,2019-04-26 13:50:06,2.001s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_physician""))",Chrome 73.0.3683.103,,2019-04-26 13:50:06,2019-04-26 13:50:06,0.141s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_rnsupervisor""))",Chrome 73.0.3683.103,,2019-04-26 13:50:06,2019-04-26 13:50:07,0.123s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_rnlvn""))",Chrome 73.0.3683.103,,2019-04-26 13:50:07,2019-04-26 13:50:07,0.144s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_patient""))",Chrome 73.0.3683.103,,2019-04-26 13:50:07,2019-04-26 13:50:07,0.127s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_pcg""))",Chrome 73.0.3683.103,,2019-04-26 13:50:07,2019-04-26 13:50:07,0.126s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_care_coordination/cm_cc_coordinationcarewith/cm_cc_coordinationcarewith_other""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:50:07,2019-04-26 13:50:07,0.351s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-26 13:50:07,2019-04-26 13:50:09,2.002s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_phone""))",Chrome 73.0.3683.103,,2019-04-26 13:50:09,2019-04-26 13:50:09,0.127s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_fax""))",Chrome 73.0.3683.103,,2019-04-26 13:50:09,2019-04-26 13:50:10,0.126s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_persontoperson""))",Chrome 73.0.3683.103,,2019-04-26 13:50:10,2019-04-26 13:50:10,0.121s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_comreceivedby""), ""Khenard Figuracion"")",Chrome 73.0.3683.103,,2019-04-26 13:50:10,2019-04-26 13:50:10,0.551s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_date""), ""April 26, 2019"")",Chrome 73.0.3683.103,,2019-04-26 13:50:10,2019-04-26 13:50:11,0.370s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_care_coordination/cm_cc_communicatedvia/cm_cc_communicatedvia_time""), ""10:04 AM"")",Chrome 73.0.3683.103,,2019-04-26 13:50:11,2019-04-26 13:50:11,0.262s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-26 13:50:11,2019-04-26 13:50:13,2.002s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_ssindicative""))",Chrome 73.0.3683.103,,2019-04-26 13:50:13,2019-04-26 13:50:13,0.163s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_diabetic""))",Chrome 73.0.3683.103,,2019-04-26 13:50:13,2019-04-26 13:50:13,0.121s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_hypertensive""))",Chrome 73.0.3683.103,,2019-04-26 13:50:13,2019-04-26 13:50:13,0.129s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_depression""))",Chrome 73.0.3683.103,,2019-04-26 13:50:13,2019-04-26 13:50:13,0.115s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_newwound""))",Chrome 73.0.3683.103,,2019-04-26 13:50:13,2019-04-26 13:50:14,0.142s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_unrelievedpain""))",Chrome 73.0.3683.103,,2019-04-26 13:50:14,2019-04-26 13:50:14,0.138s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_fallinjury""))",Chrome 73.0.3683.103,,2019-04-26 13:50:14,2019-04-26 13:50:14,0.178s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingpatient/cm_sa_rpc_other""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:50:14,2019-04-26 13:50:14,0.342s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-26 13:50:14,2019-04-26 13:50:16,2.002s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_adverseeffect""))",Chrome 73.0.3683.103,,2019-04-26 13:50:16,2019-04-26 13:50:16,0.148s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_potentialadverse""))",Chrome 73.0.3683.103,,2019-04-26 13:50:16,2019-04-26 13:50:16,0.141s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_ineffectivedrugtherapy""))",Chrome 73.0.3683.103,,2019-04-26 13:50:16,2019-04-26 13:50:17,0.156s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_significantsideeffect""))",Chrome 73.0.3683.103,,2019-04-26 13:50:17,2019-04-26 13:50:17,0.139s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_significantdrunginteractions""))",Chrome 73.0.3683.103,,2019-04-26 13:50:17,2019-04-26 13:50:17,0.145s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_noncompliance""))",Chrome 73.0.3683.103,,2019-04-26 13:50:17,2019-04-26 13:50:17,0.168s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_misseddose""))",Chrome 73.0.3683.103,,2019-04-26 13:50:17,2019-04-26 13:50:17,0.142s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_newmed""))",Chrome 73.0.3683.103,,2019-04-26 13:50:17,2019-04-26 13:50:17,0.139s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_medrecon""))",Chrome 73.0.3683.103,,2019-04-26 13:50:17,2019-04-26 13:50:17,0.134s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_duplicatedt""))",Chrome 73.0.3683.103,,2019-04-26 13:50:17,2019-04-26 13:50:18,0.132s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_missingmed""))",Chrome 73.0.3683.103,,2019-04-26 13:50:18,2019-04-26 13:50:18,0.142s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_wrongdose""))",Chrome 73.0.3683.103,,2019-04-26 13:50:18,2019-04-26 13:50:18,0.134s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_regardingmedication/cm_sa_rm_other""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:50:18,2019-04-26 13:50:18,0.387s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-26 13:50:18,2019-04-26 13:50:20,2.001s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_lab""))",Chrome 73.0.3683.103,,2019-04-26 13:50:20,2019-04-26 13:50:20,0.146s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_med""))",Chrome 73.0.3683.103,,2019-04-26 13:50:20,2019-04-26 13:50:21,0.129s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_treatments""))",Chrome 73.0.3683.103,,2019-04-26 13:50:21,2019-04-26 13:50:21,0.118s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_dme""))",Chrome 73.0.3683.103,,2019-04-26 13:50:21,2019-04-26 13:50:21,0.137s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_diabeticfootexam""))",Chrome 73.0.3683.103,,2019-04-26 13:50:21,2019-04-26 13:50:21,0.130s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_fallprevention""))",Chrome 73.0.3683.103,,2019-04-26 13:50:21,2019-04-26 13:50:21,0.147s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_depression""))",Chrome 73.0.3683.103,,2019-04-26 13:50:21,2019-04-26 13:50:21,0.132s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_interventionstomonitor""))",Chrome 73.0.3683.103,,2019-04-26 13:50:21,2019-04-26 13:50:21,0.132s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_interventionstoprevent""))",Chrome 73.0.3683.103,,2019-04-26 13:50:21,2019-04-26 13:50:21,0.126s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_woundcaretreatment""))",Chrome 73.0.3683.103,,2019-04-26 13:50:21,2019-04-26 13:50:22,0.129s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_patientspecificparam""))",Chrome 73.0.3683.103,,2019-04-26 13:50:22,2019-04-26 13:50:22,0.137s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_subject_areas/cm_sa_obtainedpofor/cm_sa_opof_other""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:50:22,2019-04-26 13:50:22,0.338s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-26 13:50:22,2019-04-26 13:50:25,3.001s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dme/cm_dme_walker_has""))",Chrome 73.0.3683.103,,2019-04-26 13:50:25,2019-04-26 13:50:25,0.125s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dme/cm_dme_cane_needs""))",Chrome 73.0.3683.103,,2019-04-26 13:50:25,2019-04-26 13:50:25,0.116s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dme/cm_dme_wheelchair_has""))",Chrome 73.0.3683.103,,2019-04-26 13:50:25,2019-04-26 13:50:25,0.114s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dme/cm_dme_bedside_needs""))",Chrome 73.0.3683.103,,2019-04-26 13:50:25,2019-04-26 13:50:26,0.136s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dme/cm_dme_showerbench_has""))",Chrome 73.0.3683.103,,2019-04-26 13:50:26,2019-04-26 13:50:26,0.147s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dme/cm_dme_feedingpump_needs""))",Chrome 73.0.3683.103,,2019-04-26 13:50:26,2019-04-26 13:50:26,0.173s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dme/cm_dme_suction_has""))",Chrome 73.0.3683.103,,2019-04-26 13:50:26,2019-04-26 13:50:26,0.124s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dme/cm_dme_o2con_needs""))",Chrome 73.0.3683.103,,2019-04-26 13:50:26,2019-04-26 13:50:26,0.137s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dme/cm_dme_nebulizer_has""))",Chrome 73.0.3683.103,,2019-04-26 13:50:26,2019-04-26 13:50:26,0.118s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dme/cm_dme_hospitalbed_needs""))",Chrome 73.0.3683.103,,2019-04-26 13:50:26,2019-04-26 13:50:26,0.117s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dme/cm_dme_lowairmattress_has""))",Chrome 73.0.3683.103,,2019-04-26 13:50:26,2019-04-26 13:50:27,0.142s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_dme/cm_dme_other_tf""), ""Air Conditioner Machine"")",Chrome 73.0.3683.103,,2019-04-26 13:50:27,2019-04-26 13:50:27,0.613s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dme/cm_dme_other_needs""))",Chrome 73.0.3683.103,,2019-04-26 13:50:27,2019-04-26 13:50:27,0.144s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dme/cm_dme_workingproperly_yes""))",Chrome 73.0.3683.103,,2019-04-26 13:50:27,2019-04-26 13:50:27,0.126s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-26 13:50:27,2019-04-26 13:50:30,3.002s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_knowledgedeficit/cm_kda_diseaseprocess""))",Chrome 73.0.3683.103,,2019-04-26 13:50:30,2019-04-26 13:50:31,0.134s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_knowledgedeficit/cm_kda_prevention""))",Chrome 73.0.3683.103,,2019-04-26 13:50:31,2019-04-26 13:50:31,0.121s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_knowledgedeficit/cm_kda_reportable""))",Chrome 73.0.3683.103,,2019-04-26 13:50:31,2019-04-26 13:50:31,0.149s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_knowledgedeficit/cm_kda_emergency""))",Chrome 73.0.3683.103,,2019-04-26 13:50:31,2019-04-26 13:50:31,0.136s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_knowledgedeficit/cm_kda_medication""))",Chrome 73.0.3683.103,,2019-04-26 13:50:31,2019-04-26 13:50:31,0.135s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_knowledgedeficit/cm_kda_compliance""))",Chrome 73.0.3683.103,,2019-04-26 13:50:31,2019-04-26 13:50:31,0.143s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_knowledgedeficit/cm_kda_diet""))",Chrome 73.0.3683.103,,2019-04-26 13:50:31,2019-04-26 13:50:31,0.131s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_knowledgedeficit/cm_kda_homesafety""))",Chrome 73.0.3683.103,,2019-04-26 13:50:31,2019-04-26 13:50:32,0.172s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_knowledgedeficit/cm_kda_oxygen""))",Chrome 73.0.3683.103,,2019-04-26 13:50:32,2019-04-26 13:50:32,0.152s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_knowledgedeficit/cm_kda_infection""))",Chrome 73.0.3683.103,,2019-04-26 13:50:32,2019-04-26 13:50:32,0.120s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_knowledgedeficit/cm_kda_pain""))",Chrome 73.0.3683.103,,2019-04-26 13:50:32,2019-04-26 13:50:32,0.146s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_knowledgedeficit/cm_kda_other""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:50:32,2019-04-26 13:50:32,0.370s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-26 13:50:32,2019-04-26 13:50:34,2.001s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_additonalassessment""), ""The patient must be assisted all the time especially when it comes to basic house chores such as doing the laundry, washing the dishes, walking upstairs. He's basically disabled in so many aspects."")",Chrome 73.0.3683.103,,2019-04-26 13:50:34,2019-04-26 13:50:38,3.637s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-26 13:50:38,2019-04-26 13:50:41,3.002s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_patientrights""))",Chrome 73.0.3683.103,,2019-04-26 13:50:41,2019-04-26 13:50:41,0.158s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_statehotline""))",Chrome 73.0.3683.103,,2019-04-26 13:50:41,2019-04-26 13:50:41,0.135s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_advancedirectives""))",Chrome 73.0.3683.103,,2019-04-26 13:50:41,2019-04-26 13:50:41,0.147s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_dnr""))",Chrome 73.0.3683.103,,2019-04-26 13:50:41,2019-04-26 13:50:42,0.151s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_hipaanotice""))",Chrome 73.0.3683.103,,2019-04-26 13:50:42,2019-04-26 13:50:42,0.164s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_oasisprivacy""))",Chrome 73.0.3683.103,,2019-04-26 13:50:42,2019-04-26 13:50:42,0.159s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_agencyphone""))",Chrome 73.0.3683.103,,2019-04-26 13:50:42,2019-04-26 13:50:42,0.124s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_whentocontact""))",Chrome 73.0.3683.103,,2019-04-26 13:50:42,2019-04-26 13:50:42,0.161s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_abnhhccn""))",Chrome 73.0.3683.103,,2019-04-26 13:50:42,2019-04-26 13:50:42,0.130s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_emergencyplanning""))",Chrome 73.0.3683.103,,2019-04-26 13:50:42,2019-04-26 13:50:43,0.209s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_infectioncontrol""))",Chrome 73.0.3683.103,,2019-04-26 13:50:43,2019-04-26 13:50:43,0.127s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_basichomesafety""))",Chrome 73.0.3683.103,,2019-04-26 13:50:43,2019-04-26 13:50:43,0.142s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_fallprevention""))",Chrome 73.0.3683.103,,2019-04-26 13:50:43,2019-04-26 13:50:43,0.134s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_medication""))",Chrome 73.0.3683.103,,2019-04-26 13:50:43,2019-04-26 13:50:43,0.141s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_advancebeneficiary""))",Chrome 73.0.3683.103,,2019-04-26 13:50:43,2019-04-26 13:50:43,0.136s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_oxygenrisk""))",Chrome 73.0.3683.103,,2019-04-26 13:50:43,2019-04-26 13:50:43,0.134s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_diseaseprocess""))",Chrome 73.0.3683.103,,2019-04-26 13:50:43,2019-04-26 13:50:43,0.125s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_other1""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:50:43,2019-04-26 13:50:44,0.394s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_other2""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:50:44,2019-04-26 13:50:44,0.305s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_instructionsteachings/cm_instructionst_other3""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:50:44,2019-04-26 13:50:44,0.305s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-26 13:50:44,2019-04-26 13:50:47,3.002s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_returntoanindependent""))",Chrome 73.0.3683.103,,2019-04-26 13:50:47,2019-04-26 13:50:48,0.137s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_abletoremainresisdence""))",Chrome 73.0.3683.103,,2019-04-26 13:50:48,2019-04-26 13:50:48,0.132s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_abletoemainassistive""))",Chrome 73.0.3683.103,,2019-04-26 13:50:48,2019-04-26 13:50:48,0.136s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_whenpatient""))",Chrome 73.0.3683.103,,2019-04-26 13:50:48,2019-04-26 13:50:48,0.138s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_abletounderstand""))",Chrome 73.0.3683.103,,2019-04-26 13:50:48,2019-04-26 13:50:48,0.142s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_medicalcondition""))",Chrome 73.0.3683.103,,2019-04-26 13:50:48,2019-04-26 13:50:48,0.134s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_whenmaxpotential""))",Chrome 73.0.3683.103,,2019-04-26 13:50:48,2019-04-26 13:50:48,0.146s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_dischargeattheend""))",Chrome 73.0.3683.103,,2019-04-26 13:50:48,2019-04-26 13:50:49,0.139s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_whengoalsaremet""))",Chrome 73.0.3683.103,,2019-04-26 13:50:49,2019-04-26 13:50:49,0.134s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_other""), ""Other discharge plan might be added upon the care staff's notice or instruction."")",Chrome 73.0.3683.103,,2019-04-26 13:50:49,2019-04-26 13:50:50,1.527s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_patient""))",Chrome 73.0.3683.103,,2019-04-26 13:50:50,2019-04-26 13:50:50,0.117s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_pcg""))",Chrome 73.0.3683.103,,2019-04-26 13:50:50,2019-04-26 13:50:50,0.119s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_family""))",Chrome 73.0.3683.103,,2019-04-26 13:50:50,2019-04-26 13:50:51,0.134s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_planofcareanddc_agreeable""))",Chrome 73.0.3683.103,,2019-04-26 13:50:51,2019-04-26 13:50:51,0.118s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_patientgoals""), ""To be well"")",Chrome 73.0.3683.103,,2019-04-26 13:50:51,2019-04-26 13:50:51,0.327s,PASSED
+"setText(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_disciplinefreq""), ""Sample text"")",Chrome 73.0.3683.103,,2019-04-26 13:50:51,2019-04-26 13:50:51,0.349s,PASSED
+"click(findTestObject(""OASIS/Care_Management/cm_dischargeplans/cm_dcplans_rehabpotential_fair""))",Chrome 73.0.3683.103,,2019-04-26 13:50:51,2019-04-26 13:50:52,0.126s,PASSED
+delay(5),Chrome 73.0.3683.103,,2019-04-26 13:50:52,2019-04-26 13:50:57,5.002s,PASSED

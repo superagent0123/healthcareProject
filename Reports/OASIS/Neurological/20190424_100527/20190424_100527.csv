@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Neurological,Chrome 73.0.3683.103,,2019-04-24 10:05:29,2019-04-24 10:06:03,34.326s,FAILED
+,,,,,,
+Test Cases/login,Chrome 73.0.3683.103,,2019-04-24 10:05:29,2019-04-24 10:05:47,17.985s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-24 10:05:29,2019-04-24 10:05:33,3.153s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-24 10:05:33,2019-04-24 10:05:35,2.048s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-24 10:05:35,2019-04-24 10:05:38,3.023s,PASSED
+"setText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.""), ""superagent"")",Chrome 73.0.3683.103,,2019-04-24 10:05:38,2019-04-24 10:05:38,0.173s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-24 10:05:38,2019-04-24 10:05:41,3.005s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Username or email requir""), ""SITHpLWAWtI8C4F8RIujvA=="")",Chrome 73.0.3683.103,,2019-04-24 10:05:41,2019-04-24 10:05:41,0.192s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-24 10:05:41,2019-04-24 10:05:44,3.003s,PASSED
+"click(findTestObject(""Object Repository/addUser/Page_Medisource  Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-24 10:05:44,2019-04-24 10:05:44,0.099s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-24 10:05:44,2019-04-24 10:05:47,3.003s,PASSED
+,,,,,,
+Test Cases/navigate_patient_soc_ken,Chrome 73.0.3683.103,,2019-04-24 10:05:47,2019-04-24 10:05:54,7.225s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-24 10:05:47,2019-04-24 10:05:49,2.003s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,,2019-04-24 10:05:49,2019-04-24 10:05:50,0.774s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 10:05:50,2019-04-24 10:05:51,1.001s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"")",Chrome 73.0.3683.103,,2019-04-24 10:05:51,2019-04-24 10:05:52,0.602s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 10:05:52,2019-04-24 10:05:53,1.001s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"")",Chrome 73.0.3683.103,,2019-04-24 10:05:53,2019-04-24 10:05:53,0.569s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-24 10:05:53,2019-04-24 10:05:54,1.003s,PASSED
+,,,,,,
+Test Cases/OASIS_SOC/Neurological,Chrome 73.0.3683.103,,2019-04-24 10:05:54,2019-04-24 10:06:03,8.132s,FAILED
+"click(findTestObject(""OASIS/OASIS_TABS/xitemedits_btn""))",Chrome 73.0.3683.103,,2019-04-24 10:05:55,2019-04-24 10:05:57,2.312s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/Neuro_tab""))",Chrome 73.0.3683.103,,2019-04-24 10:05:57,2019-04-24 10:05:58,0.678s,PASSED
+delay(4),Chrome 73.0.3683.103,,2019-04-24 10:05:58,2019-04-24 10:06:02,4.001s,PASSED
+"click(findTestObject(""OASIS/Neurological/neurological_status/neuro_pupils_perrla""))",Chrome 73.0.3683.103,,2019-04-24 10:06:02,2019-04-24 10:06:03,0.929s,FAILED
