@@ -324,12 +324,12 @@ WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_drainpresent_jackson')
 
 WebUI.delay(3)
 
-// clicking the uploading of wound
+// uploading of wound
 WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_uploadwound'))
 
 WebUI.delay(3)
 
-// clicking the browsing of file
+// browsing of file
 WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_uploadwound_browsefile'))
 
 WebUI.delay(3)
