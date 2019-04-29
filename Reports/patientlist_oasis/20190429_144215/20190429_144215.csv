@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+patientlist_oasis,Chrome 73.0.3683.103,,2019-04-29 14:42:18,2019-04-29 14:43:16,58.826s,FAILED
+,,,,,,
+Test Cases/login_rn,Chrome 73.0.3683.103,,2019-04-29 14:42:18,2019-04-29 14:42:49,31.037s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-29 14:42:18,2019-04-29 14:42:21,3.397s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-29 14:42:21,2019-04-29 14:42:23,1.899s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 14:42:23,2019-04-29 14:42:26,3.024s,PASSED
+"setText(findTestObject(""LogIn/username""), ""jbnurse"")",Chrome 73.0.3683.103,,2019-04-29 14:42:26,2019-04-29 14:42:27,0.130s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 14:42:27,2019-04-29 14:42:30,3.002s,PASSED
+"setEncryptedText(findTestObject(""LogIn/password""), ""7R8xyZjhQ0B8ti8txswtaA=="")",Chrome 73.0.3683.103,,2019-04-29 14:42:30,2019-04-29 14:42:30,0.161s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 14:42:30,2019-04-29 14:42:33,3.004s,PASSED
+"click(findTestObject(""LogIn/login_button""))",Chrome 73.0.3683.103,,2019-04-29 14:42:33,2019-04-29 14:42:33,0.092s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 14:42:33,2019-04-29 14:42:36,3.004s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,Patient List,2019-04-29 14:42:36,2019-04-29 14:42:37,0.804s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 14:42:37,2019-04-29 14:42:40,3.004s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/overview"")",Chrome 73.0.3683.103,Selected Patient,2019-04-29 14:42:40,2019-04-29 14:42:40,0.677s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 14:42:40,2019-04-29 14:42:43,3.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/clinical/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5"")",Chrome 73.0.3683.103,Patient OASIS,2019-04-29 14:42:43,2019-04-29 14:42:44,0.672s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 14:42:44,2019-04-29 14:42:47,3.004s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/integumentary/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5"")",Chrome 73.0.3683.103,OASIS Integumentary Tab,2019-04-29 14:42:47,2019-04-29 14:42:49,1.847s,PASSED
+,,,,,,
+Test Cases/OASIS_SOC/Integumentary,Chrome 73.0.3683.103,,2019-04-29 14:42:49,2019-04-29 14:43:16,26.685s,FAILED
+"click(findTestObject(""OASIS/Integumentary/skincolor_pink""))",Chrome 73.0.3683.103,,2019-04-29 14:42:49,2019-04-29 14:42:53,3.853s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 14:42:53,2019-04-29 14:42:56,3.001s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skintemperature_warm""))",Chrome 73.0.3683.103,,2019-04-29 14:42:56,2019-04-29 14:42:56,0.162s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 14:42:56,2019-04-29 14:42:59,3.002s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinmoisture_dry""))",Chrome 73.0.3683.103,,2019-04-29 14:42:59,2019-04-29 14:42:59,0.180s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 14:42:59,2019-04-29 14:43:02,3.003s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinturgor_normal""))",Chrome 73.0.3683.103,,2019-04-29 14:43:02,2019-04-29 14:43:03,0.153s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 14:43:03,2019-04-29 14:43:06,3.003s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_lesion""))",Chrome 73.0.3683.103,,2019-04-29 14:43:06,2019-04-29 14:43:06,0.172s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 14:43:06,2019-04-29 14:43:09,3.004s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_cellulitis""))",Chrome 73.0.3683.103,,2019-04-29 14:43:09,2019-04-29 14:43:09,0.199s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 14:43:09,2019-04-29 14:43:12,3.001s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_IAD""))",Chrome 73.0.3683.103,,2019-04-29 14:43:12,2019-04-29 14:43:12,0.152s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 14:43:12,2019-04-29 14:43:15,3.002s,PASSED
+"click(findTestObject(""OASIS/Integumentary/skinintegrity_rashes""))",Chrome 73.0.3683.103,,2019-04-29 14:43:15,2019-04-29 14:43:15,0.448s,FAILED

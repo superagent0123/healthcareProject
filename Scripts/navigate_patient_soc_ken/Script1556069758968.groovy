@@ -28,6 +28,7 @@ WebUI.click(findTestObject('Object Repository/addUser/Page_Medisource  Login/but
 
 WebUI.delay(3)
 
+'Patient: Khenard Automation\r\n'
 WebUI.navigateToUrl('https://qa.medisource.com/patients/all')
 
 WebUI.delay(1)

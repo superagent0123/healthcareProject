@@ -210,6 +210,7 @@ WebUI.delay(5)
 WebUI.clickOffset(findTestObject('OASIS/Integumentary/human_image'), 101, 125)
 
 WebUI.delay(5)
+
 // click the yes button
 WebUI.click(findTestObject('OASIS/Integumentary/pin_image_yes'))
 
@@ -218,7 +219,6 @@ WebUI.delay(5)
 // pinning of wound 2
 // WebUI.clickOffset(findTestObject('OASIS/Integumentary/human_image'), 150, 225)
 // WebUI.delay(5)
-
 // click the yes button
 // WebUI.click(findTestObject('OASIS/Integumentary/pin_image_yes'))
 //WebUI.delay(5)
@@ -293,7 +293,6 @@ WebUI.delay(3)
 WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_edges_1'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
-
 
 // selecting one of the options, specifically, edematous
 WebUI.sendKeys(findTestObject('OASIS/Integumentary/woundinfo_periwoundtissue'), Keys.chord('Edematous', Keys.ENTER))
