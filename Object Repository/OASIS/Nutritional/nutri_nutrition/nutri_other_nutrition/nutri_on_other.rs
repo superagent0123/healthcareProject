@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#nutriForm > div > fieldset > table > tbody > tr:nth-child(13) > td.oasis__answer > table > tbody > tr:nth-child(9) > td:nth-child(2) > div.cont-opt.m-lopt-45 > input</value>
+         <value>#nutriForm > div > fieldset > table > tbody > tr:nth-child(13) > td.oasis__answer > table > tbody > tr:nth-child(9) > td:nth-child(2) > div.cont-opt.m-lopt-45 > input </value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#nutriForm > div > fieldset > table > tbody > tr:nth-child(13) > td.oasis__answer > table > tbody > tr:nth-child(9) > td:nth-child(2) > div.cont-opt.m-lopt-45 > input</value>
+      <value>#nutriForm > div > fieldset > table > tbody > tr:nth-child(13) > td.oasis__answer > table > tbody > tr:nth-child(9) > td:nth-child(2) > div.cont-opt.m-lopt-45 > input </value>
    </webElementProperties>
 </WebElementEntity>
