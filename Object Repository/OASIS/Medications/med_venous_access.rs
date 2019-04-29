@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#medicationForm > div > fieldset > table > tbody > tr.ng-isolate-scope > td > div > label > input</value>
+         <value>#medicationForm > div > fieldset > table > tbody > tr:nth-child(11) > td > div > label > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#medicationForm > div > fieldset > table > tbody > tr.ng-isolate-scope > td > div > label > input</value>
+      <value>#medicationForm > div > fieldset > table > tbody > tr:nth-child(11) > td > div > label > input</value>
    </webElementProperties>
 </WebElementEntity>

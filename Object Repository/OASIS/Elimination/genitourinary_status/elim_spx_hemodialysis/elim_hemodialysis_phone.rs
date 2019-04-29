@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#elimForm > div > fieldset > table > tbody > tr:nth-child(20) > td.oasis__answer.ng-isolate-scope > table > tbody > tr:nth-child(2) > td:nth-child(4) > div > input</value>
+         <value>#elimForm > div > fieldset > table > tbody > tr:nth-child(20) > td.oasis__answer > table > tbody > tr:nth-child(2) > td:nth-child(4) > div > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#elimForm > div > fieldset > table > tbody > tr:nth-child(20) > td.oasis__answer.ng-isolate-scope > table > tbody > tr:nth-child(2) > td:nth-child(4) > div > input</value>
+      <value>#elimForm > div > fieldset > table > tbody > tr:nth-child(20) > td.oasis__answer > table > tbody > tr:nth-child(2) > td:nth-child(4) > div > input</value>
    </webElementProperties>
 </WebElementEntity>

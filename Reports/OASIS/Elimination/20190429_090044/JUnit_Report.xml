@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Elimination" time="57" tests="1" failures="1" errors="0">
+   <testsuite name="Elimination" tests="1" failures="1" errors="0" time="57" timestamp="2019-04-29 09:00:45" hostname="Khenard Figuracion - 192.168.2.15" id="Test Suites/OASIS/Elimination">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Elimination\\20190429_090044"/>
+         <property name="logFiles" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Elimination\\20190429_090044\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Elimination\\20190429_090044\\1556499702163.png"/>
+         <property name="hostName" value="Khenard Figuracion - 192.168.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.2.15"/>
+         <property name="sessionId" value="adb95ef75d1cc77152c07a17273785c8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/navigate_patient_soc_ken" classname="Test Cases/navigate_patient_soc_ken" status="PASSED">
+         <system-out><![CDATA[2019-04-29 09:00:46 - [TEST_CASE][PASSED] - Test Cases/navigate_patient_soc_ken: Test Cases/navigate_patient_soc_ken
+
+2019-04-29 09:00:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-29 09:00:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-29 09:00:46 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-29 09:00:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-29 09:00:49 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/login"): Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-29 09:00:51 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-29 09:00:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes."), "kenkenrn"): Text 'kenkenrn' is set on object 'Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'
+
+2019-04-29 09:00:51 - [MESSAGE][PASSED] - Text 'kenkenrn' is set on object 'Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'
+
+2019-04-29 09:00:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/addUser/Page_Medisource  Login/input_Username or email requir"), "SITHpLWAWtLnr/hOhnpplQ=="): Text ****** has been set on object 'Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-29 09:00:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-29 09:00:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-29 09:00:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-29 09:00:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addUser/Page_Medisource  Login/button_Login")): Object: 'Object Repository/addUser/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-29 09:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/addUser/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-29 09:00:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-29 09:00:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-29 09:00:55 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patients/all"): Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-29 09:00:56 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-29 09:00:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-29 09:00:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-29 09:00:57 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"): Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview' successfully
+
+2019-04-29 09:00:58 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview' successfully
+
+2019-04-29 09:00:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-29 09:00:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-29 09:00:59 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"): Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197' successfully
+
+2019-04-29 09:01:00 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197' successfully
+
+2019-04-29 09:01:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-29 09:01:01 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OASIS_SOC/Elimination" classname="Test Cases/OASIS_SOC/Elimination" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OASIS_SOC/Elimination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Reddish Yellow' of object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Elimination.run(Elimination:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556499644460.run(TempTestSuite1556499644460.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other' located by 'By.cssSelector: #elimForm > div > fieldset > table > tbody > tr:nth-child(3) > td.oasis__answer > table > tbody > tr > td:nth-child(3) > div.cont-opt.m-lopt-50.ng-isolate-scope > div > input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:52)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-04-29 09:01:01 - [TEST_CASE][FAILED] - Test Cases/OASIS_SOC/Elimination: Test Cases/OASIS_SOC/Elimination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Reddish Yellow' of object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Elimination.run(Elimination:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556499644460.run(TempTestSuite1556499644460.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other' located by 'By.cssSelector: #elimForm > div > fieldset > table > tbody > tr:nth-child(3) > td.oasis__answer > table > tbody > tr > td:nth-child(3) > div.cont-opt.m-lopt-50.ng-isolate-scope > div > input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:52)
+	... 13 more
+
+
+2019-04-29 09:01:01 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/OASIS_TABS/xitemedits_btn")): Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-04-29 09:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-04-29 09:01:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-29 09:01:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-29 09:01:04 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/OASIS_TABS/Elimination_tab")): Object: 'Object Repository/OASIS/OASIS_TABS/Elimination_tab' is clicked on
+
+2019-04-29 09:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/OASIS_TABS/Elimination_tab' is clicked on
+
+2019-04-29 09:01:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-29 09:01:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-29 09:01:05 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_incontinence")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_incontinence' is clicked on
+
+2019-04-29 09:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_incontinence' is clicked on
+
+2019-04-29 09:01:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_stress_incontinence")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_stress_incontinence' is clicked on
+
+2019-04-29 09:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_stress_incontinence' is clicked on
+
+2019-04-29 09:01:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_urgency")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_urgency' is clicked on
+
+2019-04-29 09:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_urgency' is clicked on
+
+2019-04-29 09:01:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_frequency")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_frequency' is clicked on
+
+2019-04-29 09:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_frequency' is clicked on
+
+2019-04-29 09:01:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_dysuria")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_dysuria' is clicked on
+
+2019-04-29 09:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_dysuria' is clicked on
+
+2019-04-29 09:01:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_retention")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_retention' is clicked on
+
+2019-04-29 09:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_retention' is clicked on
+
+2019-04-29 09:01:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_polyuria")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_polyuria' is clicked on
+
+2019-04-29 09:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_polyuria' is clicked on
+
+2019-04-29 09:01:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_nocturia")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_nocturia' is clicked on
+
+2019-04-29 09:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_nocturia' is clicked on
+
+2019-04-29 09:01:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_oliguria")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_oliguria' is clicked on
+
+2019-04-29 09:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_oliguria' is clicked on
+
+2019-04-29 09:01:07 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_hematuria")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_hematuria' is clicked on
+
+2019-04-29 09:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_hematuria' is clicked on
+
+2019-04-29 09:01:08 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/Elimination/genitourinary_status/elim_abnormal_status_other"), "Xenoderma Pigmentosium"): Text 'Xenoderma Pigmentosium' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_other'
+
+2019-04-29 09:01:09 - [MESSAGE][PASSED] - Text 'Xenoderma Pigmentosium' is set on object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_abnormal_status_other'
+
+2019-04-29 09:01:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-29 09:01:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-29 09:01:10 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/Elimination/genitourinary_status/elim_urine_color_yellow")): Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_yellow' is clicked on
+
+2019-04-29 09:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_yellow' is clicked on
+
+2019-04-29 09:01:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-29 09:01:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-29 09:01:11 - [TEST_STEP][FAILED] - setText(findTestObject("OASIS/Elimination/genitourinary_status/elim_urine_color_other"), "Reddish Yellow"): setText(findTestObject("OASIS/Elimination/genitourinary_status/elim_urine_color_other"), "Reddish Yellow") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Reddish Yellow' of object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Elimination.run(Elimination:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556499644460.run(TempTestSuite1556499644460.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other' located by 'By.cssSelector: #elimForm > div > fieldset > table > tbody > tr:nth-child(3) > td.oasis__answer > table > tbody > tr > td:nth-child(3) > div.cont-opt.m-lopt-50.ng-isolate-scope > div > input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:52)
+	... 13 more
+
+
+2019-04-29 09:01:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #elimForm > div > fieldset > table > tbody > tr:nth-child(3) > td.oasis__answer > table > tbody > tr > td:nth-child(3) > div.cont-opt.m-lopt-50.ng-isolate-scope > div > input'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-29 09:01:42 - [MESSAGE][FAILED] - Unable to set text 'Reddish Yellow' of object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Reddish Yellow' of object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Elimination.run(Elimination:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556499644460.run(TempTestSuite1556499644460.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other' located by 'By.cssSelector: #elimForm > div > fieldset > table > tbody > tr:nth-child(3) > td.oasis__answer > table > tbody > tr > td:nth-child(3) > div.cont-opt.m-lopt-50.ng-isolate-scope > div > input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:52)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\OASIS\\Elimination\\20190429_090044\\1556499702163.png]]
+
+2019-04-29 09:01:42 - [MESSAGE][FAILED] - setText(findTestObject("OASIS/Elimination/genitourinary_status/elim_urine_color_other"), "Reddish Yellow") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Reddish Yellow' of object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Elimination.run(Elimination:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556499644460.run(TempTestSuite1556499644460.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other' located by 'By.cssSelector: #elimForm > div > fieldset > table > tbody > tr:nth-child(3) > td.oasis__answer > table > tbody > tr > td:nth-child(3) > div.cont-opt.m-lopt-50.ng-isolate-scope > div > input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:52)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-04-29 09:01:01 - [TEST_CASE][FAILED] - Test Cases/OASIS_SOC/Elimination: Test Cases/OASIS_SOC/Elimination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Reddish Yellow' of object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Elimination.run(Elimination:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556499644460.run(TempTestSuite1556499644460.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other' located by 'By.cssSelector: #elimForm > div > fieldset > table > tbody > tr:nth-child(3) > td.oasis__answer > table > tbody > tr > td:nth-child(3) > div.cont-opt.m-lopt-50.ng-isolate-scope > div > input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:52)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-29 09:00:45 - [TEST_SUITE][FAILED] - Elimination: Test Cases/OASIS_SOC/Elimination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Reddish Yellow' of object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Elimination.run(Elimination:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556499644460.run(TempTestSuite1556499644460.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other' located by 'By.cssSelector: #elimForm > div > fieldset > table > tbody > tr:nth-child(3) > td.oasis__answer > table > tbody > tr > td:nth-child(3) > div.cont-opt.m-lopt-50.ng-isolate-scope > div > input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:52)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-04-29 09:00:45 - [TEST_SUITE][FAILED] - Elimination: Test Cases/OASIS_SOC/Elimination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Reddish Yellow' of object 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Elimination.run(Elimination:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556499644460.run(TempTestSuite1556499644460.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OASIS/Elimination/genitourinary_status/elim_urine_color_other' located by 'By.cssSelector: #elimForm > div > fieldset > table > tbody > tr:nth-child(3) > td.oasis__answer > table > tbody > tr > td:nth-child(3) > div.cont-opt.m-lopt-50.ng-isolate-scope > div > input' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1555983604032.run(Script1555983604032.groovy:52)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

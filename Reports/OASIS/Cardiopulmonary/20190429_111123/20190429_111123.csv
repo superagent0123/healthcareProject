@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Cardiopulmonary,Chrome 73.0.3683.103,,2019-04-29 11:11:25,2019-04-29 11:11:45,19.836s,FAILED
+,,,,,,
+Test Cases/navigate_patient_soc_ken,Chrome 73.0.3683.103,,2019-04-29 11:11:25,2019-04-29 11:11:40,15.266s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-29 11:11:25,2019-04-29 11:11:29,3.285s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-29 11:11:29,2019-04-29 11:11:31,2.081s,PASSED
+"setText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.""), ""kenkenrn"")",Chrome 73.0.3683.103,,2019-04-29 11:11:31,2019-04-29 11:11:31,0.160s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Username or email requir""), ""SITHpLWAWtLnr/hOhnpplQ=="")",Chrome 73.0.3683.103,,2019-04-29 11:11:31,2019-04-29 11:11:31,0.206s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-29 11:11:31,2019-04-29 11:11:32,1.019s,PASSED
+"click(findTestObject(""Object Repository/addUser/Page_Medisource  Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-29 11:11:32,2019-04-29 11:11:32,0.087s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 11:11:32,2019-04-29 11:11:35,3.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,,2019-04-29 11:11:35,2019-04-29 11:11:36,0.630s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-29 11:11:36,2019-04-29 11:11:37,1.003s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"")",Chrome 73.0.3683.103,,2019-04-29 11:11:37,2019-04-29 11:11:38,0.736s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-29 11:11:38,2019-04-29 11:11:39,1.001s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"")",Chrome 73.0.3683.103,,2019-04-29 11:11:39,2019-04-29 11:11:39,0.740s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-29 11:11:39,2019-04-29 11:11:40,1.002s,PASSED
+,,,,,,
+Test Cases/OASIS_SOC/Cardiopulmonary,Chrome 73.0.3683.103,,2019-04-29 11:11:40,2019-04-29 11:11:44,3.471s,FAILED
+"click(findTestObject(""OASIS/OASIS_TABS/xitemedits_btn""))",Chrome 73.0.3683.103,,2019-04-29 11:11:41,2019-04-29 11:11:43,2.375s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/Cardio_tab""))",Chrome 73.0.3683.103,,2019-04-29 11:11:43,2019-04-29 11:11:44,0.724s,FAILED

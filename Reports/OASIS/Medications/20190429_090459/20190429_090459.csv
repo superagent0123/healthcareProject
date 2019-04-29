@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Medications,Chrome 73.0.3683.103,,2019-04-29 09:05:01,2019-04-29 09:05:23,21.573s,FAILED
+,,,,,,
+Test Cases/navigate_patient_soc_ken,Chrome 73.0.3683.103,,2019-04-29 09:05:01,2019-04-29 09:05:19,17.152s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-29 09:05:02,2019-04-29 09:05:05,3.561s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-29 09:05:05,2019-04-29 09:05:08,2.330s,PASSED
+"setText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.""), ""kenkenrn"")",Chrome 73.0.3683.103,,2019-04-29 09:05:08,2019-04-29 09:05:08,0.234s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Username or email requir""), ""SITHpLWAWtLnr/hOhnpplQ=="")",Chrome 73.0.3683.103,,2019-04-29 09:05:08,2019-04-29 09:05:08,0.232s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-29 09:05:08,2019-04-29 09:05:09,1.022s,PASSED
+"click(findTestObject(""Object Repository/addUser/Page_Medisource  Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-29 09:05:09,2019-04-29 09:05:09,0.081s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-29 09:05:09,2019-04-29 09:05:12,3.016s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,,2019-04-29 09:05:12,2019-04-29 09:05:14,1.612s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-29 09:05:14,2019-04-29 09:05:15,1.003s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/overview"")",Chrome 73.0.3683.103,,2019-04-29 09:05:15,2019-04-29 09:05:16,0.985s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-29 09:05:16,2019-04-29 09:05:17,1.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/638B92A0-A489-410B-8056-906FE598F197/9F6A772C-C308-499E-BA52-A7BF3652D416/2019/oasis/clinical/soc/9405B47D-64F0-4CF9-A5FA-25C79AC5A572/638B92A0-A489-410B-8056-906FE598F197"")",Chrome 73.0.3683.103,,2019-04-29 09:05:17,2019-04-29 09:05:18,0.707s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-29 09:05:18,2019-04-29 09:05:19,1.002s,PASSED
+,,,,,,
+Test Cases/OASIS_SOC/Medications,Chrome 73.0.3683.103,,2019-04-29 09:05:19,2019-04-29 09:05:22,3.384s,FAILED
+"click(findTestObject(""OASIS/OASIS_TABS/xitemedits_btn""))",Chrome 73.0.3683.103,,2019-04-29 09:05:19,2019-04-29 09:05:21,2.398s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/Medications_tab""))",Chrome 73.0.3683.103,,2019-04-29 09:05:21,2019-04-29 09:05:22,0.681s,FAILED

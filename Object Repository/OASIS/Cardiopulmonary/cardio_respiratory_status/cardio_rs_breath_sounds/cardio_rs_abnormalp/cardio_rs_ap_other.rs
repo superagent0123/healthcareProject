@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#cardioForm > div > fieldset > table > tbody > tr:nth-child(5) > td.oasis__answer > table > tbody > tr > td:nth-child(2) > div.cont-opt.m-lopt-60.ng-isolate-scope > div > input</value>
+         <value>#cardioForm > div > fieldset > table > tbody > tr:nth-child(5) > td.oasis__answer > table > tbody > tr > td:nth-child(2) > div.cont-opt.m-lopt-60 > div > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#cardioForm > div > fieldset > table > tbody > tr:nth-child(5) > td.oasis__answer > table > tbody > tr > td:nth-child(2) > div.cont-opt.m-lopt-60.ng-isolate-scope > div > input</value>
+      <value>#cardioForm > div > fieldset > table > tbody > tr:nth-child(5) > td.oasis__answer > table > tbody > tr > td:nth-child(2) > div.cont-opt.m-lopt-60 > div > input</value>
    </webElementProperties>
 </WebElementEntity>
