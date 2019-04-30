@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#enducrineForm > fieldset > div > table > tbody > tr:nth-child(24) > td > table > tbody > tr:nth-child(4) > td:nth-child(3) > div > label.p-r-10.checked > input</value>
+         <value>#enducrineForm > fieldset > div > table > tbody > tr:nth-child(24) > td > table > tbody > tr:nth-child(4) > td:nth-child(3) > div > label:nth-child(1) > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#enducrineForm > fieldset > div > table > tbody > tr:nth-child(24) > td > table > tbody > tr:nth-child(4) > td:nth-child(3) > div > label.p-r-10.checked > input</value>
+      <value>#enducrineForm > fieldset > div > table > tbody > tr:nth-child(24) > td > table > tbody > tr:nth-child(4) > td:nth-child(3) > div > label:nth-child(1) > input</value>
    </webElementProperties>
 </WebElementEntity>

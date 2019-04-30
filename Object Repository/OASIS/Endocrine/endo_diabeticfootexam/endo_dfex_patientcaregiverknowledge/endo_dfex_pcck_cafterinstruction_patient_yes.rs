@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#enducrineForm > fieldset > div > table > tbody > tr:nth-child(29) > td > table > tbody > tr:nth-child(2) > td:nth-child(2) > label.radio.radio-inline.m-r-15.checked > input</value>
+         <value>#enducrineForm > fieldset > div > table > tbody > tr:nth-child(29) > td > table > tbody > tr:nth-child(2) > td:nth-child(2) > label:nth-child(1) > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#enducrineForm > fieldset > div > table > tbody > tr:nth-child(29) > td > table > tbody > tr:nth-child(2) > td:nth-child(2) > label.radio.radio-inline.m-r-15.checked > input</value>
+      <value>#enducrineForm > fieldset > div > table > tbody > tr:nth-child(29) > td > table > tbody > tr:nth-child(2) > td:nth-child(2) > label:nth-child(1) > input</value>
    </webElementProperties>
 </WebElementEntity>
