@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#medicationForm > div > fieldset > table > tbody > tr:nth-child(4) > td.oasis__answer > table > tbody > tr > td > div:nth-child(2) > label > input</value>
+         <value>#medicationForm > div > fieldset > table > tbody > tr:nth-child(2) > td.oasis__answer > table > tbody > tr > td > div:nth-child(2) > label > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#medicationForm > div > fieldset > table > tbody > tr:nth-child(4) > td.oasis__answer > table > tbody > tr > td > div:nth-child(2) > label > input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//*[@id=&quot;medicationForm&quot;]/div/fieldset/table/tbody/tr[4]/td[2]/table/tbody/tr/td/div[2]/label/input</value>
+      <value>#medicationForm > div > fieldset > table > tbody > tr:nth-child(2) > td.oasis__answer > table > tbody > tr > td > div:nth-child(2) > label > input</value>
    </webElementProperties>
 </WebElementEntity>

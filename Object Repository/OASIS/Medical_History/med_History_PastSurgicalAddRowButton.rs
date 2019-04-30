@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#medicalForm > div > fieldset > table > tbody > tr:nth-child(52) > td > table > tbody > tr > td > div:nth-child(4) > div:nth-child(3) > div > a > i</value>
+         <value>#medicalForm > div > fieldset > table > tbody > tr:nth-child(52) > td > table > tbody > tr > td > div:nth-child(5) > div:nth-child(3) > div > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#medicalForm > div > fieldset > table > tbody > tr:nth-child(52) > td > table > tbody > tr > td > div:nth-child(4) > div:nth-child(3) > div > a > i</value>
+      <value>#medicalForm > div > fieldset > table > tbody > tr:nth-child(52) > td > table > tbody > tr > td > div:nth-child(5) > div:nth-child(3) > div > a</value>
    </webElementProperties>
 </WebElementEntity>

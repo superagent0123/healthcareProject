@@ -13,8 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('OASIS/OASIS_TABS/xitemedits_btn'))
-
 WebUI.click(findTestObject('OASIS/OASIS_TABS/Medications_tab'))
 
 WebUI.delay(1)
@@ -162,6 +160,14 @@ WebUI.setText(findTestObject('OASIS/Medications/med_flushsolution_IV/med_va_flus
 WebUI.setText(findTestObject('OASIS/Medications/med_flushsolution_IV/med_va_flushsolution_post'), 'Sample text')
 
 WebUI.setText(findTestObject('OASIS/Medications/med_flushsolution_IV/med_va_flushsolution_otherprocedure'), 'Sample text')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/discardchangesbtn'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/discardchangesmodalbtn'))
 
 WebUI.delay(5)
 

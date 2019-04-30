@@ -13,8 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('OASIS/OASIS_TABS/xitemedits_btn'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('OASIS/OASIS_TABS/Neuro_tab'))
 
 WebUI.delay(5)
@@ -357,5 +355,13 @@ WebUI.click(findTestObject('OASIS/Neurological/M1740_7'))
 
 WebUI.click(findTestObject('OASIS/Neurological/M1745_4'))
 
-WebUI.delay(10)
+WebUI.delay(5)
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/discardchangesbtn'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/discardchangesmodalbtn'))
+
+WebUI.delay(5)
 

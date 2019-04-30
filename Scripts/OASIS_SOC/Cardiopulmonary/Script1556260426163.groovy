@@ -13,8 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('OASIS/OASIS_TABS/xitemedits_btn'))
-
 WebUI.click(findTestObject('OASIS/OASIS_TABS/Cardio_tab'))
 
 WebUI.delay(3)
@@ -351,6 +349,14 @@ WebUI.setText(findTestObject('OASIS/Cardiopulmonary/cardio_cardio_status/cardio_
 
 WebUI.setText(findTestObject('OASIS/Cardiopulmonary/cardio_cardio_status/cardio_ct_implantedcardiacdevice/cardio_ct_icd_pacemaker_datelasttested'), 
     'April 2019')
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/discardchangesbtn'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/discardchangesmodalbtn'))
 
 WebUI.delay(5)
 

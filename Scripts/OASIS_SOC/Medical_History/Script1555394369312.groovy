@@ -13,6 +13,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/MedHistory_tab'))
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('OASIS/Medical_History/med_History_Sensory1'))
 
 WebUI.click(findTestObject('OASIS/Medical_History/med_History_Sensory2'))
@@ -193,11 +199,11 @@ WebUI.setText(findTestObject('OASIS/Medical_History/med_History_Hospi3'), '12-14
 
 WebUI.setText(findTestObject('OASIS/Medical_History/med_History_HospiReason3'), 'Reason3')
 
-WebUI.click(findTestObject('OASIS/Medical_History/med_History_HospiAddRowButton'))
+not_run: WebUI.click(findTestObject('OASIS/Medical_History/med_History_HospiAddRowButton'))
 
-WebUI.setText(findTestObject('OASIS/Medical_History/med_History_Hospi4'), '12-15-2018')
+not_run: WebUI.setText(findTestObject('OASIS/Medical_History/med_History_Hospi4'), '12-15-2018')
 
-WebUI.setText(findTestObject('OASIS/Medical_History/med_History_HospiReason4'), 'Reason4')
+not_run: WebUI.setText(findTestObject('OASIS/Medical_History/med_History_HospiReason4'), 'Reason4')
 
 WebUI.click(findTestObject('OASIS/Medical_History/med_History_Influenza_NoReason'))
 
@@ -255,5 +261,13 @@ WebUI.setText(findTestObject('OASIS/Medical_History/med_History_RecentF2F_DateLa
 
 WebUI.setText(findTestObject('OASIS/Medical_History/med_History_RecentF2F_ReasonForContact'), 'asfasg')
 
-WebUI.click(findTestObject('OASIS/OASIS_TABS/GenAss_tab'))
+WebUI.delay(5)
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/discardchangesbtn'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/discardchangesmodalbtn'))
+
+WebUI.delay(5)
 

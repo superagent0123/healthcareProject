@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="automation_compiled" time="17" tests="1" failures="0" errors="0">
+   <testsuite name="automation_compiled" tests="1" failures="0" errors="0" time="17" timestamp="2019-04-30 09:58:37" hostname="Khenard Figuracion - 192.168.2.37" id="Test Suites/automation_compiled">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\automation_compiled\\20190430_095835"/>
+         <property name="logFiles" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\automation_compiled\\20190430_095835\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Khenard Figuracion - 192.168.2.37"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.2.37"/>
+         <property name="sessionId" value="ffe902a0660efcd6da3e84dcf4b0b3dd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/OASIS_compilation" classname="Test Cases/OASIS_compilation" status="PASSED">
+         <system-out><![CDATA[2019-04-30 09:58:37 - [TEST_CASE][PASSED] - Test Cases/OASIS_compilation: Test Cases/OASIS_compilation
+
+2019-04-30 09:58:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-30 09:58:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-30 09:58:38 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-30 09:58:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-30 09:58:41 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/login"): Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-30 09:58:43 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-04-30 09:58:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes."), "superagent"): Text 'superagent' is set on object 'Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'
+
+2019-04-30 09:58:43 - [MESSAGE][PASSED] - Text 'superagent' is set on object 'Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.'
+
+2019-04-30 09:58:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/addUser/Page_Medisource  Login/input_Username or email requir"), "SITHpLWAWtI8C4F8RIujvA=="): Text ****** has been set on object 'Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-30 09:58:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/addUser/Page_Medisource  Login/input_Username or email requir'
+
+2019-04-30 09:58:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-30 09:58:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-30 09:58:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/addUser/Page_Medisource  Login/button_Login")): Object: 'Object Repository/addUser/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-30 09:58:44 - [MESSAGE][PASSED] - Object: 'Object Repository/addUser/Page_Medisource  Login/button_Login' is clicked on
+
+2019-04-30 09:58:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-30 09:58:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-30 09:58:47 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patients/all"): Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-30 09:58:48 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patients/all' successfully
+
+2019-04-30 09:58:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-30 09:58:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-30 09:58:49 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/009837C2-ECC9-4AFE-98B1-34A3496FAE08/C7413FDF-56F8-4165-914C-810E9B7902D5/overview"): Navigate to 'https://qa.medisource.com/patientcare/009837C2-ECC9-4AFE-98B1-34A3496FAE08/C7413FDF-56F8-4165-914C-810E9B7902D5/overview' successfully
+
+2019-04-30 09:58:50 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/009837C2-ECC9-4AFE-98B1-34A3496FAE08/C7413FDF-56F8-4165-914C-810E9B7902D5/overview' successfully
+
+2019-04-30 09:58:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-30 09:58:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-30 09:58:51 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/009837C2-ECC9-4AFE-98B1-34A3496FAE08/C7413FDF-56F8-4165-914C-810E9B7902D5/2019/oasis/clinical/soc/35EE8F6D-81C8-4D0B-898C-0E3D068F7FAC/009837C2-ECC9-4AFE-98B1-34A3496FAE08"): Navigate to 'https://qa.medisource.com/patientcare/009837C2-ECC9-4AFE-98B1-34A3496FAE08/C7413FDF-56F8-4165-914C-810E9B7902D5/2019/oasis/clinical/soc/35EE8F6D-81C8-4D0B-898C-0E3D068F7FAC/009837C2-ECC9-4AFE-98B1-34A3496FAE08' successfully
+
+2019-04-30 09:58:52 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/009837C2-ECC9-4AFE-98B1-34A3496FAE08/C7413FDF-56F8-4165-914C-810E9B7902D5/2019/oasis/clinical/soc/35EE8F6D-81C8-4D0B-898C-0E3D068F7FAC/009837C2-ECC9-4AFE-98B1-34A3496FAE08' successfully
+
+2019-04-30 09:58:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-30 09:58:54 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-30 09:58:37 - [TEST_SUITE][PASSED] - automation_compiled: Test Cases/OASIS_compilation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

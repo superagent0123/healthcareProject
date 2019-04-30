@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+automation_compiled,Chrome 73.0.3683.103,,2019-04-30 09:58:37,2019-04-30 09:58:55,17.769s,PASSED
+,,,,,,
+Test Cases/OASIS_compilation,Chrome 73.0.3683.103,,2019-04-30 09:58:37,2019-04-30 09:58:54,16.591s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-30 09:58:38,2019-04-30 09:58:41,3.020s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 73.0.3683.103,,2019-04-30 09:58:41,2019-04-30 09:58:43,1.998s,PASSED
+"setText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Please try afterminutes.""), ""superagent"")",Chrome 73.0.3683.103,,2019-04-30 09:58:43,2019-04-30 09:58:43,0.132s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/addUser/Page_Medisource  Login/input_Username or email requir""), ""SITHpLWAWtI8C4F8RIujvA=="")",Chrome 73.0.3683.103,,2019-04-30 09:58:43,2019-04-30 09:58:43,0.227s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-30 09:58:43,2019-04-30 09:58:44,1.020s,PASSED
+"click(findTestObject(""Object Repository/addUser/Page_Medisource  Login/button_Login""))",Chrome 73.0.3683.103,,2019-04-30 09:58:44,2019-04-30 09:58:44,0.074s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-30 09:58:44,2019-04-30 09:58:47,3.003s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 73.0.3683.103,"Patient: Compiled Automation
+",2019-04-30 09:58:47,2019-04-30 09:58:48,1.031s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-30 09:58:48,2019-04-30 09:58:49,1.003s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/009837C2-ECC9-4AFE-98B1-34A3496FAE08/C7413FDF-56F8-4165-914C-810E9B7902D5/overview"")",Chrome 73.0.3683.103,,2019-04-30 09:58:49,2019-04-30 09:58:50,0.786s,PASSED
+delay(1),Chrome 73.0.3683.103,,2019-04-30 09:58:50,2019-04-30 09:58:51,1.004s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/009837C2-ECC9-4AFE-98B1-34A3496FAE08/C7413FDF-56F8-4165-914C-810E9B7902D5/2019/oasis/clinical/soc/35EE8F6D-81C8-4D0B-898C-0E3D068F7FAC/009837C2-ECC9-4AFE-98B1-34A3496FAE08"")",Chrome 73.0.3683.103,,2019-04-30 09:58:51,2019-04-30 09:58:52,0.976s,PASSED
+delay(2),Chrome 73.0.3683.103,,2019-04-30 09:58:52,2019-04-30 09:58:54,2.002s,PASSED

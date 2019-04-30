@@ -13,6 +13,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.delay(1)
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/GenAss_tab'))
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('OASIS/General Assessment/gen_Ass_ReasonForHH1'))
 
 WebUI.click(findTestObject('OASIS/General Assessment/gen_Ass_ReasonForHH2'))
@@ -207,6 +213,13 @@ WebUI.setText(findTestObject('OASIS/General Assessment/gen_ass_caregiverListName
 
 WebUI.setText(findTestObject('OASIS/General Assessment/gen_ass_CaregiverCommunityResources'), 'sample1, sample 2')
 
-WebUI.click(findTestObject('OASIS/OASIS_TABS/Sensory_tab'))
+WebUI.delay(5)
 
+WebUI.click(findTestObject('OASIS/OASIS_TABS/discardchangesbtn'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/discardchangesmodalbtn'))
+
+WebUI.delay(5)
 

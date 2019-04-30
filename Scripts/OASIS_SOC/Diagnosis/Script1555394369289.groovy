@@ -13,20 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import java.util.List as List
+import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('OASIS/Diagnosis/Diagnosis_M1021'), 'J44.')
+WebUI.click(findTestObject('OASIS/OASIS_TABS/Diagnois_Tab'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1021_Selected'))
-
-WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1021_checkbox'))
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('OASIS/Diagnosis/Diagnosis_M1023B'), 'a')
-
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('OASIS/Diagnosis/Diagnosis_M1023B_Selected'))
 
@@ -94,5 +85,13 @@ WebUI.setText(findTestObject('OASIS/Diagnosis/Diagnosis_M1060_height'), '55')
 
 WebUI.setText(findTestObject('OASIS/Diagnosis/Diagnosis_M1060_weight'), '112')
 
-WebUI.click(findTestObject('OASIS/OASIS_TABS/MedHistory_tab'))
+WebUI.delay(5)
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/discardchangesbtn'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/discardchangesmodalbtn'))
+
+WebUI.delay(5)
 

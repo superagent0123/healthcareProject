@@ -14,10 +14,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('OASIS/OASIS_TABS/xitemedits_btn'))
-
-WebUI.delay(1)
-
 WebUI.click(findTestObject('OASIS/OASIS_TABS/Endocrine_tab'))
 
 WebUI.delay(3)
@@ -248,5 +244,13 @@ WebUI.click(findTestObject('OASIS/Endocrine/endo_diabeticfootexam/endo_dfex_pati
 WebUI.click(findTestObject('OASIS/Endocrine/endo_diabeticfootexam/endo_dfex_patientcaregiverknowledge/endo_dfex_pcck_levelofknowledge_caregiver_good'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(5)
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/discardchangesbtn'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('OASIS/OASIS_TABS/discardchangesmodalbtn'))
+
+WebUI.delay(5)
 

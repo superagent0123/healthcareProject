@@ -41,3 +41,5 @@ WebUI.navigateToUrl('https://qa.medisource.com/patientcare/638B92A0-A489-410B-80
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('OASIS/OASIS_TABS/xitemedits_btn'))
+
