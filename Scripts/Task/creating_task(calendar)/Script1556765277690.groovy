@@ -12,16 +12,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(2)
 
 WebUI.navigateToUrl('https://qa.medisource.com/patients/all')
 
-WebUI.navigateToUrl('https://qa.medisource.com/patientcare/BC287096-B105-4FC8-AFBF-8D2B4B747EAA/D85D407C-4D0C-431E-AAE0-E107D4A582A7/overview')
-
-WebUI.executeJavaScript('alert("fdsdfsdf")', [])
+WebUI.navigateToUrl('https://qa.medisource.com/patientcare/876CCA94-1179-4553-8469-B9DEAF0387BD/FABFBA89-82B0-4022-A538-A4E253246581/overview')
 
 WebUI.delay(5)
-
-WebUI.executeJavaScript('$("#searchbar__wrapper > div > input").text("05/01/2019")', [])
 

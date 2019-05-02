@@ -15,11 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://qa.medisource.com/login')
 
 WebUI.setText(findTestObject('LogIn/username'), 'medisourcecm')
-
-WebUI.delay(2)
 
 WebUI.setEncryptedText(findTestObject('LogIn/password'), 'SITHpLWAWtI8C4F8RIujvA==')
 
