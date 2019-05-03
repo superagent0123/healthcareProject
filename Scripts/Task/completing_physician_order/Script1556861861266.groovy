@@ -13,13 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.delay(3)
 
-WebUI.navigateToUrl('https://qa.medisource.com/login')
+Date datetoday = new Date()
 
-WebUI.setText(findTestObject('LogIn/username'), 'medisourcecm')
+setdate = datetoday.format('mmddyyyy')
 
-WebUI.setEncryptedText(findTestObject('LogIn/password'), 'SITHpLWAWtI8C4F8RIujvA==')
+WebUI.executeJavaScript(('alert(""' + setdate) + '"")', null)
 
-WebUI.click(findTestObject('LogIn/login_button'))
+WebUI.setText(findTestObject('MD_Orders/physician_order/po_orderdate'), setdate)
 

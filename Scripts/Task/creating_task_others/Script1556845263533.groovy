@@ -22,29 +22,32 @@ WebUI.navigateToUrl('https://qa.medisource.com/patientcare/876CCA94-1179-4553-84
 
 WebUI.delay(5)
 
-selecteddate = WebUI.getText(findTestObject('Scheduling/addtask/3-month-calendar/selecteddate'))
+WebUI.click(findTestObject('Scheduling/addtask/addnewschedule_btn'))
 
-WebUI.executeJavaScript(('alert(\'The selected date is within the 3rd week: ' + selecteddate) + '\')', null)
+'Patient Name: CreateTask Automation\r\n'
+WebUI.navigateToUrl('https://qa.medisource.com/patientcare/FF3BCC9C-6212-4677-B418-A179F1D465EA/591D45A1-501B-4926-BF4E-74D0A088233B/overview')
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Scheduling/addtask/addnewschedule_btn'))
 
-WebUI.acceptAlert()
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Scheduling/addtask/3-month-calendar/selecteddate'))
+WebUI.click(findTestObject('Scheduling/taskmanager/tm_tasktype_others'))
 
-'Triggers Task Manager Modal\r\n'
-WebUI.click(findTestObject('Scheduling/taskmanager/tm_task'))
+WebUI.setText(findTestObject('Scheduling/taskmanager/tm_tasktype_others_title'), 'Field Visit for Mental and other therapy ')
 
-WebUI.sendKeys(findTestObject('Scheduling/taskmanager/tm_task_list_search'), Keys.chord('RN-Skilled Nursing Visit', Keys.ENTER))
+WebUI.click(findTestObject('Scheduling/taskmanager/tm_tasktype_others_company'))
 
-WebUI.click(findTestObject('Scheduling/taskmanager/tm_staff'))
-
-WebUI.sendKeys(findTestObject('Scheduling/taskmanager/tm_staff_search'), Keys.chord('RN Medisource', Keys.ENTER))
+WebUI.sendKeys(findTestObject('Scheduling/taskmanager/tm_tasktype_others_company_tf'), Keys.chord('InterMed Medical Health Vendor', 
+        Keys.ENTER))
 
 WebUI.click(findTestObject('Scheduling/taskmanager/tm_linktasktoMDO'))
 
 WebUI.sendKeys(findTestObject('Scheduling/taskmanager/tm_linktasktoMDO'), Keys.chord('2019', Keys.ENTER))
 
+'Set date as text\r\n'
+not_run: WebUI.setText(findTestObject('Scheduling/taskmanager/tm_taskdate'), '522019')
+
+'Select current date: Today'
 WebUI.click(findTestObject('Scheduling/taskmanager/tm_date_calendaricon'))
 
 WebUI.click(findTestObject('Scheduling/taskmanager/tm_tdate_today'))
@@ -52,6 +55,10 @@ WebUI.click(findTestObject('Scheduling/taskmanager/tm_tdate_today'))
 not_run: WebUI.click(findTestObject('Scheduling/taskmanager/tm_checkboxrecurrent'))
 
 WebUI.click(findTestObject('Scheduling/taskmanager/tm_create'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('PatientCarePage/Component_Menu/task_menu'))
 
 WebUI.delay(5)
 
