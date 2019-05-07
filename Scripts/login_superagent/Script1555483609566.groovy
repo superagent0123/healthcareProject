@@ -17,15 +17,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qa.medisource.com/login')
 
-WebUI.delay(3)
-
 WebUI.setText(findTestObject('LogIn/username'), 'superagent')
 
-WebUI.delay(3)
-
 WebUI.setEncryptedText(findTestObject('LogIn/password'), 'SITHpLWAWtI8C4F8RIujvA==')
-
-WebUI.delay(3)
 
 WebUI.click(findTestObject('LogIn/login_button'))
 

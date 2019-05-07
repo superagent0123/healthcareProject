@@ -37,6 +37,8 @@ WebUI.sendKeys(findTestObject('Scheduling/taskmanager/tm_task_list_search'), Key
 
 WebUI.click(findTestObject('Scheduling/taskmanager/tm_staff'))
 
+WebUI.delay(2)
+
 WebUI.sendKeys(findTestObject('Scheduling/taskmanager/tm_staff_search'), Keys.chord('RN Medisource', Keys.ENTER))
 
 WebUI.click(findTestObject('Scheduling/taskmanager/tm_linktasktoMDO'))
@@ -55,17 +57,7 @@ not_run: WebUI.click(findTestObject('Scheduling/taskmanager/tm_checkboxrecurrent
 
 WebUI.click(findTestObject('Scheduling/taskmanager/tm_create'))
 
-WebUI.delay(3)
-
-WebUI.click(findTestObject('PatientCarePage/Component_Menu/task_menu'))
-
 WebUI.delay(5)
-
-not_run: Date datetoday = new Date()
-
-not_run: setdate = datetoday.format('mmddyyyy')
-
-not_run: WebUI.executeJavaScript(('alert(""' + setdate) + '"")', null)
 
 'Completing a physician order\r\n'
 WebUI.click(findTestObject('MD_Orders/physician_order/po_orderdate_icon'), FailureHandling.STOP_ON_FAILURE)
@@ -113,11 +105,12 @@ WebUI.setText(findTestObject('MD_Orders/physician_order/po_porder'), 'Include in
 WebUI.click(findTestObject('MD_Orders/physician_order/po_attachfiles_btn'))
 
 WebUI.delay(3)
+
 /*
 WebUI.sendKeys(findTestObject('MD_Orders/physician_order/po_attachfiles_btn'), Keys.chord('C:\\Users\\Khenard Figuracion\\Pictures\\image.png', 
         Keys.ENTER))
 
 not_run: Runtime.getRuntime().exec('C:\\Users\\Khenard Figuracion\\Pictures\\image.png')*/
-
-CustomKeywords.'com.katalon.WebUICustomKeyword.uploadFile'(findTestObject('MD_Orders/physician_order/po_attachfiles_btn'), 'C:\\Users\\Khenard Figuracion\\Pictures\\image.png')
+not_run: CustomKeywords.'com.katalon.WebUICustomKeyword.uploadFile'(findTestObject('MD_Orders/physician_order/po_attachfiles_btn'), 
+    'C:\\Users\\Khenard Figuracion\\Pictures\\image.png')
 

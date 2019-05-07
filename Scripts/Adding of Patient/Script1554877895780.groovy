@@ -59,11 +59,11 @@ WebUI.click(findTestObject('addPatient/button_Same as Referral Date'))
 WebUI.setText(findTestObject('addPatient/input_Last Name_last_name'), 'Automated')
 
 'input first name'
-<<<<<<< HEAD
+
 WebUI.setText(findTestObject('addPatient/input_First Name_first_name'), 'Tester1')
-=======
+
 WebUI.setText(findTestObject('addPatient/input_First Name_first_name'), 'Test10')
->>>>>>> branch 'master' of https://github.com/superagent0123/healthcareProject.git
+branch 'master' of https://github.com/superagent0123/healthcareProject.git
 
 'input middle initial'
 WebUI.setText(findTestObject('addPatient/input_Middle Initial_mi'), 'F')
@@ -106,11 +106,11 @@ WebUI.click(findTestObject('addPatient/intakeLanguageSpoken1'))
 
 WebUI.delay(2)
 
-<<<<<<< HEAD
+
 WebUI.setText(findTestObject('addPatient/intakeSSN'), '100000000')
-=======
+
 WebUI.setText(findTestObject('addPatient/intakeSSN'), '865742341')
->>>>>>> branch 'master' of https://github.com/superagent0123/healthcareProject.git
+branch 'master' of https://github.com/superagent0123/healthcareProject.git
 
 //end of adding patient information
 WebUI.delay(2)

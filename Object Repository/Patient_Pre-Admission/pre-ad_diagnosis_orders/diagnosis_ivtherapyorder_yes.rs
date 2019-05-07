@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>diagnosis_ivtherapyorder_yes</name>
+   <tag></tag>
+   <elementGuidId>0ac87f6b-3cbb-4e15-a524-2dbfd101fe8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>#iv_theraphy_order</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>#iv_theraphy_order</value>
+   </webElementProperties>
+</WebElementEntity>
