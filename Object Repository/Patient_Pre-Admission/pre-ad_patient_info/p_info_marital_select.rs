@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_info_language_spoken</name>
+   <name>p_info_marital_select</name>
    <tag></tag>
-   <elementGuidId>76c24b7e-009b-4d6a-ad58-7afefae551c8</elementGuidId>
+   <elementGuidId>fdd989f4-1898-41a8-9e7e-17217101a084</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#language_spoken > div:nth-child(1) > input</value>
+         <value>#marital_status_chosen > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#language_spoken > div:nth-child(1) > input</value>
+      <value>#marital_status_chosen > a</value>
    </webElementProperties>
 </WebElementEntity>

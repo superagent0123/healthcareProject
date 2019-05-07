@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#mhLP-ln > div.mhLP-fm-cr > form > div.mhLP-fm-an > button</value>
+         <value>#mhLP-ln > div.mhLP-fm-cr.scale-up-center > form > div.mhLP-fm-an > button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#mhLP-ln > div.mhLP-fm-cr > form > div.mhLP-fm-an > button</value>
+      <value>#mhLP-ln > div.mhLP-fm-cr.scale-up-center > form > div.mhLP-fm-an > button</value>
    </webElementProperties>
 </WebElementEntity>
