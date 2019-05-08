@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PreAdtoNonAdmit" time="62" tests="1" failures="2" errors="0">
+   <testsuite name="PreAdtoNonAdmit" tests="1" failures="2" errors="0" time="62" timestamp="2019-05-08 14:41:00" hostname="Khenard Figuracion - 192.168.2.37" id="Test Suites/Patient/PreAdtoNonAdmit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\Patient\\PreAdtoNonAdmit\\20190508_144059"/>
+         <property name="logFiles" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\Patient\\PreAdtoNonAdmit\\20190508_144059\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\Patient\\PreAdtoNonAdmit\\20190508_144059\\1557297702598.png"/>
+         <property name="hostName" value="Khenard Figuracion - 192.168.2.37"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 74.0.3729.131"/>
+         <property name="hostAddress" value="192.168.2.37"/>
+         <property name="sessionId" value="3eb14c50cb2f7cdd57fcfa335b8da3f7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_Accounts/login_superagent" classname="Test Cases/Login_Accounts/login_superagent" status="PASSED">
+         <system-out><![CDATA[2019-05-08 14:41:00 - [TEST_CASE][PASSED] - Test Cases/Login_Accounts/login_superagent: Test Cases/Login_Accounts/login_superagent
+
+2019-05-08 14:41:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-08 14:41:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-08 14:41:01 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox]']
+
+2019-05-08 14:41:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-08 14:41:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-08 14:41:04 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/login"): Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-05-08 14:41:06 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-05-08 14:41:06 - [TEST_STEP][PASSED] - setText(findTestObject("LogIn/username"), "superagent"): Text 'superagent' is set on object 'Object Repository/LogIn/username'
+
+2019-05-08 14:41:06 - [MESSAGE][PASSED] - Text 'superagent' is set on object 'Object Repository/LogIn/username'
+
+2019-05-08 14:41:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LogIn/password"), "SITHpLWAWtLnr/hOhnpplQ=="): Text ****** has been set on object 'Object Repository/LogIn/password'
+
+2019-05-08 14:41:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LogIn/password'
+
+2019-05-08 14:41:07 - [TEST_STEP][PASSED] - click(findTestObject("LogIn/login_button")): Object: 'Object Repository/LogIn/login_button' is clicked on
+
+2019-05-08 14:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/login_button' is clicked on
+
+2019-05-08 14:41:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-08 14:41:10 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Patient_Workflow_Process/Pre-AdmitPatient" classname="Test Cases/Patient_Workflow_Process/Pre-AdmitPatient" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Patient_Workflow_Process/Pre-AdmitPatient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '2' to object 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Pre-AdmitPatient.run(Pre-AdmitPatient:130)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557297659249.run(TempTestSuite1557297659249.groovy:35)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50954}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3eb14c50cb2f7cdd57fcfa335b8da3f7
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Script1557286707820.run(Script1557286707820.groovy:130)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-05-08 14:41:10 - [TEST_CASE][FAILED] - Test Cases/Patient_Workflow_Process/Pre-AdmitPatient: Test Cases/Patient_Workflow_Process/Pre-AdmitPatient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '2' to object 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Pre-AdmitPatient.run(Pre-AdmitPatient:130)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557297659249.run(TempTestSuite1557297659249.groovy:35)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50954}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3eb14c50cb2f7cdd57fcfa335b8da3f7
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Script1557286707820.run(Script1557286707820.groovy:130)
+	... 13 more
+
+
+2019-05-08 14:41:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-08 14:41:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-08 14:41:12 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patient"): Navigate to 'https://qa.medisource.com/patient' successfully
+
+2019-05-08 14:41:14 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patient' successfully
+
+2019-05-08 14:41:14 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2019-05-08 14:41:14 - [TEST_STEP][PASSED] - dtoday = today.format("MM/dd/yyyy"): null
+
+2019-05-08 14:41:14 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_ref_date"), dtoday): Text '05/08/2019' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_ref_date'
+
+2019-05-08 14:41:17 - [MESSAGE][PASSED] - Text '05/08/2019' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_ref_date'
+
+2019-05-08 14:41:17 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_MRN_auto-assign")): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_MRN_auto-assign' is clicked on
+
+2019-05-08 14:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_MRN_auto-assign' is clicked on
+
+2019-05-08 14:41:17 - [TEST_STEP][PASSED] - randomssn = today.format("HHmmss"): null
+
+2019-05-08 14:41:17 - [TEST_STEP][PASSED] - sn = "123": null
+
+2019-05-08 14:41:17 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_admissiondate_sameas_btn")): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_admissiondate_sameas_btn' is clicked on
+
+2019-05-08 14:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_admissiondate_sameas_btn' is clicked on
+
+2019-05-08 14:41:17 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_lname"), randomssn + sn): Text '144114123' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_lname'
+
+2019-05-08 14:41:17 - [MESSAGE][PASSED] - Text '144114123' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_lname'
+
+2019-05-08 14:41:17 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_fname"), "Patient"): Text 'Patient' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_fname'
+
+2019-05-08 14:41:18 - [MESSAGE][PASSED] - Text 'Patient' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_fname'
+
+2019-05-08 14:41:18 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_minitial"), "I"): Text 'I' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_minitial'
+
+2019-05-08 14:41:18 - [MESSAGE][PASSED] - Text 'I' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_minitial'
+
+2019-05-08 14:41:18 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_suffix"), "III"): Text 'III' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_suffix'
+
+2019-05-08 14:41:18 - [MESSAGE][PASSED] - Text 'III' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_suffix'
+
+2019-05-08 14:41:18 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_bdate"), "2071997"): Text '2071997' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_bdate'
+
+2019-05-08 14:41:18 - [MESSAGE][PASSED] - Text '2071997' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_bdate'
+
+2019-05-08 14:41:18 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_gender_male"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_gender_male' is clicked on
+
+2019-05-08 14:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_gender_male' is clicked on
+
+2019-05-08 14:41:18 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_select"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_select' is clicked on
+
+2019-05-08 14:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_select' is clicked on
+
+2019-05-08 14:41:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_status"), Keys.chord("Single", ENTER)): Keys 'ENTER + Single' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_status'
+
+2019-05-08 14:41:18 - [MESSAGE][PASSED] - Keys 'ENTER + Single' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_status'
+
+2019-05-08 14:41:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-08 14:41:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-08 14:41:19 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity' is clicked on
+
+2019-05-08 14:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity' is clicked on
+
+2019-05-08 14:41:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity"), Keys.chord("White", ENTER, "Asian", ENTER, "Hispanic ", ENTER)): Keys 'ENTER + ENTER + ENTER + WhiteAsianHispanic ' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity'
+
+2019-05-08 14:41:22 - [MESSAGE][PASSED] - Keys 'ENTER + ENTER + ENTER + WhiteAsianHispanic ' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity'
+
+2019-05-08 14:41:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-08 14:41:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-08 14:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken' is clicked on
+
+2019-05-08 14:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken' is clicked on
+
+2019-05-08 14:41:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken"), Keys.chord("Russian", ENTER, "Mandarin", ENTER)): Keys 'ENTER + ENTER + RussianMandarin' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken'
+
+2019-05-08 14:41:24 - [MESSAGE][PASSED] - Keys 'ENTER + ENTER + RussianMandarin' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken'
+
+2019-05-08 14:41:24 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_ssn"), randomssn + sn): Text '144114123' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_ssn'
+
+2019-05-08 14:41:24 - [MESSAGE][PASSED] - Text '144114123' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_ssn'
+
+2019-05-08 14:41:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-08 14:41:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-08 14:41:26 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_address_address1"), "10035 Jacks Rd, West Point, MS, 39773"): Text '10035 Jacks Rd, West Point, MS, 39773' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_address1'
+
+2019-05-08 14:41:28 - [MESSAGE][PASSED] - Text '10035 Jacks Rd, West Point, MS, 39773' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_address1'
+
+2019-05-08 14:41:28 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_address_majorcrossstr"), "10035 Jacks Rd"): Text '10035 Jacks Rd' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_majorcrossstr'
+
+2019-05-08 14:41:29 - [MESSAGE][PASSED] - Text '10035 Jacks Rd' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_majorcrossstr'
+
+2019-05-08 14:41:29 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_address_city"), "West Point"): Text 'West Point' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_city'
+
+2019-05-08 14:41:29 - [MESSAGE][PASSED] - Text 'West Point' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_city'
+
+2019-05-08 14:41:29 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_address_state_tf"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_state_tf' is clicked on
+
+2019-05-08 14:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_state_tf' is clicked on
+
+2019-05-08 14:41:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_address_state"), Keys.chord("MS", ENTER)): Keys 'ENTER + MS' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_state'
+
+2019-05-08 14:41:30 - [MESSAGE][PASSED] - Keys 'ENTER + MS' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_state'
+
+2019-05-08 14:41:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-08 14:41:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-08 14:41:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode"), Keys.chord("39773", ENTER)): Keys 'ENTER + 39773' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode'
+
+2019-05-08 14:41:31 - [MESSAGE][PASSED] - Keys 'ENTER + 39773' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode'
+
+2019-05-08 14:41:31 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode"), "39773"): NOT_RUN: setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode"), "39773")
+
+2019-05-08 14:41:31 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode"), "39773")
+
+2019-05-08 14:41:31 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_address_phone1"), "4534233455"): Text '4534233455' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_phone1'
+
+2019-05-08 14:41:31 - [MESSAGE][PASSED] - Text '4534233455' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_phone1'
+
+2019-05-08 14:41:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-08 14:41:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-08 14:41:32 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_servicedeliveryaddress/sdaddress_sameaspatient_btn"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_servicedeliveryaddress/sdaddress_sameaspatient_btn' is clicked on
+
+2019-05-08 14:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_servicedeliveryaddress/sdaddress_sameaspatient_btn' is clicked on
+
+2019-05-08 14:41:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-08 14:41:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-08 14:41:33 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_living situation/livingsituation_larrangement_livesalone"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_living situation/livingsituation_larrangement_livesalone' is clicked on
+
+2019-05-08 14:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_living situation/livingsituation_larrangement_livesalone' is clicked on
+
+2019-05-08 14:41:34 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_living situation/livingsituation_assistance_roundtheclock"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_living situation/livingsituation_assistance_roundtheclock' is clicked on
+
+2019-05-08 14:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_living situation/livingsituation_assistance_roundtheclock' is clicked on
+
+2019-05-08 14:41:34 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_living situation/livingsituation_caregivername"), "Missandei of Naath"): Text 'Missandei of Naath' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_living situation/livingsituation_caregivername'
+
+2019-05-08 14:41:35 - [MESSAGE][PASSED] - Text 'Missandei of Naath' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_living situation/livingsituation_caregivername'
+
+2019-05-08 14:41:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-08 14:41:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-08 14:41:36 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_emergency_contact/emergency_name"), "Jaime Lannister"): Text 'Jaime Lannister' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_emergency_contact/emergency_name'
+
+2019-05-08 14:41:37 - [MESSAGE][PASSED] - Text 'Jaime Lannister' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_emergency_contact/emergency_name'
+
+2019-05-08 14:41:37 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_emergency_contact/emergency_relationship"), "Brother"): Text 'Brother' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_emergency_contact/emergency_relationship'
+
+2019-05-08 14:41:37 - [MESSAGE][PASSED] - Text 'Brother' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_emergency_contact/emergency_relationship'
+
+2019-05-08 14:41:37 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_emergency_contact/emergency_phone1"), "4343444434"): Text '4343444434' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_emergency_contact/emergency_phone1'
+
+2019-05-08 14:41:38 - [MESSAGE][PASSED] - Text '4343444434' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_emergency_contact/emergency_phone1'
+
+2019-05-08 14:41:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-08 14:41:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-08 14:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_physician_info/physician_attending_tf"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_physician_info/physician_attending_tf' is clicked on
+
+2019-05-08 14:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_physician_info/physician_attending_tf' is clicked on
+
+2019-05-08 14:41:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_physician_info/physician_attending"), Keys.chord("Adrian", ENTER)): Keys 'ENTER + Adrian' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_physician_info/physician_attending'
+
+2019-05-08 14:41:39 - [MESSAGE][PASSED] - Keys 'ENTER + Adrian' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_physician_info/physician_attending'
+
+2019-05-08 14:41:39 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_physician_info/physician_primary_care_sameas_btn"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_physician_info/physician_primary_care_sameas_btn' is clicked on
+
+2019-05-08 14:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_physician_info/physician_primary_care_sameas_btn' is clicked on
+
+2019-05-08 14:41:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-08 14:41:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-08 14:41:40 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary_tf"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary_tf' is clicked on
+
+2019-05-08 14:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary_tf' is clicked on
+
+2019-05-08 14:41:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary"), Keys.chord("AAA", ENTER)): Keys 'ENTER + AAA' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary'
+
+2019-05-08 14:41:41 - [MESSAGE][PASSED] - Keys 'ENTER + AAA' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary'
+
+2019-05-08 14:41:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-08 14:41:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-08 14:41:42 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission_tf"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission_tf' is clicked on
+
+2019-05-08 14:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission_tf' is clicked on
+
+2019-05-08 14:41:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission"), Keys.chord("1", ENTER)): Keys 'ENTER + 1' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission'
+
+2019-05-08 14:41:42 - [MESSAGE][PASSED] - Keys 'ENTER + 1' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission'
+
+2019-05-08 14:41:42 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource_tf"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource_tf' is clicked on
+
+2019-05-08 14:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource_tf' is clicked on
+
+2019-05-08 14:41:42 - [TEST_STEP][FAILED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource"), Keys.chord("2", ENTER)): sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource"), Keys.chord("2", ENTER)) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '2' to object 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Pre-AdmitPatient.run(Pre-AdmitPatient:130)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557297659249.run(TempTestSuite1557297659249.groovy:35)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50954}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3eb14c50cb2f7cdd57fcfa335b8da3f7
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Script1557286707820.run(Script1557286707820.groovy:130)
+	... 13 more
+
+
+2019-05-08 14:41:42 - [MESSAGE][FAILED] - Unable to send keys '2' to object 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to send keys '2' to object 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Pre-AdmitPatient.run(Pre-AdmitPatient:130)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557297659249.run(TempTestSuite1557297659249.groovy:35)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50954}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3eb14c50cb2f7cdd57fcfa335b8da3f7
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Script1557286707820.run(Script1557286707820.groovy:130)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\Patient\\PreAdtoNonAdmit\\20190508_144059\\1557297702598.png]]
+
+2019-05-08 14:41:42 - [MESSAGE][FAILED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource"), Keys.chord("2", ENTER)) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '2' to object 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Pre-AdmitPatient.run(Pre-AdmitPatient:130)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557297659249.run(TempTestSuite1557297659249.groovy:35)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50954}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3eb14c50cb2f7cdd57fcfa335b8da3f7
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Script1557286707820.run(Script1557286707820.groovy:130)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-05-08 14:41:10 - [TEST_CASE][FAILED] - Test Cases/Patient_Workflow_Process/Pre-AdmitPatient: Test Cases/Patient_Workflow_Process/Pre-AdmitPatient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '2' to object 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Pre-AdmitPatient.run(Pre-AdmitPatient:130)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557297659249.run(TempTestSuite1557297659249.groovy:35)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50954}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3eb14c50cb2f7cdd57fcfa335b8da3f7
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Script1557286707820.run(Script1557286707820.groovy:130)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Patient_Workflow_Process/NonAdmittingPatient" classname="Test Cases/Patient_Workflow_Process/NonAdmittingPatient" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Patient_Workflow_Process/NonAdmittingPatient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PatientCarePage/Component_nonAdmit/nonAdmitbutton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at NonAdmittingPatient.run(NonAdmittingPatient:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557297659249.run(TempTestSuite1557297659249.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50954}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3eb14c50cb2f7cdd57fcfa335b8da3f7
+*** Element info: {Using=css selector, value=#content > data > section > div.patientcare__header_patient > div.mch__header > div.mhc__block-profile > div.mhc__profile-status.aux__btn-nonadmit.p-r-10.ng-scope.ng-isolate-scope > button}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:468)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:754)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1049)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1557287078631.run(Script1557287078631.groovy:26)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-05-08 14:41:42 - [TEST_CASE][FAILED] - Test Cases/Patient_Workflow_Process/NonAdmittingPatient: Test Cases/Patient_Workflow_Process/NonAdmittingPatient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PatientCarePage/Component_nonAdmit/nonAdmitbutton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at NonAdmittingPatient.run(NonAdmittingPatient:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557297659249.run(TempTestSuite1557297659249.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50954}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3eb14c50cb2f7cdd57fcfa335b8da3f7
+*** Element info: {Using=css selector, value=#content > data > section > div.patientcare__header_patient > div.mch__header > div.mhc__block-profile > div.mhc__profile-status.aux__btn-nonadmit.p-r-10.ng-scope.ng-isolate-scope > button}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:468)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:754)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1049)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1557287078631.run(Script1557287078631.groovy:26)
+	... 13 more
+
+
+2019-05-08 14:41:43 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2019-05-08 14:41:43 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2019-05-08 14:41:43 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://qa.medisource.com/patients/all"): NOT_RUN: navigateToUrl("https://qa.medisource.com/patients/all")
+
+2019-05-08 14:41:43 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://qa.medisource.com/patients/all")
+
+2019-05-08 14:41:43 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://qa.medisource.com/patientcare/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723/E167C437-755C-46C9-B7AC-45401F52C2AA/2019/oasis/clinical/soc/4A12A2DE-5619-4633-A054-9A08A8D0A769/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723"): NOT_RUN: navigateToUrl("https://qa.medisource.com/patientcare/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723/E167C437-755C-46C9-B7AC-45401F52C2AA/2019/oasis/clinical/soc/4A12A2DE-5619-4633-A054-9A08A8D0A769/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723")
+
+2019-05-08 14:41:43 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://qa.medisource.com/patientcare/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723/E167C437-755C-46C9-B7AC-45401F52C2AA/2019/oasis/clinical/soc/4A12A2DE-5619-4633-A054-9A08A8D0A769/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723")
+
+2019-05-08 14:41:43 - [TEST_STEP][NOT_RUN] - delay(5): NOT_RUN: delay(5)
+
+2019-05-08 14:41:43 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5)
+
+2019-05-08 14:41:43 - [TEST_STEP][FAILED] - click(findTestObject("PatientCarePage/Component_nonAdmit/nonAdmitbutton")): click(findTestObject("PatientCarePage/Component_nonAdmit/nonAdmitbutton")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PatientCarePage/Component_nonAdmit/nonAdmitbutton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at NonAdmittingPatient.run(NonAdmittingPatient:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557297659249.run(TempTestSuite1557297659249.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50954}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3eb14c50cb2f7cdd57fcfa335b8da3f7
+*** Element info: {Using=css selector, value=#content > data > section > div.patientcare__header_patient > div.mch__header > div.mhc__block-profile > div.mhc__profile-status.aux__btn-nonadmit.p-r-10.ng-scope.ng-isolate-scope > button}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:468)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:754)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1049)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1557287078631.run(Script1557287078631.groovy:26)
+	... 13 more
+
+
+2019-05-08 14:42:02 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-05-08 14:42:02 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/PatientCarePage/Component_nonAdmit/nonAdmitbutton' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PatientCarePage/Component_nonAdmit/nonAdmitbutton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at NonAdmittingPatient.run(NonAdmittingPatient:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557297659249.run(TempTestSuite1557297659249.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50954}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3eb14c50cb2f7cdd57fcfa335b8da3f7
+*** Element info: {Using=css selector, value=#content > data > section > div.patientcare__header_patient > div.mch__header > div.mhc__block-profile > div.mhc__profile-status.aux__btn-nonadmit.p-r-10.ng-scope.ng-isolate-scope > button}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:468)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:754)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1049)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1557287078631.run(Script1557287078631.groovy:26)
+	... 13 more
+)
+
+2019-05-08 14:42:02 - [MESSAGE][FAILED] - click(findTestObject("PatientCarePage/Component_nonAdmit/nonAdmitbutton")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PatientCarePage/Component_nonAdmit/nonAdmitbutton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at NonAdmittingPatient.run(NonAdmittingPatient:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557297659249.run(TempTestSuite1557297659249.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50954}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3eb14c50cb2f7cdd57fcfa335b8da3f7
+*** Element info: {Using=css selector, value=#content > data > section > div.patientcare__header_patient > div.mch__header > div.mhc__block-profile > div.mhc__profile-status.aux__btn-nonadmit.p-r-10.ng-scope.ng-isolate-scope > button}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:468)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:754)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1049)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1557287078631.run(Script1557287078631.groovy:26)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-05-08 14:41:42 - [TEST_CASE][FAILED] - Test Cases/Patient_Workflow_Process/NonAdmittingPatient: Test Cases/Patient_Workflow_Process/NonAdmittingPatient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PatientCarePage/Component_nonAdmit/nonAdmitbutton'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at NonAdmittingPatient.run(NonAdmittingPatient:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557297659249.run(TempTestSuite1557297659249.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50954}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3eb14c50cb2f7cdd57fcfa335b8da3f7
+*** Element info: {Using=css selector, value=#content > data > section > div.patientcare__header_patient > div.mch__header > div.mhc__block-profile > div.mhc__profile-status.aux__btn-nonadmit.p-r-10.ng-scope.ng-isolate-scope > button}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:468)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:754)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1049)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1557287078631.run(Script1557287078631.groovy:26)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-08 14:41:00 - [TEST_SUITE][FAILED] - PreAdtoNonAdmit: Test Cases/Patient_Workflow_Process/Pre-AdmitPatient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '2' to object 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Pre-AdmitPatient.run(Pre-AdmitPatient:130)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557297659249.run(TempTestSuite1557297659249.groovy:35)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50954}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3eb14c50cb2f7cdd57fcfa335b8da3f7
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Script1557286707820.run(Script1557286707820.groovy:130)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-05-08 14:41:00 - [TEST_SUITE][FAILED] - PreAdtoNonAdmit: Test Cases/Patient_Workflow_Process/Pre-AdmitPatient FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '2' to object 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Pre-AdmitPatient.run(Pre-AdmitPatient:130)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557297659249.run(TempTestSuite1557297659249.groovy:35)
+Caused by: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-IKQI3RS', ip: '192.168.2.37', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\KHENAR~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50954}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 3eb14c50cb2f7cdd57fcfa335b8da3f7
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$5.call(Unknown Source)
+	at Script1557286707820.run(Script1557286707820.groovy:130)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

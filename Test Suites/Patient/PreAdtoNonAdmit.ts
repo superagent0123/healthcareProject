@@ -11,21 +11,21 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>5a8931f1-40e6-477b-a424-85d87f9f7120</testSuiteGuid>
    <testCaseLink>
-      <guid>5d1f497c-eb5a-419d-a92a-68812aba6761</guid>
+      <guid>0a49f495-68ed-4246-8ed2-83e3719f19df</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Adding of Patient</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9174799c-9b37-4b8b-8a13-ff028c0e87bc</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/Login_Accounts/login_superagent</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9a51a8e4-86be-49ca-b58f-f9ef0105c8ee</guid>
+      <guid>eb99d53c-ffa9-4dac-9fd1-6d2b6f51d792</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/nonAdmittingPatient</testCaseId>
+      <testCaseId>Test Cases/Patient_Workflow_Process/Pre-AdmitPatient</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bf1dbeab-b57e-435c-bd03-5c4c88f122d5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Patient_Workflow_Process/NonAdmittingPatient</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

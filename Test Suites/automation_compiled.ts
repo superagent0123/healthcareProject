@@ -11,12 +11,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>3b072c25-3577-45fd-b262-d11671738539</testSuiteGuid>
    <testCaseLink>
-      <guid>88dfc1ee-c22e-4c58-98d2-23d296268d6f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/OASIS_compilation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>8b51ce0b-691a-46be-8239-fc06287ee7f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

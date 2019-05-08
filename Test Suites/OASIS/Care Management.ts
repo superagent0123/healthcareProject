@@ -14,7 +14,7 @@
       <guid>90319014-4e40-4fe0-b577-492215ceb2bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/navigate_patient_soc_ken</testCaseId>
+      <testCaseId>Test Cases/Login_Accounts/navigate_patient_soc_ken</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f019d46c-629a-478e-9dbb-93dd77384b05</guid>

@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PreAdtoNonAdmit,Chrome 74.0.3729.131,,2019-05-08 14:45:25,2019-05-08 14:47:01,1m - 36.174s,FAILED
+,,,,,,
+Test Cases/Login_Accounts/login_rn,Chrome 74.0.3729.131,,2019-05-08 14:45:25,2019-05-08 14:46:02,36.967s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-08 14:45:25,2019-05-08 14:45:29,4.196s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 74.0.3729.131,,2019-05-08 14:45:29,2019-05-08 14:45:34,4.760s,PASSED
+delay(3),Chrome 74.0.3729.131,,2019-05-08 14:45:34,2019-05-08 14:45:37,3.024s,PASSED
+"setText(findTestObject(""LogIn/username""), ""jbnurse"")",Chrome 74.0.3729.131,,2019-05-08 14:45:37,2019-05-08 14:45:37,0.171s,PASSED
+delay(3),Chrome 74.0.3729.131,,2019-05-08 14:45:37,2019-05-08 14:45:40,3.003s,PASSED
+"setEncryptedText(findTestObject(""LogIn/password""), ""7R8xyZjhQ0B8ti8txswtaA=="")",Chrome 74.0.3729.131,,2019-05-08 14:45:40,2019-05-08 14:45:41,0.146s,PASSED
+delay(3),Chrome 74.0.3729.131,,2019-05-08 14:45:41,2019-05-08 14:45:44,3.002s,PASSED
+"click(findTestObject(""LogIn/login_button""))",Chrome 74.0.3729.131,,2019-05-08 14:45:44,2019-05-08 14:45:44,0.125s,PASSED
+delay(3),Chrome 74.0.3729.131,,2019-05-08 14:45:44,2019-05-08 14:45:47,3.003s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 74.0.3729.131,Patient List,2019-05-08 14:45:47,2019-05-08 14:45:50,3.764s,PASSED
+delay(3),Chrome 74.0.3729.131,,2019-05-08 14:45:50,2019-05-08 14:45:53,3.003s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/overview"")",Chrome 74.0.3729.131,Selected Patient,2019-05-08 14:45:53,2019-05-08 14:45:54,0.685s,PASSED
+delay(3),Chrome 74.0.3729.131,,2019-05-08 14:45:54,2019-05-08 14:45:57,3.003s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/clinical/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5"")",Chrome 74.0.3729.131,Patient OASIS,2019-05-08 14:45:57,2019-05-08 14:45:58,0.780s,PASSED
+delay(3),Chrome 74.0.3729.131,,2019-05-08 14:45:58,2019-05-08 14:46:01,3.004s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5/6AF16BDC-2B95-4B24-BF0A-9D753E24DC92/2019/oasis/integumentary/soc/091913EF-180D-41F2-916A-01F5C55EDE18/DB4C21DC-D8DA-4F05-8749-74EA29FE17A5"")",Chrome 74.0.3729.131,OASIS Integumentary Tab,2019-05-08 14:46:01,2019-05-08 14:46:02,0.973s,PASSED
+,,,,,,
+Test Cases/Patient_Workflow_Process/Pre-AdmitPatient,Chrome 74.0.3729.131,,2019-05-08 14:46:02,2019-05-08 14:46:43,40.888s,FAILED
+delay(2),Chrome 74.0.3729.131,,2019-05-08 14:46:02,2019-05-08 14:46:04,2.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patient"")",Chrome 74.0.3729.131,Add Patient > Patient Pre-Admission page,2019-05-08 14:46:04,2019-05-08 14:46:06,1.719s,PASSED
+today = new java.util.Date(),Chrome 74.0.3729.131,,2019-05-08 14:46:06,2019-05-08 14:46:06,0.006s,PASSED
+"dtoday = today.format(""MM/dd/yyyy"")",Chrome 74.0.3729.131,,2019-05-08 14:46:06,2019-05-08 14:46:06,0.010s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_ref_date""), dtoday)",Chrome 74.0.3729.131,,2019-05-08 14:46:06,2019-05-08 14:46:43,36.636s,FAILED
+,,,,,,
+Test Cases/Patient_Workflow_Process/NonAdmittingPatient,Chrome 74.0.3729.131,,2019-05-08 14:46:43,2019-05-08 14:47:00,17.288s,FAILED
+delay(2),Chrome 74.0.3729.131,,2019-05-08 14:46:43,2019-05-08 14:46:43,0.001s,NOT_RUN
+"navigateToUrl(""https://qa.medisource.com/patients/all"")",Chrome 74.0.3729.131,"
+",2019-05-08 14:46:43,2019-05-08 14:46:43,0.000s,NOT_RUN
+"navigateToUrl(""https://qa.medisource.com/patientcare/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723/E167C437-755C-46C9-B7AC-45401F52C2AA/2019/oasis/clinical/soc/4A12A2DE-5619-4633-A054-9A08A8D0A769/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723"")",Chrome 74.0.3729.131,"Select Patient
+",2019-05-08 14:46:43,2019-05-08 14:46:43,0.001s,NOT_RUN
+delay(5),Chrome 74.0.3729.131,,2019-05-08 14:46:43,2019-05-08 14:46:48,5.003s,PASSED
+"click(findTestObject(""PatientCarePage/Component_nonAdmit/nonAdmitbutton""))",Chrome 74.0.3729.131,,2019-05-08 14:46:48,2019-05-08 14:47:00,12.088s,FAILED
