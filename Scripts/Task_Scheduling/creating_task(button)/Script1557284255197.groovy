@@ -14,18 +14,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.navigateToUrl('https://qa.medisource.com/patients/all')
+not_run: WebUI.navigateToUrl('https://qa.medisource.com/patients/all')
 
-WebUI.navigateToUrl('https://qa.medisource.com/patientcare/876CCA94-1179-4553-8469-B9DEAF0387BD/FABFBA89-82B0-4022-A538-A4E253246581/overview')
+not_run: WebUI.navigateToUrl('https://qa.medisource.com/patientcare/876CCA94-1179-4553-8469-B9DEAF0387BD/FABFBA89-82B0-4022-A538-A4E253246581/overview')
+
+WebUI.click(findTestObject('PatientCarePage/Component_Menu/task_menu'))
 
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Scheduling/addtask/addnewschedule_btn'))
 
 'Patient Name: CreateTask Automation\r\n'
-WebUI.navigateToUrl('https://qa.medisource.com/patientcare/FF3BCC9C-6212-4677-B418-A179F1D465EA/591D45A1-501B-4926-BF4E-74D0A088233B/overview')
+not_run: WebUI.navigateToUrl('https://qa.medisource.com/patientcare/FF3BCC9C-6212-4677-B418-A179F1D465EA/591D45A1-501B-4926-BF4E-74D0A088233B/overview')
+
+WebUI.click(findTestObject('Scheduling/taskmanager/tm_cancel'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Scheduling/addtask/addnewschedule_btn'))
 
@@ -102,15 +108,17 @@ WebUI.setText(findTestObject('MD_Orders/physician_order/po_commnote'), 'I am wri
 
 WebUI.setText(findTestObject('MD_Orders/physician_order/po_porder'), 'Include information on the treatment up to this point, course of care and why the')
 
-WebUI.click(findTestObject('MD_Orders/physician_order/po_attachfiles_btn'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('MD_Orders/physician_order/po_save_btn'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-/*
-WebUI.sendKeys(findTestObject('MD_Orders/physician_order/po_attachfiles_btn'), Keys.chord('C:\\Users\\Khenard Figuracion\\Pictures\\image.png', 
-        Keys.ENTER))
+WebUI.setText(findTestObject('MD_Orders/physician_order/po_esign_tf'), '12345678')
 
-not_run: Runtime.getRuntime().exec('C:\\Users\\Khenard Figuracion\\Pictures\\image.png')*/
-not_run: CustomKeywords.'com.katalon.WebUICustomKeyword.uploadFile'(findTestObject('MD_Orders/physician_order/po_attachfiles_btn'), 
-    'C:\\Users\\Khenard Figuracion\\Pictures\\image.png')
+WebUI.click(findTestObject('MD_Orders/physician_order/po_esign_submit'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('PatientCarePage/Component_Menu/task_menu'))
 

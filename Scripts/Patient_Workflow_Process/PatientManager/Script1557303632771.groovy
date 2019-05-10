@@ -56,3 +56,13 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Patient_Manager/reasonnonadmit_modal_close_btn'))
 
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Patient_Manager/p_man_statussort_discharged'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Patient_Manager/p_man_reason_for_readmit_icon'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Patient_Manager/p_man_reason_for_discharge_close'), FailureHandling.STOP_ON_FAILURE)
+

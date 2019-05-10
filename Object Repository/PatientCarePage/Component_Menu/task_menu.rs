@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#profile-main-header > div > ul > li.waves-effect.active.tab > a</value>
+         <value>#profile-main-header > div > ul > li:nth-child(2) > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#profile-main-header > div > ul > li.waves-effect.active.tab > a</value>
+      <value>#profile-main-header > div > ul > li:nth-child(2) > a</value>
    </webElementProperties>
 </WebElementEntity>

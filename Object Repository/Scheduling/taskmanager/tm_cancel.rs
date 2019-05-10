@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>body > div.modal.fade.ng-isolate-scope.draggable__modal-window.in > div > div > div > div:nth-child(3) > div > button.btn.mhc__btn-neutral.waves-effect</value>
+         <value>body > div.modal.fade.ng-isolate-scope.draggable__modal-window.in > div > div.modal-content > div > div > div:nth-child(3) > div > button.btn.mhc__btn-neutral.waves-effect</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>body > div.modal.fade.ng-isolate-scope.draggable__modal-window.in > div > div > div > div:nth-child(3) > div > button.btn.mhc__btn-neutral.waves-effect</value>
+      <value>body > div.modal.fade.ng-isolate-scope.draggable__modal-window.in > div > div.modal-content > div > div > div:nth-child(3) > div > button.btn.mhc__btn-neutral.waves-effect</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="IntaketoAdmit" time="89" tests="3" failures="0" errors="0">
+   <testsuite name="IntaketoAdmit" tests="3" failures="0" errors="0" time="89" timestamp="2019-05-10 17:01:42" hostname="Khenard Figuracion - 192.168.2.37" id="Test Suites/Patient/IntaketoAdmit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\Patient\\IntaketoAdmit\\20190510_170136"/>
+         <property name="logFiles" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\Patient\\IntaketoAdmit\\20190510_170136\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Khenard Figuracion - 192.168.2.37"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 74.0.3729.131"/>
+         <property name="hostAddress" value="192.168.2.37"/>
+         <property name="sessionId" value="1e7bd7d7a25bc0aaeffe4391b80e869e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_Accounts/login_superagent" classname="Test Cases/Login_Accounts/login_superagent" status="PASSED">
+         <system-out><![CDATA[2019-05-10 17:01:43 - [TEST_CASE][PASSED] - Test Cases/Login_Accounts/login_superagent: Test Cases/Login_Accounts/login_superagent
+
+2019-05-10 17:01:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-10 17:01:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-10 17:01:43 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox]']
+
+2019-05-10 17:01:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-10 17:01:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-10 17:01:53 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/login"): Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-05-10 17:01:55 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-05-10 17:01:55 - [TEST_STEP][PASSED] - setText(findTestObject("LogIn/username"), "superagent"): Text 'superagent' is set on object 'Object Repository/LogIn/username'
+
+2019-05-10 17:01:55 - [MESSAGE][PASSED] - Text 'superagent' is set on object 'Object Repository/LogIn/username'
+
+2019-05-10 17:01:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LogIn/password"), "SITHpLWAWtLnr/hOhnpplQ=="): Text ****** has been set on object 'Object Repository/LogIn/password'
+
+2019-05-10 17:01:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LogIn/password'
+
+2019-05-10 17:01:56 - [TEST_STEP][PASSED] - click(findTestObject("LogIn/login_button")): Object: 'Object Repository/LogIn/login_button' is clicked on
+
+2019-05-10 17:01:56 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/login_button' is clicked on
+
+2019-05-10 17:01:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-10 17:01:59 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Patient_Workflow_Process/Pre-AdmitPatient" classname="Test Cases/Patient_Workflow_Process/Pre-AdmitPatient" status="PASSED">
+         <system-out><![CDATA[2019-05-10 17:01:59 - [TEST_CASE][PASSED] - Test Cases/Patient_Workflow_Process/Pre-AdmitPatient: Test Cases/Patient_Workflow_Process/Pre-AdmitPatient
+
+2019-05-10 17:01:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-10 17:02:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-10 17:02:01 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patient"): Navigate to 'https://qa.medisource.com/patient' successfully
+
+2019-05-10 17:02:02 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patient' successfully
+
+2019-05-10 17:02:02 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2019-05-10 17:02:02 - [TEST_STEP][PASSED] - dtoday = today.format("MM/dd/yyyy"): null
+
+2019-05-10 17:02:02 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_ref_date"), dtoday): Text '05/10/2019' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_ref_date'
+
+2019-05-10 17:02:05 - [MESSAGE][PASSED] - Text '05/10/2019' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_ref_date'
+
+2019-05-10 17:02:05 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_MRN_auto-assign")): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_MRN_auto-assign' is clicked on
+
+2019-05-10 17:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_MRN_auto-assign' is clicked on
+
+2019-05-10 17:02:05 - [TEST_STEP][PASSED] - randomnum = today.format("HHmmss"): null
+
+2019-05-10 17:02:05 - [TEST_STEP][PASSED] - sn = "123": null
+
+2019-05-10 17:02:05 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_admissiondate_sameas_btn")): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_admissiondate_sameas_btn' is clicked on
+
+2019-05-10 17:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_admissiondate_sameas_btn' is clicked on
+
+2019-05-10 17:02:05 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_lname"), "Automated"): Text 'Automated' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_lname'
+
+2019-05-10 17:02:05 - [MESSAGE][PASSED] - Text 'Automated' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_lname'
+
+2019-05-10 17:02:05 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_fname"), "Patient - " + randomnum): Text 'Patient - 170202' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_fname'
+
+2019-05-10 17:02:06 - [MESSAGE][PASSED] - Text 'Patient - 170202' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_fname'
+
+2019-05-10 17:02:06 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_minitial"), "I"): Text 'I' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_minitial'
+
+2019-05-10 17:02:06 - [MESSAGE][PASSED] - Text 'I' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_minitial'
+
+2019-05-10 17:02:06 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_suffix"), "III"): NOT_RUN: setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_suffix"), "III")
+
+2019-05-10 17:02:06 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_suffix"), "III")
+
+2019-05-10 17:02:06 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_bdate"), "2071997"): Text '2071997' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_bdate'
+
+2019-05-10 17:02:06 - [MESSAGE][PASSED] - Text '2071997' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_bdate'
+
+2019-05-10 17:02:06 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_gender_male"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_gender_male' is clicked on
+
+2019-05-10 17:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_gender_male' is clicked on
+
+2019-05-10 17:02:06 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_select"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_select' is clicked on
+
+2019-05-10 17:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_select' is clicked on
+
+2019-05-10 17:02:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_status"), Keys.chord("Single", ENTER)): Keys 'ENTER + Single' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_status'
+
+2019-05-10 17:02:07 - [MESSAGE][PASSED] - Keys 'ENTER + Single' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_status'
+
+2019-05-10 17:02:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-10 17:02:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 17:02:08 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity' is clicked on
+
+2019-05-10 17:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity' is clicked on
+
+2019-05-10 17:02:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity"), Keys.chord("White", ENTER, "Asian", ENTER, "Hispanic ", ENTER)): Keys 'ENTER + ENTER + ENTER + WhiteAsianHispanic ' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity'
+
+2019-05-10 17:02:10 - [MESSAGE][PASSED] - Keys 'ENTER + ENTER + ENTER + WhiteAsianHispanic ' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity'
+
+2019-05-10 17:02:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-10 17:02:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 17:02:11 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken' is clicked on
+
+2019-05-10 17:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken' is clicked on
+
+2019-05-10 17:02:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken"), Keys.chord("Russian", ENTER, "Mandarin", ENTER)): Keys 'ENTER + ENTER + RussianMandarin' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken'
+
+2019-05-10 17:02:12 - [MESSAGE][PASSED] - Keys 'ENTER + ENTER + RussianMandarin' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken'
+
+2019-05-10 17:02:12 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_info/p_info_ssn"), randomnum + sn): Text '170202123' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_ssn'
+
+2019-05-10 17:02:13 - [MESSAGE][PASSED] - Text '170202123' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_ssn'
+
+2019-05-10 17:02:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-10 17:02:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-10 17:02:15 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_address_address1"), "10035 Jacks Rd, West Point, MS, 39773"): Text '10035 Jacks Rd, West Point, MS, 39773' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_address1'
+
+2019-05-10 17:02:16 - [MESSAGE][PASSED] - Text '10035 Jacks Rd, West Point, MS, 39773' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_address1'
+
+2019-05-10 17:02:16 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_address_majorcrossstr"), "10035 Jacks Rd"): Text '10035 Jacks Rd' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_majorcrossstr'
+
+2019-05-10 17:02:17 - [MESSAGE][PASSED] - Text '10035 Jacks Rd' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_majorcrossstr'
+
+2019-05-10 17:02:17 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_address_city"), "West Point"): Text 'West Point' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_city'
+
+2019-05-10 17:02:17 - [MESSAGE][PASSED] - Text 'West Point' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_city'
+
+2019-05-10 17:02:17 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_address_state_tf"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_state_tf' is clicked on
+
+2019-05-10 17:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_state_tf' is clicked on
+
+2019-05-10 17:02:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_address_state"), Keys.chord("MS", ENTER)): Keys 'ENTER + MS' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_state'
+
+2019-05-10 17:02:18 - [MESSAGE][PASSED] - Keys 'ENTER + MS' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_state'
+
+2019-05-10 17:02:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-10 17:02:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 17:02:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode"), Keys.chord("39773", ENTER)): Keys 'ENTER + 39773' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode'
+
+2019-05-10 17:02:19 - [MESSAGE][PASSED] - Keys 'ENTER + 39773' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode'
+
+2019-05-10 17:02:19 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode"), "39773"): NOT_RUN: setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode"), "39773")
+
+2019-05-10 17:02:19 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode"), "39773")
+
+2019-05-10 17:02:19 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_patient_address/p_address_phone1"), "4534233455"): Text '4534233455' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_phone1'
+
+2019-05-10 17:02:20 - [MESSAGE][PASSED] - Text '4534233455' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_phone1'
+
+2019-05-10 17:02:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-10 17:02:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 17:02:21 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_servicedeliveryaddress/sdaddress_sameaspatient_btn"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_servicedeliveryaddress/sdaddress_sameaspatient_btn' is clicked on
+
+2019-05-10 17:02:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_servicedeliveryaddress/sdaddress_sameaspatient_btn' is clicked on
+
+2019-05-10 17:02:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-10 17:02:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 17:02:22 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_living situation/livingsituation_larrangement_livesalone"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_living situation/livingsituation_larrangement_livesalone' is clicked on
+
+2019-05-10 17:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_living situation/livingsituation_larrangement_livesalone' is clicked on
+
+2019-05-10 17:02:22 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_living situation/livingsituation_assistance_roundtheclock"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_living situation/livingsituation_assistance_roundtheclock' is clicked on
+
+2019-05-10 17:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_living situation/livingsituation_assistance_roundtheclock' is clicked on
+
+2019-05-10 17:02:22 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_living situation/livingsituation_caregivername"), "Missandei of Naath"): Text 'Missandei of Naath' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_living situation/livingsituation_caregivername'
+
+2019-05-10 17:02:23 - [MESSAGE][PASSED] - Text 'Missandei of Naath' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_living situation/livingsituation_caregivername'
+
+2019-05-10 17:02:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-10 17:02:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 17:02:24 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_emergency_contact/emergency_name"), "Jaime Lannister"): Text 'Jaime Lannister' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_emergency_contact/emergency_name'
+
+2019-05-10 17:02:25 - [MESSAGE][PASSED] - Text 'Jaime Lannister' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_emergency_contact/emergency_name'
+
+2019-05-10 17:02:25 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_emergency_contact/emergency_relationship"), "Brother"): Text 'Brother' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_emergency_contact/emergency_relationship'
+
+2019-05-10 17:02:25 - [MESSAGE][PASSED] - Text 'Brother' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_emergency_contact/emergency_relationship'
+
+2019-05-10 17:02:25 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_emergency_contact/emergency_phone1"), "4343444434"): Text '4343444434' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_emergency_contact/emergency_phone1'
+
+2019-05-10 17:02:26 - [MESSAGE][PASSED] - Text '4343444434' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_emergency_contact/emergency_phone1'
+
+2019-05-10 17:02:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-10 17:02:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 17:02:27 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_physician_info/physician_attending_tf"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_physician_info/physician_attending_tf' is clicked on
+
+2019-05-10 17:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_physician_info/physician_attending_tf' is clicked on
+
+2019-05-10 17:02:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_physician_info/physician_attending"), Keys.chord("Adrian", ENTER)): Keys 'ENTER + Adrian' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_physician_info/physician_attending'
+
+2019-05-10 17:02:27 - [MESSAGE][PASSED] - Keys 'ENTER + Adrian' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_physician_info/physician_attending'
+
+2019-05-10 17:02:27 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_physician_info/physician_primary_care_sameas_btn"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_physician_info/physician_primary_care_sameas_btn' is clicked on
+
+2019-05-10 17:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_physician_info/physician_primary_care_sameas_btn' is clicked on
+
+2019-05-10 17:02:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-10 17:02:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 17:02:28 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary_tf"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary_tf' is clicked on
+
+2019-05-10 17:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary_tf' is clicked on
+
+2019-05-10 17:02:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary"), Keys.chord("AAA", ENTER)): Keys 'ENTER + AAA' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary'
+
+2019-05-10 17:02:29 - [MESSAGE][PASSED] - Keys 'ENTER + AAA' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary'
+
+2019-05-10 17:02:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-10 17:02:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 17:02:30 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission_tf"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission_tf' is clicked on
+
+2019-05-10 17:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission_tf' is clicked on
+
+2019-05-10 17:02:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission"), Keys.chord("1", ENTER)): Keys 'ENTER + 1' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission'
+
+2019-05-10 17:02:30 - [MESSAGE][PASSED] - Keys 'ENTER + 1' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission'
+
+2019-05-10 17:02:30 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource_tf"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource_tf' is clicked on
+
+2019-05-10 17:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource_tf' is clicked on
+
+2019-05-10 17:02:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource"), Keys.chord("2", ENTER)): Keys 'ENTER + 2' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource'
+
+2019-05-10 17:02:30 - [MESSAGE][PASSED] - Keys 'ENTER + 2' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource'
+
+2019-05-10 17:02:30 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_referral_info/referral_type_tf"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_type_tf' is clicked on
+
+2019-05-10 17:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_type_tf' is clicked on
+
+2019-05-10 17:02:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_referral_info/referral_type"), Keys.chord("Other", ENTER)): Keys 'ENTER + Other' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_type'
+
+2019-05-10 17:02:31 - [MESSAGE][PASSED] - Keys 'ENTER + Other' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_type'
+
+2019-05-10 17:02:31 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_referral_info/referral_source_tf"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_source_tf' is clicked on
+
+2019-05-10 17:02:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_source_tf' is clicked on
+
+2019-05-10 17:02:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_referral_info/referral_source"), Keys.chord("JB Doria", ENTER)): Keys 'ENTER + JB Doria' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_source'
+
+2019-05-10 17:02:31 - [MESSAGE][PASSED] - Keys 'ENTER + JB Doria' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_source'
+
+2019-05-10 17:02:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-10 17:02:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 17:02:32 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital_tf"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital_tf' is clicked on
+
+2019-05-10 17:02:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital_tf' is clicked on
+
+2019-05-10 17:02:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital"), Keys.chord("Advanced Care Hospital", ENTER)): Keys 'ENTER + Advanced Care Hospital' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital'
+
+2019-05-10 17:02:33 - [MESSAGE][PASSED] - Keys 'ENTER + Advanced Care Hospital' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital'
+
+2019-05-10 17:02:33 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_facility_admitdate"), "1012017"): Text '1012017' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_facility_admitdate'
+
+2019-05-10 17:02:33 - [MESSAGE][PASSED] - Text '1012017' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_facility_admitdate'
+
+2019-05-10 17:02:33 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_dischargedate"), "2282017"): Text '2282017' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_dischargedate'
+
+2019-05-10 17:02:34 - [MESSAGE][PASSED] - Text '2282017' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_dischargedate'
+
+2019-05-10 17:02:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-10 17:02:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 17:02:35 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_primary"), "Carcinoma in situ of floor of mouth"): Text 'Carcinoma in situ of floor of mouth' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_primary'
+
+2019-05-10 17:02:36 - [MESSAGE][PASSED] - Text 'Carcinoma in situ of floor of mouth' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_primary'
+
+2019-05-10 17:02:36 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_secondary"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_secondary' is clicked on
+
+2019-05-10 17:02:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_secondary' is clicked on
+
+2019-05-10 17:02:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_secondary"), Keys.chord("Iron deficiency anemia secondary to blood loss (chronic)", ENTER)): Keys 'ENTER + Iron deficiency anemia secondary to blood loss (chronic)' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_secondary'
+
+2019-05-10 17:02:39 - [MESSAGE][PASSED] - Keys 'ENTER + Iron deficiency anemia secondary to blood loss (chronic)' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_secondary'
+
+2019-05-10 17:02:39 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_surgery"), "Acne Surgery"): Text 'Acne Surgery' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_surgery'
+
+2019-05-10 17:02:39 - [MESSAGE][PASSED] - Text 'Acne Surgery' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_surgery'
+
+2019-05-10 17:02:39 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_allergies"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_allergies' is clicked on
+
+2019-05-10 17:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_allergies' is clicked on
+
+2019-05-10 17:02:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_allergies"), Keys.chord("Gluten", ENTER, "Peanuts", ENTER, "Shellfish", ENTER, "Wheat", ENTER)): Keys 'ENTER + ENTER + ENTER + ENTER + GlutenPeanutsShellfishWheat' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_allergies'
+
+2019-05-10 17:02:41 - [MESSAGE][PASSED] - Keys 'ENTER + ENTER + ENTER + ENTER + GlutenPeanutsShellfishWheat' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_allergies'
+
+2019-05-10 17:02:41 - [TEST_STEP][PASSED] - setText(findTestObject("Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_pre-ad_orders"), "The patient food intake must be monitored all the times and observe/limit intake based on allergies listed."): Text 'The patient food intake must be monitored all the times and observe/limit intake based on allergies listed.' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_pre-ad_orders'
+
+2019-05-10 17:02:45 - [MESSAGE][PASSED] - Text 'The patient food intake must be monitored all the times and observe/limit intake based on allergies listed.' is set on object 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_pre-ad_orders'
+
+2019-05-10 17:02:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_ivtherapyorder_yes"), STOP_ON_FAILURE): NOT_RUN: click(findTestObject("Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_ivtherapyorder_yes"), STOP_ON_FAILURE)
+
+2019-05-10 17:02:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_ivtherapyorder_yes"), STOP_ON_FAILURE)
+
+2019-05-10 17:02:45 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_dmeneeded"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_dmeneeded' is clicked on
+
+2019-05-10 17:02:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_dmeneeded' is clicked on
+
+2019-05-10 17:02:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_dmeneeded"), Keys.chord("Walker", ENTER)): Keys 'ENTER + Walker' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_dmeneeded'
+
+2019-05-10 17:02:46 - [MESSAGE][PASSED] - Keys 'ENTER + Walker' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_dmeneeded'
+
+2019-05-10 17:02:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-10 17:02:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 17:02:47 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_M0080/m0080_rn"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_M0080/m0080_rn' is clicked on
+
+2019-05-10 17:02:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_M0080/m0080_rn' is clicked on
+
+2019-05-10 17:02:47 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn_tf"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn_tf' is clicked on
+
+2019-05-10 17:02:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn_tf' is clicked on
+
+2019-05-10 17:02:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn"), Keys.chord("RN Medisource", ENTER)): Keys 'ENTER + RN Medisource' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn'
+
+2019-05-10 17:02:48 - [MESSAGE][PASSED] - Keys 'ENTER + RN Medisource' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn'
+
+2019-05-10 17:02:48 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm_tf"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm_tf' is clicked on
+
+2019-05-10 17:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm_tf' is clicked on
+
+2019-05-10 17:02:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm"), Keys.chord("CM Medisource", ENTER)): Keys 'ENTER + CM Medisource' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm'
+
+2019-05-10 17:02:48 - [MESSAGE][PASSED] - Keys 'ENTER + CM Medisource' sent to object: 'Object Repository/Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm'
+
+2019-05-10 17:02:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-10 17:02:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 17:02:49 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Pre-Admission/pre-ad_save_btn"), STOP_ON_FAILURE): Object: 'Object Repository/Patient_Pre-Admission/pre-ad_save_btn' is clicked on
+
+2019-05-10 17:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Pre-Admission/pre-ad_save_btn' is clicked on
+
+2019-05-10 17:02:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-10 17:02:55 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Patient_Workflow_Process/AdmittingPatient" classname="Test Cases/Patient_Workflow_Process/AdmittingPatient" status="PASSED">
+         <system-out><![CDATA[2019-05-10 17:02:55 - [TEST_CASE][PASSED] - Test Cases/Patient_Workflow_Process/AdmittingPatient: Test Cases/Patient_Workflow_Process/AdmittingPatient
+
+2019-05-10 17:02:55 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2019-05-10 17:02:55 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2019-05-10 17:02:55 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://qa.medisource.com/patientcare/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723/E167C437-755C-46C9-B7AC-45401F52C2AA/2019/oasis/clinical/soc/4A12A2DE-5619-4633-A054-9A08A8D0A769/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723"): NOT_RUN: navigateToUrl("https://qa.medisource.com/patientcare/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723/E167C437-755C-46C9-B7AC-45401F52C2AA/2019/oasis/clinical/soc/4A12A2DE-5619-4633-A054-9A08A8D0A769/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723")
+
+2019-05-10 17:02:55 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://qa.medisource.com/patientcare/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723/E167C437-755C-46C9-B7AC-45401F52C2AA/2019/oasis/clinical/soc/4A12A2DE-5619-4633-A054-9A08A8D0A769/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723")
+
+2019-05-10 17:02:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-10 17:03:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-10 17:03:00 - [TEST_STEP][PASSED] - click(findTestObject("PatientCarePage/oasis_task_list")): Object: 'Object Repository/PatientCarePage/oasis_task_list' is clicked on
+
+2019-05-10 17:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/PatientCarePage/oasis_task_list' is clicked on
+
+2019-05-10 17:03:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-10 17:03:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-10 17:03:05 - [TEST_STEP][PASSED] - today = new java.util.Date(): null
+
+2019-05-10 17:03:05 - [TEST_STEP][PASSED] - dtoday = today.format("MMddyyyy"): null
+
+2019-05-10 17:03:05 - [TEST_STEP][PASSED] - ttoday = today.format("HH:mm"): null
+
+2019-05-10 17:03:05 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/OASIS_TABS/xitemedits_btn")): Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-05-10 17:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/OASIS_TABS/xitemedits_btn' is clicked on
+
+2019-05-10 17:03:05 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/oasis_soc_visit_date"), dtoday): Text '05102019' is set on object 'Object Repository/OASIS/oasis_soc_visit_date'
+
+2019-05-10 17:03:06 - [MESSAGE][PASSED] - Text '05102019' is set on object 'Object Repository/OASIS/oasis_soc_visit_date'
+
+2019-05-10 17:03:06 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/oasis_soc_time_in"), ttoday): Text '17:03' is set on object 'Object Repository/OASIS/oasis_soc_time_in'
+
+2019-05-10 17:03:06 - [MESSAGE][PASSED] - Text '17:03' is set on object 'Object Repository/OASIS/oasis_soc_time_in'
+
+2019-05-10 17:03:06 - [TEST_STEP][PASSED] - setText(findTestObject("OASIS/oasis_soc_time_out"), "0500"): Text '0500' is set on object 'Object Repository/OASIS/oasis_soc_time_out'
+
+2019-05-10 17:03:06 - [MESSAGE][PASSED] - Text '0500' is set on object 'Object Repository/OASIS/oasis_soc_time_out'
+
+2019-05-10 17:03:06 - [TEST_STEP][PASSED] - click(findTestObject("OASIS/oasis_soc_save_btn")): Object: 'Object Repository/OASIS/oasis_soc_save_btn' is clicked on
+
+2019-05-10 17:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OASIS/oasis_soc_save_btn' is clicked on
+
+2019-05-10 17:03:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-10 17:03:11 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-10 17:01:42 - [TEST_SUITE][PASSED] - IntaketoAdmit: Test Cases/Patient_Workflow_Process/AdmittingPatient]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
