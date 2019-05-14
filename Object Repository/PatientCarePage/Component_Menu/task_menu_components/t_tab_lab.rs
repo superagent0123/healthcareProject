@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>cardio_heartrhythm_reg</name>
+   <name>t_tab_lab</name>
    <tag></tag>
-   <elementGuidId>169bd2a6-5395-43af-9647-529594d38be6</elementGuidId>
+   <elementGuidId>dcc9e85f-22f1-418f-899e-2ec3903380b5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#cardiovascular > tr:nth-child(2) > td.oasis__answer.p-0 > table > tbody > tr > td:nth-child(2) > div.m-b-5 > label > input</value>
+         <value>#parent > div > div.row.ng-scope > div > div:nth-child(3) > div.row > div > div > label:nth-child(8)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#cardiovascular > tr:nth-child(2) > td.oasis__answer.p-0 > table > tbody > tr > td:nth-child(2) > div.m-b-5 > label > input</value>
+      <value>#parent > div > div.row.ng-scope > div > div:nth-child(3) > div.row > div > div > label:nth-child(8)</value>
    </webElementProperties>
 </WebElementEntity>
