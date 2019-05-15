@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#parent > div > div > form > fieldset > div > fieldset > div > div.ng-scope > table:nth-child(5) > tbody:nth-child(3) > tr:nth-child(3) > td.oasis__answer > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > label.radio.radio-inline.m-r-10.m-b-5.ng-scope.ng-isolate-scope.checked > input</value>
+         <value>#parent > div > div > form > fieldset > div > fieldset > div > div.ng-scope > table:nth-child(5) > tbody:nth-child(3) > tr:nth-child(3) > td.oasis__answer > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > label:nth-child(1) > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#parent > div > div > form > fieldset > div > fieldset > div > div.ng-scope > table:nth-child(5) > tbody:nth-child(3) > tr:nth-child(3) > td.oasis__answer > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > label.radio.radio-inline.m-r-10.m-b-5.ng-scope.ng-isolate-scope.checked > input</value>
+      <value>#parent > div > div > form > fieldset > div > fieldset > div > div.ng-scope > table:nth-child(5) > tbody:nth-child(3) > tr:nth-child(3) > td.oasis__answer > table > tbody > tr:nth-child(2) > td:nth-child(2) > div > label:nth-child(1) > input</value>
    </webElementProperties>
 </WebElementEntity>

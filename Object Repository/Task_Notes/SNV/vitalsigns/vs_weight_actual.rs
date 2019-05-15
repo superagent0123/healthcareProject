@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#vital_signs > tr:nth-child(2) > td > table:nth-child(2) > tbody > tr:nth-child(1) > td:nth-child(4) > div > label.m-r-15.ng-scope.ng-isolate-scope.checked > input</value>
+         <value>#vital_signs > tr:nth-child(2) > td > table:nth-child(2) > tbody > tr:nth-child(1) > td:nth-child(4) > div > label:nth-child(1) > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#vital_signs > tr:nth-child(2) > td > table:nth-child(2) > tbody > tr:nth-child(1) > td:nth-child(4) > div > label.m-r-15.ng-scope.ng-isolate-scope.checked > input</value>
+      <value>#vital_signs > tr:nth-child(2) > td > table:nth-child(2) > tbody > tr:nth-child(1) > td:nth-child(4) > div > label:nth-child(1) > input</value>
    </webElementProperties>
 </WebElementEntity>

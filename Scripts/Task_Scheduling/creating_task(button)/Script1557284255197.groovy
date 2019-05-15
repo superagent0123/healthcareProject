@@ -27,7 +27,7 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Scheduling/addtask/addnewschedule_btn'))
 
 'Patient Name: CreateTask Automation\r\n'
-not_run: WebUI.navigateToUrl('https://qa.medisource.com/patientcare/FF3BCC9C-6212-4677-B418-A179F1D465EA/591D45A1-501B-4926-BF4E-74D0A088233B/overview')
+not_run: WebUI.navigateToUrl('https://qa.medisource.com/patientcare/27205695-4F0E-4E27-9FD5-126F9CF51E10/A3446733-0FAA-4526-BED7-F601DE601FB3/overview')
 
 WebUI.click(findTestObject('Scheduling/taskmanager/tm_cancel'))
 
