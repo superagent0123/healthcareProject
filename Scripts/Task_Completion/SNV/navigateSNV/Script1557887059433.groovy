@@ -12,14 +12,30 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl('https://qa.medisource.com/patients/all')
 
 WebUI.click(findTestObject('Patient_Manager/p_man_statussort_admitted'))
 
+WebUI.setText(findTestObject('Patient_Manager/p_man_searchbar'), 'Patient - 103023 Automated')
+
 WebUI.delay(3)
 
-'Select the first patient entry on the Admitted tab\r\n'
 WebUI.click(findTestObject('Patient_Manager/p_man_first_entry'))
+
+not_run: WebUI.setText(findTestObject('PatientCarePage/Component_Menu/task_menu_components/t_searchbar'), 'RN-Skilled Nursing Visit')
+
+WebUI.navigateToUrl('https://qa.medisource.com/patientcare/294BADC7-639F-4B7B-AF86-0779B9397123/60AC6881-1FAD-497A-8BBB-F03A83B6F8F8/snv/2019/F8784FF4-8BC3-41B3-8A22-66667C5485D6')
+
+WebUI.delay(3)
+
+WebUI.executeJavaScript('alert("Estimated Delay time to form load: 8 seconds")', null)
+
+WebUI.delay(8)
+
+WebUI.acceptAlert()
+
+WebUI.setText(findTestObject('Task_Notes/SNV/snv_time-in'), '1200')
+
+WebUI.setText(findTestObject('Task_Notes/SNV/snv_time_out'), '0500')
 
