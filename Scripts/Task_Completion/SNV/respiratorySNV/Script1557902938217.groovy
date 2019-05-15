@@ -47,3 +47,5 @@ WebUI.click(findTestObject('Task_Notes/SNV/respiratory/resp_breathsounds/bs_ab_d
 
 WebUI.click(findTestObject('Task_Notes/SNV/respiratory/resp_breathsounds/bs_ab_diminished_low'))
 
+WebUI.click(findTestObject('Task_Notes/SNV/respiratory/resp_breathsounds/bs_ab_diminished_low'))
+
