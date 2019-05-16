@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#parent > div > div > form > fieldset > div > fieldset > div > div.ng-scope > table:nth-child(8) > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(5) > td:nth-child(2) > div > label > input</value>
+         <value>#parent > div > div > form > fieldset > div > fieldset > div > div.ng-scope > table:nth-child(8) > tbody:nth-child(2) > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td:nth-child(2) > div > label > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#parent > div > div > form > fieldset > div > fieldset > div > div.ng-scope > table:nth-child(8) > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(5) > td:nth-child(2) > div > label > input</value>
+      <value>#parent > div > div > form > fieldset > div > fieldset > div > div.ng-scope > table:nth-child(8) > tbody:nth-child(2) > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td:nth-child(2) > div > label > input</value>
    </webElementProperties>
 </WebElementEntity>
