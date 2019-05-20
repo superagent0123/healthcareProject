@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
