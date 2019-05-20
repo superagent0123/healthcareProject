@@ -12,8 +12,11 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(2)
+
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://qa.medisource.com/patients/all')
 
@@ -26,9 +29,9 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Scheduling/addtask/addnewschedule_btn'))
 
 'Patient Name: CreateTask Automation\r\n'
-not_run: WebUI.navigateToUrl('https://qa.medisource.com/patientcare/27205695-4F0E-4E27-9FD5-126F9CF51E10/A3446733-0FAA-4526-BED7-F601DE601FB3/overview')
+WebUI.navigateToUrl('https://qa.medisource.com/patientcare/27205695-4F0E-4E27-9FD5-126F9CF51E10/A3446733-0FAA-4526-BED7-F601DE601FB3/overview')
 
-WebUI.click(findTestObject('Scheduling/taskmanager/tm_cancel'))
+not_run: WebUI.click(findTestObject('Scheduling/taskmanager/tm_cancel'))
 
 WebUI.delay(2)
 
