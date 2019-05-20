@@ -17,3 +17,5 @@ WebUI.delay(3)
 
 WebUI.setText(findTestObject('PatientCarePage/Component_Menu/task_menu_components/t_searchbar'), 'Skilled Evaluation')
 
+WebUI.setText(findTestObject('PatientCarePage/Component_Menu/task_menu_components/t_searchbar'), 'Skilled Evaluation')
+
