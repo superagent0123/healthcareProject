@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.navigateToUrl('https://qa.medisource.com/patientcare/DA8D02BD-9479-4CC4-9A9F-DF1871F0C4DA/A7C76073-6A1A-4A5E-AE4B-A20392F0B977/msw/evaluation/510830CF-B367-4889-9776-1271E9032C73')
 
-WebUI.delay(5)
+WebUI.delay(4)
 
 WebUI.click(findTestObject('Task_Notes/MSW_Eval/Time_In'))
 
