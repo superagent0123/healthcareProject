@@ -13,21 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://qa.medisource.com/patientcare/DA8D02BD-9479-4CC4-9A9F-DF1871F0C4DA/A7C76073-6A1A-4A5E-AE4B-A20392F0B977/msw/evaluation/B683CDD1-CAE5-4CCA-8C49-5B7008726611')
+WebUI.navigateToUrl('https://qa.medisource.com/patientcare/DA8D02BD-9479-4CC4-9A9F-DF1871F0C4DA/A7C76073-6A1A-4A5E-AE4B-A20392F0B977/msw/evaluation/510830CF-B367-4889-9776-1271E9032C73')
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Task_Notes/MSW_Eval/Visit_Date'))
-
-WebUI.setText(findTestObject('Task_Notes/MSW_Eval/Visit_Date'), '05/17/2019')
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Task_Notes/MSW_Eval/Time_In'))
 
-WebUI.setText(findTestObject('Task_Notes/MSW_Eval/Time_In'), '01:00')
+WebUI.setText(findTestObject('Task_Notes/MSW_Eval/Time_In'), '02:00')
 
 WebUI.click(findTestObject('Task_Notes/MSW_Eval/Time_out'))
 
-WebUI.setText(findTestObject('Task_Notes/MSW_Eval/Time_out'), '02:00')
+WebUI.setText(findTestObject('Task_Notes/MSW_Eval/Time_out'), '03:00')
 
 WebUI.click(findTestObject('Task_Notes/MSW_Eval/PlanCare_Value1'))
 
