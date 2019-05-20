@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>t_searchbar</name>
+   <name>sneval_location</name>
    <tag></tag>
-   <elementGuidId>1d36ebdb-33a3-46e9-87d2-0d8d32424a06</elementGuidId>
+   <elementGuidId>aa41ba53-093e-4de1-b912-3aaf40817366</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#searchbar__wrapper > div > input</value>
+         <value>#selectlocation_chosen > div > div > input[type=text]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#searchbar__wrapper > div > input</value>
+      <value>#selectlocation_chosen > div > div > input[type=text]</value>
    </webElementProperties>
 </WebElementEntity>

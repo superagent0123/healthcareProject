@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>t_searchbar</name>
+   <name>sneval_cancel</name>
    <tag></tag>
-   <elementGuidId>1d36ebdb-33a3-46e9-87d2-0d8d32424a06</elementGuidId>
+   <elementGuidId>5acfa121-766d-4303-aeea-142ec933dea4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#searchbar__wrapper > div > input</value>
+         <value>body > div.modal.fade.ng-isolate-scope.draggable__modal-window.in > div > div > div > form > div > div:nth-child(4) > div > button.btn.mhc__btn-neutral.waves-effect</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#searchbar__wrapper > div > input</value>
+      <value>body > div.modal.fade.ng-isolate-scope.draggable__modal-window.in > div > div > div > form > div > div:nth-child(4) > div > button.btn.mhc__btn-neutral.waves-effect</value>
    </webElementProperties>
 </WebElementEntity>

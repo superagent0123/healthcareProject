@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>t_searchbar</name>
+   <name>sneval_timein</name>
    <tag></tag>
-   <elementGuidId>1d36ebdb-33a3-46e9-87d2-0d8d32424a06</elementGuidId>
+   <elementGuidId>19284a98-8067-40fc-b12d-3de6da7653d0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#searchbar__wrapper > div > input</value>
+         <value>#timein</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#searchbar__wrapper > div > input</value>
+      <value>#timein</value>
    </webElementProperties>
 </WebElementEntity>
