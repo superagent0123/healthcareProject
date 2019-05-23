@@ -12,14 +12,10 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('https://qa.medisource.com/patientcare/B9A9D011-509F-4DF1-99B4-A9AAEA69368B/E73C1271-625B-476A-B13D-F4E3FF62502A/overview')
+WebUI.navigateToUrl('https://qa.medisource.com/patientcare/21F97009-48D4-4F23-900D-9827584A53CF/04549B5D-B79D-4289-B3BE-39911864EA37/overview')
 
-WebUI.setText(findTestObject('PatientCarePage/Component_Menu/task_menu_components/t_searchbar'), 'Skilled Nursing')
+WebUI.delay(3)
 
-not_run: WebUI.click(findTestObject('PatientCarePage/Component_Menu/task_menu_components/t_searchbar'), FailureHandling.STOP_ON_FAILURE)
-
-not_run: WebUI.sendKeys(findTestObject('PatientCarePage/Component_Menu/task_menu_components/t_searchbar'), Keys.chord('Skilled Evaluation', 
-        Keys.ENTER))
+WebUI.click(findTestObject('PatientCarePage/Component_Menu/mdOrder_menu'))
 
