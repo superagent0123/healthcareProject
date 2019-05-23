@@ -19,3 +19,5 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('PatientCarePage/Component_Menu/mdOrder_menu'))
 
+WebUI.delay(3)
+
