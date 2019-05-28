@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Patient_Care/md_orders/mdo_new_form'))
 
