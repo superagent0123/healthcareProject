@@ -21,7 +21,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Patient_Care/md_orders/mdo_new_dischargeorder'))
 
-WebUI.delay(7)
+WebUI.delay(8)
 
 dt = new Date()
 
