@@ -53,7 +53,7 @@ WebUI.click(findTestObject('Task_Notes/MSW_ClinicalNote/Living_Changed'))
 
 WebUI.click(findTestObject('Task_Notes/MSW_ClinicalNote/Psychosocial_UpdateNote'))
 
-WebUI.setText(findTestObject('Task_Notes/MSW_ClinicalNote/Psychosocial_UpdateNote'), 'This is a production test plaese bear with me')
+WebUI.setText(findTestObject('Task_Notes/MSW_ClinicalNote/Psychosocial_UpdateNote'), 'This is a production test please bear with me')
 
 WebUI.click(findTestObject('Task_Notes/MSW_ClinicalNote/MentalStatus_Alert'))
 
