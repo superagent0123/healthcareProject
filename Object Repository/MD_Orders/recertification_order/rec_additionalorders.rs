@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#recertOrderForm > div.max__width_wrapper > fieldset > div > table.table.global__table.m-t-15 > tbody > tr:nth-child(15) > td > div > textarea</value>
+         <value>#recertOrderForm > div.max__width_wrapper > fieldset > div > table.table.global__table.m-t-15 > tbody > tr:nth-child(14) > td > div > textarea</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#recertOrderForm > div.max__width_wrapper > fieldset > div > table.table.global__table.m-t-15 > tbody > tr:nth-child(15) > td > div > textarea</value>
+      <value>#recertOrderForm > div.max__width_wrapper > fieldset > div > table.table.global__table.m-t-15 > tbody > tr:nth-child(14) > td > div > textarea</value>
    </webElementProperties>
 </WebElementEntity>

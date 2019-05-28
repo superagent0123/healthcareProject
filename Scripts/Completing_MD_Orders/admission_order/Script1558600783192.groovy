@@ -77,9 +77,10 @@ WebUI.setText(findTestObject('MD_Orders/admission_order/ao_additionalorders'), '
 
 WebUI.click(findTestObject('MD_Orders/admission_order/ao_ordersreadbackandverified'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('MD_Orders/admission_order/ao_oasistobecompletedby'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.click(findTestObject('MD_Orders/admission_order/ao_oasistobecompletedby'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('MD_Orders/admission_order/ao_oasistobecompletedby_tf'), Keys.chord('CM Medisource', Keys.ENTER))
+not_run: WebUI.sendKeys(findTestObject('MD_Orders/admission_order/ao_oasistobecompletedby_tf'), Keys.chord('CM Medisource', 
+        Keys.ENTER))
 
 WebUI.delay(5)
 
