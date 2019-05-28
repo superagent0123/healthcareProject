@@ -19,4 +19,11 @@
       <type>Main</type>
       <value>#searchbar__wrapper > div > input</value>
    </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;searchbar__wrapper&quot;]/div/input</value>
+   </webElementProperties>
 </WebElementEntity>

@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
@@ -54,12 +54,12 @@ WebUI.click(findTestObject('Scheduling/taskmanager/tm_linktasktoMDO'))
 WebUI.sendKeys(findTestObject('Scheduling/taskmanager/tm_linktasktoMDO'), Keys.chord('2019', Keys.ENTER))
 
 'Set date as text\r\n'
-not_run: WebUI.setText(findTestObject('Scheduling/taskmanager/tm_taskdate'), '522019')
+WebUI.setText(findTestObject('Scheduling/taskmanager/tm_taskdate'), '522019')
 
 'Select current date: Today'
-WebUI.click(findTestObject('Scheduling/taskmanager/tm_date_calendaricon'))
+not_run: WebUI.click(findTestObject('Scheduling/taskmanager/tm_date_calendaricon'))
 
-WebUI.click(findTestObject('Scheduling/taskmanager/tm_tdate_today'))
+not_run: WebUI.click(findTestObject('Scheduling/taskmanager/tm_tdate_today'))
 
 not_run: WebUI.click(findTestObject('Scheduling/taskmanager/tm_checkboxrecurrent'))
 

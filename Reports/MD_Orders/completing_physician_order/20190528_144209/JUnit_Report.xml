@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="completing_physician_order" time="40" tests="3" failures="0" errors="0">
+   <testsuite name="completing_physician_order" tests="3" failures="0" errors="0" time="40" timestamp="2019-05-28 14:42:11" hostname="Khenard Figuracion - 192.168.2.12" id="Test Suites/MD_Orders/completing_physician_order">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\MD_Orders\\completing_physician_order\\20190528_144209"/>
+         <property name="logFiles" value="C:\\Users\\Khenard Figuracion\\git\\healthcareProject\\Reports\\MD_Orders\\completing_physician_order\\20190528_144209\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Khenard Figuracion - 192.168.2.12"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+         <property name="browser" value="Chrome 74.0.3729.169"/>
+         <property name="hostAddress" value="192.168.2.12"/>
+         <property name="sessionId" value="16a1c9b5d3a5da038de7981296a4b2b6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_Accounts/login_superagent" classname="Test Cases/Login_Accounts/login_superagent" status="PASSED">
+         <system-out><![CDATA[2019-05-28 14:42:11 - [TEST_CASE][PASSED] - Test Cases/Login_Accounts/login_superagent: Test Cases/Login_Accounts/login_superagent
+
+2019-05-28 14:42:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-28 14:42:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-28 14:42:12 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox]']
+
+2019-05-28 14:42:12 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-28 14:42:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-28 14:42:15 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/login"): Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-05-28 14:42:17 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/login' successfully
+
+2019-05-28 14:42:17 - [TEST_STEP][PASSED] - setText(findTestObject("LogIn/username"), "superagent"): Text 'superagent' is set on object 'Object Repository/LogIn/username'
+
+2019-05-28 14:42:18 - [MESSAGE][PASSED] - Text 'superagent' is set on object 'Object Repository/LogIn/username'
+
+2019-05-28 14:42:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("LogIn/password"), "SITHpLWAWtLnr/hOhnpplQ=="): Text ****** has been set on object 'Object Repository/LogIn/password'
+
+2019-05-28 14:42:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LogIn/password'
+
+2019-05-28 14:42:18 - [TEST_STEP][PASSED] - click(findTestObject("LogIn/login_button")): Object: 'Object Repository/LogIn/login_button' is clicked on
+
+2019-05-28 14:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LogIn/login_button' is clicked on
+
+2019-05-28 14:42:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-28 14:42:21 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Completing_MD_Orders/navigatetoMDO" classname="Test Cases/Completing_MD_Orders/navigatetoMDO" status="PASSED">
+         <system-out><![CDATA[2019-05-28 14:42:21 - [TEST_CASE][PASSED] - Test Cases/Completing_MD_Orders/navigatetoMDO: Test Cases/Completing_MD_Orders/navigatetoMDO
+
+2019-05-28 14:42:21 - [TEST_STEP][PASSED] - navigateToUrl("https://qa.medisource.com/patientcare/D54CC206-ED8F-40D1-9D9D-2FB2F01411CE/0C87F119-5BDC-4D64-9196-15744946E006/overview"): Navigate to 'https://qa.medisource.com/patientcare/D54CC206-ED8F-40D1-9D9D-2FB2F01411CE/0C87F119-5BDC-4D64-9196-15744946E006/overview' successfully
+
+2019-05-28 14:42:22 - [MESSAGE][PASSED] - Navigate to 'https://qa.medisource.com/patientcare/D54CC206-ED8F-40D1-9D9D-2FB2F01411CE/0C87F119-5BDC-4D64-9196-15744946E006/overview' successfully
+
+2019-05-28 14:42:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-28 14:42:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-28 14:42:25 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Care/tabs/md_orders_tab")): Object: 'Object Repository/Patient_Care/tabs/md_orders_tab' is clicked on
+
+2019-05-28 14:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Care/tabs/md_orders_tab' is clicked on
+
+2019-05-28 14:42:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-28 14:42:28 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Completing_MD_Orders/physician_order" classname="Test Cases/Completing_MD_Orders/physician_order" status="PASSED">
+         <system-out><![CDATA[2019-05-28 14:42:28 - [TEST_CASE][PASSED] - Test Cases/Completing_MD_Orders/physician_order: Test Cases/Completing_MD_Orders/physician_order
+
+2019-05-28 14:42:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-28 14:42:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-28 14:42:31 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Care/md_orders/mdo_new_form")): Object: 'Object Repository/Patient_Care/md_orders/mdo_new_form' is clicked on
+
+2019-05-28 14:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Care/md_orders/mdo_new_form' is clicked on
+
+2019-05-28 14:42:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-28 14:42:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-28 14:42:34 - [TEST_STEP][PASSED] - click(findTestObject("Patient_Care/md_orders/mdo_new_physicianorder")): Object: 'Object Repository/Patient_Care/md_orders/mdo_new_physicianorder' is clicked on
+
+2019-05-28 14:42:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Patient_Care/md_orders/mdo_new_physicianorder' is clicked on
+
+2019-05-28 14:42:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-28 14:42:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-28 14:42:39 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_orderdate_icon"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_orderdate_icon' is clicked on
+
+2019-05-28 14:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_orderdate_icon' is clicked on
+
+2019-05-28 14:42:39 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_orderdate_today"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_orderdate_today' is clicked on
+
+2019-05-28 14:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_orderdate_today' is clicked on
+
+2019-05-28 14:42:40 - [TEST_STEP][PASSED] - setText(findTestObject("MD_Orders/physician_order/po_ordertime"), "1200"): Text '1200' is set on object 'Object Repository/MD_Orders/physician_order/po_ordertime'
+
+2019-05-28 14:42:40 - [MESSAGE][PASSED] - Text '1200' is set on object 'Object Repository/MD_Orders/physician_order/po_ordertime'
+
+2019-05-28 14:42:40 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_sentdate_icon"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_sentdate_icon' is clicked on
+
+2019-05-28 14:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_sentdate_icon' is clicked on
+
+2019-05-28 14:42:40 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_sentdate_today"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_sentdate_today' is clicked on
+
+2019-05-28 14:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_sentdate_today' is clicked on
+
+2019-05-28 14:42:40 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_receiveddate_icon"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_receiveddate_icon' is clicked on
+
+2019-05-28 14:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_receiveddate_icon' is clicked on
+
+2019-05-28 14:42:40 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_receiveddate_today"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_receiveddate_today' is clicked on
+
+2019-05-28 14:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_receiveddate_today' is clicked on
+
+2019-05-28 14:42:40 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_subject_patientcondition"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_subject_patientcondition' is clicked on
+
+2019-05-28 14:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_subject_patientcondition' is clicked on
+
+2019-05-28 14:42:40 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_subject_medication"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_subject_medication' is clicked on
+
+2019-05-28 14:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_subject_medication' is clicked on
+
+2019-05-28 14:42:40 - [TEST_STEP][NOT_RUN] - click(findTestObject("MD_Orders/physician_order/po_subject_visits"), STOP_ON_FAILURE): NOT_RUN: click(findTestObject("MD_Orders/physician_order/po_subject_visits"), STOP_ON_FAILURE)
+
+2019-05-28 14:42:40 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("MD_Orders/physician_order/po_subject_visits"), STOP_ON_FAILURE)
+
+2019-05-28 14:42:40 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_subject_snevaluation"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_subject_snevaluation' is clicked on
+
+2019-05-28 14:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_subject_snevaluation' is clicked on
+
+2019-05-28 14:42:40 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_subject_lab"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_subject_lab' is clicked on
+
+2019-05-28 14:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_subject_lab' is clicked on
+
+2019-05-28 14:42:41 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_subject_others"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_subject_others' is clicked on
+
+2019-05-28 14:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_subject_others' is clicked on
+
+2019-05-28 14:42:41 - [TEST_STEP][PASSED] - setText(findTestObject("MD_Orders/physician_order/po_subject_otherstf"), "Mental Health Therapy"): Text 'Mental Health Therapy' is set on object 'Object Repository/MD_Orders/physician_order/po_subject_otherstf'
+
+2019-05-28 14:42:42 - [MESSAGE][PASSED] - Text 'Mental Health Therapy' is set on object 'Object Repository/MD_Orders/physician_order/po_subject_otherstf'
+
+2019-05-28 14:42:42 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_commtype_persontoperson"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_commtype_persontoperson' is clicked on
+
+2019-05-28 14:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_commtype_persontoperson' is clicked on
+
+2019-05-28 14:42:42 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_commtype_phone"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_commtype_phone' is clicked on
+
+2019-05-28 14:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_commtype_phone' is clicked on
+
+2019-05-28 14:42:42 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_commtype_fax"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_commtype_fax' is clicked on
+
+2019-05-28 14:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_commtype_fax' is clicked on
+
+2019-05-28 14:42:42 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_commtype_mail"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_commtype_mail' is clicked on
+
+2019-05-28 14:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_commtype_mail' is clicked on
+
+2019-05-28 14:42:42 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_mdordergiven_yes"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_mdordergiven_yes' is clicked on
+
+2019-05-28 14:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_mdordergiven_yes' is clicked on
+
+2019-05-28 14:42:42 - [TEST_STEP][PASSED] - setText(findTestObject("MD_Orders/physician_order/po_commnote"), "I am writing on behalf of my patient, (patient name) to document the medical necessity of"): Text 'I am writing on behalf of my patient, (patient name) to document the medical necessity of' is set on object 'Object Repository/MD_Orders/physician_order/po_commnote'
+
+2019-05-28 14:42:43 - [MESSAGE][PASSED] - Text 'I am writing on behalf of my patient, (patient name) to document the medical necessity of' is set on object 'Object Repository/MD_Orders/physician_order/po_commnote'
+
+2019-05-28 14:42:43 - [TEST_STEP][PASSED] - setText(findTestObject("MD_Orders/physician_order/po_porder"), "Include information on the treatment up to this point, course of care and why the"): Text 'Include information on the treatment up to this point, course of care and why the' is set on object 'Object Repository/MD_Orders/physician_order/po_porder'
+
+2019-05-28 14:42:44 - [MESSAGE][PASSED] - Text 'Include information on the treatment up to this point, course of care and why the' is set on object 'Object Repository/MD_Orders/physician_order/po_porder'
+
+2019-05-28 14:42:44 - [TEST_STEP][NOT_RUN] - click(findTestObject("MD_Orders/physician_order/po_attachfiles_btn")): NOT_RUN: click(findTestObject("MD_Orders/physician_order/po_attachfiles_btn"))
+
+2019-05-28 14:42:44 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("MD_Orders/physician_order/po_attachfiles_btn"))
+
+2019-05-28 14:42:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-28 14:42:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-28 14:42:47 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_save_btn"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_save_btn' is clicked on
+
+2019-05-28 14:42:48 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_save_btn' is clicked on
+
+2019-05-28 14:42:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-28 14:42:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-28 14:42:51 - [TEST_STEP][PASSED] - setText(findTestObject("MD_Orders/physician_order/po_esign_tf"), "12345678"): Text '12345678' is set on object 'Object Repository/MD_Orders/physician_order/po_esign_tf'
+
+2019-05-28 14:42:51 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/MD_Orders/physician_order/po_esign_tf'
+
+2019-05-28 14:42:51 - [TEST_STEP][PASSED] - click(findTestObject("MD_Orders/physician_order/po_esign_submit"), STOP_ON_FAILURE): Object: 'Object Repository/MD_Orders/physician_order/po_esign_submit' is clicked on
+
+2019-05-28 14:42:51 - [MESSAGE][PASSED] - Object: 'Object Repository/MD_Orders/physician_order/po_esign_submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-28 14:42:11 - [TEST_SUITE][PASSED] - completing_physician_order: Test Cases/Completing_MD_Orders/physician_order]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

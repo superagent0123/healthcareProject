@@ -62,11 +62,3 @@ WebUI.click(findTestObject('MD_Orders/physician_order/po_attachfiles_btn'))
 
 WebUI.delay(3)
 
-/*
-WebUI.sendKeys(findTestObject('MD_Orders/physician_order/po_attachfiles_btn'), Keys.chord('C:\\Users\\Khenard Figuracion\\Pictures\\image.png', 
-        Keys.ENTER))
-
-not_run: Runtime.getRuntime().exec('C:\\Users\\Khenard Figuracion\\Pictures\\image.png')*/
-CustomKeywords.'com.katalon.WebUICustomKeyword.uploadFile'(findTestObject('MD_Orders/physician_order/po_attachfiles_btn'), 
-    'C:\\Users\\Khenard Figuracion\\Pictures\\image.png')
-
