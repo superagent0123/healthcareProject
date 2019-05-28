@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ao_ordersreadbackandverified</name>
+   <name>mdo_new_dischargeorder</name>
    <tag></tag>
-   <elementGuidId>08b28a32-da51-4b6f-8e2d-611644c8bb66</elementGuidId>
+   <elementGuidId>5b702d5f-7075-4054-a6bb-f097ed2a5e06</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#admissionOrderForm > div > div.max__width_wrapper > fieldset > table > tbody > tr > td > table.global__table.m-t-15 > tbody > tr:nth-child(15) > td > label > input</value>
+         <value>#data-table-command-header > div.btn-group.pull-right.ng-scope.ng-isolate-scope.dropdown.open > ul > li:nth-child(3) > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#admissionOrderForm > div > div.max__width_wrapper > fieldset > table > tbody > tr > td > table.global__table.m-t-15 > tbody > tr:nth-child(15) > td > label > input</value>
+      <value>#data-table-command-header > div.btn-group.pull-right.ng-scope.ng-isolate-scope.dropdown.open > ul > li:nth-child(3) > a</value>
    </webElementProperties>
 </WebElementEntity>

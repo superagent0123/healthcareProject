@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ao_ordersreadbackandverified</name>
+   <name>comm_comment_icon</name>
    <tag></tag>
-   <elementGuidId>08b28a32-da51-4b6f-8e2d-611644c8bb66</elementGuidId>
+   <elementGuidId>0375de99-5961-4b84-9f83-3cef7a134d4e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#admissionOrderForm > div > div.max__width_wrapper > fieldset > table > tbody > tr > td > table.global__table.m-t-15 > tbody > tr:nth-child(15) > td > label > input</value>
+         <value>#parent > div > div.globallist__content_block.ng-scope > div > table > tbody > tr > td:nth-child(6) > div > div > a > is</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#admissionOrderForm > div > div.max__width_wrapper > fieldset > table > tbody > tr > td > table.global__table.m-t-15 > tbody > tr:nth-child(15) > td > label > input</value>
+      <value>#parent > div > div.globallist__content_block.ng-scope > div > table > tbody > tr > td:nth-child(6) > div > div > a > is</value>
    </webElementProperties>
 </WebElementEntity>

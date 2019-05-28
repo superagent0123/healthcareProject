@@ -16,13 +16,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(3)
 
+not_run: WebUI.click(findTestObject('Patient_Care/md_orders/mdo_search'), FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.sendKeys(findTestObject('Patient_Care/md_orders/mdo_search'), Keys.chord('Admission Order', Keys.ENTER))
+
+WebUI.click(findTestObject('Patient_Care/md_orders/mdo_arrow_up'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Patient_Care/md_orders/mdo_first_entry'))
+
+WebUI.delay(5)
+
 todayy = new Date()
 
-nowtoday = todayy.format('MMddyyy')
+nowtoday = todayy.format('MMddyyyy')
 
-WebUI.setText(findTestObject('MD_Orders/admission_order/ao_orderdate'), nowtoday)
+not_run: WebUI.setText(findTestObject('MD_Orders/admission_order/ao_orderdate'), nowtoday)
 
 WebUI.setText(findTestObject('MD_Orders/admission_order/ao_ordertime'), '1000')
+
+WebUI.setText(findTestObject('MD_Orders/admission_order/ao_sentdate'), nowtoday)
 
 WebUI.setText(findTestObject('MD_Orders/admission_order/ao_receiveddate'), nowtoday)
 
@@ -54,9 +68,10 @@ WebUI.setText(findTestObject('MD_Orders/admission_order/ao_skillednursingandther
 
 WebUI.click(findTestObject('MD_Orders/admission_order/ao_skillednursingandtherapyneed/sntn_dmeandsupplies'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('MD_Orders/admission_order/ao_skillednursingandtherapyneed/sntn_dmeandsupplies_tf'), 'Walker')
+not_run: WebUI.setText(findTestObject('MD_Orders/admission_order/ao_skillednursingandtherapyneed/sntn_dmeandsupplies_tf'), 
+    'Walker')
 
-WebUI.click(findTestObject('MD_Orders/admission_order/ao_medications'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.click(findTestObject('MD_Orders/admission_order/ao_medications'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('MD_Orders/admission_order/ao_additionalorders'), 'The patient food intake must be monitored all the times and observe/limit intake based on allergies listed.')
 

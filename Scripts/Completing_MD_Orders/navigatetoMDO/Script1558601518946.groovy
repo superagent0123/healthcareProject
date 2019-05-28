@@ -13,11 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://qa.medisource.com/patientcare/21F97009-48D4-4F23-900D-9827584A53CF/04549B5D-B79D-4289-B3BE-39911864EA37/overview')
+WebUI.navigateToUrl('https://qa.medisource.com/patientcare/D54CC206-ED8F-40D1-9D9D-2FB2F01411CE/0C87F119-5BDC-4D64-9196-15744946E006/overview')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('PatientCarePage/Component_Menu/mdOrder_menu'))
+WebUI.click(findTestObject('Patient_Care/tabs/md_orders_tab'))
 
 WebUI.delay(3)
 

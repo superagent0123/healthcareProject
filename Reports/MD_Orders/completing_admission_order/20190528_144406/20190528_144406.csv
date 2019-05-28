@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+completing_admission_order,Chrome 74.0.3729.169,,2019-05-28 14:44:07,2019-05-28 14:44:37,29.215s,FAILED
+,,,,,,
+Test Cases/Login_Accounts/login_superagent,Chrome 74.0.3729.169,,2019-05-28 14:44:08,2019-05-28 14:44:17,9.236s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-05-28 14:44:08,2019-05-28 14:44:11,3.367s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 74.0.3729.169,,2019-05-28 14:44:11,2019-05-28 14:44:13,2.201s,PASSED
+"setText(findTestObject(""LogIn/username""), ""superagent"")",Chrome 74.0.3729.169,,2019-05-28 14:44:13,2019-05-28 14:44:14,0.140s,PASSED
+"setEncryptedText(findTestObject(""LogIn/password""), ""SITHpLWAWtLnr/hOhnpplQ=="")",Chrome 74.0.3729.169,,2019-05-28 14:44:14,2019-05-28 14:44:14,0.148s,PASSED
+"click(findTestObject(""LogIn/login_button""))",Chrome 74.0.3729.169,,2019-05-28 14:44:14,2019-05-28 14:44:14,0.076s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-05-28 14:44:14,2019-05-28 14:44:17,3.016s,PASSED
+,,,,,,
+Test Cases/Completing_MD_Orders/navigatetoMDO,Chrome 74.0.3729.169,,2019-05-28 14:44:17,2019-05-28 14:44:24,6.926s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/D54CC206-ED8F-40D1-9D9D-2FB2F01411CE/0C87F119-5BDC-4D64-9196-15744946E006/overview"")",Chrome 74.0.3729.169,,2019-05-28 14:44:17,2019-05-28 14:44:18,0.612s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-05-28 14:44:18,2019-05-28 14:44:21,3.003s,PASSED
+"click(findTestObject(""Patient_Care/tabs/md_orders_tab""))",Chrome 74.0.3729.169,,2019-05-28 14:44:21,2019-05-28 14:44:21,0.102s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-05-28 14:44:21,2019-05-28 14:44:24,3.002s,PASSED
+,,,,,,
+Test Cases/Completing_MD_Orders/admission_order,Chrome 74.0.3729.169,,2019-05-28 14:44:24,2019-05-28 14:44:36,11.943s,FAILED
+delay(3),Chrome 74.0.3729.169,,2019-05-28 14:44:24,2019-05-28 14:44:27,3.006s,PASSED
+"click(findTestObject(""Patient_Care/md_orders/mdo_search""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-28 14:44:27,2019-05-28 14:44:27,0.005s,NOT_RUN
+"sendKeys(findTestObject(""Patient_Care/md_orders/mdo_search""), Keys.chord(""Admission Order"", ENTER))",Chrome 74.0.3729.169,,2019-05-28 14:44:27,2019-05-28 14:44:27,0.000s,NOT_RUN
+"click(findTestObject(""Patient_Care/md_orders/mdo_arrow_up""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-28 14:44:27,2019-05-28 14:44:27,0.159s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-05-28 14:44:27,2019-05-28 14:44:30,3.004s,PASSED
+"click(findTestObject(""Patient_Care/md_orders/mdo_first_entry""))",Chrome 74.0.3729.169,,2019-05-28 14:44:30,2019-05-28 14:44:30,0.080s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-28 14:44:30,2019-05-28 14:44:35,5.003s,PASSED
+todayy = new java.util.Date(),Chrome 74.0.3729.169,,2019-05-28 14:44:35,2019-05-28 14:44:35,0.012s,PASSED
+"nowtoday = todayy.format(""MMddyyyy"")",Chrome 74.0.3729.169,,2019-05-28 14:44:35,2019-05-28 14:44:35,0.009s,PASSED
+"setText(findTestObject(""MD_Orders/admission_order/ao_orderdate""), nowtoday)",Chrome 74.0.3729.169,,2019-05-28 14:44:35,2019-05-28 14:44:35,0.000s,NOT_RUN
+"setText(findTestObject(""MD_Orders/admission_order/ao_ordertime""), ""1000"")",Chrome 74.0.3729.169,,2019-05-28 14:44:35,2019-05-28 14:44:36,0.417s,FAILED

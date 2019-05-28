@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ao_ordersreadbackandverified</name>
+   <name>mdo_arrow_up</name>
    <tag></tag>
-   <elementGuidId>08b28a32-da51-4b6f-8e2d-611644c8bb66</elementGuidId>
+   <elementGuidId>2ed9d14c-59da-4c5e-ae41-c1793d3eb445</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#admissionOrderForm > div > div.max__width_wrapper > fieldset > table > tbody > tr > td > table.global__table.m-t-15 > tbody > tr:nth-child(15) > td > label > input</value>
+         <value>#medicalprofile__table > thead > tr > th:nth-child(2) > span > span.icons-2-y.p-l-5.c-gray > i.fa.fa-caret-up.pos-r.top-5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#admissionOrderForm > div > div.max__width_wrapper > fieldset > table > tbody > tr > td > table.global__table.m-t-15 > tbody > tr:nth-child(15) > td > label > input</value>
+      <value>#medicalprofile__table > thead > tr > th:nth-child(2) > span > span.icons-2-y.p-l-5.c-gray > i.fa.fa-caret-up.pos-r.top-5</value>
    </webElementProperties>
 </WebElementEntity>

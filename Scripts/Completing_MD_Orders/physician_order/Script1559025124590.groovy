@@ -13,6 +13,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Patient_Care/md_orders/mdo_new_form'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Patient_Care/md_orders/mdo_new_physicianorder'))
+
 WebUI.delay(5)
 
 'Completing a physician order\r\n'
@@ -58,7 +66,17 @@ WebUI.setText(findTestObject('MD_Orders/physician_order/po_commnote'), 'I am wri
 
 WebUI.setText(findTestObject('MD_Orders/physician_order/po_porder'), 'Include information on the treatment up to this point, course of care and why the')
 
-WebUI.click(findTestObject('MD_Orders/physician_order/po_attachfiles_btn'))
+not_run: WebUI.click(findTestObject('MD_Orders/physician_order/po_attachfiles_btn'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('MD_Orders/physician_order/po_save_btn'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('MD_Orders/physician_order/po_esign_tf'), '12345678')
+
+WebUI.click(findTestObject('MD_Orders/physician_order/po_esign_submit'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

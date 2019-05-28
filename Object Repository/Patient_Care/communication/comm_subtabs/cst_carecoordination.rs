@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ao_ordersreadbackandverified</name>
+   <name>cst_carecoordination</name>
    <tag></tag>
-   <elementGuidId>08b28a32-da51-4b6f-8e2d-611644c8bb66</elementGuidId>
+   <elementGuidId>f5de3858-711a-4726-94d1-db24f21e3db8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#admissionOrderForm > div > div.max__width_wrapper > fieldset > table > tbody > tr > td > table.global__table.m-t-15 > tbody > tr:nth-child(15) > td > label > input</value>
+         <value>#parent > div > div.row.ng-scope > div > div.btn-group.pull-left.tab-btn-group.btn__tab_group > label:nth-child(2)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#admissionOrderForm > div > div.max__width_wrapper > fieldset > table > tbody > tr > td > table.global__table.m-t-15 > tbody > tr:nth-child(15) > td > label > input</value>
+      <value>#parent > div > div.row.ng-scope > div > div.btn-group.pull-left.tab-btn-group.btn__tab_group > label:nth-child(2)</value>
    </webElementProperties>
 </WebElementEntity>
