@@ -26,7 +26,7 @@ WebUI.sendKeys(findTestObject('Patient_Care/md_orders/mdo_status_filter_tf'), Ke
 
 WebUI.delay(5)
 
-def sampletext = 'This is a sample text \n generated through an automated testing software \n THe patient is in lit condition \n everything is good, man.'
+def sampletext = 'This is a sample text \n generated through an automated testing software \n Everything is good.'
 
 'Default Thrid Entry on MD Orders is the Plan of Care/485 (SOC)'
 WebUI.click(findTestObject('Patient_Care/md_orders/mdo_third_entry'), FailureHandling.STOP_ON_FAILURE)

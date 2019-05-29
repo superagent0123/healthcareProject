@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#oasis-tabs > label:nth-child(6)</value>
+         <value>#oasis-tabs > label.btn.btn-primary.bg__wt.txt__primary.btn__tab_group-label.ng-scope.waves-effect.active.medisource-activetab</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#oasis-tabs > label:nth-child(6)</value>
+      <value>#oasis-tabs > label.btn.btn-primary.bg__wt.txt__primary.btn__tab_group-label.ng-scope.waves-effect.active.medisource-activetab</value>
    </webElementProperties>
 </WebElementEntity>
