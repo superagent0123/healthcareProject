@@ -23,5 +23,5 @@ WebUI.setEncryptedText(findTestObject('LogIn/password'), 'SITHpLWAWtLnr/hOhnpplQ
 
 WebUI.click(findTestObject('LogIn/login_button'))
 
-WebUI.delay(4)
+WebUI.delay(5)
 
