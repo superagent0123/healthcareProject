@@ -24,7 +24,7 @@ WebUI.click(findTestObject('Patient_Care/md_orders/mdo_status_filter_dd'), Failu
 
 WebUI.sendKeys(findTestObject('Patient_Care/md_orders/mdo_status_filter_tf'), Keys.chord('In Progress', Keys.ENTER))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 def sampletext = 'This is a sample text \n generated through an automated testing software \n THe patient is in lit condition \n everything is good, man.'
 
