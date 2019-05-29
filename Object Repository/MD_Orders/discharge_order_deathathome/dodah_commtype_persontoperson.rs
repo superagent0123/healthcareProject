@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#dischargeOrderForm > div.max__width_wrapper > fieldset > table > tbody > tr > td > table.table.global__table.m-t-15 > tbody > tr:nth-child(1) > td:nth-child(2) > div > label.checkbox.checkbox-inline.pull-left.m-r-15.p-t-0.checked > input</value>
+         <value>#dischargeOrderForm > div.max__width_wrapper > fieldset > table > tbody > tr > td > table.table.global__table.m-t-15 > tbody > tr:nth-child(1) > td:nth-child(2) > div > label:nth-child(1) > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#dischargeOrderForm > div.max__width_wrapper > fieldset > table > tbody > tr > td > table.table.global__table.m-t-15 > tbody > tr:nth-child(1) > td:nth-child(2) > div > label.checkbox.checkbox-inline.pull-left.m-r-15.p-t-0.checked > input</value>
+      <value>#dischargeOrderForm > div.max__width_wrapper > fieldset > table > tbody > tr > td > table.table.global__table.m-t-15 > tbody > tr:nth-child(1) > td:nth-child(2) > div > label:nth-child(1) > input</value>
    </webElementProperties>
 </WebElementEntity>

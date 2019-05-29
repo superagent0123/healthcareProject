@@ -35,6 +35,8 @@ not_run: WebUI.setText(findTestObject('MD_Orders/discharge_order/do_orderdate'),
 
 WebUI.setText(findTestObject('MD_Orders/discharge_order/do_ordertime'), '1200')
 
+WebUI.setText(findTestObject('MD_Orders/discharge_order/do_sentdate'), todayd)
+
 WebUI.setText(findTestObject('MD_Orders/discharge_order/do_receiveddate'), todayd)
 
 WebUI.click(findTestObject('MD_Orders/discharge_order/do_commtype_persontoperson'), FailureHandling.STOP_ON_FAILURE)

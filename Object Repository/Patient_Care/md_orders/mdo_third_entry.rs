@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>mdo_search</name>
+   <name>mdo_third_entry</name>
    <tag></tag>
-   <elementGuidId>916ff6ea-865f-4ec9-82d8-7d47e80ad584</elementGuidId>
+   <elementGuidId>d08d3092-6794-4416-83ff-1d48376785d4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#searchbar__wrapper > div > input</value>
+         <value>#medicalprofile__table > tbody > tr:nth-child(4)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#searchbar__wrapper > div > input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>//*[@id=&quot;searchbar__wrapper&quot;]/div/input</value>
+      <value>#medicalprofile__table > tbody > tr:nth-child(4)</value>
    </webElementProperties>
 </WebElementEntity>

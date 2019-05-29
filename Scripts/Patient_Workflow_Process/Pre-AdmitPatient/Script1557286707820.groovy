@@ -77,7 +77,7 @@ WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_patient_address/p_addre
 
 WebUI.sendKeys(findTestObject('Patient_Pre-Admission/pre-ad_patient_address/p_address_state'), Keys.chord('MS', Keys.ENTER))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 WebUI.sendKeys(findTestObject('Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode'), Keys.chord('39773', Keys.ENTER))
 
