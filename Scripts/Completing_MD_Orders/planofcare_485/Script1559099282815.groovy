@@ -31,11 +31,11 @@ def sampletext = 'This is a sample text \n generated through an automated testin
 'Default Thrid Entry on MD Orders is the Plan of Care/485 (SOC)'
 WebUI.click(findTestObject('Patient_Care/md_orders/mdo_third_entry'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('MD_Orders/plan_of_care_485/poc_tabs/poc_diagnosis_tab'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('MD_Orders/plan_of_care_485/poc_tabs/poc_medications_tab'), FailureHandling.STOP_ON_FAILURE)
 
