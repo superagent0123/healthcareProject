@@ -1,0 +1,115 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+IntaketoAdmit,Chrome 74.0.3729.157,,2019-05-17 10:28:22,2019-05-17 10:29:46,1m - 23.932s,PASSED
+,,,,,,
+Test Cases/Login_Accounts/login_superagent,Chrome 74.0.3729.157,,2019-05-17 10:28:23,2019-05-17 10:28:34,11.861s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.157,,2019-05-17 10:28:23,2019-05-17 10:28:27,4.026s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 74.0.3729.157,,2019-05-17 10:28:27,2019-05-17 10:28:31,4.070s,PASSED
+"setText(findTestObject(""LogIn/username""), ""superagent"")",Chrome 74.0.3729.157,,2019-05-17 10:28:31,2019-05-17 10:28:31,0.166s,PASSED
+"setEncryptedText(findTestObject(""LogIn/password""), ""SITHpLWAWtLnr/hOhnpplQ=="")",Chrome 74.0.3729.157,,2019-05-17 10:28:31,2019-05-17 10:28:31,0.142s,PASSED
+"click(findTestObject(""LogIn/login_button""))",Chrome 74.0.3729.157,,2019-05-17 10:28:31,2019-05-17 10:28:31,0.087s,PASSED
+delay(3),Chrome 74.0.3729.157,,2019-05-17 10:28:31,2019-05-17 10:28:34,3.019s,PASSED
+,,,,,,
+Test Cases/Patient_Workflow_Process/Pre-AdmitPatient,Chrome 74.0.3729.157,,2019-05-17 10:28:34,2019-05-17 10:29:29,54.872s,PASSED
+delay(2),Chrome 74.0.3729.157,,2019-05-17 10:28:35,2019-05-17 10:28:37,2.006s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patient"")",Chrome 74.0.3729.157,Add Patient > Patient Pre-Admission page,2019-05-17 10:28:37,2019-05-17 10:28:37,0.615s,PASSED
+today = new java.util.Date(),Chrome 74.0.3729.157,,2019-05-17 10:28:37,2019-05-17 10:28:37,0.004s,PASSED
+"dtoday = today.format(""MM/dd/yyyy"")",Chrome 74.0.3729.157,,2019-05-17 10:28:37,2019-05-17 10:28:37,0.002s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_ref_date""), dtoday)",Chrome 74.0.3729.157,,2019-05-17 10:28:37,2019-05-17 10:28:41,3.281s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_MRN_auto-assign""))",Chrome 74.0.3729.157,,2019-05-17 10:28:41,2019-05-17 10:28:41,0.091s,PASSED
+"randomnum = today.format(""HHmmss"")",Chrome 74.0.3729.157,,2019-05-17 10:28:41,2019-05-17 10:28:41,0.001s,PASSED
+"sn = ""123""",Chrome 74.0.3729.157,,2019-05-17 10:28:41,2019-05-17 10:28:41,0.000s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_admissiondate_sameas_btn""))",Chrome 74.0.3729.157,,2019-05-17 10:28:41,2019-05-17 10:28:41,0.112s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_patient_info/p_info_lname""), randomnum + ""- Patient"")",Chrome 74.0.3729.157,,2019-05-17 10:28:41,2019-05-17 10:28:41,0.517s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_patient_info/p_info_fname""), ""Automated"")",Chrome 74.0.3729.157,,2019-05-17 10:28:41,2019-05-17 10:28:42,0.345s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_patient_info/p_info_minitial""), ""I"")",Chrome 74.0.3729.157,,2019-05-17 10:28:42,2019-05-17 10:28:42,0.110s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_patient_info/p_info_suffix""), ""III"")",Chrome 74.0.3729.157,,2019-05-17 10:28:42,2019-05-17 10:28:42,0.002s,NOT_RUN
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_patient_info/p_info_bdate""), ""2071997"")",Chrome 74.0.3729.157,,2019-05-17 10:28:42,2019-05-17 10:28:42,0.206s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_patient_info/p_info_gender_male""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:28:42,2019-05-17 10:28:42,0.098s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_select""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:28:42,2019-05-17 10:28:42,0.080s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_status""), Keys.chord(""Single"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:28:42,2019-05-17 10:28:43,0.255s,PASSED
+delay(1),Chrome 74.0.3729.157,,2019-05-17 10:28:43,2019-05-17 10:28:44,1.001s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:28:44,2019-05-17 10:28:44,0.097s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity""), Keys.chord(""White"", ENTER, ""Asian"", ENTER, ""Hispanic "", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:28:44,2019-05-17 10:28:46,2.509s,PASSED
+delay(1),Chrome 74.0.3729.157,,2019-05-17 10:28:46,2019-05-17 10:28:47,1.003s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:28:47,2019-05-17 10:28:47,0.144s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken""), Keys.chord(""Russian"", ENTER, ""Mandarin"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:28:47,2019-05-17 10:28:48,0.813s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_patient_info/p_info_ssn""), randomnum + sn)",Chrome 74.0.3729.157,,2019-05-17 10:28:48,2019-05-17 10:28:48,0.359s,PASSED
+delay(2),Chrome 74.0.3729.157,,2019-05-17 10:28:48,2019-05-17 10:28:50,2.001s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_patient_address/p_address_address1""), ""10035 Jacks Rd, West Point, MS, 39773"")",Chrome 74.0.3729.157,,2019-05-17 10:28:50,2019-05-17 10:28:52,1.407s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_patient_address/p_address_majorcrossstr""), ""10035 Jacks Rd"")",Chrome 74.0.3729.157,,2019-05-17 10:28:52,2019-05-17 10:28:53,0.617s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_patient_address/p_address_city""), ""West Point"")",Chrome 74.0.3729.157,,2019-05-17 10:28:53,2019-05-17 10:28:53,0.533s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_patient_address/p_address_state_tf""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:28:53,2019-05-17 10:28:53,0.126s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_patient_address/p_address_state""), Keys.chord(""MS"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:28:53,2019-05-17 10:28:53,0.286s,PASSED
+delay(1),Chrome 74.0.3729.157,,2019-05-17 10:28:53,2019-05-17 10:28:54,1.001s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode""), Keys.chord(""39773"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:28:54,2019-05-17 10:28:55,0.286s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode""), ""39773"")",Chrome 74.0.3729.157,,2019-05-17 10:28:55,2019-05-17 10:28:55,0.001s,NOT_RUN
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_patient_address/p_address_phone1""), ""4534233455"")",Chrome 74.0.3729.157,,2019-05-17 10:28:55,2019-05-17 10:28:55,0.474s,PASSED
+delay(1),Chrome 74.0.3729.157,,2019-05-17 10:28:55,2019-05-17 10:28:56,1.001s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_servicedeliveryaddress/sdaddress_sameaspatient_btn""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:28:56,2019-05-17 10:28:56,0.138s,PASSED
+delay(1),Chrome 74.0.3729.157,,2019-05-17 10:28:56,2019-05-17 10:28:57,1.003s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_living situation/livingsituation_larrangement_livesalone""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:28:57,2019-05-17 10:28:57,0.107s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_living situation/livingsituation_assistance_roundtheclock""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:28:57,2019-05-17 10:28:58,0.135s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_living situation/livingsituation_caregivername""), ""Missandei of Naath"")",Chrome 74.0.3729.157,,2019-05-17 10:28:58,2019-05-17 10:28:58,0.608s,PASSED
+delay(1),Chrome 74.0.3729.157,,2019-05-17 10:28:58,2019-05-17 10:28:59,1.003s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_emergency_contact/emergency_name""), ""Jaime Lannister"")",Chrome 74.0.3729.157,,2019-05-17 10:28:59,2019-05-17 10:29:00,0.686s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_emergency_contact/emergency_relationship""), ""Brother"")",Chrome 74.0.3729.157,,2019-05-17 10:29:00,2019-05-17 10:29:00,0.384s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_emergency_contact/emergency_phone1""), ""4343444434"")",Chrome 74.0.3729.157,,2019-05-17 10:29:00,2019-05-17 10:29:01,0.518s,PASSED
+delay(1),Chrome 74.0.3729.157,,2019-05-17 10:29:01,2019-05-17 10:29:02,1.002s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_physician_info/physician_attending_tf""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:29:02,2019-05-17 10:29:02,0.093s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_physician_info/physician_attending""), Keys.chord(""Adrian"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:29:02,2019-05-17 10:29:02,0.428s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_physician_info/physician_primary_care_sameas_btn""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:29:02,2019-05-17 10:29:02,0.112s,PASSED
+delay(1),Chrome 74.0.3729.157,,2019-05-17 10:29:02,2019-05-17 10:29:03,1.003s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary_tf""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:29:03,2019-05-17 10:29:04,0.093s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary""), Keys.chord(""AAA"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:29:04,2019-05-17 10:29:04,0.246s,PASSED
+delay(1),Chrome 74.0.3729.157,,2019-05-17 10:29:04,2019-05-17 10:29:05,1.002s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission_tf""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:29:05,2019-05-17 10:29:05,0.073s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission""), Keys.chord(""1"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:29:05,2019-05-17 10:29:05,0.134s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource_tf""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:29:05,2019-05-17 10:29:05,0.078s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource""), Keys.chord(""2"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:29:05,2019-05-17 10:29:05,0.138s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_referral_info/referral_type_tf""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:29:05,2019-05-17 10:29:05,0.078s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_referral_info/referral_type""), Keys.chord(""Other"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:29:05,2019-05-17 10:29:06,0.280s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_referral_info/referral_source_tf""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:29:06,2019-05-17 10:29:06,0.078s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_referral_info/referral_source""), Keys.chord(""JB Doria"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:29:06,2019-05-17 10:29:06,0.402s,PASSED
+delay(1),Chrome 74.0.3729.157,,2019-05-17 10:29:06,2019-05-17 10:29:07,1.003s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital_tf""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:29:07,2019-05-17 10:29:07,0.078s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital""), Keys.chord(""Advanced Care Hospital"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:29:07,2019-05-17 10:29:08,0.779s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_facility_admitdate""), ""1012017"")",Chrome 74.0.3729.157,,2019-05-17 10:29:08,2019-05-17 10:29:08,0.293s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_dischargedate""), ""2282017"")",Chrome 74.0.3729.157,,2019-05-17 10:29:08,2019-05-17 10:29:08,0.291s,PASSED
+delay(1),Chrome 74.0.3729.157,,2019-05-17 10:29:08,2019-05-17 10:29:09,1.004s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_primary""), ""Carcinoma in situ of floor of mouth"")",Chrome 74.0.3729.157,,2019-05-17 10:29:09,2019-05-17 10:29:11,1.297s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_secondary""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:29:11,2019-05-17 10:29:11,0.110s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_secondary""), Keys.chord(""Iron deficiency anemia secondary to blood loss (chronic)"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:29:11,2019-05-17 10:29:13,2.584s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_surgery""), ""Acne Surgery"")",Chrome 74.0.3729.157,,2019-05-17 10:29:13,2019-05-17 10:29:14,0.605s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_allergies""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:29:14,2019-05-17 10:29:14,0.112s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_allergies""), Keys.chord(""Gluten"", ENTER, ""Peanuts"", ENTER, ""Shellfish"", ENTER, ""Wheat"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:29:14,2019-05-17 10:29:16,1.590s,PASSED
+"setText(findTestObject(""Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_pre-ad_orders""), ""The patient food intake must be monitored all the times and observe/limit intake based on allergies listed."")",Chrome 74.0.3729.157,,2019-05-17 10:29:16,2019-05-17 10:29:19,3.638s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_ivtherapyorder_yes""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,Redirected to Medication Profile page upon saving.,2019-05-17 10:29:19,2019-05-17 10:29:19,0.000s,NOT_RUN
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_dmeneeded""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:29:19,2019-05-17 10:29:20,0.074s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_dmeneeded""), Keys.chord(""Walker"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:29:20,2019-05-17 10:29:21,1.078s,PASSED
+delay(1),Chrome 74.0.3729.157,,2019-05-17 10:29:21,2019-05-17 10:29:22,1.002s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_M0080/m0080_rn""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:29:22,2019-05-17 10:29:22,0.150s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn_tf""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:29:22,2019-05-17 10:29:22,0.087s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn""), Keys.chord(""RN Medisource"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:29:22,2019-05-17 10:29:22,0.616s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm_tf""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,,2019-05-17 10:29:22,2019-05-17 10:29:23,0.075s,PASSED
+"sendKeys(findTestObject(""Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm""), Keys.chord(""CM Medisource"", ENTER))",Chrome 74.0.3729.157,,2019-05-17 10:29:23,2019-05-17 10:29:23,0.597s,PASSED
+delay(1),Chrome 74.0.3729.157,,2019-05-17 10:29:23,2019-05-17 10:29:24,1.003s,PASSED
+"click(findTestObject(""Patient_Pre-Admission/pre-ad_save_btn""), STOP_ON_FAILURE)",Chrome 74.0.3729.157,"Save Patient
+",2019-05-17 10:29:24,2019-05-17 10:29:24,0.174s,PASSED
+delay(5),Chrome 74.0.3729.157,,2019-05-17 10:29:24,2019-05-17 10:29:29,5.002s,PASSED
+,,,,,,
+Test Cases/Patient_Workflow_Process/AdmittingPatient,Chrome 74.0.3729.157,,2019-05-17 10:29:29,2019-05-17 10:29:45,16.162s,PASSED
+delay(2),Chrome 74.0.3729.157,,2019-05-17 10:29:29,2019-05-17 10:29:29,0.001s,NOT_RUN
+"navigateToUrl(""https://qa.medisource.com/patientcare/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723/E167C437-755C-46C9-B7AC-45401F52C2AA/2019/oasis/clinical/soc/4A12A2DE-5619-4633-A054-9A08A8D0A769/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723"")",Chrome 74.0.3729.157,,2019-05-17 10:29:29,2019-05-17 10:29:29,0.000s,NOT_RUN
+delay(5),Chrome 74.0.3729.157,,2019-05-17 10:29:29,2019-05-17 10:29:34,5.002s,PASSED
+"click(findTestObject(""PatientCarePage/oasis_task_list""))",Chrome 74.0.3729.157,Detect the object [OASIS SOC] at the first row on taksk list table. ,2019-05-17 10:29:34,2019-05-17 10:29:35,0.092s,PASSED
+delay(5),Chrome 74.0.3729.157,,2019-05-17 10:29:35,2019-05-17 10:29:40,5.001s,PASSED
+today = new java.util.Date(),Chrome 74.0.3729.157,,2019-05-17 10:29:40,2019-05-17 10:29:40,0.000s,PASSED
+"dtoday = today.format(""MMddyyyy"")",Chrome 74.0.3729.157,,2019-05-17 10:29:40,2019-05-17 10:29:40,0.000s,PASSED
+"ttoday = today.format(""HH:mm"")",Chrome 74.0.3729.157,,2019-05-17 10:29:40,2019-05-17 10:29:40,0.000s,PASSED
+"click(findTestObject(""OASIS/OASIS_TABS/xitemedits_btn""))",Chrome 74.0.3729.157,,2019-05-17 10:29:40,2019-05-17 10:29:40,0.150s,PASSED
+"setText(findTestObject(""OASIS/oasis_soc_visit_date""), dtoday)",Chrome 74.0.3729.157,,2019-05-17 10:29:40,2019-05-17 10:29:40,0.295s,PASSED
+"setText(findTestObject(""OASIS/oasis_soc_time_in""), ttoday)",Chrome 74.0.3729.157,,2019-05-17 10:29:40,2019-05-17 10:29:40,0.178s,PASSED
+"setText(findTestObject(""OASIS/oasis_soc_time_out""), ""0500"")",Chrome 74.0.3729.157,,2019-05-17 10:29:40,2019-05-17 10:29:40,0.136s,PASSED
+"click(findTestObject(""OASIS/oasis_soc_save_btn""))",Chrome 74.0.3729.157,"Save to Admit the patient
+",2019-05-17 10:29:40,2019-05-17 10:29:40,0.113s,PASSED
+delay(5),Chrome 74.0.3729.157,,2019-05-17 10:29:40,2019-05-17 10:29:45,5.002s,PASSED

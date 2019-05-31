@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'ng-valid ng-dirty ng-valid-parse ng-not-empty ng-touched']</value>
+         <value>#searchbar__wrapper > div > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
@@ -25,12 +25,5 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;searchbar__wrapper&quot;]/div/input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>ng-valid ng-dirty ng-valid-parse ng-not-empty ng-touched</value>
    </webElementProperties>
 </WebElementEntity>

@@ -33,9 +33,9 @@ sn = '123'
 
 WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_admissiondate_sameas_btn'))
 
-WebUI.setText(findTestObject('Patient_Pre-Admission/pre-ad_patient_info/p_info_lname'), 'Automated')
+WebUI.setText(findTestObject('Patient_Pre-Admission/pre-ad_patient_info/p_info_lname'), randomnum + '- Patient')
 
-WebUI.setText(findTestObject('Patient_Pre-Admission/pre-ad_patient_info/p_info_fname'), 'Patient - ' + randomnum)
+WebUI.setText(findTestObject('Patient_Pre-Admission/pre-ad_patient_info/p_info_fname'), 'Automated')
 
 WebUI.setText(findTestObject('Patient_Pre-Admission/pre-ad_patient_info/p_info_minitial'), 'I')
 
@@ -77,7 +77,7 @@ WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_patient_address/p_addre
 
 WebUI.sendKeys(findTestObject('Patient_Pre-Admission/pre-ad_patient_address/p_address_state'), Keys.chord('MS', Keys.ENTER))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 WebUI.sendKeys(findTestObject('Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode'), Keys.chord('39773', Keys.ENTER))
 

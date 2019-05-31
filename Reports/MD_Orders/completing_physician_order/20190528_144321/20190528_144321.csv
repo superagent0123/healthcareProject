@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+completing_physician_order,Chrome 74.0.3729.169,,2019-05-28 14:43:23,2019-05-28 14:43:54,30.928s,FAILED
+,,,,,,
+Test Cases/Login_Accounts/login_superagent,Chrome 74.0.3729.169,,2019-05-28 14:43:23,2019-05-28 14:43:33,9.752s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-05-28 14:43:23,2019-05-28 14:43:27,3.667s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 74.0.3729.169,,2019-05-28 14:43:27,2019-05-28 14:43:29,2.462s,PASSED
+"setText(findTestObject(""LogIn/username""), ""superagent"")",Chrome 74.0.3729.169,,2019-05-28 14:43:29,2019-05-28 14:43:29,0.130s,PASSED
+"setEncryptedText(findTestObject(""LogIn/password""), ""SITHpLWAWtLnr/hOhnpplQ=="")",Chrome 74.0.3729.169,,2019-05-28 14:43:29,2019-05-28 14:43:30,0.133s,PASSED
+"click(findTestObject(""LogIn/login_button""))",Chrome 74.0.3729.169,,2019-05-28 14:43:30,2019-05-28 14:43:30,0.069s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-05-28 14:43:30,2019-05-28 14:43:33,3.018s,PASSED
+,,,,,,
+Test Cases/Completing_MD_Orders/navigatetoMDO,Chrome 74.0.3729.169,,2019-05-28 14:43:33,2019-05-28 14:43:40,6.901s,PASSED
+"navigateToUrl(""https://qa.medisource.com/patientcare/D54CC206-ED8F-40D1-9D9D-2FB2F01411CE/0C87F119-5BDC-4D64-9196-15744946E006/overview"")",Chrome 74.0.3729.169,,2019-05-28 14:43:33,2019-05-28 14:43:34,0.640s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-05-28 14:43:34,2019-05-28 14:43:37,3.002s,PASSED
+"click(findTestObject(""Patient_Care/tabs/md_orders_tab""))",Chrome 74.0.3729.169,,2019-05-28 14:43:37,2019-05-28 14:43:37,0.082s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-05-28 14:43:37,2019-05-28 14:43:40,3.002s,PASSED
+,,,,,,
+Test Cases/Completing_MD_Orders/physician_order,Chrome 74.0.3729.169,,2019-05-28 14:43:40,2019-05-28 14:43:53,13.154s,FAILED
+delay(3),Chrome 74.0.3729.169,,2019-05-28 14:43:40,2019-05-28 14:43:43,3.004s,PASSED
+"click(findTestObject(""Patient_Care/md_orders/mdo_new_form""))",Chrome 74.0.3729.169,,2019-05-28 14:43:43,2019-05-28 14:43:43,0.109s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-05-28 14:43:43,2019-05-28 14:43:46,3.004s,PASSED
+"click(findTestObject(""Patient_Care/md_orders/mdo_new_physicianorder""))",Chrome 74.0.3729.169,,2019-05-28 14:43:46,2019-05-28 14:43:46,0.090s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-28 14:43:46,2019-05-28 14:43:51,5.010s,PASSED
+"click(findTestObject(""MD_Orders/physician_order/po_orderdate_icon""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,"Completing a physician order
+",2019-05-28 14:43:51,2019-05-28 14:43:51,0.188s,PASSED
+"click(findTestObject(""MD_Orders/physician_order/po_orderdate_today""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-28 14:43:51,2019-05-28 14:43:51,0.164s,PASSED
+"setText(findTestObject(""MD_Orders/physician_order/po_ordertime""), ""1200"")",Chrome 74.0.3729.169,,2019-05-28 14:43:51,2019-05-28 14:43:52,0.160s,PASSED
+"click(findTestObject(""MD_Orders/physician_order/po_sentdate_icon""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-28 14:43:52,2019-05-28 14:43:52,0.107s,PASSED
+"click(findTestObject(""MD_Orders/physician_order/po_sentdate_today""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-28 14:43:52,2019-05-28 14:43:52,0.130s,PASSED
+"click(findTestObject(""MD_Orders/physician_order/po_receiveddate_icon""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-28 14:43:52,2019-05-28 14:43:52,0.104s,PASSED
+"click(findTestObject(""MD_Orders/physician_order/po_receiveddate_today""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-28 14:43:52,2019-05-28 14:43:52,0.145s,PASSED
+"click(findTestObject(""MD_Orders/physician_order/po_subject_patientcondition""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-28 14:43:52,2019-05-28 14:43:52,0.090s,PASSED
+"click(findTestObject(""MD_Orders/physician_order/po_subject_medication""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-28 14:43:52,2019-05-28 14:43:52,0.078s,PASSED
+"click(findTestObject(""MD_Orders/physician_order/po_subject_visits""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-28 14:43:52,2019-05-28 14:43:52,0.001s,NOT_RUN
+"click(findTestObject(""MD_Orders/physician_order/po_subject_snevaluation""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-28 14:43:52,2019-05-28 14:43:53,0.575s,FAILED
