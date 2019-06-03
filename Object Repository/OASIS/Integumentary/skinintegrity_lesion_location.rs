@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>skinintegrity_lesion</name>
+   <name>skinintegrity_lesion_location</name>
    <tag></tag>
-   <elementGuidId>165d9c5d-df21-4071-b38c-436d13bc3b4f</elementGuidId>
+   <elementGuidId>e9f4e39b-fb96-473d-85ad-de8802d75b4b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#integForm > fieldset > div > table > tbody > tr:nth-child(18) > td > div:nth-child(2) > chk-label > div > label > input</value>
+         <value>#integForm > fieldset > div > table > tbody > tr:nth-child(18) > td > table > tbody > tr > td:nth-child(2) > div:nth-child(5) > div.cont-opt.m-lopt-60.ng-isolate-scope > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#integForm > fieldset > div > table > tbody > tr:nth-child(18) > td > div:nth-child(2) > chk-label > div > label > input</value>
+      <value>#integForm > fieldset > div > table > tbody > tr:nth-child(18) > td > table > tbody > tr > td:nth-child(2) > div:nth-child(5) > div.cont-opt.m-lopt-60.ng-isolate-scope > input</value>
    </webElementProperties>
 </WebElementEntity>

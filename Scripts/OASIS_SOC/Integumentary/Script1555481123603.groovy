@@ -74,7 +74,7 @@ WebUI.click(findTestObject('OASIS/Integumentary/skinintegrity_ecchymosis'))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('OASIS/Integumentary/skinintegrity_other'), 'socskintegrity')
+WebUI.setText(findTestObject('OASIS/Integumentary/skinintegrity_lesion_location'), 'socskintegrity')
 
 WebUI.delay(3)
 
@@ -211,14 +211,14 @@ WebUI.click(findTestObject('OASIS/Integumentary/M1342_selected1'))
 WebUI.delay(5)
 
 // pinning of wound 1
-WebUI.clickOffset(findTestObject('OASIS/Integumentary/human_image'), 101, 125)
+//WebUI.clickOffset(findTestObject('OASIS/Integumentary/human_image'), 101, 125)
 
-WebUI.delay(5)
+//WebUI.delay(5)
 
 // click the yes button
-WebUI.click(findTestObject('OASIS/Integumentary/pin_image_yes'))
+//WebUI.click(findTestObject('OASIS/Integumentary/pin_image_yes'))
 
-WebUI.delay(5)
+//WebUI.delay(5)
 
 // pinning of wound 2
 // WebUI.clickOffset(findTestObject('OASIS/Integumentary/human_image'), 150, 225)
@@ -226,117 +226,116 @@ WebUI.delay(5)
 // click the yes button
 // WebUI.click(findTestObject('OASIS/Integumentary/pin_image_yes'))
 //WebUI.delay(5)
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_location'))
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_location'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_location_buttockR'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_location_buttockR'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_type'))
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_type'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_type_pressureulcer'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_type_pressureulcer'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.setText(findTestObject('OASIS/Integumentary/woundinfo_sizelength_field'), '2')
+//WebUI.setText(findTestObject('OASIS/Integumentary/woundinfo_sizelength_field'), '2')
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.setText(findTestObject('OASIS/Integumentary/woundinfo_sizewidth_field'), '4')
+//WebUI.setText(findTestObject('OASIS/Integumentary/woundinfo_sizewidth_field'), '4')
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_depth'))
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_depth'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_depth_stage1'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_depth_stage1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_granulationtissue'))
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_granulationtissue'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_granulationtissue_1'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_granulationtissue_1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_necrotictissue'))
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_necrotictissue'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_necrosistissue_1'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_necrosistissue_1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_granulation_necrosis_coverage'))
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_granulation_necrosis_coverage'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_granulation_necrosis_coverage1'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_granulation_necrosis_coverage1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_exudateamount'))
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_exudateamount'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_exudateamount_1'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_exudateamount_1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_edges'))
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_edges'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_edges_1'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_edges_1'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
 // selecting one of the options, specifically, edematous
-WebUI.sendKeys(findTestObject('OASIS/Integumentary/woundinfo_periwoundtissue'), Keys.chord('Edematous', Keys.ENTER))
+//WebUI.sendKeys(findTestObject('OASIS/Integumentary/woundinfo_periwoundtissue'), Keys.chord('Edematous', Keys.ENTER))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_otherobservation'), FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_otherobservation'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.setText(findTestObject('OASIS/Integumentary/woundinfo_otherobservation_textarea'), 'SOCotherObservation')
+//WebUI.setText(findTestObject('OASIS/Integumentary/woundinfo_otherobservation_textarea'), 'SOCotherObservation')
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_woundclosure'))
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_woundclosure'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_woundclosure_steri'))
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_woundclosure_steri'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_drainpresent'))
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_drainpresent'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_drainpresent_jackson'))
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_drainpresent_jackson'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
 // uploading of wound
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_uploadwound'))
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_uploadwound'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
 // browsing of file
-WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_uploadwound_browsefile'))
+//WebUI.click(findTestObject('OASIS/Integumentary/woundinfo_uploadwound_browsefile'))
 
-WebUI.delay(3)
+//WebUI.delay(3)
 
 //selecting of wound photo to be uploaded
-Runtime.getRuntime().exec('C:\\Users\\PC-Medisource\\Desktop\\AutoIt3\\uploadwoundimage.exe')
-
+//Runtime.getRuntime().exec('C:\\Users\\PC-Medisource\\Desktop\\AutoIt3\\uploadwoundimage.exe')

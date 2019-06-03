@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#integForm > fieldset > div > table > tbody > tr:nth-child(22) > td.oasis__answer > table > tbody > tr > td > label:nth-child(3) > input</value>
+         <value>#integForm > fieldset > div > table > tbody > tr:nth-child(29) > td.oasis__answer > table > tbody > tr > td > label:nth-child(3) > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#integForm > fieldset > div > table > tbody > tr:nth-child(22) > td.oasis__answer > table > tbody > tr > td > label:nth-child(3) > input</value>
+      <value>#integForm > fieldset > div > table > tbody > tr:nth-child(29) > td.oasis__answer > table > tbody > tr > td > label:nth-child(3) > input</value>
    </webElementProperties>
 </WebElementEntity>
