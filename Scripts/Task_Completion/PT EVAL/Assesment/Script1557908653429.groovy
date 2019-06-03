@@ -204,45 +204,29 @@ WebUI.click(findTestObject('Task_Notes/PT_EVAL/Assessment_Section/Pain_What make
 //}
 not_run: WebUI.waitForElementClickable(findTestObject('Task_Notes/PT_EVAL/Assessment_Section/testWhatMakes'), 2)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Task_Notes/PT_EVAL/Assessment_Section/What makes the pain better'))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Task_Notes/PT_EVAL/Assessment_Section/Musculoskeletal Assessment_NeckFlexionL'))
 
-WebUI.acceptAlert()
+WebUI.setText(findTestObject('Task_Notes/PT_EVAL/Assessment_Section/Functional Assessment_BedMobilityRollDevice'), 'wheelchair')
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Task_Notes/PT_EVAL/Assessment_Section/Functional Assessment_bedmobility06'))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Task_Notes/PT_EVAL/Assessment_Section/Functional Assessment_bedmobilityTX'))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Task_Notes/PT_EVAL/NEXT'))
 
-WebUI.acceptAlert()
+not_run: WebUI.click(findTestObject('Task_Notes/PT_EVAL/PREVIOUS'))
 
-WebUI.acceptAlert()
+WebUI.setText(findTestObject('Task_Notes/PT_EVAL/Assessment_Section/Muscle Strength_LongTermWeeks'), '1')
 
-WebUI.acceptAlert()
+WebUI.delay(2)
 
-WebUI.acceptAlert()
+WebUI.setText(findTestObject('Task_Notes/PT_EVAL/Assessment_Section/Muscle Strength_LongTermIncreaseTo'), '2')
 
-WebUI.acceptAlert()
+WebUI.delay(3)
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Task_Notes/PT_EVAL/Assessment_Section/SAVE'))
 
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
-
-WebUI.acceptAlert()
+WebUI.click(findTestObject('Task_Notes/PT_EVAL/Assessment_Section/GENERATE_ORDER_MODAL_YES'))
 
