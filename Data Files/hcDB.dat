@@ -10,7 +10,11 @@
    <driver>DBData</driver>
    <isInternalPath>false</isInternalPath>
    <password>YWRtaW5hZG1pbjEyMw==</password>
+<<<<<<< HEAD
    <query>SELECT lastName, dateCreated FROM patient WHERE dateCreated LIKE '2019%' ORDER BY dateCreated DESC</query>
+=======
+   <query>select * from patient</query>
+>>>>>>> branch 'master' of https://github.com/superagent0123/healthcareProject.git
    <secureUserAccount>true</secureUserAccount>
    <sheetName></sheetName>
    <user>app</user>
