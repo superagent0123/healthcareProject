@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Integumentary_tab</name>
+   <name>dcsum_dcnotifdate_patientfamily</name>
    <tag></tag>
-   <elementGuidId>fc188550-be58-42f2-af0f-c703e75d15fb</elementGuidId>
+   <elementGuidId>ef774ead-d0ef-4a5e-b21a-cdd99ade0495</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#integumentary</value>
+         <value>#patFamCare</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#integumentary</value>
+      <value>#patFamCare</value>
    </webElementProperties>
 </WebElementEntity>
