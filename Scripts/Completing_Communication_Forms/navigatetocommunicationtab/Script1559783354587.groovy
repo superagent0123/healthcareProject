@@ -30,7 +30,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Patient_Manager/p_man_first_entry'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Patient_Care/tabs/communication_tab'))
 
