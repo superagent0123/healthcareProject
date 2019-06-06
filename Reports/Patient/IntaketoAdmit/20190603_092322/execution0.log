@@ -1,0 +1,3887 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-06-03T09:23:33</date>
+  <millis>1559525013039</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Patient/IntaketoAdmit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">IntaketoAdmit</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Patient/IntaketoAdmit</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:33</date>
+  <millis>1559525013072</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Khenard Figuracion - 192.168.2.12</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Khenard Figuracion - 192.168.2.12</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:33</date>
+  <millis>1559525013073</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:33</date>
+  <millis>1559525013077</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.2.12</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.2.12</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:33</date>
+  <millis>1559525013078</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.0.6.4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.0.6.4</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:33</date>
+  <millis>1559525013363</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Login_Accounts/login_superagent</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Login_Accounts/login_superagent</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Login_Accounts/login_superagent</property>
+  <property name="source">C:\\Users\\Khenard Figuracion\\git\\healthcareProject-neww\\Test Cases\\Login_Accounts\\login_superagent.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:33</date>
+  <millis>1559525013679</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:34</date>
+  <millis>1559525014040</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:34</date>
+  <millis>1559525014048</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>User set preference: [&amp;apos;args&amp;apos;, &amp;apos;[--no-sandbox]&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:34</date>
+  <millis>1559525014171</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:44</date>
+  <millis>1559525024119</millis>
+  <sequence>13</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = f53020e296dcef9de15bf0248f43686a</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">f53020e296dcef9de15bf0248f43686a</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:44</date>
+  <millis>1559525024198</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 74.0.3729.169</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 74.0.3729.169</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:44</date>
+  <millis>1559525024198</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:44</date>
+  <millis>1559525024200</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.7.1</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:44</date>
+  <millis>1559525024201</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:44</date>
+  <millis>1559525024202</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:44</date>
+  <millis>1559525024202</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:44</date>
+  <millis>1559525024203</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://qa.medisource.com/login\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:46</date>
+  <millis>1559525026341</millis>
+  <sequence>23</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://qa.medisource.com/login&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:46</date>
+  <millis>1559525026342</millis>
+  <sequence>24</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://qa.medisource.com/login\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:46</date>
+  <millis>1559525026342</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;LogIn/username\&amp;quot;), \&amp;quot;superagent\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:46</date>
+  <millis>1559525026732</millis>
+  <sequence>37</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;superagent&amp;apos; is set on object &amp;apos;Object Repository/LogIn/username&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:46</date>
+  <millis>1559525026732</millis>
+  <sequence>38</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;LogIn/username\&amp;quot;), \&amp;quot;superagent\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:46</date>
+  <millis>1559525026732</millis>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setEncryptedText(findTestObject(\&amp;quot;LogIn/password\&amp;quot;), \&amp;quot;SITHpLWAWtLnr/hOhnpplQ==\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:46</date>
+  <millis>1559525026973</millis>
+  <sequence>48</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/LogIn/password&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:46</date>
+  <millis>1559525026973</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setEncryptedText(findTestObject(\&amp;quot;LogIn/password\&amp;quot;), \&amp;quot;SITHpLWAWtLnr/hOhnpplQ==\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:46</date>
+  <millis>1559525026974</millis>
+  <sequence>50</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;LogIn/login_button\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:47</date>
+  <millis>1559525027146</millis>
+  <sequence>57</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/LogIn/login_button&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:47</date>
+  <millis>1559525027146</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;LogIn/login_button\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:47</date>
+  <millis>1559525027147</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:52</date>
+  <millis>1559525032188</millis>
+  <sequence>61</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:52</date>
+  <millis>1559525032188</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:52</date>
+  <millis>1559525032188</millis>
+  <sequence>63</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Login_Accounts/login_superagent</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:52</date>
+  <millis>1559525032189</millis>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Login_Accounts/login_superagent</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:52</date>
+  <millis>1559525032254</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Patient_Workflow_Process/Pre-AdmitPatient</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Patient_Workflow_Process/Pre-AdmitPatient</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Patient_Workflow_Process/Pre-AdmitPatient</property>
+  <property name="source">C:\\Users\\Khenard Figuracion\\git\\healthcareProject-neww\\Test Cases\\Patient_Workflow_Process\\Pre-AdmitPatient.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:52</date>
+  <millis>1559525032733</millis>
+  <sequence>67</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:54</date>
+  <millis>1559525034735</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:54</date>
+  <millis>1559525034736</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:54</date>
+  <millis>1559525034736</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://qa.medisource.com/patient\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Add Patient &gt; Patient Pre-Admission page</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:55</date>
+  <millis>1559525035365</millis>
+  <sequence>74</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://qa.medisource.com/patient&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:55</date>
+  <millis>1559525035365</millis>
+  <sequence>75</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://qa.medisource.com/patient\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:55</date>
+  <millis>1559525035365</millis>
+  <sequence>76</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : today = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:55</date>
+  <millis>1559525035370</millis>
+  <sequence>77</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : today = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:55</date>
+  <millis>1559525035370</millis>
+  <sequence>78</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dtoday = today.format(\&amp;quot;MM/dd/yyyy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:55</date>
+  <millis>1559525035373</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dtoday = today.format(\&amp;quot;MM/dd/yyyy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:55</date>
+  <millis>1559525035373</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_ref_date\&amp;quot;), dtoday)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:58</date>
+  <millis>1559525038446</millis>
+  <sequence>92</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;06/03/2019&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_ref_date&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:58</date>
+  <millis>1559525038447</millis>
+  <sequence>93</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_ref_date\&amp;quot;), dtoday)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:58</date>
+  <millis>1559525038448</millis>
+  <sequence>94</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_MRN_auto-assign\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:58</date>
+  <millis>1559525038579</millis>
+  <sequence>101</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_MRN_auto-assign&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:58</date>
+  <millis>1559525038579</millis>
+  <sequence>102</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_MRN_auto-assign\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:58</date>
+  <millis>1559525038580</millis>
+  <sequence>103</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : randomnum = today.format(\&amp;quot;HHmmss\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:58</date>
+  <millis>1559525038580</millis>
+  <sequence>104</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : randomnum = today.format(\&amp;quot;HHmmss\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:58</date>
+  <millis>1559525038580</millis>
+  <sequence>105</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sn = \&amp;quot;123\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:58</date>
+  <millis>1559525038581</millis>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sn = \&amp;quot;123\&amp;quot;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:58</date>
+  <millis>1559525038581</millis>
+  <sequence>107</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_admissiondate_sameas_btn\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:58</date>
+  <millis>1559525038699</millis>
+  <sequence>114</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_admissiondate_sameas_btn&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:58</date>
+  <millis>1559525038700</millis>
+  <sequence>115</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_admissiondate_sameas_btn\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:58</date>
+  <millis>1559525038701</millis>
+  <sequence>116</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_lname\&amp;quot;), randomnum + \&amp;quot;- Patient\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:59</date>
+  <millis>1559525039264</millis>
+  <sequence>128</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;092355- Patient&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_lname&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:59</date>
+  <millis>1559525039265</millis>
+  <sequence>129</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_lname\&amp;quot;), randomnum + \&amp;quot;- Patient\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:59</date>
+  <millis>1559525039265</millis>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_fname\&amp;quot;), \&amp;quot;Automated\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:59</date>
+  <millis>1559525039681</millis>
+  <sequence>142</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Automated&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_fname&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:59</date>
+  <millis>1559525039682</millis>
+  <sequence>143</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_fname\&amp;quot;), \&amp;quot;Automated\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:59</date>
+  <millis>1559525039682</millis>
+  <sequence>144</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_minitial\&amp;quot;), \&amp;quot;I\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:59</date>
+  <millis>1559525039834</millis>
+  <sequence>156</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;I&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_minitial&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:59</date>
+  <millis>1559525039835</millis>
+  <sequence>157</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_minitial\&amp;quot;), \&amp;quot;I\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:59</date>
+  <millis>1559525039835</millis>
+  <sequence>158</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_suffix\&amp;quot;), \&amp;quot;III\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2019-06-03T09:23:59</date>
+  <millis>1559525039836</millis>
+  <sequence>159</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_suffix\&amp;quot;), \&amp;quot;III\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:59</date>
+  <millis>1559525039837</millis>
+  <sequence>160</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_suffix\&amp;quot;), \&amp;quot;III\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:23:59</date>
+  <millis>1559525039837</millis>
+  <sequence>161</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_bdate\&amp;quot;), \&amp;quot;2071997\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:00</date>
+  <millis>1559525040084</millis>
+  <sequence>173</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;2071997&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_bdate&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:00</date>
+  <millis>1559525040084</millis>
+  <sequence>174</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_bdate\&amp;quot;), \&amp;quot;2071997\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:00</date>
+  <millis>1559525040084</millis>
+  <sequence>175</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_gender_male\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">46</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:00</date>
+  <millis>1559525040213</millis>
+  <sequence>182</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_gender_male&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:00</date>
+  <millis>1559525040213</millis>
+  <sequence>183</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_gender_male\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:00</date>
+  <millis>1559525040214</millis>
+  <sequence>184</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_select\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">48</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:00</date>
+  <millis>1559525040340</millis>
+  <sequence>191</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_select&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:00</date>
+  <millis>1559525040341</millis>
+  <sequence>192</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_select\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:00</date>
+  <millis>1559525040342</millis>
+  <sequence>193</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_status\&amp;quot;), Keys.chord(\&amp;quot;Single\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">50</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:00</date>
+  <millis>1559525040601</millis>
+  <sequence>199</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + Single&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_status&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:00</date>
+  <millis>1559525040602</millis>
+  <sequence>200</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_marital_status\&amp;quot;), Keys.chord(\&amp;quot;Single\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:00</date>
+  <millis>1559525040602</millis>
+  <sequence>201</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">52</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:01</date>
+  <millis>1559525041605</millis>
+  <sequence>203</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:01</date>
+  <millis>1559525041605</millis>
+  <sequence>204</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:01</date>
+  <millis>1559525041605</millis>
+  <sequence>205</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">54</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:01</date>
+  <millis>1559525041719</millis>
+  <sequence>212</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:01</date>
+  <millis>1559525041720</millis>
+  <sequence>213</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:01</date>
+  <millis>1559525041720</millis>
+  <sequence>214</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity\&amp;quot;), Keys.chord(\&amp;quot;White\&amp;quot;, ENTER, \&amp;quot;Asian\&amp;quot;, ENTER, \&amp;quot;Hispanic \&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">56</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:04</date>
+  <millis>1559525044355</millis>
+  <sequence>220</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + ENTER + ENTER + WhiteAsianHispanic &amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:04</date>
+  <millis>1559525044356</millis>
+  <sequence>221</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_ethnicity\&amp;quot;), Keys.chord(\&amp;quot;White\&amp;quot;, ENTER, \&amp;quot;Asian\&amp;quot;, ENTER, \&amp;quot;Hispanic \&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:04</date>
+  <millis>1559525044356</millis>
+  <sequence>222</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">59</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:05</date>
+  <millis>1559525045358</millis>
+  <sequence>224</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:05</date>
+  <millis>1559525045358</millis>
+  <sequence>225</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:05</date>
+  <millis>1559525045358</millis>
+  <sequence>226</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">61</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:05</date>
+  <millis>1559525045528</millis>
+  <sequence>233</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:05</date>
+  <millis>1559525045529</millis>
+  <sequence>234</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:05</date>
+  <millis>1559525045529</millis>
+  <sequence>235</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken\&amp;quot;), Keys.chord(\&amp;quot;Russian\&amp;quot;, ENTER, \&amp;quot;Mandarin\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">63</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:06</date>
+  <millis>1559525046380</millis>
+  <sequence>241</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + ENTER + RussianMandarin&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:06</date>
+  <millis>1559525046381</millis>
+  <sequence>242</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_language_spoken\&amp;quot;), Keys.chord(\&amp;quot;Russian\&amp;quot;, ENTER, \&amp;quot;Mandarin\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:06</date>
+  <millis>1559525046381</millis>
+  <sequence>243</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_ssn\&amp;quot;), randomnum + sn)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">66</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:06</date>
+  <millis>1559525046779</millis>
+  <sequence>255</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;092355123&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_info/p_info_ssn&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:06</date>
+  <millis>1559525046779</millis>
+  <sequence>256</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_info/p_info_ssn\&amp;quot;), randomnum + sn)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:06</date>
+  <millis>1559525046779</millis>
+  <sequence>257</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">68</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:08</date>
+  <millis>1559525048781</millis>
+  <sequence>259</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 2 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:08</date>
+  <millis>1559525048781</millis>
+  <sequence>260</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:08</date>
+  <millis>1559525048781</millis>
+  <sequence>261</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_address_address1\&amp;quot;), \&amp;quot;10035 Jacks Rd, West Point, MS, 39773\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">70</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:10</date>
+  <millis>1559525050347</millis>
+  <sequence>273</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;10035 Jacks Rd, West Point, MS, 39773&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_address1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:10</date>
+  <millis>1559525050347</millis>
+  <sequence>274</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_address_address1\&amp;quot;), \&amp;quot;10035 Jacks Rd, West Point, MS, 39773\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:10</date>
+  <millis>1559525050347</millis>
+  <sequence>275</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_address_majorcrossstr\&amp;quot;), \&amp;quot;10035 Jacks Rd\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">72</property>
+  <property name="stepIndex">27</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:11</date>
+  <millis>1559525051026</millis>
+  <sequence>287</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;10035 Jacks Rd&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_majorcrossstr&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:11</date>
+  <millis>1559525051027</millis>
+  <sequence>288</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_address_majorcrossstr\&amp;quot;), \&amp;quot;10035 Jacks Rd\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:11</date>
+  <millis>1559525051027</millis>
+  <sequence>289</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_address_city\&amp;quot;), \&amp;quot;West Point\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">74</property>
+  <property name="stepIndex">28</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:11</date>
+  <millis>1559525051513</millis>
+  <sequence>301</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;West Point&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_city&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:11</date>
+  <millis>1559525051514</millis>
+  <sequence>302</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_address_city\&amp;quot;), \&amp;quot;West Point\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:11</date>
+  <millis>1559525051514</millis>
+  <sequence>303</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_address_state_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">76</property>
+  <property name="stepIndex">29</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:11</date>
+  <millis>1559525051640</millis>
+  <sequence>310</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_state_tf&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:11</date>
+  <millis>1559525051640</millis>
+  <sequence>311</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_address_state_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:11</date>
+  <millis>1559525051640</millis>
+  <sequence>312</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_address_state\&amp;quot;), Keys.chord(\&amp;quot;MS\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">78</property>
+  <property name="stepIndex">30</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:12</date>
+  <millis>1559525052009</millis>
+  <sequence>318</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + MS&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_state&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:12</date>
+  <millis>1559525052010</millis>
+  <sequence>319</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_address_state\&amp;quot;), Keys.chord(\&amp;quot;MS\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:12</date>
+  <millis>1559525052010</millis>
+  <sequence>320</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">80</property>
+  <property name="stepIndex">31</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:15</date>
+  <millis>1559525055012</millis>
+  <sequence>322</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 3 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:15</date>
+  <millis>1559525055012</millis>
+  <sequence>323</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(3)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:15</date>
+  <millis>1559525055012</millis>
+  <sequence>324</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode\&amp;quot;), Keys.chord(\&amp;quot;39773\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">82</property>
+  <property name="stepIndex">32</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:15</date>
+  <millis>1559525055215</millis>
+  <sequence>330</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + 39773&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:15</date>
+  <millis>1559525055215</millis>
+  <sequence>331</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode\&amp;quot;), Keys.chord(\&amp;quot;39773\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:15</date>
+  <millis>1559525055216</millis>
+  <sequence>332</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode\&amp;quot;), \&amp;quot;39773\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">84</property>
+  <property name="stepIndex">33</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:15</date>
+  <millis>1559525055216</millis>
+  <sequence>333</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode\&amp;quot;), \&amp;quot;39773\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:15</date>
+  <millis>1559525055216</millis>
+  <sequence>334</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_adddress_ZIPcode\&amp;quot;), \&amp;quot;39773\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:15</date>
+  <millis>1559525055216</millis>
+  <sequence>335</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_address_phone1\&amp;quot;), \&amp;quot;4534233455\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">86</property>
+  <property name="stepIndex">34</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:15</date>
+  <millis>1559525055739</millis>
+  <sequence>347</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;4534233455&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_patient_address/p_address_phone1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:15</date>
+  <millis>1559525055739</millis>
+  <sequence>348</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_patient_address/p_address_phone1\&amp;quot;), \&amp;quot;4534233455\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:15</date>
+  <millis>1559525055740</millis>
+  <sequence>349</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">88</property>
+  <property name="stepIndex">35</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:16</date>
+  <millis>1559525056741</millis>
+  <sequence>351</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:16</date>
+  <millis>1559525056741</millis>
+  <sequence>352</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:16</date>
+  <millis>1559525056741</millis>
+  <sequence>353</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_servicedeliveryaddress/sdaddress_sameaspatient_btn\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">90</property>
+  <property name="stepIndex">36</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:16</date>
+  <millis>1559525056888</millis>
+  <sequence>360</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_servicedeliveryaddress/sdaddress_sameaspatient_btn&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:16</date>
+  <millis>1559525056888</millis>
+  <sequence>361</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_servicedeliveryaddress/sdaddress_sameaspatient_btn\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:16</date>
+  <millis>1559525056888</millis>
+  <sequence>362</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">92</property>
+  <property name="stepIndex">37</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:17</date>
+  <millis>1559525057890</millis>
+  <sequence>364</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:17</date>
+  <millis>1559525057890</millis>
+  <sequence>365</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:17</date>
+  <millis>1559525057890</millis>
+  <sequence>366</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_living situation/livingsituation_larrangement_livesalone\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">94</property>
+  <property name="stepIndex">38</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:18</date>
+  <millis>1559525058011</millis>
+  <sequence>373</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_living situation/livingsituation_larrangement_livesalone&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:18</date>
+  <millis>1559525058012</millis>
+  <sequence>374</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_living situation/livingsituation_larrangement_livesalone\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:18</date>
+  <millis>1559525058012</millis>
+  <sequence>375</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_living situation/livingsituation_assistance_roundtheclock\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">96</property>
+  <property name="stepIndex">39</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:18</date>
+  <millis>1559525058130</millis>
+  <sequence>382</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_living situation/livingsituation_assistance_roundtheclock&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:18</date>
+  <millis>1559525058131</millis>
+  <sequence>383</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_living situation/livingsituation_assistance_roundtheclock\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:18</date>
+  <millis>1559525058131</millis>
+  <sequence>384</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_living situation/livingsituation_caregivername\&amp;quot;), \&amp;quot;Missandei of Naath\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">98</property>
+  <property name="stepIndex">40</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:19</date>
+  <millis>1559525059023</millis>
+  <sequence>396</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Missandei of Naath&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_living situation/livingsituation_caregivername&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:19</date>
+  <millis>1559525059024</millis>
+  <sequence>397</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_living situation/livingsituation_caregivername\&amp;quot;), \&amp;quot;Missandei of Naath\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:19</date>
+  <millis>1559525059024</millis>
+  <sequence>398</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">100</property>
+  <property name="stepIndex">41</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:20</date>
+  <millis>1559525060026</millis>
+  <sequence>400</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:20</date>
+  <millis>1559525060026</millis>
+  <sequence>401</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:20</date>
+  <millis>1559525060026</millis>
+  <sequence>402</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_emergency_contact/emergency_name\&amp;quot;), \&amp;quot;Jaime Lannister\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">102</property>
+  <property name="stepIndex">42</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:20</date>
+  <millis>1559525060777</millis>
+  <sequence>414</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Jaime Lannister&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_emergency_contact/emergency_name&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:20</date>
+  <millis>1559525060777</millis>
+  <sequence>415</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_emergency_contact/emergency_name\&amp;quot;), \&amp;quot;Jaime Lannister\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:20</date>
+  <millis>1559525060777</millis>
+  <sequence>416</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_emergency_contact/emergency_relationship\&amp;quot;), \&amp;quot;Brother\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">104</property>
+  <property name="stepIndex">43</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:21</date>
+  <millis>1559525061202</millis>
+  <sequence>428</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Brother&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_emergency_contact/emergency_relationship&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:21</date>
+  <millis>1559525061202</millis>
+  <sequence>429</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_emergency_contact/emergency_relationship\&amp;quot;), \&amp;quot;Brother\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:21</date>
+  <millis>1559525061202</millis>
+  <sequence>430</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_emergency_contact/emergency_phone1\&amp;quot;), \&amp;quot;4343444434\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">106</property>
+  <property name="stepIndex">44</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:21</date>
+  <millis>1559525061750</millis>
+  <sequence>442</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;4343444434&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_emergency_contact/emergency_phone1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:21</date>
+  <millis>1559525061750</millis>
+  <sequence>443</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_emergency_contact/emergency_phone1\&amp;quot;), \&amp;quot;4343444434\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:21</date>
+  <millis>1559525061751</millis>
+  <sequence>444</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">108</property>
+  <property name="stepIndex">45</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:22</date>
+  <millis>1559525062753</millis>
+  <sequence>446</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:22</date>
+  <millis>1559525062753</millis>
+  <sequence>447</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:22</date>
+  <millis>1559525062753</millis>
+  <sequence>448</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_physician_info/physician_attending_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">110</property>
+  <property name="stepIndex">46</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:22</date>
+  <millis>1559525062870</millis>
+  <sequence>455</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_physician_info/physician_attending_tf&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:22</date>
+  <millis>1559525062871</millis>
+  <sequence>456</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_physician_info/physician_attending_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:22</date>
+  <millis>1559525062871</millis>
+  <sequence>457</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_physician_info/physician_attending\&amp;quot;), Keys.chord(\&amp;quot;Adrian\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">112</property>
+  <property name="stepIndex">47</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:23</date>
+  <millis>1559525063302</millis>
+  <sequence>463</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + Adrian&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_physician_info/physician_attending&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:23</date>
+  <millis>1559525063303</millis>
+  <sequence>464</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_physician_info/physician_attending\&amp;quot;), Keys.chord(\&amp;quot;Adrian\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:23</date>
+  <millis>1559525063303</millis>
+  <sequence>465</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_physician_info/physician_primary_care_sameas_btn\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">114</property>
+  <property name="stepIndex">48</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:23</date>
+  <millis>1559525063491</millis>
+  <sequence>472</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_physician_info/physician_primary_care_sameas_btn&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:23</date>
+  <millis>1559525063492</millis>
+  <sequence>473</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_physician_info/physician_primary_care_sameas_btn\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:23</date>
+  <millis>1559525063492</millis>
+  <sequence>474</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">116</property>
+  <property name="stepIndex">49</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:24</date>
+  <millis>1559525064494</millis>
+  <sequence>476</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:24</date>
+  <millis>1559525064494</millis>
+  <sequence>477</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:24</date>
+  <millis>1559525064494</millis>
+  <sequence>478</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">118</property>
+  <property name="stepIndex">50</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:24</date>
+  <millis>1559525064597</millis>
+  <sequence>485</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary_tf&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:24</date>
+  <millis>1559525064598</millis>
+  <sequence>486</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:24</date>
+  <millis>1559525064598</millis>
+  <sequence>487</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary\&amp;quot;), Keys.chord(\&amp;quot;AAA\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">120</property>
+  <property name="stepIndex">51</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:24</date>
+  <millis>1559525064847</millis>
+  <sequence>493</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + AAA&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:24</date>
+  <millis>1559525064848</millis>
+  <sequence>494</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary\&amp;quot;), Keys.chord(\&amp;quot;AAA\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:24</date>
+  <millis>1559525064848</millis>
+  <sequence>495</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">122</property>
+  <property name="stepIndex">52</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:25</date>
+  <millis>1559525065850</millis>
+  <sequence>497</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:25</date>
+  <millis>1559525065850</millis>
+  <sequence>498</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:25</date>
+  <millis>1559525065850</millis>
+  <sequence>499</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">124</property>
+  <property name="stepIndex">53</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:25</date>
+  <millis>1559525065937</millis>
+  <sequence>506</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission_tf&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:25</date>
+  <millis>1559525065937</millis>
+  <sequence>507</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:25</date>
+  <millis>1559525065937</millis>
+  <sequence>508</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission\&amp;quot;), Keys.chord(\&amp;quot;1\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">126</property>
+  <property name="stepIndex">54</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066079</millis>
+  <sequence>514</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + 1&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066079</millis>
+  <sequence>515</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_typeofadmission\&amp;quot;), Keys.chord(\&amp;quot;1\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066079</millis>
+  <sequence>516</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">128</property>
+  <property name="stepIndex">55</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066173</millis>
+  <sequence>523</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource_tf&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066173</millis>
+  <sequence>524</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066174</millis>
+  <sequence>525</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource\&amp;quot;), Keys.chord(\&amp;quot;2\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">130</property>
+  <property name="stepIndex">56</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066318</millis>
+  <sequence>531</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + 2&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066318</millis>
+  <sequence>532</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_admissionsource\&amp;quot;), Keys.chord(\&amp;quot;2\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066319</millis>
+  <sequence>533</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_type_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">132</property>
+  <property name="stepIndex">57</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066431</millis>
+  <sequence>540</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_type_tf&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066431</millis>
+  <sequence>541</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_type_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066431</millis>
+  <sequence>542</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_type\&amp;quot;), Keys.chord(\&amp;quot;Other\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">134</property>
+  <property name="stepIndex">58</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066729</millis>
+  <sequence>548</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + Other&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_type&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066730</millis>
+  <sequence>549</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_type\&amp;quot;), Keys.chord(\&amp;quot;Other\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066730</millis>
+  <sequence>550</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_source_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">136</property>
+  <property name="stepIndex">59</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066811</millis>
+  <sequence>557</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_source_tf&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066811</millis>
+  <sequence>558</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_source_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:26</date>
+  <millis>1559525066812</millis>
+  <sequence>559</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_source\&amp;quot;), Keys.chord(\&amp;quot;JB Doria\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">138</property>
+  <property name="stepIndex">60</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:27</date>
+  <millis>1559525067248</millis>
+  <sequence>565</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + JB Doria&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_referral_info/referral_source&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:27</date>
+  <millis>1559525067249</millis>
+  <sequence>566</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_referral_info/referral_source\&amp;quot;), Keys.chord(\&amp;quot;JB Doria\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:27</date>
+  <millis>1559525067249</millis>
+  <sequence>567</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">140</property>
+  <property name="stepIndex">61</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:28</date>
+  <millis>1559525068251</millis>
+  <sequence>569</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:28</date>
+  <millis>1559525068251</millis>
+  <sequence>570</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:28</date>
+  <millis>1559525068251</millis>
+  <sequence>571</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">142</property>
+  <property name="stepIndex">62</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:28</date>
+  <millis>1559525068340</millis>
+  <sequence>578</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital_tf&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:28</date>
+  <millis>1559525068340</millis>
+  <sequence>579</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:28</date>
+  <millis>1559525068340</millis>
+  <sequence>580</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital\&amp;quot;), Keys.chord(\&amp;quot;Advanced Care Hospital\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">144</property>
+  <property name="stepIndex">63</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:29</date>
+  <millis>1559525069204</millis>
+  <sequence>586</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + Advanced Care Hospital&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:29</date>
+  <millis>1559525069205</millis>
+  <sequence>587</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital\&amp;quot;), Keys.chord(\&amp;quot;Advanced Care Hospital\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:29</date>
+  <millis>1559525069205</millis>
+  <sequence>588</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_facility_admitdate\&amp;quot;), \&amp;quot;1012017\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">147</property>
+  <property name="stepIndex">64</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:29</date>
+  <millis>1559525069504</millis>
+  <sequence>600</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;1012017&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_facility_admitdate&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:29</date>
+  <millis>1559525069505</millis>
+  <sequence>601</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_facility_admitdate\&amp;quot;), \&amp;quot;1012017\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:29</date>
+  <millis>1559525069505</millis>
+  <sequence>602</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_dischargedate\&amp;quot;), \&amp;quot;2282017\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">149</property>
+  <property name="stepIndex">65</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:29</date>
+  <millis>1559525069847</millis>
+  <sequence>614</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;2282017&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_dischargedate&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:29</date>
+  <millis>1559525069847</millis>
+  <sequence>615</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_dischargedate\&amp;quot;), \&amp;quot;2282017\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:29</date>
+  <millis>1559525069847</millis>
+  <sequence>616</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">151</property>
+  <property name="stepIndex">66</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:30</date>
+  <millis>1559525070849</millis>
+  <sequence>618</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:30</date>
+  <millis>1559525070849</millis>
+  <sequence>619</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:30</date>
+  <millis>1559525070849</millis>
+  <sequence>620</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_primary\&amp;quot;), \&amp;quot;Carcinoma in situ of floor of mouth\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">153</property>
+  <property name="stepIndex">67</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:32</date>
+  <millis>1559525072148</millis>
+  <sequence>632</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Carcinoma in situ of floor of mouth&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_primary&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:32</date>
+  <millis>1559525072148</millis>
+  <sequence>633</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_primary\&amp;quot;), \&amp;quot;Carcinoma in situ of floor of mouth\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:32</date>
+  <millis>1559525072148</millis>
+  <sequence>634</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_secondary\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">155</property>
+  <property name="stepIndex">68</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:32</date>
+  <millis>1559525072271</millis>
+  <sequence>641</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_secondary&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:32</date>
+  <millis>1559525072271</millis>
+  <sequence>642</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_secondary\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:32</date>
+  <millis>1559525072272</millis>
+  <sequence>643</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_secondary\&amp;quot;), Keys.chord(\&amp;quot;Iron deficiency anemia secondary to blood loss (chronic)\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">157</property>
+  <property name="stepIndex">69</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:34</date>
+  <millis>1559525074899</millis>
+  <sequence>649</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + Iron deficiency anemia secondary to blood loss (chronic)&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_secondary&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:34</date>
+  <millis>1559525074899</millis>
+  <sequence>650</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_secondary\&amp;quot;), Keys.chord(\&amp;quot;Iron deficiency anemia secondary to blood loss (chronic)\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:34</date>
+  <millis>1559525074899</millis>
+  <sequence>651</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_surgery\&amp;quot;), \&amp;quot;Acne Surgery\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">160</property>
+  <property name="stepIndex">70</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:35</date>
+  <millis>1559525075588</millis>
+  <sequence>663</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Acne Surgery&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_surgery&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:35</date>
+  <millis>1559525075588</millis>
+  <sequence>664</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_surgery\&amp;quot;), \&amp;quot;Acne Surgery\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:35</date>
+  <millis>1559525075588</millis>
+  <sequence>665</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_allergies\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">162</property>
+  <property name="stepIndex">71</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:35</date>
+  <millis>1559525075708</millis>
+  <sequence>672</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_allergies&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:35</date>
+  <millis>1559525075708</millis>
+  <sequence>673</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_allergies\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:35</date>
+  <millis>1559525075708</millis>
+  <sequence>674</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_allergies\&amp;quot;), Keys.chord(\&amp;quot;Gluten\&amp;quot;, ENTER, \&amp;quot;Peanuts\&amp;quot;, ENTER, \&amp;quot;Shellfish\&amp;quot;, ENTER, \&amp;quot;Wheat\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">164</property>
+  <property name="stepIndex">72</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:37</date>
+  <millis>1559525077271</millis>
+  <sequence>680</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + ENTER + ENTER + ENTER + GlutenPeanutsShellfishWheat&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_allergies&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:37</date>
+  <millis>1559525077271</millis>
+  <sequence>681</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_allergies\&amp;quot;), Keys.chord(\&amp;quot;Gluten\&amp;quot;, ENTER, \&amp;quot;Peanuts\&amp;quot;, ENTER, \&amp;quot;Shellfish\&amp;quot;, ENTER, \&amp;quot;Wheat\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:37</date>
+  <millis>1559525077271</millis>
+  <sequence>682</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_pre-ad_orders\&amp;quot;), \&amp;quot;The patient food intake must be monitored all the times and observe/limit intake based on allergies listed.\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">167</property>
+  <property name="stepIndex">73</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:41</date>
+  <millis>1559525081786</millis>
+  <sequence>694</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;The patient food intake must be monitored all the times and observe/limit intake based on allergies listed.&amp;apos; is set on object &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_pre-ad_orders&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:41</date>
+  <millis>1559525081787</millis>
+  <sequence>695</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_pre-ad_orders\&amp;quot;), \&amp;quot;The patient food intake must be monitored all the times and observe/limit intake based on allergies listed.\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:41</date>
+  <millis>1559525081787</millis>
+  <sequence>696</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_ivtherapyorder_yes\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">170</property>
+  <property name="stepIndex">74</property>
+  <property name="description">Redirected to Medication Profile page upon saving.</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:41</date>
+  <millis>1559525081787</millis>
+  <sequence>697</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_ivtherapyorder_yes\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:41</date>
+  <millis>1559525081787</millis>
+  <sequence>698</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_ivtherapyorder_yes\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:41</date>
+  <millis>1559525081787</millis>
+  <sequence>699</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_dmeneeded\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">172</property>
+  <property name="stepIndex">75</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:41</date>
+  <millis>1559525081911</millis>
+  <sequence>706</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_dmeneeded&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:41</date>
+  <millis>1559525081911</millis>
+  <sequence>707</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_dmeneeded\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:41</date>
+  <millis>1559525081912</millis>
+  <sequence>708</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_dmeneeded\&amp;quot;), Keys.chord(\&amp;quot;Walker\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">174</property>
+  <property name="stepIndex">76</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:42</date>
+  <millis>1559525082991</millis>
+  <sequence>714</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + Walker&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_dmeneeded&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:42</date>
+  <millis>1559525082992</millis>
+  <sequence>715</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_diagnosis_orders/diagnosis_dmeneeded\&amp;quot;), Keys.chord(\&amp;quot;Walker\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:42</date>
+  <millis>1559525082992</millis>
+  <sequence>716</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">177</property>
+  <property name="stepIndex">77</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:43</date>
+  <millis>1559525083994</millis>
+  <sequence>718</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:43</date>
+  <millis>1559525083994</millis>
+  <sequence>719</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:43</date>
+  <millis>1559525083994</millis>
+  <sequence>720</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_M0080/m0080_rn\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">179</property>
+  <property name="stepIndex">78</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:44</date>
+  <millis>1559525084151</millis>
+  <sequence>727</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_M0080/m0080_rn&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:44</date>
+  <millis>1559525084151</millis>
+  <sequence>728</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_M0080/m0080_rn\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:44</date>
+  <millis>1559525084151</millis>
+  <sequence>729</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">181</property>
+  <property name="stepIndex">79</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:44</date>
+  <millis>1559525084255</millis>
+  <sequence>736</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn_tf&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:44</date>
+  <millis>1559525084256</millis>
+  <sequence>737</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:44</date>
+  <millis>1559525084256</millis>
+  <sequence>738</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn\&amp;quot;), Keys.chord(\&amp;quot;RN Medisource\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">183</property>
+  <property name="stepIndex">80</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:44</date>
+  <millis>1559525084864</millis>
+  <sequence>744</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + RN Medisource&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:44</date>
+  <millis>1559525084864</millis>
+  <sequence>745</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn\&amp;quot;), Keys.chord(\&amp;quot;RN Medisource\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:44</date>
+  <millis>1559525084864</millis>
+  <sequence>746</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">186</property>
+  <property name="stepIndex">81</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:44</date>
+  <millis>1559525084961</millis>
+  <sequence>753</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm_tf&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:44</date>
+  <millis>1559525084961</millis>
+  <sequence>754</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm_tf\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:44</date>
+  <millis>1559525084961</millis>
+  <sequence>755</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm\&amp;quot;), Keys.chord(\&amp;quot;CM Medisource\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">188</property>
+  <property name="stepIndex">82</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:45</date>
+  <millis>1559525085584</millis>
+  <sequence>761</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;ENTER + CM Medisource&amp;apos; sent to object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:45</date>
+  <millis>1559525085584</millis>
+  <sequence>762</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm\&amp;quot;), Keys.chord(\&amp;quot;CM Medisource\&amp;quot;, ENTER))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:45</date>
+  <millis>1559525085584</millis>
+  <sequence>763</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">191</property>
+  <property name="stepIndex">83</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:46</date>
+  <millis>1559525086587</millis>
+  <sequence>765</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:46</date>
+  <millis>1559525086587</millis>
+  <sequence>766</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(1)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:46</date>
+  <millis>1559525086587</millis>
+  <sequence>767</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_save_btn\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">194</property>
+  <property name="stepIndex">84</property>
+  <property name="description">Save Patient\r\n</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:46</date>
+  <millis>1559525086786</millis>
+  <sequence>774</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Patient_Pre-Admission/pre-ad_save_btn&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:46</date>
+  <millis>1559525086786</millis>
+  <sequence>775</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;Patient_Pre-Admission/pre-ad_save_btn\&amp;quot;), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:46</date>
+  <millis>1559525086786</millis>
+  <sequence>776</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">196</property>
+  <property name="stepIndex">85</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:51</date>
+  <millis>1559525091789</millis>
+  <sequence>778</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:51</date>
+  <millis>1559525091789</millis>
+  <sequence>779</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:51</date>
+  <millis>1559525091789</millis>
+  <sequence>780</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Patient_Workflow_Process/Pre-AdmitPatient</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:51</date>
+  <millis>1559525091789</millis>
+  <sequence>781</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Patient_Workflow_Process/Pre-AdmitPatient</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:51</date>
+  <millis>1559525091795</millis>
+  <sequence>782</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Patient_Workflow_Process/AdmittingPatient</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Patient_Workflow_Process/AdmittingPatient</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Patient_Workflow_Process/AdmittingPatient</property>
+  <property name="source">C:\\Users\\Khenard Figuracion\\git\\healthcareProject-neww\\Test Cases\\Patient_Workflow_Process\\AdmittingPatient.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:51</date>
+  <millis>1559525091973</millis>
+  <sequence>784</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:51</date>
+  <millis>1559525091974</millis>
+  <sequence>785</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:51</date>
+  <millis>1559525091974</millis>
+  <sequence>786</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(2)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:51</date>
+  <millis>1559525091974</millis>
+  <sequence>787</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(\&amp;quot;https://qa.medisource.com/patientcare/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723/E167C437-755C-46C9-B7AC-45401F52C2AA/2019/oasis/clinical/soc/4A12A2DE-5619-4633-A054-9A08A8D0A769/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:51</date>
+  <millis>1559525091974</millis>
+  <sequence>788</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: navigateToUrl(\&amp;quot;https://qa.medisource.com/patientcare/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723/E167C437-755C-46C9-B7AC-45401F52C2AA/2019/oasis/clinical/soc/4A12A2DE-5619-4633-A054-9A08A8D0A769/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:51</date>
+  <millis>1559525091974</millis>
+  <sequence>789</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(\&amp;quot;https://qa.medisource.com/patientcare/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723/E167C437-755C-46C9-B7AC-45401F52C2AA/2019/oasis/clinical/soc/4A12A2DE-5619-4633-A054-9A08A8D0A769/BD25DB74-1D3E-4E6A-9AB1-14DEB97F4723\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:51</date>
+  <millis>1559525091974</millis>
+  <sequence>790</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-06-03T09:24:56</date>
+  <millis>1559525096976</millis>
+  <sequence>792</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:56</date>
+  <millis>1559525096976</millis>
+  <sequence>793</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:56</date>
+  <millis>1559525096976</millis>
+  <sequence>794</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;PatientCarePage/oasis_task_list\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+  <property name="description">Detect the object [OASIS SOC] at the first row on taksk list table. </property>
+</record>
+<record>
+  <date>2019-06-03T09:24:57</date>
+  <millis>1559525097088</millis>
+  <sequence>801</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/PatientCarePage/oasis_task_list&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:57</date>
+  <millis>1559525097088</millis>
+  <sequence>802</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;PatientCarePage/oasis_task_list\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:24:57</date>
+  <millis>1559525097089</millis>
+  <sequence>803</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102091</millis>
+  <sequence>805</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102091</millis>
+  <sequence>806</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102091</millis>
+  <sequence>807</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : today = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102092</millis>
+  <sequence>808</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : today = new java.util.Date()</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102092</millis>
+  <sequence>809</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : dtoday = today.format(\&amp;quot;MMddyyyy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102092</millis>
+  <sequence>810</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : dtoday = today.format(\&amp;quot;MMddyyyy\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102092</millis>
+  <sequence>811</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : ttoday = today.format(\&amp;quot;HH:mm\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102093</millis>
+  <sequence>812</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : ttoday = today.format(\&amp;quot;HH:mm\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102093</millis>
+  <sequence>813</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OASIS/OASIS_TABS/xitemedits_btn\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102261</millis>
+  <sequence>820</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OASIS/OASIS_TABS/xitemedits_btn&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102261</millis>
+  <sequence>821</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OASIS/OASIS_TABS/xitemedits_btn\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102261</millis>
+  <sequence>822</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;OASIS/oasis_soc_visit_date\&amp;quot;), dtoday)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">36</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102616</millis>
+  <sequence>834</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;06032019&amp;apos; is set on object &amp;apos;Object Repository/OASIS/oasis_soc_visit_date&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102616</millis>
+  <sequence>835</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;OASIS/oasis_soc_visit_date\&amp;quot;), dtoday)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102616</millis>
+  <sequence>836</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;OASIS/oasis_soc_time_in\&amp;quot;), ttoday)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">38</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102809</millis>
+  <sequence>848</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;09:25&amp;apos; is set on object &amp;apos;Object Repository/OASIS/oasis_soc_time_in&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102810</millis>
+  <sequence>849</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;OASIS/oasis_soc_time_in\&amp;quot;), ttoday)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102810</millis>
+  <sequence>850</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText(findTestObject(\&amp;quot;OASIS/oasis_soc_time_out\&amp;quot;), \&amp;quot;0500\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102955</millis>
+  <sequence>862</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;0500&amp;apos; is set on object &amp;apos;Object Repository/OASIS/oasis_soc_time_out&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102956</millis>
+  <sequence>863</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText(findTestObject(\&amp;quot;OASIS/oasis_soc_time_out\&amp;quot;), \&amp;quot;0500\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:02</date>
+  <millis>1559525102956</millis>
+  <sequence>864</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(\&amp;quot;OASIS/oasis_soc_save_btn\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">43</property>
+  <property name="stepIndex">13</property>
+  <property name="description">Save to Admit the patient\r\n</property>
+</record>
+<record>
+  <date>2019-06-03T09:25:03</date>
+  <millis>1559525103095</millis>
+  <sequence>871</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/OASIS/oasis_soc_save_btn&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:03</date>
+  <millis>1559525103096</millis>
+  <sequence>872</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(\&amp;quot;OASIS/oasis_soc_save_btn\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:03</date>
+  <millis>1559525103096</millis>
+  <sequence>873</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">45</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2019-06-03T09:25:08</date>
+  <millis>1559525108098</millis>
+  <sequence>875</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 5 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:08</date>
+  <millis>1559525108098</millis>
+  <sequence>876</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(5)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:08</date>
+  <millis>1559525108098</millis>
+  <sequence>877</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Patient_Workflow_Process/AdmittingPatient</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:08</date>
+  <millis>1559525108098</millis>
+  <sequence>878</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Patient_Workflow_Process/AdmittingPatient</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-06-03T09:25:09</date>
+  <millis>1559525109128</millis>
+  <sequence>879</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Patient/IntaketoAdmit</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

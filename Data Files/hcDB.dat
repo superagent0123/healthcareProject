@@ -6,11 +6,15 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>b63bdadc-dc11-4e3e-bae1-a4c172437b8f</dataFileGUID>
-   <dataSourceUrl>jdbc:mysql://35.238.252.212:3306/staging</dataSourceUrl>
+   <dataSourceUrl>jdbc:mysql://35.238.252.212:3306/qa</dataSourceUrl>
    <driver>DBData</driver>
    <isInternalPath>false</isInternalPath>
    <password>YWRtaW5hZG1pbjEyMw==</password>
-   <query>SELECT * FROM patient;</query>
+<<<<<<< HEAD
+   <query>SELECT lastName, dateCreated FROM patient WHERE dateCreated LIKE '2019%' ORDER BY dateCreated DESC</query>
+=======
+   <query>select * from patient</query>
+>>>>>>> branch 'master' of https://github.com/superagent0123/healthcareProject.git
    <secureUserAccount>true</secureUserAccount>
    <sheetName></sheetName>
    <user>app</user>

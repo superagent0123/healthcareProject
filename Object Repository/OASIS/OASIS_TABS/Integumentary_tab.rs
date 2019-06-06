@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#integumentary > div</value>
+         <value>#integumentary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#integumentary > div</value>
+      <value>#integumentary</value>
    </webElementProperties>
 </WebElementEntity>
