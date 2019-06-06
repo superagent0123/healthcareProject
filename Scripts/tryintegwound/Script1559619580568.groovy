@@ -47,18 +47,6 @@ not_run: WebUI.clickOffset(findTestObject('OASIS/Integumentary/human_image'), 20
 
 not_run: WebUI.click(findTestObject('OASIS/Integumentary/pin_image_yes'))
 
-not_run: for (def rowNum = 0; rowNum <= 2; rowNum++) {
-    def xaxis = findTestData('woundpin').getValue(1, rowNum)
-
-    def yaxis = findTestData('woundpin').getValue(2, rowNum)
-
-    WebUI.clickOffset(findTestObject('OASIS/Integumentary/human_image'), xaxis, yaxis)
-
-    WebUI.click(findTestObject('OASIS/Integumentary/pin_image_yes'))
-
-    WebUI.delay(3)
-}
-
 /*
  	def rowNum = 1 
  	-- define the row number
