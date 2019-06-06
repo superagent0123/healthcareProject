@@ -48,8 +48,8 @@ public class dbHC {
 	//Executing the constructed Query and Saving results in resultset
 	@Keyword
 	def executeQuery(String queryString) {
-	 Statement stm = connection.createStatement()
-	 ResultSet rs = stm.executeQuery(queryString)
+	/Statement stm = connection.createStatement()/
+	/ ResultSet rs = stm.executeQuery(queryString)/
 	 return rs
 	}
 	//Closing the connection
@@ -67,7 +67,7 @@ public class dbHC {
 	*/
 	@Keyword
 	def execute(String queryString) {
-	 Statement stm = connection.createStatement()
+	/ Statement stm = connection.createStatement()/
 	 boolean result = stm.execute(queryString)
 	 return result
 	}
