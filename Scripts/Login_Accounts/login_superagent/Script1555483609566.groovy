@@ -17,7 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://qa.medisource.com/login')
 
-WebUI.setText(findTestObject('LogIn/username'), 'superagent')
+WebUI.setText(findTestObject('LogIn/username'), 'superagent@intermed')
 
 WebUI.setEncryptedText(findTestObject('LogIn/password'), 'SITHpLWAWtLnr/hOhnpplQ==')
 
@@ -25,3 +25,4 @@ WebUI.click(findTestObject('LogIn/login_button'))
 
 WebUI.delay(5)
 
+WebUI.delay(3)

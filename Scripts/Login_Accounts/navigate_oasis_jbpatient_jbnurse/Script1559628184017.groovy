@@ -30,19 +30,3 @@ WebUI.delay(3)
 WebUI.click(findTestObject('LogIn/login_button'))
 
 WebUI.delay(3)
-
-'Patient List'
-WebUI.navigateToUrl('https://qa.medisource.com/patients/all')
-
-WebUI.delay(3)
-
-'Selected Patient'
-WebUI.navigateToUrl('https://qa.medisource.com/patientcare/4FBAE309-21E6-46B9-ACA1-C27AAC6552A9/F5B3F516-A991-49AD-BD8F-120E53DAF1D4/overview')
-
-WebUI.delay(3)
-
-'Patient OASIS'
-WebUI.navigateToUrl('https://qa.medisource.com/patientcare/4FBAE309-21E6-46B9-ACA1-C27AAC6552A9/F5B3F516-A991-49AD-BD8F-120E53DAF1D4/2019/oasis/clinical/soc/CAB28734-CC0C-4DE8-9034-30BD345335A7/4FBAE309-21E6-46B9-ACA1-C27AAC6552A9')
-
-WebUI.delay(5)
-

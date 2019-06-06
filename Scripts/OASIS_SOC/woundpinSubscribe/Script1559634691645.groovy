@@ -13,28 +13,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://qa.medisource.com/login')
 
-WebUI.delay(3)
-
-for (rowNum=1; rowNum <= findTestData('login2').getRowNumbers(); rowNum++) { 
+for (def rowNum = 1; rowNum <= findTestData('woundsets_testdata').getRowNumbers(); rowNum++)  {
 	
-	WebUI.setText(findTestObject('LogIn/username'), findTestData('login2').getValue(1, rowNum))
-	WebUI.delay(3)
-	
-	WebUI.setText(findTestObject('LogIn/password'), findTestData('login2').getValue(2, rowNum))
-	WebUI.delay(3)
+	def x = findTestData('woundsets_testdata').getValue(1,rowNum)
+	def y = findTestData('woundsets_testdata').getValue(2,rowNum)
 	
 	
+	Integer valx = x as int
+	Integer valy = y as int
+	
+	WebUI.delay(5)
+	WebUI.clickOffset(findTestObject('OASIS/Integumentary/human_image'), valx, valy)
+	
+	WebUI.delay(5)
+	WebUI.click(findTestObject('OASIS/Integumentary/pin_image_yes'))
+	
+	WebUI.delay(5)
 }
-
-
-
-
-
-WebUI.click(findTestObject('LogIn/login_button'))
-
-WebUI.delay(3)
-
