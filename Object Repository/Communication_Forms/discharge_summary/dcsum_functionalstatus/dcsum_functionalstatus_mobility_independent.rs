@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#dischargeSummaryForm > div > div.table-responsive.max__width_wrapper > fieldset > table > tbody > tr > td > div.col-xs-12.p-b-15 > div:nth-child(1) > table:nth-child(1) > tbody > tr:nth-child(8) > td.oasis__answer > label.radio.radio-inline.m-0.p-t-0.p-r-25.ng-isolate-scope.checked > input</value>
+         <value>#dischargeSummaryForm > div > div.table-responsive.max__width_wrapper > fieldset > table > tbody > tr > td > div.col-xs-12.p-b-15 > div:nth-child(1) > table:nth-child(1) > tbody > tr:nth-child(8) > td.oasis__answer > label:nth-child(1) > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#dischargeSummaryForm > div > div.table-responsive.max__width_wrapper > fieldset > table > tbody > tr > td > div.col-xs-12.p-b-15 > div:nth-child(1) > table:nth-child(1) > tbody > tr:nth-child(8) > td.oasis__answer > label.radio.radio-inline.m-0.p-t-0.p-r-25.ng-isolate-scope.checked > input</value>
+      <value>#dischargeSummaryForm > div > div.table-responsive.max__width_wrapper > fieldset > table > tbody > tr > td > div.col-xs-12.p-b-15 > div:nth-child(1) > table:nth-child(1) > tbody > tr:nth-child(8) > td.oasis__answer > label:nth-child(1) > input</value>
    </webElementProperties>
 </WebElementEntity>
