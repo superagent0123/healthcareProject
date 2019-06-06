@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Patient_Care/communication/comm_new_form'))
 

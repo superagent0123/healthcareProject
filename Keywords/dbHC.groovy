@@ -48,15 +48,15 @@ public class dbHC {
 	//Executing the constructed Query and Saving results in resultset
 	@Keyword
 	def executeQuery(String queryString) {
-<<<<<<< HEAD
+		<<<<<<< HEAD
 		Statement stm = connection.createStatement()
 		ResultSet rs = stm.executeQuery(queryString)
 		return rs
-=======
-	/Statement stm = connection.createStatement()/
-	/ ResultSet rs = stm.executeQuery(queryString)/
-	 return rs
->>>>>>> branch 'master' of https://github.com/superagent0123/healthcareProject.git
+		=======
+		/Statement stm = connection.createStatement()/
+		/ ResultSet rs = stm.executeQuery(queryString)/
+		return rs
+		>>>>>>> branch 'master' of https://github.com/superagent0123/healthcareProject.git
 	}
 	//Closing the connection
 	@Keyword
@@ -73,14 +73,14 @@ public class dbHC {
 	 */
 	@Keyword
 	def execute(String queryString) {
-<<<<<<< HEAD
+		<<<<<<< HEAD
 		Statement stm = connection.createStatement()
 		boolean result = stm.execute(queryString)
 		return result
-=======
-	/ Statement stm = connection.createStatement()/
-	 boolean result = stm.execute(queryString)
-	 return result
->>>>>>> branch 'master' of https://github.com/superagent0123/healthcareProject.git
+		=======
+		/ Statement stm = connection.createStatement()/
+		boolean result = stm.execute(queryString)
+		return result
+		>>>>>>> branch 'master' of https://github.com/superagent0123/healthcareProject.git
 	}
 }
