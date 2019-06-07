@@ -282,7 +282,7 @@ WebUI.setText(findTestObject('addUser/health_credentials/hcred_chestxray_verifie
 
 WebUI.sendKeys(findTestObject('addUser/health_credentials/hcred_chestxray_notes'), Keys.chord('Copy on File', Keys.ENTER))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('addUser/user_save_btn'), FailureHandling.STOP_ON_FAILURE)
 

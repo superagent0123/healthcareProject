@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#integForm > fieldset > div > table > tbody > tr:nth-child(11) > td > div:nth-child(2) > chk-label > div > label > input</value>
+         <value>#integForm > fieldset > div > table > tbody > tr:nth-child(18) > td > div:nth-child(2) > chk-label > div > label > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#integForm > fieldset > div > table > tbody > tr:nth-child(11) > td > div:nth-child(2) > chk-label > div > label > input</value>
+      <value>#integForm > fieldset > div > table > tbody > tr:nth-child(18) > td > div:nth-child(2) > chk-label > div > label > input</value>
    </webElementProperties>
 </WebElementEntity>
