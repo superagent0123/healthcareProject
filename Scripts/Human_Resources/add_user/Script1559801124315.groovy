@@ -120,9 +120,9 @@ WebUI.click(findTestObject('addUser/language_secondary_english'), FailureHandlin
 
 WebUI.click(findTestObject('addUser/language_other_dropdown'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('addUser/language_other_korean'), FailureHandling.STOP_ON_FAILURE)
+WebUI.sendKeys(findTestObject('addUser/language_other_korean'), Keys.chord('Korean', Keys.ENTER))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('addUser/verbal_primary_dropdown'), FailureHandling.STOP_ON_FAILURE)
 
@@ -311,4 +311,6 @@ WebUI.delay(5)
 WebUI.click(findTestObject('addUser/user_account_save_btn'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
+
+WebUI.navigateToUrl('https://qa.medisource.com/members')
 
