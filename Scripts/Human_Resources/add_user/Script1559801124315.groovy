@@ -310,7 +310,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('addUser/user_account_save_btn'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.navigateToUrl('https://qa.medisource.com/members')
 
