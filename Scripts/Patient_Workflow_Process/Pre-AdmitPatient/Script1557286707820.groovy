@@ -23,6 +23,8 @@ today = new Date()
 
 dtoday = today.format('MM/dd/yyyy')
 
+WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_eligibility_skip'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('Patient_Pre-Admission/pre-ad_ref_date'), dtoday)
 
 WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_MRN_auto-assign'))
