@@ -170,7 +170,7 @@ not_run: WebUI.click(findTestObject('addUser/professional_cred_tab'), FailureHan
 
 WebUI.click(findTestObject('addUser/next_button'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('addUser/professional_credentials/cred_profcert_idlicensecert'), '1234344441')
 
