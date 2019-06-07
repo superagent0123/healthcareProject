@@ -314,3 +314,9 @@ WebUI.delay(3)
 
 WebUI.navigateToUrl('https://qa.medisource.com/members')
 
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('user_list/userlist_search_bar'), 'Automated')
+
+WebUI.delay(5)
+
