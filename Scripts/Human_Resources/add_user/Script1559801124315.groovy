@@ -76,7 +76,7 @@ WebUI.setText(findTestObject('addUser/employee_id'), '09')
 
 WebUI.setText(findTestObject('addUser/user_company'), 'MEDISOURCE, LLC.')
 
-WebUI.setText(findTestObject('addUser/address_1'), GlobalVariable.sample_address)
+WebUI.setText(findTestObject('Human_Resources/addUser/address_1'), GlobalVariable.sample_address)
 
 WebUI.setText(findTestObject('addUser/address_2'), GlobalVariable.sample_address)
 
@@ -256,7 +256,9 @@ WebUI.sendKeys(findTestObject('addUser/professional_credentials/cred_annaualpere
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('addUser/health_cred_tab'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.click(findTestObject('addUser/health_cred_tab'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('addUser/next_2_button'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
@@ -292,6 +294,10 @@ WebUI.click(findTestObject('addUser/create_personnel_account_yes'), FailureHandl
 
 WebUI.delay(5)
 
+today = new Date()
+
+randomnum = today.format('HHmmss')
+
 WebUI.setText(findTestObject('addUser/useraccount_username'), 'user' + randomnum)
 
 WebUI.setText(findTestObject('addUser/useraccount_email'), ('user' + randomnum) + '@mailinator.com')
@@ -313,10 +319,4 @@ WebUI.click(findTestObject('addUser/user_account_save_btn'), FailureHandling.STO
 WebUI.delay(3)
 
 WebUI.navigateToUrl('https://qa.medisource.com/members')
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('user_list/userlist_search_bar'), 'Automated')
-
-WebUI.delay(5)
 

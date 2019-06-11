@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#content > data > div.container.p-15.ng-scope.global__form_center-false > div > form > fieldset > div:nth-child(3) > fieldset > button.btn.btn-info.m-t-15.btn-icon-text.waves-effect.pull-right.col-sm-1</value>
+         <value>#content > data > div.container.p-15.ng-scope.global__form_center-false > div > form > fieldset > div:nth-child(6) > div > button.btn.btn-info.m-t-15.btn-icon-text.waves-effect.pull-right.col-sm-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#content > data > div.container.p-15.ng-scope.global__form_center-false > div > form > fieldset > div:nth-child(3) > fieldset > button.btn.btn-info.m-t-15.btn-icon-text.waves-effect.pull-right.col-sm-1</value>
+      <value>#content > data > div.container.p-15.ng-scope.global__form_center-false > div > form > fieldset > div:nth-child(6) > div > button.btn.btn-info.m-t-15.btn-icon-text.waves-effect.pull-right.col-sm-1</value>
    </webElementProperties>
 </WebElementEntity>

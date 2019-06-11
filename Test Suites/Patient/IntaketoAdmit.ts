@@ -14,7 +14,7 @@
       <guid>166c4a77-d534-4f99-a021-da783c6712ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login_Accounts/login_superagent</testCaseId>
+      <testCaseId>Test Cases/Login_Accounts/login_superagent_warriors</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5241c1e9-ac84-4d6e-8c96-7500792278a7</guid>

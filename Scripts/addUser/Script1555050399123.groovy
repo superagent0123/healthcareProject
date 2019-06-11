@@ -87,7 +87,7 @@ WebUI.delay(3)
 
 WebUI.setText(findTestObject('addUser/employee_id'), '8')
 
-WebUI.setText(findTestObject('addUser/address_1'), '370 Concho Dr, Sedona, AZ, 86351')
+WebUI.setText(findTestObject('Human_Resources/addUser/address_1'), '370 Concho Dr, Sedona, AZ, 86351')
 
 WebUI.delay(3)
 

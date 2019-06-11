@@ -1,0 +1,175 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+addUser_to_editProfile_to_edit_Account_to_resetPassword,Chrome 74.0.3729.169,,2019-06-07 13:32:58,2019-06-07 13:35:55,2m - 56.473s,ERROR
+,,,,,,
+Test Cases/Login_Accounts/login_superagent,Chrome 74.0.3729.169,,2019-06-07 13:32:58,2019-06-07 13:33:14,15.411s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-06-07 13:32:59,2019-06-07 13:33:03,3.697s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 74.0.3729.169,,2019-06-07 13:33:03,2019-06-07 13:33:05,2.779s,PASSED
+"setText(findTestObject(""LogIn/username""), ""superagent@intermed"")",Chrome 74.0.3729.169,,2019-06-07 13:33:05,2019-06-07 13:33:06,0.187s,PASSED
+"setEncryptedText(findTestObject(""LogIn/password""), ""SITHpLWAWtI8C4F8RIujvA=="")",Chrome 74.0.3729.169,,2019-06-07 13:33:06,2019-06-07 13:33:06,0.163s,PASSED
+"click(findTestObject(""LogIn/login_button""))",Chrome 74.0.3729.169,,2019-06-07 13:33:06,2019-06-07 13:33:06,0.086s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-07 13:33:06,2019-06-07 13:33:11,5.022s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:33:11,2019-06-07 13:33:14,3.002s,PASSED
+,,,,,,
+Test Cases/Human_Resources/add_user,Chrome 74.0.3729.169,,2019-06-07 13:33:14,2019-06-07 13:34:58,1m - 43.798s,ERROR
+"navigateToUrl(""https://qa.medisource.com/members/create"")",Chrome 74.0.3729.169,,2019-06-07 13:33:14,2019-06-07 13:33:15,0.707s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-07 13:33:15,2019-06-07 13:33:20,5.003s,PASSED
+today = new java.util.Date(),Chrome 74.0.3729.169,,2019-06-07 13:33:20,2019-06-07 13:33:20,0.007s,PASSED
+"randomnum = today.format(""HHmmss"")",Chrome 74.0.3729.169,,2019-06-07 13:33:20,2019-06-07 13:33:20,0.010s,PASSED
+"setText(findTestObject(""addUser/Page_Medisource  Main/input_First Name_firstname""), ""User "" + randomnum)",Chrome 74.0.3729.169,,2019-06-07 13:33:20,2019-06-07 13:33:20,0.504s,PASSED
+"setText(findTestObject(""addUser/Page_Medisource  Main/input_Last Name_lastname""), ""Automated"")",Chrome 74.0.3729.169,,2019-06-07 13:33:20,2019-06-07 13:33:21,0.406s,PASSED
+"setText(findTestObject(""addUser/Page_Medisource  Main/input_Middle Initial_mi""), ""I"")",Chrome 74.0.3729.169,,2019-06-07 13:33:21,2019-06-07 13:33:21,0.153s,PASSED
+"setText(findTestObject(""addUser/Page_Medisource  Main/input_Suffix_suffix""), ""Jr."")",Chrome 74.0.3729.169,,2019-06-07 13:33:21,2019-06-07 13:33:21,0.236s,PASSED
+"click(findTestObject(""addUser/Page_Medisource  Main/input_Female_gender2""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:33:21,2019-06-07 13:33:21,0.119s,PASSED
+"setText(findTestObject(""addUser/user_bdate""), ""02071997"")",Chrome 74.0.3729.169,,2019-06-07 13:33:21,2019-06-07 13:33:22,0.321s,PASSED
+"click(findTestObject(""addUser/user_race_dd""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:33:22,2019-06-07 13:33:22,0.104s,PASSED
+"sendKeys(findTestObject(""addUser/user_race_tf""), Keys.chord(""American"", ENTER))",Chrome 74.0.3729.169,,2019-06-07 13:33:22,2019-06-07 13:33:22,0.351s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:33:22,2019-06-07 13:33:25,3.002s,PASSED
+"click(findTestObject(""addUser/user_marital_status_dd""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:33:25,2019-06-07 13:33:25,0.100s,PASSED
+"sendKeys(findTestObject(""addUser/user_marital_status_tf""), Keys.chord(""Single"", ENTER))",Chrome 74.0.3729.169,,2019-06-07 13:33:25,2019-06-07 13:33:26,0.286s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:33:26,2019-06-07 13:33:29,3.002s,PASSED
+"click(findTestObject(""addUser/user_discipline_dd""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:33:29,2019-06-07 13:33:29,0.091s,PASSED
+"sendKeys(findTestObject(""addUser/user_discipline_tf""), Keys.chord(""Skilled Nurse"", ENTER))",Chrome 74.0.3729.169,,2019-06-07 13:33:29,2019-06-07 13:33:29,0.480s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:33:29,2019-06-07 13:33:32,3.002s,PASSED
+"click(findTestObject(""addUser/user_title_dd""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:33:32,2019-06-07 13:33:32,0.092s,PASSED
+"sendKeys(findTestObject(""addUser/user_title_tf""), Keys.chord(""Registered Nurse"", ENTER))",Chrome 74.0.3729.169,,2019-06-07 13:33:32,2019-06-07 13:33:33,0.528s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:33:33,2019-06-07 13:33:36,3.001s,PASSED
+"click(findTestObject(""addUser/user_hirecategory_dd""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:33:36,2019-06-07 13:33:36,0.089s,PASSED
+"sendKeys(findTestObject(""addUser/user_hirecategory_tf""), Keys.chord(""Direct Hire"", ENTER))",Chrome 74.0.3729.169,,2019-06-07 13:33:36,2019-06-07 13:33:36,0.427s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:33:36,2019-06-07 13:33:39,3.002s,PASSED
+"click(findTestObject(""addUser/user_position_dd""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:33:39,2019-06-07 13:33:39,0.120s,PASSED
+"sendKeys(findTestObject(""addUser/user_position_tf""), Keys.chord(""Registered Nurse"", ENTER))",Chrome 74.0.3729.169,,2019-06-07 13:33:39,2019-06-07 13:33:40,0.541s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:33:40,2019-06-07 13:33:43,3.002s,PASSED
+"setText(findTestObject(""addUser/Page_Medisource  Main/input_Social Security Number_s""), ""231"" + randomnum)",Chrome 74.0.3729.169,,2019-06-07 13:33:43,2019-06-07 13:33:43,0.435s,PASSED
+"setText(findTestObject(""addUser/employee_id""), ""09"")",Chrome 74.0.3729.169,,2019-06-07 13:33:43,2019-06-07 13:33:44,0.191s,PASSED
+"setText(findTestObject(""addUser/user_company""), ""MEDISOURCE, LLC."")",Chrome 74.0.3729.169,,2019-06-07 13:33:44,2019-06-07 13:33:44,0.677s,PASSED
+"setText(findTestObject(""addUser/address_1""), sample_address)",Chrome 74.0.3729.169,,2019-06-07 13:33:44,2019-06-07 13:33:45,0.773s,PASSED
+"setText(findTestObject(""addUser/address_2""), sample_address)",Chrome 74.0.3729.169,,2019-06-07 13:33:45,2019-06-07 13:33:46,0.514s,PASSED
+"setText(findTestObject(""addUser/city""), sample_city)",Chrome 74.0.3729.169,,2019-06-07 13:33:46,2019-06-07 13:33:46,0.524s,PASSED
+"click(findTestObject(""addUser/state_dd""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:33:46,2019-06-07 13:33:46,0.121s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:33:46,2019-06-07 13:33:49,3.002s,PASSED
+"sendKeys(findTestObject(""addUser/state_az""), Keys.chord(""HI"", ENTER))",Chrome 74.0.3729.169,,2019-06-07 13:33:49,2019-06-07 13:33:49,0.152s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:33:49,2019-06-07 13:33:52,3.002s,PASSED
+"setText(findTestObject(""addUser/zipcode""), sample_ZIP_code)",Chrome 74.0.3729.169,,2019-06-07 13:33:52,2019-06-07 13:33:53,0.368s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:33:53,2019-06-07 13:33:56,3.002s,PASSED
+"setText(findTestObject(""addUser/phone_no""), sample_phone_num)",Chrome 74.0.3729.169,,2019-06-07 13:33:56,2019-06-07 13:33:56,0.442s,PASSED
+"setText(findTestObject(""addUser/mobile_no""), sample_phone_num)",Chrome 74.0.3729.169,,2019-06-07 13:33:56,2019-06-07 13:33:57,0.455s,PASSED
+"setText(findTestObject(""addUser/fax""), sample_phone_num)",Chrome 74.0.3729.169,,2019-06-07 13:33:57,2019-06-07 13:33:57,0.436s,PASSED
+"setText(findTestObject(""addUser/email""), sample_email)",Chrome 74.0.3729.169,,2019-06-07 13:33:57,2019-06-07 13:33:58,1.145s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:33:58,2019-06-07 13:34:01,3.002s,PASSED
+"click(findTestObject(""addUser/hiredate_calendar""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:01,2019-06-07 13:34:01,0.151s,PASSED
+"click(findTestObject(""addUser/hiredate_calendar_today""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:01,2019-06-07 13:34:02,0.217s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:34:02,2019-06-07 13:34:05,3.001s,PASSED
+"click(findTestObject(""addUser/language_primary_dropdown""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:05,2019-06-07 13:34:05,0.103s,PASSED
+"click(findTestObject(""addUser/language_primary_filipino""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:05,2019-06-07 13:34:05,0.107s,PASSED
+"click(findTestObject(""addUser/language_secondary_dropdown""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:05,2019-06-07 13:34:05,0.084s,PASSED
+"click(findTestObject(""addUser/language_secondary_english""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:05,2019-06-07 13:34:05,0.099s,PASSED
+"click(findTestObject(""addUser/language_other_dropdown""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:05,2019-06-07 13:34:05,0.131s,PASSED
+"sendKeys(findTestObject(""addUser/language_other_korean""), Keys.chord(""Korean"", ENTER))",Chrome 74.0.3729.169,,2019-06-07 13:34:05,2019-06-07 13:34:05,0.265s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:34:05,2019-06-07 13:34:08,3.001s,PASSED
+"click(findTestObject(""addUser/verbal_primary_dropdown""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:08,2019-06-07 13:34:08,0.098s,PASSED
+"click(findTestObject(""addUser/verbal_primary_fluent""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:08,2019-06-07 13:34:09,0.099s,PASSED
+"click(findTestObject(""addUser/verbal_secondary_dropdown""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:09,2019-06-07 13:34:09,0.076s,PASSED
+"click(findTestObject(""addUser/verbal_secondary_fluent""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:09,2019-06-07 13:34:09,0.099s,PASSED
+"click(findTestObject(""addUser/verbal_other_dropdown""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:09,2019-06-07 13:34:09,0.075s,PASSED
+"click(findTestObject(""addUser/verbal_other_fluent""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:09,2019-06-07 13:34:09,0.086s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-06-07 13:34:09,2019-06-07 13:34:11,2.003s,PASSED
+"click(findTestObject(""addUser/reading_primary_dropdown""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:11,2019-06-07 13:34:11,0.080s,PASSED
+"click(findTestObject(""addUser/reading_primary_fluent""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:11,2019-06-07 13:34:11,0.092s,PASSED
+"click(findTestObject(""addUser/reading_secondary_dropdown""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:11,2019-06-07 13:34:11,0.081s,PASSED
+"click(findTestObject(""addUser/reading_secondary_fluent""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:11,2019-06-07 13:34:11,0.097s,PASSED
+"click(findTestObject(""addUser/reading_other_dropdown""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:11,2019-06-07 13:34:11,0.081s,PASSED
+"click(findTestObject(""addUser/reading_other_fluent""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:11,2019-06-07 13:34:11,0.139s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-06-07 13:34:11,2019-06-07 13:34:13,2.002s,PASSED
+"click(findTestObject(""addUser/writing_primary_dropdown""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:13,2019-06-07 13:34:14,0.098s,PASSED
+"click(findTestObject(""addUser/writing_primary_fluent""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:14,2019-06-07 13:34:14,0.099s,PASSED
+"click(findTestObject(""addUser/writing_secondary_dropdown""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:14,2019-06-07 13:34:14,0.086s,PASSED
+"click(findTestObject(""addUser/writing_secondary_fluent""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:14,2019-06-07 13:34:14,0.100s,PASSED
+"click(findTestObject(""addUser/writing_other_dropdown""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:14,2019-06-07 13:34:14,0.087s,PASSED
+"click(findTestObject(""addUser/writing_other_fluent""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:14,2019-06-07 13:34:14,0.101s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-07 13:34:14,2019-06-07 13:34:19,5.002s,PASSED
+"click(findTestObject(""addUser/professional_cred_tab""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:19,2019-06-07 13:34:19,0.002s,NOT_RUN
+"click(findTestObject(""addUser/next_button""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:19,2019-06-07 13:34:19,0.159s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:34:19,2019-06-07 13:34:22,3.001s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_profcert_idlicensecert""), ""1234344441"")",Chrome 74.0.3729.169,,2019-06-07 13:34:22,2019-06-07 13:34:23,0.528s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_profcert_effectivedate""), today_date)",Chrome 74.0.3729.169,,2019-06-07 13:34:23,2019-06-07 13:34:23,0.364s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_profcert_expirationdate""), ""06072025"")",Chrome 74.0.3729.169,,2019-06-07 13:34:23,2019-06-07 13:34:23,0.358s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_profcert_dateverified""), today_date)",Chrome 74.0.3729.169,,2019-06-07 13:34:23,2019-06-07 13:34:24,0.262s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_profcert_verifiedby""), ""RN Medisource"")",Chrome 74.0.3729.169,,2019-06-07 13:34:24,2019-06-07 13:34:24,0.543s,PASSED
+"sendKeys(findTestObject(""addUser/professional_credentials/cred_profcert_notes""), Keys.chord(""Copy on File"", ENTER))",Chrome 74.0.3729.169,,2019-06-07 13:34:24,2019-06-07 13:34:25,0.598s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:34:25,2019-06-07 13:34:28,3.002s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_licensecertverification_idlicensecert""), ""1234344441"")",Chrome 74.0.3729.169,,2019-06-07 13:34:28,2019-06-07 13:34:28,0.467s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_licensecertverification_effectivedate""), today_date)",Chrome 74.0.3729.169,,2019-06-07 13:34:28,2019-06-07 13:34:29,0.280s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_licensecertverification_expirationdate""), ""06072025"")",Chrome 74.0.3729.169,,2019-06-07 13:34:29,2019-06-07 13:34:29,0.386s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_licensecertverification_dateverified""), today_date)",Chrome 74.0.3729.169,,2019-06-07 13:34:29,2019-06-07 13:34:29,0.271s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_licensecertverification_verifiedby""), ""RN Medisource"")",Chrome 74.0.3729.169,,2019-06-07 13:34:29,2019-06-07 13:34:30,0.569s,PASSED
+"sendKeys(findTestObject(""addUser/professional_credentials/cred_licensecertverification_notes""), Keys.chord(""Copy on File"", ENTER))",Chrome 74.0.3729.169,,2019-06-07 13:34:30,2019-06-07 13:34:30,0.540s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:34:30,2019-06-07 13:34:33,3.003s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_cprbls_idlicensecert""), ""1234344441"")",Chrome 74.0.3729.169,,2019-06-07 13:34:33,2019-06-07 13:34:34,0.476s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_cprbls_effectivedate""), today_date)",Chrome 74.0.3729.169,,2019-06-07 13:34:34,2019-06-07 13:34:34,0.243s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_cprbls_expirationdate""), ""06072025"")",Chrome 74.0.3729.169,,2019-06-07 13:34:34,2019-06-07 13:34:34,0.417s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_cprbls_dateverified""), today_date)",Chrome 74.0.3729.169,,2019-06-07 13:34:34,2019-06-07 13:34:35,0.280s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_cprbls_verifiedby""), ""RN Medisource"")",Chrome 74.0.3729.169,,2019-06-07 13:34:35,2019-06-07 13:34:35,0.564s,PASSED
+"sendKeys(findTestObject(""addUser/professional_credentials/cred_cprbls_notes""), Keys.chord(""Copy on File"", ENTER))",Chrome 74.0.3729.169,,2019-06-07 13:34:35,2019-06-07 13:34:36,0.560s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:34:36,2019-06-07 13:34:39,3.002s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_driverlicense_idlicensecert""), ""1234344441"")",Chrome 74.0.3729.169,,2019-06-07 13:34:39,2019-06-07 13:34:39,0.477s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_driverlicense_effectivedate""), today_date)",Chrome 74.0.3729.169,,2019-06-07 13:34:39,2019-06-07 13:34:40,0.294s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_driverlicense_expirationdate""), ""06072025"")",Chrome 74.0.3729.169,,2019-06-07 13:34:40,2019-06-07 13:34:40,0.408s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_driverlicense_dateverified""), today_date)",Chrome 74.0.3729.169,,2019-06-07 13:34:40,2019-06-07 13:34:40,0.303s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_driverlicense_verifiedby""), ""RN Medisource"")",Chrome 74.0.3729.169,,2019-06-07 13:34:40,2019-06-07 13:34:41,0.591s,PASSED
+"sendKeys(findTestObject(""addUser/professional_credentials/cred_driverlicense_notes""), Keys.chord(""Copy on File"", ENTER))",Chrome 74.0.3729.169,,2019-06-07 13:34:41,2019-06-07 13:34:42,0.551s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:34:42,2019-06-07 13:34:45,3.002s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_carinsurance_idlicensecert""), ""1234344441"")",Chrome 74.0.3729.169,,2019-06-07 13:34:45,2019-06-07 13:34:45,0.507s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_carinsurance_effectivedate""), today_date)",Chrome 74.0.3729.169,,2019-06-07 13:34:45,2019-06-07 13:34:45,0.270s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_carinsurance_expirationdate""), ""06072025"")",Chrome 74.0.3729.169,,2019-06-07 13:34:45,2019-06-07 13:34:46,0.448s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_carinsurance_dateverified""), today_date)",Chrome 74.0.3729.169,,2019-06-07 13:34:46,2019-06-07 13:34:46,0.288s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_carinsurance_verifiedby""), ""RN Medisource"")",Chrome 74.0.3729.169,,2019-06-07 13:34:46,2019-06-07 13:34:47,0.558s,PASSED
+"sendKeys(findTestObject(""addUser/professional_credentials/cred_carinsurance_notes""), Keys.chord(""Copy on File"", ENTER))",Chrome 74.0.3729.169,,2019-06-07 13:34:47,2019-06-07 13:34:47,0.590s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:34:47,2019-06-07 13:34:50,3.003s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_annaualpereval_effectivedate""), today_date)",Chrome 74.0.3729.169,,2019-06-07 13:34:50,2019-06-07 13:34:50,0.302s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_annaualpereval_expirationdate""), ""06072025"")",Chrome 74.0.3729.169,,2019-06-07 13:34:50,2019-06-07 13:34:51,0.359s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_annaualpereval_dateverified""), today_date)",Chrome 74.0.3729.169,,2019-06-07 13:34:51,2019-06-07 13:34:51,0.289s,PASSED
+"setText(findTestObject(""addUser/professional_credentials/cred_annaualpereval_verifiedby""), ""RN Medisource"")",Chrome 74.0.3729.169,,2019-06-07 13:34:51,2019-06-07 13:34:52,0.554s,PASSED
+"sendKeys(findTestObject(""addUser/professional_credentials/cred_annaualpereval_notes""), Keys.chord(""Copy on File"", ENTER))",Chrome 74.0.3729.169,,2019-06-07 13:34:52,2019-06-07 13:34:52,0.569s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-07 13:34:52,2019-06-07 13:34:57,5.002s,PASSED
+"click(findTestObject(""addUser/health_cred_tab""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:34:57,2019-06-07 13:34:58,0.411s,ERROR
+,,,,,,
+Test Cases/Human_Resources/edit_user_profile,Chrome 74.0.3729.169,,2019-06-07 13:34:58,2019-06-07 13:35:19,20.970s,PASSED
+"navigateToUrl(""https://qa.medisource.com/members"")",Chrome 74.0.3729.169,,2019-06-07 13:34:58,2019-06-07 13:34:58,0.061s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-07 13:34:58,2019-06-07 13:35:03,5.001s,PASSED
+"setText(findTestObject(""user_list/userlist_search_bar""), ""Automated"")",Chrome 74.0.3729.169,,2019-06-07 13:35:03,2019-06-07 13:35:03,0.214s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-06-07 13:35:03,2019-06-07 13:35:05,2.001s,PASSED
+"click(findTestObject(""user_list/userlist_edit_user_profile""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:35:05,2019-06-07 13:35:05,0.123s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-07 13:35:05,2019-06-07 13:35:10,5.001s,PASSED
+"setText(findTestObject(""addUser/employee_id""), ""320332"")",Chrome 74.0.3729.169,,2019-06-07 13:35:10,2019-06-07 13:35:11,0.344s,PASSED
+"setText(findTestObject(""addUser/phone_no""), ""6423533453"")",Chrome 74.0.3729.169,,2019-06-07 13:35:11,2019-06-07 13:35:11,0.497s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-06-07 13:35:11,2019-06-07 13:35:13,2.002s,PASSED
+"click(findTestObject(""addUser/user_save_btn""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:35:13,2019-06-07 13:35:13,0.169s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:35:13,2019-06-07 13:35:16,3.001s,PASSED
+"navigateToUrl(""https://qa.medisource.com/members"")",Chrome 74.0.3729.169,,2019-06-07 13:35:16,2019-06-07 13:35:17,0.679s,PASSED
+"setText(findTestObject(""user_list/userlist_search_bar""), ""Automated"")",Chrome 74.0.3729.169,,2019-06-07 13:35:17,2019-06-07 13:35:19,1.708s,PASSED
+,,,,,,
+Test Cases/Human_Resources/edit_user_account,Chrome 74.0.3729.169,,2019-06-07 13:35:19,2019-06-07 13:35:40,21.102s,PASSED
+"navigateToUrl(""https://qa.medisource.com/members"")",Chrome 74.0.3729.169,,2019-06-07 13:35:19,2019-06-07 13:35:19,0.704s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-07 13:35:19,2019-06-07 13:35:24,5.003s,PASSED
+"setText(findTestObject(""user_list/userlist_search_bar""), ""Automated"")",Chrome 74.0.3729.169,,2019-06-07 13:35:24,2019-06-07 13:35:25,0.218s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-06-07 13:35:25,2019-06-07 13:35:27,2.003s,PASSED
+"click(findTestObject(""user_list/userlist_edit_user_account""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:35:27,2019-06-07 13:35:27,0.098s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-07 13:35:27,2019-06-07 13:35:32,5.002s,PASSED
+"setText(findTestObject(""addUser/user_account_addcomment""), ""The user is allowed to use the system for the agency's workflow"")",Chrome 74.0.3729.169,,2019-06-07 13:35:32,2019-06-07 13:35:33,0.871s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-06-07 13:35:33,2019-06-07 13:35:35,2.003s,PASSED
+"click(findTestObject(""addUser/user_account_save_btn""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:35:35,2019-06-07 13:35:35,0.109s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:35:35,2019-06-07 13:35:38,3.002s,PASSED
+"navigateToUrl(""https://qa.medisource.com/members"")",Chrome 74.0.3729.169,,2019-06-07 13:35:38,2019-06-07 13:35:39,0.731s,PASSED
+"setText(findTestObject(""user_list/userlist_search_bar""), ""Automated"")",Chrome 74.0.3729.169,,2019-06-07 13:35:39,2019-06-07 13:35:40,1.219s,PASSED
+,,,,,,
+Test Cases/Human_Resources/reset_user_password,Chrome 74.0.3729.169,,2019-06-07 13:35:40,2019-06-07 13:35:54,13.940s,FAILED
+"navigateToUrl(""https://qa.medisource.com/members"")",Chrome 74.0.3729.169,,2019-06-07 13:35:40,2019-06-07 13:35:41,0.696s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-07 13:35:41,2019-06-07 13:35:46,5.002s,PASSED
+"setText(findTestObject(""user_list/userlist_search_bar""), ""Automated"")",Chrome 74.0.3729.169,,2019-06-07 13:35:46,2019-06-07 13:35:46,0.247s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-06-07 13:35:46,2019-06-07 13:35:48,2.002s,PASSED
+"click(findTestObject(""user_list/userlist_reset_password""), STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-06-07 13:35:48,2019-06-07 13:35:48,0.129s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-06-07 13:35:48,2019-06-07 13:35:51,3.002s,PASSED
+"setText(findTestObject(""user_list/reset_pw_password""), ""Tester2019@"")",Chrome 74.0.3729.169,,2019-06-07 13:35:51,2019-06-07 13:35:51,0.205s,PASSED
+"setText(findTestObject(""user_list/reset_pw_confirm_password""), ""Tester2019@"")",Chrome 74.0.3729.169,,2019-06-07 13:35:51,2019-06-07 13:35:51,0.153s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-06-07 13:35:51,2019-06-07 13:35:53,2.002s,PASSED
+"setText(findTestObject(""user_list/reset_pw_update_btn""), """")",Chrome 74.0.3729.169,,2019-06-07 13:35:53,2019-06-07 13:35:54,0.335s,FAILED

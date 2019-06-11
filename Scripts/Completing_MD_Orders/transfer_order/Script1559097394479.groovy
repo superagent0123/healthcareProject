@@ -57,13 +57,21 @@ WebUI.setText(findTestObject('MD_Orders/transfer_order/to_physicianorder'), phyt
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('MD_Orders/transfer_order/to_discardchanges_btn'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.click(findTestObject('MD_Orders/transfer_order/to_discardchanges_btn'), FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.delay(3)
+
+not_run: WebUI.click(findTestObject('MD_Orders/transfer_order/to_discardchanges_cancel'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('MD_Orders/transfer_order/to_savebtn'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('MD_Orders/transfer_order/to_discardchanges_cancel'), FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('MD_Orders/transfer_order/transfer_esign'), '12345678')
 
-not_run: WebUI.click(findTestObject('MD_Orders/transfer_order/to_savebtn'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
+
+WebUI.click(findTestObject('MD_Orders/transfer_order/transfer_esign_submit'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://qa.medisource.com/patientcare/D54CC206-ED8F-40D1-9D9D-2FB2F01411CE/0C87F119-5BDC-4D64-9196-15744946E006/overview')
+not_run: WebUI.navigateToUrl('https://qa.medisource.com/patientcare/D54CC206-ED8F-40D1-9D9D-2FB2F01411CE/0C87F119-5BDC-4D64-9196-15744946E006/overview')
 
 WebUI.delay(5)
 

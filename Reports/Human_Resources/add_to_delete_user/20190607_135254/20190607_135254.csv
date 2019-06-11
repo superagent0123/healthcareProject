@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+add_to_delete_user,,,2019-06-07 13:52:56,2019-06-07 13:53:02,6.209s,FAILED
+,,,,,,
+Test Cases/Human_Resources/add_user,,,2019-06-07 13:52:56,2019-06-07 13:52:57,0.676s,FAILED
+"navigateToUrl(""https://qa.medisource.com/members/create"")",,,2019-06-07 13:52:57,2019-06-07 13:52:57,0.200s,FAILED
+,,,,,,
+Test Cases/Human_Resources/delete_user,,,2019-06-07 13:52:57,2019-06-07 13:53:02,5.294s,FAILED
+delay(5),,,2019-06-07 13:52:57,2019-06-07 13:53:02,5.027s,PASSED
+"setText(findTestObject(""user_list/userlist_search_bar""), ""Automated"")",,,2019-06-07 13:53:02,2019-06-07 13:53:02,0.052s,FAILED

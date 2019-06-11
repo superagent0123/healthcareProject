@@ -25,4 +25,3 @@ WebUI.click(findTestObject('LogIn/login_button'))
 
 WebUI.delay(5)
 
-WebUI.delay(3)

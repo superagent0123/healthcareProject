@@ -29,16 +29,13 @@ WebUI.navigateToUrl('https://qa.medisource.com/patientcare/294BADC7-639F-4B7B-AF
 
 WebUI.delay(3)
 
-<<<<<<< HEAD
 WebUI.executeJavaScript('alert("Estimated Delay time to form load: 8 seconds")', null)
 
 WebUI.delay(8)
-=======
+
 WebUI.executeJavaScript('alert("Estimated Delay time to load form: 15 seconds")', null)
 
 WebUI.delay(15)
->>>>>>> branch 'master' of https://github.com/superagent0123/healthcareProject.git
-
 WebUI.acceptAlert()
 
 WebUI.setText(findTestObject('Task_Notes/SNV/snv_time-in'), '1200')
