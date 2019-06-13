@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#parent > div > form > div > div.table-responsive.max__width_wrapper > fieldset > table > tbody > tr > td > table.table.global__table.m-t-15 > tbody > tr:nth-child(5) > td > label > div > div > div > div > div > input[type=text]</value>
+         <value>#parent > div > form > div > div.table-responsive.max__width_wrapper > fieldset > table > tbody > tr > td > table.table.global__table.m-t-15 > tbody > tr:nth-child(5) > td > label > div > div > div > div > ul > li:nth-child(2)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#parent > div > form > div > div.table-responsive.max__width_wrapper > fieldset > table > tbody > tr > td > table.table.global__table.m-t-15 > tbody > tr:nth-child(5) > td > label > div > div > div > div > div > input[type=text]</value>
+      <value>#parent > div > form > div > div.table-responsive.max__width_wrapper > fieldset > table > tbody > tr > td > table.table.global__table.m-t-15 > tbody > tr:nth-child(5) > td > label > div > div > div > div > ul > li:nth-child(2)</value>
    </webElementProperties>
 </WebElementEntity>

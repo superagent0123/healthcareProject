@@ -33,8 +33,8 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Communication_Forms/discharge_instructions/dcins_wearepleasedtoprovideservicetoyou_b_dr_dd'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Communication_Forms/discharge_instructions/dcins_wearepleasedtoprovideservicetoyou_b_dr_tf'), 
-    Keys.chord('ADRIAN', Keys.ENTER))
+WebUI.click(findTestObject('Communication_Forms/discharge_instructions/dcins_wearepleasedtoprovideservicetoyou_b_dr_tf'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

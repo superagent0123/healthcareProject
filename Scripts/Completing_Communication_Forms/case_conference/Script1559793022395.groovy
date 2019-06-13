@@ -44,8 +44,7 @@ WebUI.click(findTestObject('Communication_Forms/case_conference/casecon_particip
 
 WebUI.click(findTestObject('Communication_Forms/case_conference/casecon_clinicians_dd'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Communication_Forms/case_conference/casecon_clinicians_tf'), Keys.chord('RN Medisource', 
-        Keys.ENTER))
+WebUI.click(findTestObject('Communication_Forms/case_conference/casecon_clinicians_tf'), FailureHandling.STOP_ON_FAILURE)
 
 not_run: WebUI.click(findTestObject('Communication_Forms/case_conference/casecon_superagent_signbtn'), FailureHandling.STOP_ON_FAILURE)
 

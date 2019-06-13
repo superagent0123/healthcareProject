@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#parent > div > form > div > div.max__width_wrapper > fieldset:nth-child(3) > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > fieldset > table > tbody > tr > td:nth-child(2) > div > div > ul > li.search-field > input[type=text]</value>
+         <value>#parent > div > form > div > div.max__width_wrapper > fieldset:nth-child(3) > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > fieldset > table > tbody > tr > td:nth-child(2) > div > div > div > ul > li</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#parent > div > form > div > div.max__width_wrapper > fieldset:nth-child(3) > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > fieldset > table > tbody > tr > td:nth-child(2) > div > div > ul > li.search-field > input[type=text]</value>
+      <value>#parent > div > form > div > div.max__width_wrapper > fieldset:nth-child(3) > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > fieldset > table > tbody > tr > td:nth-child(2) > div > div > div > ul > li</value>
    </webElementProperties>
 </WebElementEntity>

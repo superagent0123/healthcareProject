@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+add_to_delete_role_template,Chrome 74.0.3729.169,,2019-06-13 14:16:51,2019-06-13 14:17:09,18.451s,PASSED
+,,,,,,
+Test Cases/Login_Accounts/login_superagent,Chrome 74.0.3729.169,,2019-06-13 14:16:51,2019-06-13 14:17:08,16.363s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.169,,2019-06-13 14:16:52,2019-06-13 14:16:59,7.671s,PASSED
+"navigateToUrl(""https://qa.medisource.com/login"")",Chrome 74.0.3729.169,,2019-06-13 14:16:59,2019-06-13 14:17:02,2.512s,PASSED
+"setText(findTestObject(""LogIn/username""), ""superagent@intermed"")",Chrome 74.0.3729.169,,2019-06-13 14:17:02,2019-06-13 14:17:02,0.424s,PASSED
+"setEncryptedText(findTestObject(""LogIn/password""), ""SITHpLWAWtI8C4F8RIujvA=="")",Chrome 74.0.3729.169,,2019-06-13 14:17:02,2019-06-13 14:17:02,0.193s,PASSED
+"click(findTestObject(""LogIn/login_button""))",Chrome 74.0.3729.169,,2019-06-13 14:17:02,2019-06-13 14:17:03,0.166s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-06-13 14:17:03,2019-06-13 14:17:08,5.026s,PASSED
+,,,,,,
+Test Cases/Human_Resources/role_template/add_role_template,Chrome 74.0.3729.169,,2019-06-13 14:17:08,2019-06-13 14:17:08,0.265s,PASSED
+return null,Chrome 74.0.3729.169,,2019-06-13 14:17:08,2019-06-13 14:17:08,0.000s,PASSED
+,,,,,,
+Test Cases/Human_Resources/role_template/delete_role_template,Chrome 74.0.3729.169,,2019-06-13 14:17:08,2019-06-13 14:17:08,0.206s,PASSED
+return null,Chrome 74.0.3729.169,,2019-06-13 14:17:08,2019-06-13 14:17:08,0.001s,PASSED

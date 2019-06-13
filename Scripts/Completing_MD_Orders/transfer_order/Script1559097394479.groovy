@@ -50,8 +50,7 @@ WebUI.setText(findTestObject('MD_Orders/transfer_order/to_commnote'), tnscommnot
 
 WebUI.click(findTestObject('MD_Orders/transfer_order/to_transferredto_dd'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('MD_Orders/transfer_order/to_transferredto_tf'), Keys.chord('Bay Ridge Hospital Beverly', 
-        Keys.ENTER))
+WebUI.click(findTestObject('MD_Orders/transfer_order/to_transferredto_tf'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('MD_Orders/transfer_order/to_physicianorder'), phytransorder)
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#tranferredTo_chosen > div > div > input[type=text]</value>
+         <value>#tranferredTo_chosen > div > ul > li:nth-child(2)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#tranferredTo_chosen > div > div > input[type=text]</value>
+      <value>#tranferredTo_chosen > div > ul > li:nth-child(2)</value>
    </webElementProperties>
 </WebElementEntity>
