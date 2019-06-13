@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>np_info_savebtn</name>
+   <name>np_info_npi</name>
    <tag></tag>
-   <elementGuidId>e3468f3c-5657-425a-a935-d80440503eb8</elementGuidId>
+   <elementGuidId>8629144c-2dd1-489a-bd5b-4bf0b0abe249</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#titleNoteBar > div > div > div > div > div > button.btn__success.waves-effect</value>
+         <value>#npiId > td.oasis__answer > div > input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#titleNoteBar > div > div > div > div > div > button.btn__success.waves-effect</value>
+      <value>#npiId > td.oasis__answer > div > input</value>
    </webElementProperties>
 </WebElementEntity>

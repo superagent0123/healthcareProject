@@ -17,15 +17,15 @@
       <testCaseId>Test Cases/Login_Accounts/login_superagent</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4719abcc-8697-4f09-9057-5851a0477c70</guid>
+      <guid>79c56501-8d75-4854-9de2-574fc8c9882c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Human_Resources/add_user</testCaseId>
+      <testCaseId>Test Cases/Human_Resources/user/add_user</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e29e94c2-f3ec-4de5-9fd4-9e5a91104d87</guid>
+      <guid>d25b2d3b-e5f4-4867-bbc9-04b495f394f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Human_Resources/edit_user_account</testCaseId>
+      <testCaseId>Test Cases/Human_Resources/user/edit_user_account</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

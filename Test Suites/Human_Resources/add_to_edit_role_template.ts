@@ -17,15 +17,15 @@
       <testCaseId>Test Cases/Login_Accounts/login_superagent</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bca0fa51-7d05-4af5-909f-ca659033c380</guid>
+      <guid>97fac64c-3638-4007-9577-ebbf5165338b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Human_Resources/add_role_template</testCaseId>
+      <testCaseId>Test Cases/Human_Resources/role_template/add_role_template</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c932cd2d-ea7e-44fc-b004-b8a19598958a</guid>
+      <guid>28942687-2fc4-4302-a89c-840ac3e2cf0b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Human_Resources/edit_role_template</testCaseId>
+      <testCaseId>Test Cases/Human_Resources/role_template/edit_role_template</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

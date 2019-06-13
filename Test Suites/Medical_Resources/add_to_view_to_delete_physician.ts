@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>add_to_delete_hospital</name>
+   <name>add_to_view_to_delete_physician</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,23 +9,29 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>0bd343ea-0c84-4932-ab21-d491d90646c3</testSuiteGuid>
+   <testSuiteGuid>d943dce3-fd37-42f3-8706-8bdd0ba4d629</testSuiteGuid>
    <testCaseLink>
-      <guid>40a0bc38-d4aa-4f52-92cb-f1ad68f7b964</guid>
+      <guid>98ff33b6-3520-4b99-b86c-b85cd71dc57e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login_Accounts/login_superagent</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f4007661-2f2d-4e44-abf7-0e8be3c857f3</guid>
+      <guid>d08d8462-56d1-442a-8f93-f885fc947a4e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Medical_Resources/hospital_facility/add_hospital_facility</testCaseId>
+      <testCaseId>Test Cases/Medical_Resources/physicians/add_physician</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>810cf0b3-834f-4317-889b-4d0c3c631e05</guid>
+      <guid>5efc81e4-8237-4ce5-97be-930e5eb3a499</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Medical_Resources/hospital_facility/delete_hospital_facility</testCaseId>
+      <testCaseId>Test Cases/Medical_Resources/physicians/view_physician_information</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2bcc3d21-d739-42eb-a17b-33eb448cd12a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Medical_Resources/physicians/delete_physician</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

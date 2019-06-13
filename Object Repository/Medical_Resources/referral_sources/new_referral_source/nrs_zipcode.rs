@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#content > data > div.container.p-15.ng-scope.global__form_center-false > div > form > fieldset > div > table > tbody > tr:nth-child(8) > td.oasis__answer > div</value>
+         <value>#zipCode</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#content > data > div.container.p-15.ng-scope.global__form_center-false > div > form > fieldset > div > table > tbody > tr:nth-child(8) > td.oasis__answer > div</value>
+      <value>#zipCode</value>
    </webElementProperties>
 </WebElementEntity>

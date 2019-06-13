@@ -17,15 +17,15 @@
       <testCaseId>Test Cases/Login_Accounts/login_superagent</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>31745d89-8468-40fe-845e-a574858e17cf</guid>
+      <guid>09deb47b-86fe-490a-aaf2-cbc8909fccaf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Medical_Resources/add_hospital_facility</testCaseId>
+      <testCaseId>Test Cases/Medical_Resources/hospital_facility/add_hospital_facility</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7e903d01-aec6-4d54-9bf6-2ec08b399908</guid>
+      <guid>991eb0ca-7c5f-40e0-bacf-d092d8c7ab4c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Medical_Resources/edit_hospital_facilty</testCaseId>
+      <testCaseId>Test Cases/Medical_Resources/hospital_facility/edit_hospital_facilty</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
