@@ -111,7 +111,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_physician_info/physician_attending_tf'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Patient_Pre-Admission/pre-ad_physician_info/physician_attending'), Keys.chord('Adrian', Keys.ENTER))
+WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_physician_info/physician_attending'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_physician_info/physician_primary_care_sameas_btn'), FailureHandling.STOP_ON_FAILURE)
 
@@ -119,7 +119,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary_tf'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary'), Keys.chord('AAA', Keys.ENTER))
+WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_insurance_info/insurance_primary'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -137,14 +137,13 @@ WebUI.sendKeys(findTestObject('Patient_Pre-Admission/pre-ad_referral_info/referr
 
 WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_referral_info/referral_source_tf'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Patient_Pre-Admission/pre-ad_referral_info/referral_source'), Keys.chord('JB Doria', Keys.ENTER))
+WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_referral_info/referral_source'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital_tf'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital'), Keys.chord('Advanced Care Hospital', 
-        Keys.ENTER))
+WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_hospital'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Patient_Pre-Admission/pre-ad_hospitalization_info/hospital_facility_admitdate'), '1012017')
 
@@ -182,13 +181,11 @@ WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_M0080/m0080_rn'), Failu
 
 WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn_tf'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn'), Keys.chord('RN Medisource', 
-        Keys.ENTER))
+WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_rn'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm_tf'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm'), Keys.chord('CM Medisource', 
-        Keys.ENTER))
+WebUI.click(findTestObject('Patient_Pre-Admission/pre-ad_clinical_staff/clinicalstaff_cm'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#hospital_id_chosen > div > div > input[type=text]</value>
+         <value>#hospital_id_chosen > div > ul > li.active-result.group-option</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#hospital_id_chosen > div > div > input[type=text]</value>
+      <value>#hospital_id_chosen > div > ul > li.active-result.group-option</value>
    </webElementProperties>
 </WebElementEntity>

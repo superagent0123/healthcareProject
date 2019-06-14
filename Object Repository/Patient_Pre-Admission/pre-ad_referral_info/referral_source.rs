@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#referral_source_id_chosen > div > div > input[type=text]</value>
+         <value>#referral_source_id_chosen > div > ul > li</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#referral_source_id_chosen > div > div > input[type=text]</value>
+      <value>#referral_source_id_chosen > div > ul > li</value>
    </webElementProperties>
 </WebElementEntity>
