@@ -24,7 +24,7 @@ randomnum = today.format('HHmmss')
 
 WebUI.click(findTestObject('Medical_Resources/physicians/phy_newphysician'))
 
-WebUI.delay(3)
+WebUI.delay(4)
 
 WebUI.click(findTestObject('Medical_Resources/physicians/new_physician/np_skipbtn'))
 
