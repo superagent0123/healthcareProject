@@ -13,3 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.navigateToUrl('https://qa.medisource.com/hospital')
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Medical_Resources/hospital_facility/hf_searchbar'), 'Automated')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Medical_Resources/hospital_facility/hf_firstentry_cb'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Medical_Resources/hospital_facility/hf_deletebtn'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Medical_Resources/hospital_facility/hf_delete_yes'), FailureHandling.STOP_ON_FAILURE)
+

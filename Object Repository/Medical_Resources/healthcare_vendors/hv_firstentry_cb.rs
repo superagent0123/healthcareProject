@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#content > data > div > div.globallist__content_block > div > table > tbody > tr:nth-child(2) > td.table__remove_bottompadding.newUITable > div.pull-left.avatar.ng-scope > div.checkbox.pull-left.avatar_checkbox > label > input</value>
+         <value>#content > data > div > div.globallist__content_block > div > table > tbody > tr:nth-child(2) > td.table__remove_bottompadding.newUITable > div.pull-left.avatar.ng-scope > div.checkbox.pull-left.avatar_letter > div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#content > data > div > div.globallist__content_block > div > table > tbody > tr:nth-child(2) > td.table__remove_bottompadding.newUITable > div.pull-left.avatar.ng-scope > div.checkbox.pull-left.avatar_checkbox > label > input</value>
+      <value>#content > data > div > div.globallist__content_block > div > table > tbody > tr:nth-child(2) > td.table__remove_bottompadding.newUITable > div.pull-left.avatar.ng-scope > div.checkbox.pull-left.avatar_letter > div</value>
    </webElementProperties>
 </WebElementEntity>

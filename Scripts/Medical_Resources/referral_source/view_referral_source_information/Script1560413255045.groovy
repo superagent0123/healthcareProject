@@ -13,3 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.navigateToUrl('https://qa.medisource.com/referral')
+
+WebUI.delay(5)
+
+WebUI.setText(findTestObject('Medical_Resources/referral_sources/rs_searchbar'), 'Auto')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Medical_Resources/referral_sources/rs_firstentry'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+

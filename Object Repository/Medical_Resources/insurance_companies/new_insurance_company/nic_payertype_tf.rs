@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>#content > data > div.container.p-15.global__form_center-true.ng-scope.global__form_center-false > div > form > fieldset > div > table > tbody > tr:nth-child(2) > td.oasis__answer > div > div > div > div > div > input[type=text]</value>
+         <value>#content > data > div.container.p-15.global__form_center-true.ng-scope.global__form_center-false > div > form > fieldset > div > table > tbody > tr:nth-child(2) > td.oasis__answer > div > div > div > div > ul > li:nth-child(1)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>css</name>
       <type>Main</type>
-      <value>#content > data > div.container.p-15.global__form_center-true.ng-scope.global__form_center-false > div > form > fieldset > div > table > tbody > tr:nth-child(2) > td.oasis__answer > div > div > div > div > div > input[type=text]</value>
+      <value>#content > data > div.container.p-15.global__form_center-true.ng-scope.global__form_center-false > div > form > fieldset > div > table > tbody > tr:nth-child(2) > td.oasis__answer > div > div > div > div > ul > li:nth-child(1)</value>
    </webElementProperties>
 </WebElementEntity>
